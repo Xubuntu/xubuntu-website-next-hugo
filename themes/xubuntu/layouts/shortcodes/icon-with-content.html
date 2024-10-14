@@ -1,0 +1,11 @@
+{{ $icon := .Get "icon" }}
+{{ $path := printf "/images/icon_%s.svg" $icon }}
+{{ $icon_file := resources.Get $path }}
+<div class="icon-and-content" data-icon="{{ $icon }}">
+   <div class="icon icon-{{ $icon }}">
+      {{ $icon_file.Content | safeHTML }}
+   </div>
+   <div class="content">
+      {{ .Inner }}
+   </div>
+</div>

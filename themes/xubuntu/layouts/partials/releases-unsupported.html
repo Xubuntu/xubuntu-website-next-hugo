@@ -1,0 +1,5 @@
+{{ $now := time.Now | time.Format "2006-01-02" }}
+{{ $releases := where .Site.RegularPages "Type" "release" }}
+{{ $releases := sort $releases ".Params.date_rel" "desc" }}
+{{ $releases := where $releases ".Params.date_eol" "<" $now }}
+{{ return $releases }}

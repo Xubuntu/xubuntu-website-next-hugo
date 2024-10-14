@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+<title>Xubuntu</title>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+
+
+
+
+
+   <link rel="stylesheet" href="http://localhost:1313/static/css/xubuntu.min.8272e5fad2cd84ab96d611528c7e1f367ade98ffa34e6053f46994f11f358698.css">
+
+
+
+
+
+
+   <script src="/static/js/xubuntu.min.de87fd7c3450b7eb4210101add6022f3a1df78bf9270e3016a18a11ccfcfd027.js" integrity="sha256-3of9fDRQt&#43;tCEBAa3WAi86HfeL&#43;ScOMBahihHM/P0Cc=" crossorigin="anonymous"></script>
+
+
+
+</head>
+<body id="news_index">
+  <header>
+    <section id="header_main" class="main">
+   <h1 id="logo">
+      
+      <a href="http://localhost:1313/"><img src="http://localhost:1313/images/logo.svg" alt="Xubuntu" /></a>
+   </h1>
+   
+   <nav id="nav">
+      <div class="menu">
+      <a href="/download/">Download</a>
+      <a href="/help/">Support</a>
+      <a href="/contribute/">Contribute</a>
+      <a aria-current="true" class="ancestor" href="/news/">Blog</a>
+      </div>
+   </nav>
+
+</section>
+
+
+    
+  </header>
+  <main>
+    
+   <article>
+   <h1>
+      <a href="/news/releases/16.04/16-04-package-testing/">
+         16.04 Package Testing
+      </a>
+   </h1>
+
+   <ul class="meta">
+      
+      
+      <li><time datetime="2015-10-27T22:14:32&#43;00:00">October 27, 2015</time></li>
+      
+         <li>16.04</li>
+      
+      
+   </ul>
+
+   <p>It is early for a post on the website from the Quality Assurance team, but we&rsquo;re just about to start testing a release that will be supported for more than the regular 9 months&hellip;</p>
+<h2 id="general-testing-outlook-for-xenial">General testing outlook for Xenial</h2>
+<p>During the next 26 weeks, we are going to be concentrating on the applications that we have in Xubuntu. This is a change from the last couple of cycles, where the emphasis has been more on the ISOs than the applications.</p>
+<p>We will still be testing the ISOs, but mostly only during the milestones we are participating in. At the moment, these milestones are Alpha 2, and both Betas.</p>
+<p>A quote from Sean Davis, the technical lead, from one of the recent Xubuntu meetings sums up what Xenial will be about:</p>
+<blockquote>
+<p>From a development perspective, we&rsquo;re targeting bug fixes to make 16.04 super stable. Don&rsquo;t expect a lot of new features, so testing done at all parts of the cycle will be incredibly relevant.</p>
+</blockquote>
+<h2 id="package-tracker">Package tracker</h2>
+<p>If you visit our section of the <a href="http://packages.qa.ubuntu.com/qatracker/milestones/350/builds/105268/testcases">Package Tracker</a> you will see that we have 3 sections:</p>
+<ul>
+<li><strong>Priority.</strong> These packages will be called for testing by the QA team many times during the cycle as usual. In addition you might see calls directly from developers to test a version of an application or package prior to bug fixes landing.</li>
+<li><strong>Mandatory.</strong> These will also see many calls for testing, though likely less so than the Priority group. Again, calls could come from either the QA team or directly from developers.</li>
+<li><strong>Run-once/optional.</strong> These are scheduled to be called for testing only once during the cycle. If bug fixes are needed, we will additionally ask testers to check that the bug fixes actually fix the bugs and do not cause regressions.</li>
+</ul>
+<p>From time to time we will disable applications or packages from testing when we know a fix is due to land in the near future. This has two benefits: First, testers do not need to test applications that are known to have issues. Second, a pause in the testing allows the developers to have some time to look at the issues and prepare fixes.</p>
+<p>When something has been disabled we will list it on the <em>Disabled Tests</em> list of our <a href="https://trello.com/b/IV66JCHl/xubuntu-qa">QA trello site</a>.</p>
+<h2 id="why-should-i-test">Why should I test?</h2>
+<p>You could be the one person who gains enough momentum to report that <em>thing</em> which annoys you and possibly other people – and gain their unworded thanks.</p>
+<p>As much as Xubuntu Team would love to be able to test every scenario for you – the simple truth is we can&rsquo;t. That&rsquo;s why we <strong>all</strong> need you.</p>
+<h2 id="how-do-i-know-what-to-test">How do I know what to test?</h2>
+<p>There are several ways you can help. We will cover some of the most common ways below.</p>
+<h3 id="running-wily-1510-without-ppas">Running Wily (15.10) without PPAs</h3>
+<p>If you have installed or upgraded to 15.10 Wily Werewolf, you can help to ensure that the next release gets as much testing as possible. Practically, you are already testing for the community – you just don&rsquo;t realise it.</p>
+<p>Found a bug? Don&rsquo;t ignore it – report it, it is in this scenario as simple as opening a terminal and running <code>ubuntu-bug &lt;em&gt;packagename&lt;/em&gt;</code> and letting the reporting get taken care off for you. All we ask in addition to that is you adding a specific tag to your report <strong>xubuntu-exp</strong>.</p>
+<h3 id="running-wily-1510-with-ppas">Running Wily (15.10) with PPAs</h3>
+<p>If you wish, you can add the development PPAs to 15.10. If you do that, we would also advise installing <em>ppa-purge</em> to help remove the PPAs cleanly. This is the situation closely mimicking our developers&rsquo; workflow. You can test the newest version of applications or packages this way.</p>
+<p>Reporting bugs with PPAs becomes a little harder to accomplish&hellip;</p>
+<h3 id="running-xenial-with-or-without-ppas">Running Xenial with or without PPAs</h3>
+<p>If you&rsquo;ve upgraded or clean installed Xenial, then running that at this stage <em>with</em> PPAs shouldn&rsquo;t be any braver than without. The bug reporting process is the same in Xenial as in Wily.</p>
+<h2 id="what-do-you-want-me-to-look-for">What do you want me to look for?</h2>
+<p>Obviously all those things that people would normally refer to as bugs need to be reported. For example, crashes when using an application. In addition, during the LTS cycle, the developers are particularly keen for you to be looking for non-critical bugs as well. For instance:</p>
+<ul>
+<li>Missing icons</li>
+<li>Inconsistent functionality</li>
+<li>Usability bugs (see a specific example of a usability bug for <a href="https://bugs.launchpad.net/ubuntu/+source/catfish/+bug/1508918">Catfish</a>)</li>
+</ul>
+<p>These things will not only improve us as downstream Xubuntu but also the upstreams of Xfce and Ubuntu.</p>
+<h2 id="you-have-convinced-me--what-should-i-do-now">You have convinced me – what should I do now?</h2>
+<p>There are a few things you can do to make it easier for you to pass on and receive information.</p>
+<ul>
+<li>If you haven&rsquo;t got one, <a href="https://launchpad.net/+login">register a Launchpad account</a></li>
+<li>Join the <a href="https://launchpad.net/~xubuntu-testers">Xubuntu Testers</a> team; we will send testing related information through this team</li>
+<li>Join the <a href="https://lists.ubuntu.com/mailman/listinfo/xubuntu-devel">Xubuntu developer mailing list</a> in order to talk to us easily about issues you might have while testing</li>
+<li>Check what we have going on during the cycle at the <a href="http://tracker.xubuntu.org/">Xubuntu status tracker</a> and use the <em>IRC</em> tab to talk to us about helping with testing</li>
+</ul>
+<p>More detailed information on what is discussed above and more can be found on the current QA <a href="http://xubuntu.org/contribute/qa">contribution page</a>.</p>
+
+</article>
+
+
+  </main>
+  <footer>
+    <section>
+   <div>
+      
+      <a class="icon" href="/"><img src="http://localhost:1313/images/icon_white_xubuntu.svg" alt="Xubuntu" /></a>
+      <section class="columns-2">
+         
+   <nav id="nav">
+      <div class="menu">
+      <a href="/download/">Download</a>
+      <a href="/help/">Support</a>
+      <a href="/contribute/">Contribute</a>
+      <a aria-current="true" class="ancestor" href="/news/">Blog</a>
+      </div>
+   </nav>
+
+         <div>
+            
+            
+            
+               <a href="http://localhost:1313/release/24.04/">Xubuntu 24.04</a>
+            
+            <a href="/releases/">All releases</a>
+         </div>
+      </section>
+   </div>
+   <div>
+      
+      <span class="icon"><img src="http://localhost:1313/images/icon_white_communicate.svg" alt="Communicate" /></span>
+      <p class="sub">Communicate</p>
+      <ul>
+         <li><a href="https://kiwiirc.com/nextclient/irc.libera.chat?nick=xu-user?w#xubuntu">IRC</a></li>
+         <li><a href="https://matrix.to/#/#xubuntu:ubuntu.com">Matrix</a></li>
+      </ul>
+      <ul>
+         <li><a href="https://twitter.com/Xubuntu">X</a></li>
+         <li><a href="http://www.facebook.com/xubuntuusers">Facebook</a></li>
+         <li><a href="https://floss.social/@xubuntu">Mastodon</a></li>
+      </ul>
+   </div>
+   <div>
+      
+      <span class="icon"><img src="http://localhost:1313/images/icon_white_merchdonate.svg" alt="Merch & Donate" /></span>
+      <p class="sub">Merchandise</p>
+      <ul>
+         <li><a href="https://www.hellotux.com/xubuntu">Hellotux</a></li>
+      </ul>
+      <p class="sub">Donate</p>
+      <ul>
+         <li><a href="https://opencollective.com/xfce">Xfce (US)</a></li>
+         <li><a href="https://opencollective.com/xfce-eu">Xfce (Europe)</a></li>
+      </ul>
+   </div>
+   <div>
+      
+      <span class="icon"><img src="http://localhost:1313/images/icon_white_developers.svg" alt="Developers" /></span>
+      <p class="sub">For Developers</p>
+      <ul>
+         <li><a href="https://github.com/Xubuntu">GitHub</a></li>
+         <li><a href="https://kiwiirc.com/nextclient/irc.libera.chat?nick=xu-contribute?w#xubuntu-devel">IRC</a></li>
+         <li><a href="https://matrix.to/#/#xubuntu-devel:ubuntu.com">Matrix</a></li>
+      </ul>
+   </div>
+</section>
+
+  </footer>
+</body>
+</html>

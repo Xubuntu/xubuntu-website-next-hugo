@@ -1,0 +1,12 @@
+{{ $news := (where .Site.RegularPages "Type" "news").ByDate.Reverse }}
+{{ $news := first 2 $news }}
+
+{{ range $news }}
+   <div class="featured">
+      <h4>{{ .Title }}</h4>
+      {{ range first 1 (split .Content "</p>") }}
+         {{ . | plainify | strings.Truncate 100 }}
+      {{ end }}
+      <p><a class="quo" href="{{ .RelPermalink }}">Read more</a></p>
+   </div>
+{{ end }}

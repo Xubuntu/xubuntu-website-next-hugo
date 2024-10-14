@@ -1,0 +1,4 @@
+{{ $releases := partialCached "releases-supported.html" . }}
+{{ range $releases }}
+   <a class="button" href="{{ .RelPermalink }}"><span>{{ .Title }}</span></a>
+{{ end }}

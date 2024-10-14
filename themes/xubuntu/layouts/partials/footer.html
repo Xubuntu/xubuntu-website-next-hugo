@@ -1,0 +1,54 @@
+<section>
+   <div>
+      {{ $xubuntu := resources.Get "/images/icon_white_xubuntu.svg" }}
+      <a class="icon" href="{{ relref . "/" }}"><img src="{{ $xubuntu.Permalink }}" alt="Xubuntu" /></a>
+      <section class="columns-2">
+         {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+         <div>
+            {{ $latest := partialCached "releases-supported.html" . }}
+            {{ $latest := first 1 $latest }}
+            {{ range $latest }}
+               <a href="{{ .Permalink }}">{{ .Title }}</a>
+            {{ end }}
+            <a href="{{ relref . "/releases" }}">All releases</a>
+         </div>
+      </section>
+   </div>
+   <div>
+      {{ $communicate := resources.Get "/images/icon_white_communicate.svg" }}
+      <span class="icon"><img src="{{ $communicate.Permalink }}" alt="Communicate" /></span>
+      <p class="sub">Communicate</p>
+      <ul>
+         <li><a href="https://kiwiirc.com/nextclient/irc.libera.chat?nick=xu-user?w#xubuntu">IRC</a></li>
+         <li><a href="https://matrix.to/#/#xubuntu:ubuntu.com">Matrix</a></li>
+      </ul>
+      <ul>
+         <li><a href="https://twitter.com/Xubuntu">X</a></li>
+         <li><a href="http://www.facebook.com/xubuntuusers">Facebook</a></li>
+         <li><a href="https://floss.social/@xubuntu">Mastodon</a></li>
+      </ul>
+   </div>
+   <div>
+      {{ $merch_donate := resources.Get "/images/icon_white_merchdonate.svg" }}
+      <span class="icon"><img src="{{ $merch_donate.Permalink }}" alt="Merch & Donate" /></span>
+      <p class="sub">Merchandise</p>
+      <ul>
+         <li><a href="https://www.hellotux.com/xubuntu">Hellotux</a></li>
+      </ul>
+      <p class="sub">Donate</p>
+      <ul>
+         <li><a href="https://opencollective.com/xfce">Xfce (US)</a></li>
+         <li><a href="https://opencollective.com/xfce-eu">Xfce (Europe)</a></li>
+      </ul>
+   </div>
+   <div>
+      {{ $developers := resources.Get "/images/icon_white_developers.svg" }}
+      <span class="icon"><img src="{{ $developers.Permalink }}" alt="Developers" /></span>
+      <p class="sub">For Developers</p>
+      <ul>
+         <li><a href="https://github.com/Xubuntu">GitHub</a></li>
+         <li><a href="https://kiwiirc.com/nextclient/irc.libera.chat?nick=xu-contribute?w#xubuntu-devel">IRC</a></li>
+         <li><a href="https://matrix.to/#/#xubuntu-devel:ubuntu.com">Matrix</a></li>
+      </ul>
+   </div>
+</section>

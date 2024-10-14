@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+<title>Xubuntu</title>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+
+
+
+
+
+   <link rel="stylesheet" href="http://localhost:1313/static/css/xubuntu.min.f294662e1522db29d9b397e73fd45856f10d8b9ebc340954b979fb6eb42913ed.css">
+
+
+
+
+
+
+   <script src="/static/js/xubuntu.min.de87fd7c3450b7eb4210101add6022f3a1df78bf9270e3016a18a11ccfcfd027.js" integrity="sha256-3of9fDRQt&#43;tCEBAa3WAi86HfeL&#43;ScOMBahihHM/P0Cc=" crossorigin="anonymous"></script>
+
+
+
+</head>
+<body id="news_&lt;nil&gt;">
+  <header>
+    <section id="header_main" class="main">
+   <h1 id="logo">
+      
+      <a href="http://localhost:1313/"><img src="http://localhost:1313/images/logo.svg" alt="Xubuntu" /></a>
+   </h1>
+   
+   <nav id="nav">
+      <div class="menu">
+      <a href="/download/">Download</a>
+      <a href="/help/">Support</a>
+      <a href="/contribute/">Contribute</a>
+      <a aria-current="page" class="active" href="/news/">Blog</a>
+      </div>
+   </nav>
+
+</section>
+
+
+    
+  </header>
+  <main>
+    
+   
+      <article>
+   <h1>
+      <a href="/news/releases/14.04/screen-locking-in-xubuntu-14-04/">
+         Screen locking in Xubuntu 14.04
+      </a>
+   </h1>
+
+   <ul class="meta">
+      
+      
+      <li><time datetime="2014-05-19T11:15:06&#43;00:00">May 19, 2014</time></li>
+      
+         <li>14.04</li>
+      
+      
+   </ul>
+
+   <p>Improving screenlocking (or: sessionlocking) has been on our agenda for a few cycles now. We&rsquo;ve used the old and proven XScreensaver for a few releases, but people have always complained about its antiquated looks (which are also not customizable). Switching to gnome-screensaver wasn&rsquo;t an option because of the additional package dependencies. Furthermore, after gnome-screensaver 3.6, locking became more tightly integrated into Gnome-Shell, which is why Ubuntu/Unity kept version 3.6 and has maintained it for a few releases now.</p>
+<p>Starting with 14.04, Ubuntu/Unity have switched to a new solution for locking, and so have we.</p>
+<p>
+<figure>
+    
+        <img src="http://localhost:1313/news/releases/14.04/screen-locking-in-xubuntu-14-04/xubuntu_lock_xscreensaver.png" alt="Lockscreen: xscreensaver"/> <figcaption>
+                <p>
+                    Lockscreen: xscreensaver
+                    
+                        
+                        </p>
+                
+            </figcaption></figure>
+
+
+<figure>
+    
+        <img src="http://localhost:1313/news/releases/14.04/screen-locking-in-xubuntu-14-04/xubuntu_lock_light-locker.png" alt="Lockscreen: light-locker"/> <figcaption>
+                <p>
+                    Lockscreen: light-locker
+                    
+                        
+                        </p>
+                
+            </figcaption></figure>
+</p>
+<p>The solution Xubuntu uses in 14.04 is called <strong>light-locker</strong>. The light-locker project is a fork of gnome-screensaver 3.6, but cut down to a bare minimum (so no gnome-dependencies), using LightDM&rsquo;s greeter as the lock (and unlock) screen.</p>
+<h2 id="how-does-the-screenlocking-work">How does the screenlocking work?</h2>
+<p>There aren&rsquo;t too many changes for users. The light-locker process operates in the background and people can still lock their session in the ways they used to (e.g. through Whiskermenu&rsquo;s lock launcher or through a keyboard shortcut invoking &ldquo;xflock4&rdquo;).</p>
+<p>Settings are configurable via a settings dialog developed for Xubuntu 14.04, called Light Locker Settings. The tool can be found in the the Settings Manager. It allows you to configure whether your session should be locked automatically after a timeout and the screen-blank and off times. The dialog is still, for the moment, basic, but it should allow you enough control. Refinements are planned for future cycles/releases.</p>
+<p>One thing that changes for users is the fact that locking with LightDM means that a new virtual terminal is opened. In a default single-user session, the user&rsquo;s X session rests at VT7 (reachable with the keyboard-shortcut <code>Ctrl</code>+<code>Alt</code>+<code>F7</code>). When you lock your session, LightDM sends a lock signal, light-locker locks the session on VT7 and you get forwarded to VT8, where you&rsquo;re presented with the login greeter, which serves as the unlock dialog.</p>
+<p>The aforementioned change introduces one inconvenience you might (or might not) notice: when light-locker switches the VT, there is some screenflickering and it could take a second or two on older machines.</p>
+<h2 id="what-happened-to-my-music-playback">What happened to my music playback?</h2>
+<p>As your seat becomes inactive, your audio stream is stopped/paused until you log into your session again. This is one of the known issues of light-locker or locking with LightDM in general.</p>
+<p>Currently, when locking, it is assumed you are either:</p>
+<ol>
+<li>in a public space of sorts (the desktop at home hardly needs locking) and have walked away from the machine</li>
+<li>using a system with more than one user</li>
+</ol>
+<p>Stopping/pausing playback in both of these scenarios make sense.</p>
+<p>However, this might be an annoying change for users used to having their music playback continue even when their session locks. If you don&rsquo;t like this behavior, there are basically two solutions:</p>
+<ol>
+<li>Set light-locker to lock the session &ldquo;When the screensaver is deactivated&rdquo;</li>
+<li>Switch back to using xscreensaver</li>
+<li>Add your user to the &ldquo;audio&rdquo; group on your computer and music playback will continue also with light-locker</li>
+</ol>
+<p>The first option is a good workaround, because it means that your audio-playback will continue when the screen has been blanked. However, when you wake up your computer, e.g. by touching the mouse, it will pause the music until you log into your session again. The third solution is mentioned last, because it isn&rsquo;t <em>advised</em> to add your user to the &ldquo;audio&rdquo; group (read <a href="https://wiki.ubuntu.com/Audio/TheAudioGroup?highlight=%28audio%29">The Audio Group</a> wiki page for a comprehensive explanation). However, as long as you&rsquo;re on a single-user system, this might still be an option for you.</p>
+<h2 id="can-i-have-a-screensaver-other-than-the-blank-screen-with-light-locker">Can I have a screensaver other than the blank screen with light-locker?</h2>
+<p>In a word – no.</p>
+<p>If you need a screensaver for whatever reason, perhaps using a TV for a monitor and don&rsquo;t want a blank screen, then you will need to remove light-locker and install some alternative, like xscreensaver.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>From Xubuntu 14.04 on, we can finally provide a visually consistent way of logging in to and locking your session with light-locker. As mentioned above, there is a conceptual change in how we look at locking in Xubuntu (which to some might seem like a small regression), however, there are still good alternatives for those who don&rsquo;t agree with our vision.</p>
+<h2 id="known-issues">Known Issues</h2>
+<p>Currently, you might run into this known issue (that we discovered only when the release was already imminent), which we&rsquo;re already working on fixing:</p>
+<ol>
+<li>Xfce4 Power Manager does not restore screen power (<a href="https://bugs.launchpad.net/ubuntu/+source/xfce4-power-manager/+bug/1259339">1259339</a>) – see the <a href="https://wiki.ubuntu.com/TrustyTahr/ReleaseNotes/Xubuntu">release notes for details and workarounds</a></li>
+</ol>
+<p>Also, upgraders from previous Xubuntu versions might run into trouble because XScreensaver and light-locker are both installed. Just get rid of one of the two to resolve that.</p>
+
+</article>
+
+   
+
+   
+   <section class="pagination">
+
+         <div class="older">
+                  <a href="/news/page/158/" aria-label="Oldest" class="button" role="button"><span aria-hidden="true">Oldest</span></a>
+               <a href="/news/page/85/" aria-label="Older" class="button" role="button"><span aria-hidden="true">Older</span></a>
+         </div>
+
+         <div class="page_number">84 / 158</div>
+
+         <div class="newer">
+               <a href="/news/page/83/" aria-label="Newer" class="button" role="button"><span aria-hidden="true">Newer</span></a>
+                  <a href="/news/" aria-label="Newest" class="button" role="button"><span aria-hidden="true">Newest</span></a>
+         </div>
+   </section>
+
+
+  </main>
+  <footer>
+    <section>
+   <div>
+      
+      <a class="icon" href="/"><img src="http://localhost:1313/images/icon_white_xubuntu.svg" alt="Xubuntu" /></a>
+      <section class="columns-2">
+         
+   <nav id="nav">
+      <div class="menu">
+      <a href="/download/">Download</a>
+      <a href="/help/">Support</a>
+      <a href="/contribute/">Contribute</a>
+      <a aria-current="page" class="active" href="/news/">Blog</a>
+      </div>
+   </nav>
+
+         <div>
+            
+            
+            
+               <a href="http://localhost:1313/release/24.04/">Xubuntu 24.04</a>
+            
+            <a href="/releases/">All releases</a>
+         </div>
+      </section>
+   </div>
+   <div>
+      
+      <span class="icon"><img src="http://localhost:1313/images/icon_white_communicate.svg" alt="Communicate" /></span>
+      <p class="sub">Communicate</p>
+      <ul>
+         <li><a href="https://kiwiirc.com/nextclient/irc.libera.chat?nick=xu-user?w#xubuntu">IRC</a></li>
+         <li><a href="https://matrix.to/#/#xubuntu:ubuntu.com">Matrix</a></li>
+      </ul>
+      <ul>
+         <li><a href="https://twitter.com/Xubuntu">X</a></li>
+         <li><a href="http://www.facebook.com/xubuntuusers">Facebook</a></li>
+         <li><a href="https://floss.social/@xubuntu">Mastodon</a></li>
+      </ul>
+   </div>
+   <div>
+      
+      <span class="icon"><img src="http://localhost:1313/images/icon_white_merchdonate.svg" alt="Merch & Donate" /></span>
+      <p class="sub">Merchandise</p>
+      <ul>
+         <li><a href="https://www.hellotux.com/xubuntu">Hellotux</a></li>
+      </ul>
+      <p class="sub">Donate</p>
+      <ul>
+         <li><a href="https://opencollective.com/xfce">Xfce (US)</a></li>
+         <li><a href="https://opencollective.com/xfce-eu">Xfce (Europe)</a></li>
+      </ul>
+   </div>
+   <div>
+      
+      <span class="icon"><img src="http://localhost:1313/images/icon_white_developers.svg" alt="Developers" /></span>
+      <p class="sub">For Developers</p>
+      <ul>
+         <li><a href="https://github.com/Xubuntu">GitHub</a></li>
+         <li><a href="https://kiwiirc.com/nextclient/irc.libera.chat?nick=xu-contribute?w#xubuntu-devel">IRC</a></li>
+         <li><a href="https://matrix.to/#/#xubuntu-devel:ubuntu.com">Matrix</a></li>
+      </ul>
+   </div>
+</section>
+
+  </footer>
+</body>
+</html>

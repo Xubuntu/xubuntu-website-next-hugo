@@ -1,0 +1,33 @@
+{{ define "main" }}
+   <section>
+      <h2>{{ .Title }}</h2>
+
+      {{ .Content }}
+
+      <h3>Supported Releases</h3>
+      <ul class="releases-list no-bullets">
+      {{ $supported := partialCached "releases-supported.html" . }}
+      {{ range $supported }}
+         <li>
+            <strong><a href="{{ .Permalink }}">{{ .Title }}</a></strong><br />
+            {{ .Content }}
+         </li>
+      {{ end }}
+      </ul>
+
+      <h3>Old Releases</h3>
+      <p>Old Xubuntu releases which have reached their End of Life dates are listed on this site for archival purposes. While it is possible to download and run these old releases, running them is <strong>not supported</strong>.</p>
+      <details>
+         <summary>
+            <p><span class="quo">Show Old Releases</span></p>
+         </summary>
+         <ul class="columned-list">
+            {{ $unsupported := partialCached "releases-unsupported.html" . }}
+            {{ range $unsupported }}
+               <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+            {{ end }}
+         </ul>
+      </details>
+
+   </section>
+{{ end }}

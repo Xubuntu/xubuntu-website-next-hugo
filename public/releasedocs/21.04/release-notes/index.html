@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+<title>Xubuntu</title>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+
+
+
+
+
+   <link rel="stylesheet" href="http://localhost:1313/static/css/xubuntu.min.8272e5fad2cd84ab96d611528c7e1f367ade98ffa34e6053f46994f11f358698.css">
+
+
+
+
+
+
+   <script src="/static/js/xubuntu.min.de87fd7c3450b7eb4210101add6022f3a1df78bf9270e3016a18a11ccfcfd027.js" integrity="sha256-3of9fDRQt&#43;tCEBAa3WAi86HfeL&#43;ScOMBahihHM/P0Cc=" crossorigin="anonymous"></script>
+
+
+
+</head>
+<body id="releasedocs_release-notes">
+  <header>
+    <section id="header_main" class="main">
+   <h1 id="logo">
+      
+      <a href="http://localhost:1313/"><img src="http://localhost:1313/images/logo.svg" alt="Xubuntu" /></a>
+   </h1>
+   
+   <nav id="nav">
+      <div class="menu">
+      <a href="/download/">Download</a>
+      <a href="/help/">Support</a>
+      <a href="/contribute/">Contribute</a>
+      <a href="/news/">Blog</a>
+      </div>
+   </nav>
+
+</section>
+
+
+    
+  </header>
+  <main>
+    
+   <section class="page">
+      <h2>Xubuntu 21.04 Release Notes</h2>
+      <p><strong>Welcome to the Xubuntu 21.04 &ldquo;Hirsute Hippo&rdquo; release notes!</strong></p>
+<p>Xubuntu 21.04 was released on Thursday, April 22, 2021 and will be supported for nine months until Thursday, January 22, 2022. For general information and the latest updates for Xubuntu 21.04, check out the <a href="https://xubuntu.org/release/21-04">release page</a> on xubuntu.org.</p>
+<p><a href="xubuntu-21.04.png"><!-- raw HTML omitted --></a></p>
+<ul>
+<li><a href="#known_issues">Known Issues</a></li>
+<li><a href="#ubuntu_common_release_notes">Ubuntu Common Release Notes</a></li>
+<li><a href="#major_updates">Major Updates</a></li>
+<li><a href="#ux_updates">UX Updates</a></li>
+<li><a href="#updates">Updates</a></li>
+<li><a href="#changelogs">Changelogs</a></li>
+</ul>
+<h2 id="known-issues">Known Issues</h2>
+<h3 id="installer-issues">Installer Issues</h3>
+<ul>
+<li>grub-installer chooses which drive to install to with no user input (<a href="https://bugs.launchpad.net/ubuntu/+source/grub-installer/+bug/964331">964331</a>)</li>
+<li>OEM installation uses the wrong slideshow (<a href="https://bugs.launchpad.net/ubuntu/+source/ubiquity-slideshow-ubuntu/+bug/1842047">1842047</a>)</li>
+</ul>
+<h3 id="general-issues">General Issues</h3>
+<ul>
+<li>Boot: Decryption password prompt not visible (<a href="https://bugs.launchpad.net/xubuntu-artwork/+bug/1917062">1917062</a>)</li>
+<li>GNOME Font Viewer: Crashes in the live environment (<a href="https://bugs.launchpad.net/ubuntu/+source/gnome-font-viewer/+bug/1845362">1845362</a>)</li>
+<li>Xfce Pulseaudio Plugin: Multiple notifications displayed if multiple Pulseaudio plugins added to panel (<a href="https://bugs.launchpad.net/ubuntu/+source/xfce4-pulseaudio-plugin/+bug/1769775">1769775</a>)</li>
+<li>Xfce Screensaver: Password required twice when switching users (<a href="https://bugs.launchpad.net/ubuntu/+source/lightdm/+bug/1874178">1874178</a>)</li>
+</ul>
+<h2 id="ubuntu-common-release-notes">Ubuntu Common Release Notes</h2>
+<p>The main Ubuntu <a href="https://discourse.ubuntu.com/t/hirsute-hippo-release-notes/19221">Release Notes</a> covers both many of the other packages we carry and more issues common to every Ubuntu flavor.</p>
+<h2 id="major-updates">Major Updates</h2>
+<ul>
+<li><strong>Xfce 4.16</strong> features many improvements over the previous release, including:
+<ul>
+<li>A new <strong>&ldquo;StatusTray&rdquo; panel plugin</strong>, consolidating the StatusNotifier and System plugins into a single powerful and consistent plugin.</li>
+<li><strong>Dark mode for the Xfce panel</strong> to use a dark appearance without otherwise light themes.</li>
+<li>Support for <strong>fractional scaling</strong> in the Display preferences.</li>
+<li><strong>Queued file transfers</strong>, <strong>paused copy/move operations</strong>, <strong>per-directory view settings</strong>, and more added to the Thunar file manager.</li>
+<li>For more information about Xfce 4.16, check out the <a href="https://www.xfce.org/about/news/?post=1608595200">release announcement</a>, <a href="https://www.xfce.org/download/changelogs/4.16/">changelog</a>, and <a href="https://www.xfce.org/about/tour416">tour</a>.</li>
+</ul>
+</li>
+<li><strong>Hexchat</strong> and <strong>Synaptic</strong> are now included in Xubuntu 21.04.
+<ul>
+<li><strong><a href="https://hexchat.github.io/">HexChat</a></strong> is an highly-configurable open source IRC client and is recommended over Pidgin for IRC communication. In Xubuntu, it&rsquo;s preconfigured to connect to the #xubuntu channel on Freenode.</li>
+<li><strong><a href="https://www.nongnu.org/synaptic/">Synaptic</a></strong> is an advanced package manager for apt. It joins GNOME Software on Xubuntu and can be safely used alongside it.</li>
+</ul>
+</li>
+<li><strong><a href="https://ayatanaindicators.github.io/">Ayatana Indicators</a></strong> are now used with LightDM GTK+ Greeter and the Xfce Indicator plugin. This change may affect your indicator usage, as not all existing Application Indicators have been ported.</li>
+<li>The full <strong>Adwaita icon theme</strong> is now included. Previously, we shipped a partial version of this icon theme as required by GTK 3. Using the partial version was a sub-par experience, so we&rsquo;ve brought in the full version!</li>
+<li>Xubuntu 21.04 now includes a <strong>&ldquo;Minimal&rdquo; install option</strong> on the main ISO. This installation option is similar to the <a href="https://unit193.net/xubuntu/">Xubuntu Core</a> installation image, and strips Xubuntu down to a might lighter base. To see the packages that are removed with the minimal install, check out our <a href="https://github.com/Xubuntu/xubuntu-seed/blob/hirsute/desktop.minimal-remove">seed file</a>.</li>
+<li>Xubuntu-specific <strong>translations</strong> are vastly improved, with numerous updates landing in our <a href="https://github.com/Xubuntu/ubiquity-slideshow-xubuntu">installer slideshow</a>, <a href="https://github.com/Xubuntu/xubuntu-default-settings">default settings</a>, and <a href="https://github.com/Xubuntu/xubuntu-docs">documentation</a>. Many thanks to our translation team on <a href="https://www.transifex.com/xubuntu/public/">Transifex</a>!</li>
+</ul>
+<h2 id="ux-updates">UX Updates</h2>
+<h3 id="keyboard-shortcuts">Keyboard Shortcuts</h3>
+<p>Our keyboard shortcuts were updated to better align with Xfce 4.16 and other popular desktop environments. For a full list of keyboard shortcuts, <a href="https://wiki.xubuntu.org/releases/21.04/keyboard-shortcuts">click here</a>.</p>
+<ul>
+<li><strong>Ctrl+Alt+Delete</strong>: Shows the Logout dialog</li>
+<li><strong>Ctrl+Shift+Escape</strong>: Launches Task Manager</li>
+<li><strong>Super+R</strong>: Launches the Application Finder</li>
+<li><strong>Super+E</strong> or <strong>Ctrl+Alt+F</strong>: Launches the File Manager</li>
+</ul>
+<h3 id="desktop">Desktop</h3>
+<ul>
+<li>The File System and removable device icons are no longer displayed on the desktop</li>
+<li>The applications menu has been removed from the desktop right-click menu</li>
+</ul>
+<h3 id="menu">Menu</h3>
+<ul>
+<li>The Texinfo launcher has been removed from the menu</li>
+<li>The PulseAudio Volume Control launcher has been removed from the menu and replaced with a &ldquo;Sound&rdquo; option in the Settings Manager</li>
+</ul>
+<h3 id="panel">Panel</h3>
+<ul>
+<li>The StatusNotifier and Systray plugins have been merged and replaced with the StatusTray plugin</li>
+<li>The separator between the clock and tray icons was replaced with padding on both sides, removing the unclickable space between the plugins and giving the clock some breathing room</li>
+<li>The PulseAudio plugin is now configured with window focus support, improving integration with third-party music players</li>
+</ul>
+<h3 id="thunar">Thunar</h3>
+<ul>
+<li>The path bar is now used by default, making it easier to navigate up paths</li>
+<li>Folders can now be opened in a new tab by middle-clicking them</li>
+<li>Special folders (such as Home) will no longer change the window icon, adding consistency to the panel</li>
+</ul>
+<h2 id="updates">Updates</h2>
+<p><em>Significant package and version updates. For full package changelogs, see the <a href="#Changelogs">Changelogs</a> section below.</em></p>
+<h3 id="application-stack">Application Stack</h3>
+<ul>
+<li>GTK / GNOME 3.38</li>
+<li>MATE 1.24</li>
+<li>Xfce 4.16</li>
+</ul>
+<h3 id="themes">Themes</h3>
+<ul>
+<li>Greybird 3.22.14</li>
+<li>Numix: 2.6.7</li>
+<li>elementary-xfce 0.15.2</li>
+</ul>
+<h3 id="applications">Applications</h3>
+<h4 id="xfce">Xfce</h4>
+<ul>
+<li>Catfish 4.16.0</li>
+<li>Gigolo 0.5.1</li>
+<li>Parole Media Player 4.16.0</li>
+<li>Thunar File Manager 4.16.6</li>
+<li>Xfburn 0.6.2</li>
+<li>Xfce Desktop 4.16.0</li>
+<li>Xfce Dictionary 0.8.4</li>
+<li>Xfce Panel 4.16.2</li>
+<li>Xfce Panel Profiles 1.0.13</li>
+<li>Xfce Power Manager 4.16.0</li>
+<li>Xfce PulseAudio Plugin 0.4.3</li>
+<li>Xfce Screensaver 4.16.0</li>
+<li>Xfce Settings 4.16.0</li>
+<li>Xfce Task Manager 1.4.0</li>
+<li>Xfce Terminal 0.8.10</li>
+<li>Xfce Weather Plugin 0.11.0</li>
+<li>Xfce Whisker Menu Plugin 2.5.3</li>
+<li>Xfce Window Manager 4.16.1</li>
+</ul>
+<h4 id="mate">MATE</h4>
+<ul>
+<li>Atril 1.24.1</li>
+<li>Engrampa 1.24.2</li>
+<li>MATE Calculator 1.24.2</li>
+</ul>
+<h4 id="gnome">GNOME</h4>
+<ul>
+<li>GNOME Mines 3.36.1</li>
+<li>GNOME Software 3.38.0</li>
+<li>GNOME Sudoku 40.0</li>
+<li>Simple Scan 3.38.1</li>
+</ul>
+<h4 id="everything-else">Everything Else</h4>
+<ul>
+<li>Blueman 2.1.4</li>
+<li>Firefox 87.0</li>
+<li>GIMP 2.10.22</li>
+<li>Hexchat 2.14.3</li>
+<li>LibreOffice 7.1.2</li>
+<li>PulseAudio Volume Control 4.0</li>
+<li>SGT Puzzles 20191231.79a5378-3 (and Launcher 0.2.5)</li>
+<li>Synaptic 0.90.2</li>
+<li>Thunderbird 78.8.1</li>
+</ul>
+<h2 id="changelogs">Changelogs</h2>
+<h3 id="xubuntuother-packages">Xubuntu/Other Packages</h3>
+<ul>
+<li>apturl (<a href="https://launchpad.net/ubuntu/hirsute/+source/apturl/+changelog">changelog</a>)</li>
+<li>atril (<a href="https://launchpad.net/ubuntu/hirsute/+source/atril/+changelog">changelog</a>)</li>
+<li>blueman (<a href="https://launchpad.net/ubuntu/hirsute/+source/blueman/+changelog">changelog</a>)</li>
+<li>elementary-xfce (<a href="https://launchpad.net/ubuntu/hirsute/+source/elementary-xfce/+changelog">changelog</a>)</li>
+<li>engrampa (<a href="https://launchpad.net/ubuntu/hirsute/+source/engrampa/+changelog">changelog</a>)</li>
+<li>gimp (<a href="https://launchpad.net/ubuntu/hirsute/+source/gimp/+changelog">changelog</a>)</li>
+<li>gtk2-engines-xfce (<a href="https://launchpad.net/ubuntu/hirsute/+source/gtk2-engines-xfce/+changelog">changelog</a>)</li>
+<li>hexchat (<a href="https://launchpad.net/ubuntu/hirsute/+source/hexchat/+changelog">changelog</a>)</li>
+<li>lightdm-gtk-greeter (<a href="https://launchpad.net/ubuntu/hirsute/+source/lightdm-gtk-greeter/+changelog">changelog</a>)</li>
+<li>lightdm-gtk-greeter-settings (<a href="https://launchpad.net/ubuntu/hirsute/+source/lightdm-gtk-greeter-settings/+changelog">changelog</a>)</li>
+<li>mate-calc (<a href="https://launchpad.net/ubuntu/hirsute/+source/mate-calc/+changelog">changelog</a>)</li>
+<li>menulibre (<a href="https://launchpad.net/ubuntu/hirsute/+source/menulibre/+changelog">changelog</a>)</li>
+<li>mugshot (<a href="https://launchpad.net/ubuntu/hirsute/+source/mugshot/+changelog">changelog</a>)</li>
+<li>pavucontrol (<a href="https://launchpad.net/ubuntu/hirsute/+source/pavucontrol/+changelog">changelog</a>)</li>
+<li>sgt-launcher (<a href="https://launchpad.net/ubuntu/hirsute/+source/sgt-launcher/+changelog">changelog</a>)</li>
+<li>shimmer-themes (<a href="https://launchpad.net/ubuntu/hirsute/+source/shimmer-themes/+changelog">changelog</a>)</li>
+<li>synaptic (<a href="https://launchpad.net/ubuntu/hirsute/+source/synaptic/+changelog">changelog</a>)</li>
+<li>xubuntu-artwork (<a href="https://launchpad.net/ubuntu/hirsute/+source/xubuntu-artwork/+changelog">changelog</a>)</li>
+<li>xubuntu-core (<a href="https://launchpad.net/ubuntu/hirsute/+source/xubuntu-meta/+changelog">changelog</a>)</li>
+<li>xubuntu-default-settings (<a href="https://launchpad.net/ubuntu/hirsute/+source/xubuntu-default-settings/+changelog">changelog</a>)</li>
+<li>xubuntu-desktop (<a href="https://launchpad.net/ubuntu/hirsute/+source/xubuntu-meta/+changelog">changelog</a>)</li>
+<li>xubuntu-docs (<a href="https://launchpad.net/ubuntu/hirsute/+source/xubuntu-docs/+changelog">changelog</a>)</li>
+<li>xubuntu-meta (<a href="https://launchpad.net/ubuntu/hirsute/+source/xubuntu-meta/+changelog">changelog</a>)</li>
+<li>xubuntu-wallpapers (<a href="https://launchpad.net/ubuntu/hirsute/+source/xubuntu-artwork/+changelog">changelog</a>)</li>
+</ul>
+<h3 id="xfce-core">Xfce Core</h3>
+<ul>
+<li>exo (<a href="https://launchpad.net/ubuntu/hirsute/+source/exo/+changelog">changelog</a>)</li>
+<li>libxfce4ui (<a href="https://launchpad.net/ubuntu/hirsute/+source/libxfce4ui/+changelog">changelog</a>)</li>
+<li>libxfce4util (<a href="https://launchpad.net/ubuntu/hirsute/+source/libxfce4util/+changelog">changelog</a>)</li>
+<li>thunar (<a href="https://launchpad.net/ubuntu/hirsute/+source/thunar/+changelog">changelog</a>)</li>
+<li>thunar-volman (<a href="https://launchpad.net/ubuntu/hirsute/+source/thunar-volman/+changelog">changelog</a>)</li>
+<li>tumbler (<a href="https://launchpad.net/ubuntu/hirsute/+source/tumbler/+changelog">changelog</a>)</li>
+<li>xfce4-appfinder (<a href="https://launchpad.net/ubuntu/hirsute/+source/xfce4-appfinder/+changelog">changelog</a>)</li>
+<li>xfce4-panel (<a href="https://launchpad.net/ubuntu/hirsute/+source/xfce4-panel/+changelog">changelog</a>)</li>
+<li>xfce4-panel-profiles  (<a href="https://launchpad.net/ubuntu/hirsute/+source/xfce4-panel-profiles/+changelog">changelog</a>)</li>
+<li>xfce4-power-manager (<a href="https://launchpad.net/ubuntu/hirsute/+source/xfce4-power-manager/+changelog">changelog</a>)</li>
+<li>xfce4-session (<a href="https://launchpad.net/ubuntu/hirsute/+source/xfce4-session/+changelog">changelog</a>)</li>
+<li>xfce4-settings (<a href="https://launchpad.net/ubuntu/hirsute/+source/xfce4-settings/+changelog">changelog</a>)</li>
+<li>xfconf (<a href="https://launchpad.net/ubuntu/hirsute/+source/xfconf/+changelog">changelog</a>)</li>
+<li>xfdesktop4 (<a href="https://launchpad.net/ubuntu/hirsute/+source/xfdesktop4/+changelog">changelog</a>)</li>
+<li>xfwm4 (<a href="https://launchpad.net/ubuntu/hirsute/+source/xfwm4/+changelog">changelog</a>)</li>
+</ul>
+<h3 id="xfce-applications">Xfce Applications</h3>
+<ul>
+<li>catfish (<a href="https://launchpad.net/ubuntu/hirsute/+source/catfish/+changelog">changelog</a>)</li>
+<li>gigolo (<a href="https://launchpad.net/ubuntu/hirsute/+source/gigolo/+changelog">changelog</a>)</li>
+<li>mousepad (<a href="https://launchpad.net/ubuntu/hirsute/+source/mousepad/+changelog">changelog</a>)</li>
+<li>parole (<a href="https://launchpad.net/ubuntu/hirsute/+source/parole/+changelog">changelog</a>)</li>
+<li>ristretto (<a href="https://launchpad.net/ubuntu/hirsute/+source/ristretto/+changelog">changelog</a>)</li>
+<li>xfburn (<a href="https://launchpad.net/ubuntu/hirsute/+source/xfburn/+changelog">changelog</a>)</li>
+<li>xfce4-notifyd (<a href="https://launchpad.net/ubuntu/hirsute/+source/xfce4-notifyd/+changelog">changelog</a>)</li>
+<li>xfce4-screensaver (<a href="https://launchpad.net/ubuntu/hirsute/+source/xfce4-screensaver/+changelog">changelog</a>)</li>
+<li>xfce4-screenshooter (<a href="https://launchpad.net/ubuntu/hirsute/+source/xfce4-screenshooter/+changelog">changelog</a>)</li>
+<li>xfce4-taskmanager (<a href="https://launchpad.net/ubuntu/hirsute/+source/xfce4-taskmanager/+changelog">changelog</a>)</li>
+<li>xfce4-terminal (<a href="https://launchpad.net/ubuntu/hirsute/+source/xfce4-terminal/+changelog">changelog</a>)</li>
+</ul>
+<h3 id="xfce-panel-plugins">Xfce Panel Plugins</h3>
+<ul>
+<li>xfce4-cpugraph-plugin (<a href="https://launchpad.net/ubuntu/hirsute/+source/xfce4-cpugraph-plugin/+changelog">changelog</a>)</li>
+<li>xfce4-dict (<a href="https://launchpad.net/ubuntu/hirsute/+source/xfce4-dict/+changelog">changelog</a>)</li>
+<li>xfce4-indicator-plugin (<a href="https://launchpad.net/ubuntu/hirsute/+source/xfce4-indicator-plugin/+changelog">changelog</a>)</li>
+<li>xfce4-mailwatch-plugin (<a href="https://launchpad.net/ubuntu/hirsute/+source/xfce4-mailwatch-plugin/+changelog">changelog</a>)</li>
+<li>xfce4-netload-plugin (<a href="https://launchpad.net/ubuntu/hirsute/+source/xfce4-netload-plugin/+changelog">changelog</a>)</li>
+<li>xfce4-notes-plugin (<a href="https://launchpad.net/ubuntu/hirsute/+source/xfce4-notes-plugin/+changelog">changelog</a></li>
+<li>xfce4-places-plugin (<a href="https://launchpad.net/ubuntu/hirsute/+source/xfce4-places-plugin/+changelog">changelog</a>)</li>
+<li>xfce4-pulseaudio-plugin (<a href="https://launchpad.net/ubuntu/hirsute/+source/xfce4-pulseaudio-plugin/+changelog">changelog</a>)</li>
+<li>xfce4-quicklauncher-plugin (<a href="https://launchpad.net/ubuntu/hirsute/+source/xfce4-quicklauncher-plugin/+changelog">changelog</a>)</li>
+<li>xfce4-statusnotifier-plugin (<a href="https://launchpad.net/ubuntu/hirsute/+source/xfce4-statusnotifier-plugin/+changelog">changelog</a>)</li>
+<li>xfce4-systemload-plugin (<a href="https://launchpad.net/ubuntu/hirsute/+source/xfce4-systemload-plugin/+changelog">changelog</a>)</li>
+<li>xfce4-verve-plugin (<a href="https://launchpad.net/ubuntu/hirsute/+source/xfce4-verve-plugin/+changelog">changelog</a>)</li>
+<li>xfce4-weather-plugin (<a href="https://launchpad.net/ubuntu/hirsute/+source/xfce4-weather-plugin/+changelog">changelog</a>)</li>
+<li>xfce4-whiskermenu-plugin (<a href="https://launchpad.net/ubuntu/hirsute/+source/xfce4-whiskermenu-plugin/+changelog">changelog</a>)</li>
+<li>xfce4-xkb-plugin (<a href="https://launchpad.net/ubuntu/hirsute/+source/xfce4-xkb-plugin/+changelog">changelog</a>)</li>
+</ul>
+<h3 id="thunar-plugins">Thunar Plugins</h3>
+<ul>
+<li>thunar-archive-plugin (<a href="https://launchpad.net/ubuntu/hirsute/+source/thunar-archive-plugin/+changelog">changelog</a>)</li>
+<li>thunar-media-tags-plugin (<a href="https://launchpad.net/ubuntu/hirsute/+source/thunar-media-tags-plugin/+changelog">changelog</a>)</li>
+</ul>
+
+   </section>
+
+  </main>
+  <footer>
+    <section>
+   <div>
+      
+      <a class="icon" href="/"><img src="http://localhost:1313/images/icon_white_xubuntu.svg" alt="Xubuntu" /></a>
+      <section class="columns-2">
+         
+   <nav id="nav">
+      <div class="menu">
+      <a href="/download/">Download</a>
+      <a href="/help/">Support</a>
+      <a href="/contribute/">Contribute</a>
+      <a href="/news/">Blog</a>
+      </div>
+   </nav>
+
+         <div>
+            
+            
+            
+               <a href="http://localhost:1313/release/24.04/">Xubuntu 24.04</a>
+            
+            <a href="/releases/">All releases</a>
+         </div>
+      </section>
+   </div>
+   <div>
+      
+      <span class="icon"><img src="http://localhost:1313/images/icon_white_communicate.svg" alt="Communicate" /></span>
+      <p class="sub">Communicate</p>
+      <ul>
+         <li><a href="https://kiwiirc.com/nextclient/irc.libera.chat?nick=xu-user?w#xubuntu">IRC</a></li>
+         <li><a href="https://matrix.to/#/#xubuntu:ubuntu.com">Matrix</a></li>
+      </ul>
+      <ul>
+         <li><a href="https://twitter.com/Xubuntu">X</a></li>
+         <li><a href="http://www.facebook.com/xubuntuusers">Facebook</a></li>
+         <li><a href="https://floss.social/@xubuntu">Mastodon</a></li>
+      </ul>
+   </div>
+   <div>
+      
+      <span class="icon"><img src="http://localhost:1313/images/icon_white_merchdonate.svg" alt="Merch & Donate" /></span>
+      <p class="sub">Merchandise</p>
+      <ul>
+         <li><a href="https://www.hellotux.com/xubuntu">Hellotux</a></li>
+      </ul>
+      <p class="sub">Donate</p>
+      <ul>
+         <li><a href="https://opencollective.com/xfce">Xfce (US)</a></li>
+         <li><a href="https://opencollective.com/xfce-eu">Xfce (Europe)</a></li>
+      </ul>
+   </div>
+   <div>
+      
+      <span class="icon"><img src="http://localhost:1313/images/icon_white_developers.svg" alt="Developers" /></span>
+      <p class="sub">For Developers</p>
+      <ul>
+         <li><a href="https://github.com/Xubuntu">GitHub</a></li>
+         <li><a href="https://kiwiirc.com/nextclient/irc.libera.chat?nick=xu-contribute?w#xubuntu-devel">IRC</a></li>
+         <li><a href="https://matrix.to/#/#xubuntu-devel:ubuntu.com">Matrix</a></li>
+      </ul>
+   </div>
+</section>
+
+  </footer>
+</body>
+</html>

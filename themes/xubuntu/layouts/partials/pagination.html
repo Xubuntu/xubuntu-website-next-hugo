@@ -1,0 +1,35 @@
+{{- $page := . }}
+
+{{- if gt $page.Paginator.TotalPages 1 }}
+   <section class="pagination">
+      {{- with .Paginator }}
+         {{- $currentPageNumber := .PageNumber }}
+
+         <div class="older">
+            {{- with .Last }}
+               {{- if ne $currentPageNumber .PageNumber }}
+                  <a href="{{ .URL }}" aria-label="Oldest" class="button" role="button"><span aria-hidden="true">Oldest</span></a>
+               {{- end }}
+            {{- end }}
+
+            {{- with .Next }}
+               <a href="{{ .URL }}" aria-label="Older" class="button" role="button"><span aria-hidden="true">Older</span></a>
+            {{- end }}
+         </div>
+
+         <div class="page_number">{{ $currentPageNumber }} / {{ .Paginator.TotalPages }}</div>
+
+         <div class="newer">
+            {{- with .Prev }}
+               <a href="{{ .URL }}" aria-label="Newer" class="button" role="button"><span aria-hidden="true">Newer</span></a>
+            {{- end }}
+
+            {{- with .First }}
+               {{- if ne $currentPageNumber .PageNumber }}
+                  <a href="{{ .URL }}" aria-label="Newest" class="button" role="button"><span aria-hidden="true">Newest</span></a>
+               {{- end }}
+            {{- end }}
+         </div>
+      {{- end }}
+   </section>
+{{- end }}

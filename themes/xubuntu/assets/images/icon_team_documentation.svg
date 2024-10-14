@@ -1,0 +1,29 @@
+<svg width="592" height="592" version="1.1" viewBox="0 0 156.63 156.63" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <clipPath id="icon_team_documentation_a">
+   <ellipse class="circle" cx="256.45" cy="15.688" rx="67.733" ry="67.733" fill="#45339b" stop-color="#000000" style="paint-order:markers stroke fill"/>
+  </clipPath>
+ </defs>
+ <ellipse class="circle" cx="78.317" cy="78.317" rx="67.733" ry="67.733" fill="#45339b" stop-color="#000000" style="paint-order:markers stroke fill"/>
+ <g transform="translate(-178.13 62.629)" clip-path="url(#icon_team_documentation_a)">
+  <g class="sheet">
+   <rect x="216.76" y="-18.784" width="79.375" height="112.26" rx="5" ry="5" fill="#fff" stop-color="#000000"/>
+   <path d="m227.34-5.5546h31.372" fill="#666" fill-rule="evenodd" stop-color="#000000" stroke="#666" stroke-width="5.2917" style="font-variation-settings:normal"/>
+   <path d="m227.34 5.0288h37.798" fill="#666" fill-rule="evenodd" stop-color="#000000" stroke="#666" stroke-width="5.2917" style="font-variation-settings:normal"/>
+   <path d="m245.86 15.612h19.655" fill="#666" fill-rule="evenodd" stop-color="#000000" stroke="#666" stroke-width="5.2917" style="font-variation-settings:normal"/>
+   <path d="m240.57 15.612h-13.229" fill="#666" fill-rule="evenodd" stop-color="#000000" stroke="#666" stroke-width="5.2917" style="font-variation-settings:normal"/>
+   <path d="m227.34 26.195h29.104" fill="#666" fill-rule="evenodd" stop-color="#000000" stroke="#666" stroke-width="5.2917" style="font-variation-settings:normal"/>
+   <path d="m264-5.5546h12.851" fill="#666" fill-rule="evenodd" stop-color="#000000" stroke="#666" stroke-width="5.2917" style="font-variation-settings:normal"/>
+   <path d="m227.34 36.779h15.875" fill="#666" fill-rule="evenodd" stop-color="#000000" stroke="#666" stroke-width="5.2917" style="font-variation-settings:normal"/>
+   <path d="m261.74 26.195h7.5595" fill="#666" fill-rule="evenodd" stop-color="#000000" stroke="#666" stroke-width="5.2917" style="font-variation-settings:normal"/>
+   <path d="m265.14 36.779h11.339" fill="#666" fill-rule="evenodd" stop-color="#000000" stroke="#666" stroke-width="5.2917" style="font-variation-settings:normal"/>
+   <path d="m248.51 36.779h11.339" fill="#666" fill-rule="evenodd" stop-color="#000000" stroke="#666" stroke-width="5.2917" style="font-variation-settings:normal"/>
+   <path d="m227.34 47.362h31.372" fill="#666" fill-rule="evenodd" stop-color="#000000" stroke="#666" stroke-width="5.2917" style="font-variation-settings:normal"/>
+   <path d="m227.34 57.945h51.027" fill="#666" fill-rule="evenodd" stop-color="#000000" stroke="#666" stroke-width="5.2917" style="font-variation-settings:normal"/>
+   <path d="m245.86 68.529h19.655" fill="#666" fill-rule="evenodd" stop-color="#000000" stroke="#666" stroke-width="5.2917" style="font-variation-settings:normal"/>
+   <path d="m240.57 68.529h-13.229" fill="#666" fill-rule="evenodd" stop-color="#000000" stroke="#666" stroke-width="5.2917" style="font-variation-settings:normal"/>
+   <path d="m269.3 79.112h-29.104" fill="#666" fill-rule="evenodd" stop-color="#000000" stroke="#666" stroke-width="5.2917" style="font-variation-settings:normal"/>
+   <path d="m234.9 79.112h-7.5595" fill="#666" fill-rule="evenodd" stop-color="#000000" stroke="#666" stroke-width="5.2917" style="font-variation-settings:normal"/>
+  </g>
+ </g>
+</svg>

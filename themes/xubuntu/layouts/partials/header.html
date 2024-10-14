@@ -1,0 +1,10 @@
+<section id="header_main" class="main">
+   <h1 id="logo">
+      {{ $logo := resources.Get "/images/logo.svg" }}
+      <a href="{{ .Site.BaseURL }}"><img src="{{ $logo.Permalink }}" alt="Xubuntu" /></a>
+   </h1>
+   {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+</section>
+{{ if eq .Page.File "_index" }}
+   {{ partial "header-home.html" . }}
+{{ end }}

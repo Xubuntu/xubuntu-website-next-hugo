@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+<title>Xubuntu</title>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+
+
+
+
+
+   <link rel="stylesheet" href="http://localhost:1313/static/css/xubuntu.min.8272e5fad2cd84ab96d611528c7e1f367ade98ffa34e6053f46994f11f358698.css">
+
+
+
+
+
+
+   <script src="/static/js/xubuntu.min.de87fd7c3450b7eb4210101add6022f3a1df78bf9270e3016a18a11ccfcfd027.js" integrity="sha256-3of9fDRQt&#43;tCEBAa3WAi86HfeL&#43;ScOMBahihHM/P0Cc=" crossorigin="anonymous"></script>
+
+
+
+</head>
+<body id="releasedocs_release-notes">
+  <header>
+    <section id="header_main" class="main">
+   <h1 id="logo">
+      
+      <a href="http://localhost:1313/"><img src="http://localhost:1313/images/logo.svg" alt="Xubuntu" /></a>
+   </h1>
+   
+   <nav id="nav">
+      <div class="menu">
+      <a href="/download/">Download</a>
+      <a href="/help/">Support</a>
+      <a href="/contribute/">Contribute</a>
+      <a href="/news/">Blog</a>
+      </div>
+   </nav>
+
+</section>
+
+
+    
+  </header>
+  <main>
+    
+   <section class="page">
+      <h2>Xubuntu 18.04 Release Notes</h2>
+      <h2 id="notable-issues">Notable Issues</h2>
+<h3 id="installer-issues">Installer Issues</h3>
+<ul>
+<li>
+<p><strong>It must be noted that it is close to impossible for our small team of testers to be in a position to work through all the varying parameters available during installation. We do however aim to test all the possible methods of installation (including for OEM and using encryption) available either on a virtual machine or on hardware (where hardware has been used during testing then Xubuntu QA will where possible make that known on the iso testing tracker). Further installation testing information can be on the Ubuntu installation release note(s) listed below</strong></p>
+</li>
+<li>
+<p>Keyboard layout issues noted in Ubuntu or other flavours during installation:</p>
+<ul>
+<li>Auto-selected keyboard layout no longer matches chosen region (<a href="https://bugs.launchpad.net/ubuntu/+source/ubiquity/+bug/1706859">1706859</a>)</li>
+</ul>
+</li>
+<li>
+<p>&ldquo;Force UEFI installation&rdquo; dialog has non-working Go Back/Continue buttons (<a href="https://bugs.launchpad.net/ubuntu/+source/ubiquity/+bug/1724482">1724482</a>)</p>
+</li>
+<li>
+<p>No restart after installation (<a href="https://bugs.launchpad.net/ubuntu/+source/casper/+bug/1723760">1723760</a>)</p>
+</li>
+</ul>
+<h3 id="general-issues">General Issues</h3>
+<ul>
+<li>At least one Nvidia driver causes issues when removed via Additional Drivers (<a href="https://bugs.launchpad.net/ubuntu/+source/software-properties/+bug/1761593"> 1761593</a>)</li>
+<li>Network indicators
+<ul>
+<li>Currently at times the panel could show 2 network icons, this appears to be a race condition which we have not been able to rectify in time for release.</li>
+</ul>
+</li>
+<li>Parole Media Player: Play button inactive (<a href="https://bugs.launchpad.net/parole/+bug/1705243">1705243</a>)</li>
+<li>SGT Puzzles Collection: Menu bar grayed out (<a href="https://launchpad.net/bugs/1670610">1670610</a>)</li>
+<li>Xfce Indicator Plugin: Checkboxes for hidden/visible indicators not working properly (<a href="https://bugs.launchpad.net/ubuntu/+source/xfce4-indicator-plugin/+bug/1311685">1311685</a>)</li>
+<li>Applications Menu plugin clips panel icon (<a href="https://bugs.launchpad.net/ubuntu/+source/xfce4-panel/+bug/1756608">1756608</a>)</li>
+<li>Launch and Directory Menu items icons are too small (<a href="https://bugs.launchpad.net/ubuntu/+source/xfce4-panel/+bug/1756612">1756612</a>)</li>
+<li>No network from suspend resume (r8169 Ethernet Card) (<a href="https://bugs.launchpad.net/ubuntu/+source/linux/+bug/1752772">1752772</a>)</li>
+<li>Double login required from suspend (<a href="https://bugs.launchpad.net/ubuntu/+source/lightdm/+bug/1760078">1760078</a>)</li>
+<li>Wrong resolution at unlock screen (Nvidia) (<a href="https://bugs.launchpad.net/ubuntu/+source/light-locker/+bug/1760068">1760068</a>)</li>
+</ul>
+<h4 id="ubuntu-generic-release-note">Ubuntu Generic Release Note</h4>
+<p>The main Ubuntu release <a href="https://wiki.ubuntu.com/BionicBeaver/ReleaseNotes">note</a> covers both many of the other packages we carry and more generic issues.</p>
+<h2 id="major-updates">Major Updates</h2>
+<h3 id="appearance">Appearance</h3>
+<p>This release, we decided to remove the GTK Theme Configuration tool. It is no longer possible to override colors in all themes with a single application due to recent developments in GTK. It may return in a later release, but with limited functionality or theme support.</p>
+<p>The Greybird GTK theme has been updated to version 3.22.8. This feature release includes improved HiDPI support, Chrome/ium GTK 3 styles, a new dark theme, smaller switches, and improved scales, and greater consistency between GTK 2 and GTK 3 applications.</p>
+<h3 id="panel-plugins">Panel Plugins</h3>
+<h4 id="pulseaudio-plugin">PulseAudio Plugin</h4>
+<p>With Xubuntu 18.04, we replaced the Sound Indicator with the Xfce PulseAudio Plugin. Some key features include:</p>
+<ul>
+<li>Select, move, and control audio output and input from the plugin menu</li>
+<li>Middle click the icon to quickly mute and unmute</li>
+<li>Control playback of media players</li>
+<li>Increase volume levels beyond 100%</li>
+<li>Enable universal multimedia key control for any media player with MPRIS2 support</li>
+<li>Swap between playlists in supported applications</li>
+</ul>
+<h4 id="status-notifier-plugin">Status Notifier Plugin</h4>
+<p>This new plugin replaces the Application Indicator with a more configurable and better supported option. It supports indicators provided by indicator-application as well as the FreeDesktop.org StatusNotifierItem specification. Configuration options include:</p>
+<ul>
+<li>Configurable icon size</li>
+<li>Square icons – all items will be at least as wide as they are tall</li>
+<li>Symbolic icons – Application indicators will be displayed with a symbolic icon if it is available</li>
+<li>Hide or show individual application indicators</li>
+</ul>
+<h4 id="notification-plugin">Notification Plugin</h4>
+<p>We&rsquo;ve included the new xfce4-notifyd panel plugin in Xubuntu 18.04. This plugin makes it easy to toggle &ldquo;Do Not Disturb&rdquo; mode and view missed notifications.</p>
+<h3 id="desktop-applications">Desktop Applications</h3>
+<p>Xfce is a very modular desktop environment, and for a long time we have shipped several GNOME components to fill our productivity software needs. In Bionic, we have decided to swap out a few pieces of GNOME with corresponding bits from MATE. MATE (formerly GNOME 2) shares several design elements with Xfce, making these components feel at home on the Xubuntu desktop. The features of these components are almost identical, so you won&rsquo;t miss out on anything.</p>
+<ul>
+<li>Document Viewer: Evince → Atril</li>
+<li>Archive Manager: File Roller → Engrampa</li>
+<li>Calculator: GNOME Calculator → MATE Calculator</li>
+</ul>
+<h4 id="utilities">Utilities</h4>
+<h5 id="catfish-144">Catfish 1.4.4</h5>
+<p>Catfish 1.4.4 is included with Xubuntu 18.04. This maintenance release features improved performance, additional error handling, and numerous translation updates.</p>
+<h5 id="menulibre-220">MenuLibre 2.2.0</h5>
+<p>MenuLibre 2.2.0 is a significant release with a multitude of new features, fixes, and supported desktops. Users can now test their launchers directly from MenuLibre. Additionally, you can sort submenus, install launchers in any directory, and identify issues in existing launchers. Desktop environment support has been extended to include Budgie, Cinnamon, EDE, LXQt, KDE Plasma, MATE, and Pantheon.</p>
+<h4 id="xfce">Xfce</h4>
+<h5 id="parole-media-player-101">Parole Media Player 1.0.1</h5>
+<p>Parole 1.0.0 introduces the new “Automatic” video output, selected by default. This new output will automatically select the best available option for your hardware, leading to improved performance and reduced configuration issues. Videos are finally playable in Virtualbox with this update.</p>
+<h5 id="thunar-1615">Thunar 1.6.15</h5>
+<p>Thunar has had a lot of development time in recent months while it heads toward a stable GTK+ 3 release. This release benefits from that development with a large number of bug fixes backported to ensure that Thunar is and continues to be a dependable file manager.</p>
+<h5 id="xfce-power-manager-161">Xfce Power Manager 1.6.1</h5>
+<p>Xfce Power Manager has been ported to GTK+ 3 and includes a number of improvements and new features.</p>
+<ul>
+<li>Improved “Presentation Mode” ensures the screensaver is inhibited while active</li>
+<li>Option to display battery percentage and/or remaining run time when on battery power</li>
+<li>Numerous bug fixes</li>
+</ul>
+<h5 id="xfce-notifications-042">Xfce Notifications 0.4.2</h5>
+<p>The latest version of the Xfce notification daemon includes a panel plugin, support for links in notifications, and improved markup support. The panel plugin allows for quick access to the “do not disturb” mode and recent notifications.</p>
+<h4 id="libreoffice-60">LibreOffice 6.0</h4>
+<p>The latest version of LibreOffice is included with Xubuntu 18.04. This release features better file compatibility with Microsoft Office, Abiword, and QuarkExpress. One of the major release highlights is the inclusion of the elementary icon theme for all installations (including Windows and Mac OS X). This theme was first featured in Xubuntu 16.04 &ldquo;Xenial Xerus&rdquo;.</p>
+<h4 id="firefox--thunderbird">Firefox &amp; Thunderbird</h4>
+<p>The latest and greatest versions of Firefox and Thunderbird are included. Firefox recently rolled out their “Quantum” changes, making recent releases incredibly responsive and faster than ever.</p>
+<h3 id="xfce-1">Xfce</h3>
+<p>Development on Xfce 4.14 is moving right along, but will not be included in Xubuntu 18.04. While we won’t be getting the next generation Xfce desktop, we do have some additional stable updates and development goodies for everyone to enjoy.</p>
+<h4 id="applications">Applications</h4>
+<ul>
+<li>Xfburn 0.5.5</li>
+<li>Xfce Panel 4.12.2</li>
+<li>Xfce Power Manager 1.6.1 (Now GTK+ 3)</li>
+<li>Xfce Terminal 0.8.7</li>
+<li>Xfce Weather Plugin 0.8.10</li>
+<li>Xfce Whisker Menu Plugin 2.1.5</li>
+<li>Xfce XKB Plugin 0.8.1 (Now GTK+ 3)</li>
+</ul>
+<h4 id="libraries">Libraries</h4>
+<ul>
+<li>exo 0.12.0 (first stable Xfce 4.14-ready release)</li>
+<li>libxfce4ui 4.13.4</li>
+</ul>
+<h3 id="login--locking">Login &amp; Locking</h3>
+<p>The Xubuntu login screen has had several improvements this development cycle, and there are more on the way! LightDM GTK+ Greeter has received fixes for accessibility, autologin, and the occasional freeze with multiple monitors. It&rsquo;s accompanying configuration tool now detects more recent GTK themes.</p>
+<h3 id="hardware-support">Hardware Support</h3>
+<h4 id="bluetooth">Bluetooth</h4>
+<p>The PulseAudio Bluetooth module has been included, meaning Bluetooth audio devices will now work out of the box in Xubuntu! Blueman has been updated to version 2.0.5 and includes several fixes for game controllers and modems.</p>
+<h4 id="numlock">Numlock</h4>
+<p>We’ve integrated numlockx into our startup for improved support of keyboard number pads. Numlock will now automatically be enabled for all users, regardless of BIOS support.</p>
+<h2 id="xubuntu-core">Xubuntu core</h2>
+<p>The <a href="https://xubuntu.org/news/introducing-xubuntu-core/">Xubuntu core</a> project is still solely a community based effort and as such, the produced ISOs can be downloaded from the unofficial <a href="https://unit193.net/xubuntu/core/">contributor&rsquo;s site</a>.</p>
+<h2 id="changelogs">Changelogs</h2>
+<h3 id="xubuntuother-packages">Xubuntu/Other Packages</h3>
+<ul>
+<li>blueman (<a href="https://launchpad.net/ubuntu/bionic/+source/blueman/+changelog">changelog</a>)</li>
+<li>gtk-theme-config (<a href="https://launchpad.net/ubuntu/bionic/+source/gtk-theme-config/+changelog">changelog</a>)</li>
+<li>gtk2-engines-xfce (<a href="https://launchpad.net/ubuntu/bionic/+source/gtk2-engines-xfce/+changelog">changelog</a>)</li>
+<li>lightdm-gtk-greeter (<a href="https://launchpad.net/ubuntu/bionic/+source/lightdm-gtk-greeter/+changelog">changelog</a>)</li>
+<li>lightdm-gtk-greeter-settings (<a href="https://launchpad.net/ubuntu/bionic/+source/lightdm-gtk-greeter-settings/+changelog">changelog</a>)</li>
+<li>menulibre (<a href="https://launchpad.net/ubuntu/bionic/+source/menulibre/+changelog">changelog</a>)</li>
+<li>mugshot (<a href="https://launchpad.net/ubuntu/bionic/+source/mugshot/+changelog">changelog</a>)</li>
+<li>pavucontrol (<a href="https://launchpad.net/ubuntu/bionic/+source/pavucontrol/+changelog">changelog</a>)</li>
+<li>sgt-launcher (<a href="https://launchpad.net/ubuntu/bionic/+source/sgt-launcher/+changelog">changelog</a>)</li>
+<li>shimmer-themes (<a href="https://launchpad.net/ubuntu/bionic/+source/shimmer-themes/+changelog">changelog</a>)</li>
+<li>xfce4-volumed (<a href="https://launchpad.net/ubuntu/bionic/+source/xfce4-volumed/+changelog">changelog</a>)</li>
+<li>xfpanel-switch  (<a href="https://launchpad.net/ubuntu/bionic/+source/xfpanel-switch/+changelog">changelog</a>)</li>
+<li>xubuntu-artwork (<a href="https://launchpad.net/ubuntu/bionic/+source/xubuntu-artwork/+changelog">changelog</a>)</li>
+<li>xubuntu-core (<a href="https://launchpad.net/ubuntu/bionic/+source/xubuntu-meta/+changelog">changelog</a>)</li>
+<li>xubuntu-default-settings (<a href="https://launchpad.net/ubuntu/bionic/+source/xubuntu-default-settings/+changelog">changelog</a>)</li>
+<li>xubuntu-desktop (<a href="https://launchpad.net/ubuntu/bionic/+source/xubuntu-meta/+changelog">changelog</a>)</li>
+<li>xubuntu-docs (<a href="https://launchpad.net/ubuntu/bionic/+source/xubuntu-docs/+changelog">changelog</a>)</li>
+<li>xubuntu-icon-theme (<a href="https://launchpad.net/ubuntu/bionic/+source/xubuntu-icon-theme/+changelog">changelog</a>)</li>
+<li>xubuntu-meta (<a href="https://launchpad.net/ubuntu/bionic/+source/xubuntu-meta/+changelog">changelog</a>)</li>
+<li>xubuntu-wallpapers (<a href="https://launchpad.net/ubuntu/bionic/+source/xubuntu-artwork/+changelog">changelog</a>)</li>
+</ul>
+<h3 id="xfce-core">Xfce Core</h3>
+<ul>
+<li>exo (<a href="https://launchpad.net/ubuntu/bionic/+source/exo/+changelog">changelog</a>)</li>
+<li>thunar (<a href="https://launchpad.net/ubuntu/bionic/+source/thunar/+changelog">changelog</a>)</li>
+<li>xfce4-appfinder (<a href="https://launchpad.net/ubuntu/bionic/+source/xfce4-appfinder/+changelog">changelog</a>)</li>
+<li>xfce4-panel (<a href="https://launchpad.net/ubuntu/bionic/+source/xfce4-panel/+changelog">changelog</a>)</li>
+<li>xfce4-power-manager (<a href="https://launchpad.net/ubuntu/bionic/+source/xfce4-power-manager/+changelog">changelog</a>)</li>
+<li>xfce4-session (<a href="https://launchpad.net/ubuntu/bionic/+source/xfce4-session/+changelog">changelog</a>)</li>
+<li>xfce4-settings (<a href="https://launchpad.net/ubuntu/bionic/+source/xfce4-settings/+changelog">changelog</a>)</li>
+<li>xfconf (<a href="https://launchpad.net/ubuntu/bionic/+source/xfconf/+changelog">changelog</a>)</li>
+<li>xfdesktop4 (<a href="https://launchpad.net/ubuntu/bionic/+source/xfdesktop4/+changelog">changelog</a>)</li>
+<li>xfwm4 (<a href="https://launchpad.net/ubuntu/bionic/+source/xfwm4/+changelog">changelog</a>)</li>
+</ul>
+<h3 id="xfce-applications">Xfce Applications</h3>
+<ul>
+<li>catfish (<a href="https://launchpad.net/ubuntu/bionic/+source/catfish/+changelog">changelog</a>)</li>
+<li>mousepad (<a href="https://launchpad.net/ubuntu/bionic/+source/mousepad/+changelog">changelog</a>)</li>
+<li>orage (<a href="https://launchpad.net/ubuntu/bionic/+source/orage/+changelog">changelog</a>)</li>
+<li>parole (<a href="https://launchpad.net/ubuntu/bionic/+source/parole/+changelog">changelog</a>)</li>
+<li>xfburn (<a href="https://launchpad.net/ubuntu/bionic/+source/xfburn/+changelog">changelog</a>)</li>
+<li>xfce4-notifyd (<a href="https://launchpad.net/ubuntu/bionic/+source/xfce4-notifyd/+changelog">changelog</a>)</li>
+<li>xfce4-screenshooter (<a href="https://launchpad.net/ubuntu/bionic/+source/xfce4-screenshooter/+changelog">changelog</a>)</li>
+<li>xfce4-taskmanager (<a href="https://launchpad.net/ubuntu/bionic/+source/xfce4-taskmanager/+changelog">changelog</a>)</li>
+<li>xfce4-terminal (<a href="https://launchpad.net/ubuntu/bionic/+source/xfce4-terminal/+changelog">changelog</a>)</li>
+</ul>
+<h3 id="xfce-panel-plugins">Xfce Panel Plugins</h3>
+<ul>
+<li>xfce4-cpugraph-plugin (<a href="https://launchpad.net/ubuntu/bionic/+source/xfce4-cpugraph-plugin/+changelog">changelog</a>)</li>
+<li>xfce4-dict (<a href="https://launchpad.net/ubuntu/bionic/+source/xfce4-dict/+changelog">changelog</a>)</li>
+<li>xfce4-indicator-plugin (<a href="https://launchpad.net/ubuntu/bionic/+source/xfce4-indicator-plugin/+changelog">changelog</a>)</li>
+<li>xfce4-mailwatch-plugin (<a href="https://launchpad.net/ubuntu/bionic/+source/xfce4-mailwatch-plugin/+changelog">changelog</a>)</li>
+<li>xfce4-netload-plugin (<a href="https://launchpad.net/ubuntu/bionic/+source/xfce4-netload-plugin/+changelog">changelog</a>)</li>
+<li>xfce4-notes-plugin (<a href="https://launchpad.net/ubuntu/bionic/+source/xfce4-notes-plugin/+changelog">changelog</a></li>
+<li>xfce4-places-plugin (<a href="https://launchpad.net/ubuntu/bionic/+source/xfce4-places-plugin/+changelog">changelog</a>)</li>
+<li>xfce4-pulseaudio-plugin (<a href="https://launchpad.net/ubuntu/bionic/+source/xfce4-pulseaudio-plugin/+changelog">changelog</a>)</li>
+<li>xfce4-quicklauncher-plugin (<a href="https://launchpad.net/ubuntu/bionic/+source/xfce4-quicklauncher-plugin/+changelog">changelog</a>)</li>
+<li>xfce4-statusnotifier-plugin (<a href="https://launchpad.net/ubuntu/bionic/+source/xfce4-statusnotifier-plugin/+changelog">changelog</a>)</li>
+<li>xfce4-systemload-plugin (<a href="https://launchpad.net/ubuntu/bionic/+source/xfce4-systemload-plugin/+changelog">changelog</a>)</li>
+<li>xfce4-verve-plugin (<a href="https://launchpad.net/ubuntu/bionic/+source/xfce4-verve-plugin/+changelog">changelog</a>)</li>
+<li>xfce4-weather-plugin (<a href="https://launchpad.net/ubuntu/bionic/+source/xfce4-weather-plugin/+changelog">changelog</a>)</li>
+<li>xfce4-whiskermenu-plugin (<a href="https://launchpad.net/ubuntu/bionic/+source/xfce4-whiskermenu-plugin/+changelog">changelog</a>)</li>
+<li>xfce4-xkb-plugin (<a href="https://launchpad.net/ubuntu/bionic/+source/xfce4-xkb-plugin/+changelog">changelog</a>)</li>
+</ul>
+
+   </section>
+
+  </main>
+  <footer>
+    <section>
+   <div>
+      
+      <a class="icon" href="/"><img src="http://localhost:1313/images/icon_white_xubuntu.svg" alt="Xubuntu" /></a>
+      <section class="columns-2">
+         
+   <nav id="nav">
+      <div class="menu">
+      <a href="/download/">Download</a>
+      <a href="/help/">Support</a>
+      <a href="/contribute/">Contribute</a>
+      <a href="/news/">Blog</a>
+      </div>
+   </nav>
+
+         <div>
+            
+            
+            
+               <a href="http://localhost:1313/release/24.04/">Xubuntu 24.04</a>
+            
+            <a href="/releases/">All releases</a>
+         </div>
+      </section>
+   </div>
+   <div>
+      
+      <span class="icon"><img src="http://localhost:1313/images/icon_white_communicate.svg" alt="Communicate" /></span>
+      <p class="sub">Communicate</p>
+      <ul>
+         <li><a href="https://kiwiirc.com/nextclient/irc.libera.chat?nick=xu-user?w#xubuntu">IRC</a></li>
+         <li><a href="https://matrix.to/#/#xubuntu:ubuntu.com">Matrix</a></li>
+      </ul>
+      <ul>
+         <li><a href="https://twitter.com/Xubuntu">X</a></li>
+         <li><a href="http://www.facebook.com/xubuntuusers">Facebook</a></li>
+         <li><a href="https://floss.social/@xubuntu">Mastodon</a></li>
+      </ul>
+   </div>
+   <div>
+      
+      <span class="icon"><img src="http://localhost:1313/images/icon_white_merchdonate.svg" alt="Merch & Donate" /></span>
+      <p class="sub">Merchandise</p>
+      <ul>
+         <li><a href="https://www.hellotux.com/xubuntu">Hellotux</a></li>
+      </ul>
+      <p class="sub">Donate</p>
+      <ul>
+         <li><a href="https://opencollective.com/xfce">Xfce (US)</a></li>
+         <li><a href="https://opencollective.com/xfce-eu">Xfce (Europe)</a></li>
+      </ul>
+   </div>
+   <div>
+      
+      <span class="icon"><img src="http://localhost:1313/images/icon_white_developers.svg" alt="Developers" /></span>
+      <p class="sub">For Developers</p>
+      <ul>
+         <li><a href="https://github.com/Xubuntu">GitHub</a></li>
+         <li><a href="https://kiwiirc.com/nextclient/irc.libera.chat?nick=xu-contribute?w#xubuntu-devel">IRC</a></li>
+         <li><a href="https://matrix.to/#/#xubuntu-devel:ubuntu.com">Matrix</a></li>
+      </ul>
+   </div>
+</section>
+
+  </footer>
+</body>
+</html>

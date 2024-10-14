@@ -1,0 +1,77 @@
+{{ define "main" }}
+   <section>
+      <h2>{{ .Title }}</h2>
+      {{ .Content }}
+
+      {{ partial "inline/release/info.html" . }}
+
+      <h3>Downloads</h3>
+      {{ partial "release-downloads.html" . }}
+
+      <h3>Articles</h3>
+      {{ partial "inline/release/articles.html" . }}
+
+      <h3>In the Press</h3>
+      {{ partial "inline/release/press.html" . }}
+
+      <h3>Release Media</h3>
+      {{ partial "inline/release/media.html" . }}
+   </section>
+{{ end }}
+
+{{ define "partials/inline/release/info.html" }}
+   <dl class="release-info">
+      <dt>Codename</dt><dd>{{ .Params.codename }}</dd>
+      <dt>Release Date</dt><dd>{{ time.AsTime .Params.date_rel | time.Format ":date_long" }}</dd>
+      <dt>End of Life</dt><dd>{{ time.AsTime .Params.date_eol | time.Format ":date_long" }}</dd>
+      {{ partial "inline/release/documents.html" . }}
+   </dl>
+{{ end }}
+
+{{ define "partials/inline/release/documents.html" }}
+   {{ $documents := (where .Site.RegularPages "Type" "releasedocs") }}
+   {{ $documents := where $documents ".Params.release" .Params.version }}
+   {{ if gt ($documents | len ) 1 }}
+      <dt>Release Documents</dt>
+      <dd>
+         {{ range $documents }}
+            <strong><a href="{{ .RelPermalink }}">{{ .Title }}</a></strong><br />
+         {{ end }}
+      </dd>
+   {{ end }}
+{{ end }}
+
+{{ define "partials/inline/release/articles.html" }}
+   {{ $articles := (where .Site.RegularPages "Type" "news").ByDate.Reverse }}
+   {{ $articles := where $articles ".Params.release" .Params.version }}
+
+   <ul class="article-list no-bullets">
+      {{ range $articles }}
+         <li>
+            <strong><a href="{{ .RelPermalink }}">{{ .Title }}</a></strong><br />
+            {{ time.AsTime .Params.date | time.Format ":date_long" }}
+         </li>
+      {{ end }}
+   </ul>
+{{ end }}
+
+{{ define "partials/inline/release/press.html" }}
+   {{ $press := (where .Site.RegularPages "Type" "press") }}
+   {{ $press := (where $press ".Params.release" .Params.version) }}
+   {{ range $press }}
+      {{ .Content }}
+   {{ end }}
+{{ end }}
+
+{{ define "partials/inline/release/media.html" }}
+   {{ $media_path := printf "%s/%smedia" "content" .File.Dir }}
+   {{ if (fileExists $media_path) }}
+      {{ $files := readDir $media_path }}
+      {{ range $files }}
+         {{ if (and (ne (substr .Name 0 1) "_") (not .IsDir)) }}
+            {{ $file_path := printf "%s/%s" "media" .Name }}
+            <img src="{{ $file_path }}" />
+      	{{ end }}
+      {{ end }}
+   {{ end }}
+{{ end }}

@@ -1,0 +1,7 @@
+{{ define "main" }}
+   {{ range (.Paginate .Pages 200).Pages }}
+      {{ partial "news-single.html" . }}
+   {{ end }}
+
+   {{ partial "pagination.html" . }}
+{{ end }}

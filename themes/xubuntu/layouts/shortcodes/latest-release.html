@@ -1,0 +1,15 @@
+{{ $releases := partialCached "releases-supported.html" . }}
+{{ $latest := first 1 $releases }}
+{{ range $latest }}
+   <div class="latest-release featured">
+      <h4>{{ .Title }}</h4>
+      <p>
+         Released on {{ time.AsTime .Params.date_rel | time.Format ":date_long" }}<br />
+         Supported until {{ time.AsTime .Params.date_eol | time.Format ":date_long" }}
+      </p>
+      <p>
+         <a class="quo" href="{{ .RelPermalink }}">Read more</a><br />
+         <a class="quo" href="/releases">All releases</a><br />
+      </p>
+   </div>
+{{ end }}

@@ -1,0 +1,19 @@
+baseURL: https://xubuntu.org/
+languageCode: en-us
+title: Xubuntu
+theme: xubuntu
+
+menus:
+  main:
+  - name: Download
+    pageRef: /download
+    weight: 10
+  - name: Support
+    pageRef: /help
+    weight: 20
+  - name: Contribute
+    pageRef: /contribute
+    weight: 30
+  - name: Blog
+    pageRef: /news
+    weight: 40

@@ -1,0 +1,19 @@
+name = 'Xubuntu'
+license = 'MIT'
+licenselink = 'https://github.com/Xubuntu/xubuntu-website-theme-hugo/LICENSE'
+description = 'Hugo theme for Xubuntu'
+
+# The home page of the theme, where the source can be found
+homepage = 'https://github.com/Xubuntu/xubuntu-website-theme-hugo'
+
+# If you have a running demo of the theme
+# demosite = 'https://xubuntu.org'
+
+# Taxonomy terms
+#tags = ['blog', 'company']
+#features = ['some', 'awesome', 'features']
+
+# If the theme has a single author
+[author]
+  name = 'Pasi Lallinaho'
+  homepage = 'https://digitoucan.fi'

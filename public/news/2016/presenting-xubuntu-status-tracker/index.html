@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+<title>Xubuntu</title>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+
+
+
+
+
+   <link rel="stylesheet" href="http://localhost:1313/static/css/xubuntu.min.8272e5fad2cd84ab96d611528c7e1f367ade98ffa34e6053f46994f11f358698.css">
+
+
+
+
+
+
+   <script src="/static/js/xubuntu.min.de87fd7c3450b7eb4210101add6022f3a1df78bf9270e3016a18a11ccfcfd027.js" integrity="sha256-3of9fDRQt&#43;tCEBAa3WAi86HfeL&#43;ScOMBahihHM/P0Cc=" crossorigin="anonymous"></script>
+
+
+
+</head>
+<body id="news_index">
+  <header>
+    <section id="header_main" class="main">
+   <h1 id="logo">
+      
+      <a href="http://localhost:1313/"><img src="http://localhost:1313/images/logo.svg" alt="Xubuntu" /></a>
+   </h1>
+   
+   <nav id="nav">
+      <div class="menu">
+      <a href="/download/">Download</a>
+      <a href="/help/">Support</a>
+      <a href="/contribute/">Contribute</a>
+      <a aria-current="true" class="ancestor" href="/news/">Blog</a>
+      </div>
+   </nav>
+
+</section>
+
+
+    
+  </header>
+  <main>
+    
+   <article>
+   <h1>
+      <a href="/news/2016/presenting-xubuntu-status-tracker/">
+         Presenting the Xubuntu status tracker
+      </a>
+   </h1>
+
+   <ul class="meta">
+      
+      
+      <li><time datetime="2016-11-01T10:43:21&#43;00:00">November 1, 2016</time></li>
+      
+      
+   </ul>
+
+   <p>Status tracking is useful for all kinds of projects, including Xubuntu. Amongst other things, it allows contributors to quickly see what&rsquo;s left to do and what others are working on. When the tracking data is kept up to date, the resulting data can be immensely helpful.</p>
+<p>Until 2015, the Xubuntu team had been using the common status tracker for Ubuntu teams. For a reason or another, it suddenly stopped working as tracking data from Launchpad didn&rsquo;t make it into the tracker database. That was unfortunate, but on the other hand, it helped the team make an important decision which had been floating around for quite some time already; we need our own status tracker that is ideally better than the common one used this far.</p>
+<p>Today, we want to present you the Xubuntu status tracker. For the impatient, head down to <a href="http://dev.xubuntu.org/">dev.xubuntu.org</a> to see what it looks like.</p>
+<p>For the rest of us (and the impatient when they come back), continue reading to get an idea what the tracker can do and how it can help the Xubuntu team – and potentially, motivate people to start contributing to Xubuntu.</p>
+<h2 id="the-views-and-the-benefits">The views and the benefits</h2>
+<p>In the current state, the status tracker has four main views. The first one of them is <a href="http://dev.xubuntu.org/#tab-overview">the overview</a>, which lets contributors see how different specifications are coming along. This view also allows the visitor to look at the whiteboards of each specification easily and quickly without visiting Launchpad.</p>
+<p>The other view is all about the <a href="http://dev.xubuntu.org/#tab-details">work items and their details</a>. In this view, you can filter the work items with various filters, as well as sort them by assignee, work item status or specification. The filtering is a new feature specifically built for the Xubuntu status tracker and has already proven useful for the team members.</p>
+<p>For example, if you wanted to see all work items related to GTK, you could simply type <em>gtk</em> in the Text filter – the results are shown to you immediately. If you further wanted to filter the results, you could select any assignees, specifications and statuses. Yes, that&rsquo;s right, you can select multiple values for all of the filters.</p>
+<p>As another example that has a more useful real world use case, you could show only all of the open work items by selecting <em>To Do</em>, <em>In Progress</em> and <em>Blocked</em> from the <em>Status</em> dropdown. Finally, you can create a handy shortcut for this view by dragging the <em>Permalink</em> into your bookmarks. Following this link you can always get to the same filter state.</p>
+<p>The third view is the <a href="http://dev.xubuntu.org/#tab-burndown">burndown chart</a>. This view shows the history for the work item statuses. In the Xubuntu status tracker, the burndown chart also shows <em>events</em> that the team considers important during the cycle, mostly different freezes.</p>
+<p>In addition to showing the team whether we are in good pace to finish all work items in time, it can also point out useful and interesting information for the testers and end users; for example, the amount of work items closed between Beta 1 and 2 is huge. While this means that the quality of the product should have gone up, it also means that tests ran against Beta 1 do not have any validity during the Beta 2 testing – it all needs to be ran again to make sure the fixes are actually working and that there are no regressions.</p>
+<p>The final view – the <a href="http://dev.xubuntu.org/#tab-timeline">timeline</a> – simply shows which work items have been completed and when. This is also a new feature for the new tracker. The timeline is useful for the testers – when they can see what has been changed and when, they&rsquo;ll know what they need to test. It also helps the contributors to gather the release notes for the releases, especially the milestones, which has previously been laborious work digging through changelogs and much more.</p>
+<p>Finally, it serves as an automatic team updates chart for the team itself as well as other teams. This way we can let everybody know what we have been working on without actively needing to take extra effort.</p>
+<p>In addition to the main views, the tracker has an menu that is integrated with the Xubuntu wiki and additionally links to the team calendar, IRC channel, mailing list and the new contributor documentation.</p>
+<h2 id="the-future">The future</h2>
+<p>As the common Ubuntu status tracker, the Xubuntu status tracker gets most of the data from Launchpad blueprints. While this means we don&rsquo;t have to take on some of the maintaining burden, it has it&rsquo;s problems. It&rsquo;s possible that we start storing the work items internally to avoid a lot of API calls and the caching issues related with them.</p>
+<p>There are also some plans for the future to start digging more information to the tracker from other tools like the QA trackers and Jenkins to get an overview of how the quality assurance is running.</p>
+<p>If you are interested in contributing to the tracker, be in touch with us via the developer IRC channel (#xubuntu-devel on Freenode) or the <a href="https://lists.ubuntu.com/mailman/listinfo/xubuntu-devel">Xubuntu developer mailing list</a>.</p>
+
+</article>
+
+
+  </main>
+  <footer>
+    <section>
+   <div>
+      
+      <a class="icon" href="/"><img src="http://localhost:1313/images/icon_white_xubuntu.svg" alt="Xubuntu" /></a>
+      <section class="columns-2">
+         
+   <nav id="nav">
+      <div class="menu">
+      <a href="/download/">Download</a>
+      <a href="/help/">Support</a>
+      <a href="/contribute/">Contribute</a>
+      <a aria-current="true" class="ancestor" href="/news/">Blog</a>
+      </div>
+   </nav>
+
+         <div>
+            
+            
+            
+               <a href="http://localhost:1313/release/24.04/">Xubuntu 24.04</a>
+            
+            <a href="/releases/">All releases</a>
+         </div>
+      </section>
+   </div>
+   <div>
+      
+      <span class="icon"><img src="http://localhost:1313/images/icon_white_communicate.svg" alt="Communicate" /></span>
+      <p class="sub">Communicate</p>
+      <ul>
+         <li><a href="https://kiwiirc.com/nextclient/irc.libera.chat?nick=xu-user?w#xubuntu">IRC</a></li>
+         <li><a href="https://matrix.to/#/#xubuntu:ubuntu.com">Matrix</a></li>
+      </ul>
+      <ul>
+         <li><a href="https://twitter.com/Xubuntu">X</a></li>
+         <li><a href="http://www.facebook.com/xubuntuusers">Facebook</a></li>
+         <li><a href="https://floss.social/@xubuntu">Mastodon</a></li>
+      </ul>
+   </div>
+   <div>
+      
+      <span class="icon"><img src="http://localhost:1313/images/icon_white_merchdonate.svg" alt="Merch & Donate" /></span>
+      <p class="sub">Merchandise</p>
+      <ul>
+         <li><a href="https://www.hellotux.com/xubuntu">Hellotux</a></li>
+      </ul>
+      <p class="sub">Donate</p>
+      <ul>
+         <li><a href="https://opencollective.com/xfce">Xfce (US)</a></li>
+         <li><a href="https://opencollective.com/xfce-eu">Xfce (Europe)</a></li>
+      </ul>
+   </div>
+   <div>
+      
+      <span class="icon"><img src="http://localhost:1313/images/icon_white_developers.svg" alt="Developers" /></span>
+      <p class="sub">For Developers</p>
+      <ul>
+         <li><a href="https://github.com/Xubuntu">GitHub</a></li>
+         <li><a href="https://kiwiirc.com/nextclient/irc.libera.chat?nick=xu-contribute?w#xubuntu-devel">IRC</a></li>
+         <li><a href="https://matrix.to/#/#xubuntu-devel:ubuntu.com">Matrix</a></li>
+      </ul>
+   </div>
+</section>
+
+  </footer>
+</body>
+</html>

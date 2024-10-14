@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+<title>Xubuntu</title>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+
+
+
+
+
+   <link rel="stylesheet" href="http://localhost:1313/static/css/xubuntu.min.8272e5fad2cd84ab96d611528c7e1f367ade98ffa34e6053f46994f11f358698.css">
+
+
+
+
+
+
+   <script src="/static/js/xubuntu.min.de87fd7c3450b7eb4210101add6022f3a1df78bf9270e3016a18a11ccfcfd027.js" integrity="sha256-3of9fDRQt&#43;tCEBAa3WAi86HfeL&#43;ScOMBahihHM/P0Cc=" crossorigin="anonymous"></script>
+
+
+
+</head>
+<body id="releasedocs_release-notes">
+  <header>
+    <section id="header_main" class="main">
+   <h1 id="logo">
+      
+      <a href="http://localhost:1313/"><img src="http://localhost:1313/images/logo.svg" alt="Xubuntu" /></a>
+   </h1>
+   
+   <nav id="nav">
+      <div class="menu">
+      <a href="/download/">Download</a>
+      <a href="/help/">Support</a>
+      <a href="/contribute/">Contribute</a>
+      <a href="/news/">Blog</a>
+      </div>
+   </nav>
+
+</section>
+
+
+    
+  </header>
+  <main>
+    
+   <section class="page">
+      <h2>Xubuntu 18.10 Release Notes</h2>
+      <h2 id="upgrading-from-1804">Upgrading from 18.04</h2>
+<p>For 32 bit installations this is <a href="https://wiki.ubuntu.com/CosmicCuttlefish/ReleaseNotes#Upgrades_on_i386">disabled</a> and currently out of our control.</p>
+<h2 id="installer-issues">Installer Issues</h2>
+<p><strong>It must be noted that it is close to impossible for our small team of testers to be in a position to work through all the varying parameters available during installation. We do however aim to test all the possible methods of installation (including for OEM and using encryption) available either on a virtual machine or on hardware (where hardware has been used during testing then Xubuntu QA will where possible make that known on the iso testing tracker). Further installation testing information can be on the Ubuntu installation release note(s) listed below</strong></p>
+<ul>
+<li>No restart after installation (<a href="https://bugs.launchpad.net/ubuntu/+source/casper/+bug/1723760">1723760</a>)</li>
+</ul>
+<h2 id="general-issues">General Issues</h2>
+<ul>
+<li><strong>GNOME Software crashes on 32-bit architectures</strong> (<a href="https://bugs.launchpad.net/ubuntu/+source/gnome-software/+bug/1798236">1798236</a>)
+<ul>
+<li>This issue should be resolved after installing and running updates.</li>
+</ul>
+</li>
+<li>Network indicators
+<ul>
+<li>Currently at times the panel could show 2 network icons, this appears to be a race condition which we have not been able to rectify in time for release.</li>
+</ul>
+</li>
+<li>Panel
+<ul>
+<li>Applications Menu plugin clips panel icon (<a href="https://bugs.launchpad.net/ubuntu/+source/xfce4-panel/+bug/1756608">1756608</a>)</li>
+<li>Launch and Directory Menu items icons are too small (<a href="https://bugs.launchpad.net/ubuntu/+source/xfce4-panel/+bug/1756612">1756612</a>)</li>
+<li>Window buttons are not clickable at very top of screen (0px area) (<a href="https://bugs.launchpad.net/ubuntu/+source/greybird-gtk-theme/+bug/1795135">1795135</a>)</li>
+</ul>
+</li>
+<li>Parole Media Player
+<ul>
+<li>Play button inactive (<a href="https://bugs.launchpad.net/parole/+bug/1705243">1705243</a>)</li>
+<li>Player crashes when MPRIS2 plugin is disabled (<a href="https://bugs.launchpad.net/ubuntu/+source/parole/+bug/1698540">1698540</a>)</li>
+</ul>
+</li>
+<li>Ristretto: Thumbnail sidebar shows error icons instead of thumbnails for some images (<a href="https://bugs.launchpad.net/ubuntu/+source/ristretto/+bug/1756191">1756191</a>)</li>
+<li>Settings Manager: Mouse fails to scroll apps in settings manager (GTK+ 3 regression) (<a href="https://bugs.launchpad.net/ubuntu/+source/xfce4-settings/+bug/1653448">1653448</a>)</li>
+</ul>
+<h3 id="ubuntu-generic-release-note">Ubuntu Generic Release Note</h3>
+<p>The main Ubuntu release <a href="https://wiki.ubuntu.com/CosmicCuttlefish/ReleaseNotes">note</a> covers both many of the other packages we carry and more generic issues.</p>
+<h2 id="major-updates">Major Updates</h2>
+<h3 id="appearance">Appearance</h3>
+<h4 id="cosmic-wallpaper">Cosmic Wallpaper</h4>
+<p>Our beautiful new wallpaper features a gentle purple tone and greatly complements our GTK and icon themes. Past wallpapers are available in the <a href="https://launchpad.net/ubuntu/cosmic/+package/xubuntu-wallpapers">xubuntu-wallpapers</a> package.</p>
+<p><a href="xubuntu-cosmic.png"><!-- raw HTML omitted --></a></p>
+<h4 id="elementary-xfce-icon-theme-013">elementary Xfce Icon Theme 0.13</h4>
+<p>The latest version of <a href="https://github.com/shimmerproject/elementary-xfce">our icon theme</a> includes the manila folder icons as seen in the <a href="https://github.com/elementary/icons">upstream elementary icon theme</a>. Additionally, our icon theme is now optimized with optipng, meaning a smaller install size and potentially improved load times.</p>
+<p><a href="manilla-folders.png"><!-- raw HTML omitted --></a></p>
+<h4 id="greybird-3229">Greybird 3.22.9</h4>
+<p>The latest <a href="https://github.com/shimmerproject/Greybird">Greybird</a> release improves the look and feel of our window manager, alt-tab dialog, Chromium, and even pavucontrol! The notebook styles look significantly better and consistent with our other applications.</p>
+<p><a href="pavucontrol-greybird.png"><!-- raw HTML omitted --></a></p>
+<h3 id="xfce">Xfce</h3>
+<h4 id="applications">Applications</h4>
+<ul>
+<li><a href="https://bluesabre.org/2018/07/15/catfish-1-4-6-released-now-an-xfce-project/">Catfish 1.4.6</a></li>
+<li><a href="https://mail.xfce.org/pipermail/xfce-announce/2018-June/000609.html">Mousepad 0.4.1</a></li>
+<li><a href="https://mail.xfce.org/pipermail/xfce-announce/2018-June/000623.html">Ristretto 0.8.3</a></li>
+<li><a href="https://mail.xfce.org/pipermail/xfce-announce/2018-June/000614.html">Thunar 1.8.1</a> <em>(New GTK+ 3 release!)</em></li>
+<li><a href="https://mail.xfce.org/pipermail/xfce-announce/2018-June/000616.html">Xfce Desktop 4.13.2</a> <em>(New GTK+ 3 release!)</em></li>
+<li><a href="https://mail.xfce.org/pipermail/xfce-announce/2018-June/000610.html">Xfce Dictionary 0.8.1</a></li>
+<li><a href="https://mail.xfce.org/pipermail/xfce-announce/2018-May/000605.html">Xfce Panel 4.13.3</a> <em>(New GTK+ 3 release!)</em></li>
+<li><a href="https://mail.xfce.org/pipermail/xfce-announce/2018-August/000632.html">Xfce Screenshooter 1.9.3</a> <em>(New GTK+ 3 release!)</em></li>
+<li><a href="https://bluesabre.org/2018/06/20/xfce-settings-4-12-4-and-4-13-4-released/">Xfce Settings 4.13.4</a> <em>(New GTK+ 3 release!)</em></li>
+<li><a href="https://mail.xfce.org/pipermail/xfce-announce/2018-June/000612.html">Xfce Task Manager 1.2.1</a></li>
+<li><a href="https://mail.xfce.org/pipermail/xfce-announce/2018-May/000606.html">Xfce Terminal 0.8.7.4</a></li>
+<li><a href="https://mail.xfce.org/pipermail/xfce-announce/2018-July/000629.html">Xfce Window Manager 4.12.5</a></li>
+</ul>
+<h4 id="libraries">Libraries</h4>
+<ul>
+<li><a href="https://bluesabre.org/2018/06/20/exo-0-12-1-and-0-12-2-released/">Exo 0.12.2</a></li>
+<li><a href="https://mail.xfce.org/pipermail/xfce-announce/2018-June/000615.html">libxfce4util 4.13.2</a></li>
+<li><a href="https://mail.xfce.org/pipermail/xfce-announce/2018-September/000635.html">Tumbler 0.2.3</a></li>
+<li><a href="https://mail.xfce.org/pipermail/xfce-announce/2018-June/000619.html">Xfconf 4.13.5</a></li>
+</ul>
+<h4 id="panel-plugins">Panel Plugins</h4>
+<ul>
+<li><a href="https://mail.xfce.org/pipermail/xfce-announce/2018-April/000601.html">Xfce Verve Plugin 2.0.0</a> <em>(New GTK+ 3 release!)</em></li>
+<li><a href="https://mail.xfce.org/pipermail/xfce-announce/2018-July/000624.html">Xfce Whisker Menu Plugin 2.2.1</a></li>
+</ul>
+<h4 id="thunar-plugins">Thunar Plugins</h4>
+<ul>
+<li><a href="https://mail.xfce.org/pipermail/xfce-announce/2017-December/000566.html">Thunar Archive Plugin 0.4.0</a></li>
+<li><a href="https://mail.xfce.org/pipermail/xfce-announce/2018-February/000577.html">Thunar Media Tags Plugin 0.3.0</a></li>
+</ul>
+<h2 id="changelogs">Changelogs</h2>
+<h3 id="xubuntuother-packages">Xubuntu/Other Packages</h3>
+<ul>
+<li>atril (<a href="https://launchpad.net/ubuntu/cosmic/+source/atril/+changelog">changelog</a>)</li>
+<li>blueman (<a href="https://launchpad.net/ubuntu/cosmic/+source/blueman/+changelog">changelog</a>)</li>
+<li>elementary-xfce (<a href="https://launchpad.net/ubuntu/cosmic/+source/elementary-xfce/+changelog">changelog</a>)</li>
+<li>engrampa (<a href="https://launchpad.net/ubuntu/cosmic/+source/engrampa/+changelog">changelog</a>)</li>
+<li>gtk2-engines-xfce (<a href="https://launchpad.net/ubuntu/cosmic/+source/gtk2-engines-xfce/+changelog">changelog</a>)</li>
+<li>lightdm-gtk-greeter (<a href="https://launchpad.net/ubuntu/cosmic/+source/lightdm-gtk-greeter/+changelog">changelog</a>)</li>
+<li>lightdm-gtk-greeter-settings (<a href="https://launchpad.net/ubuntu/cosmic/+source/lightdm-gtk-greeter-settings/+changelog">changelog</a>)</li>
+<li>mate-calc (<a href="https://launchpad.net/ubuntu/cosmic/+source/mate-calc/+changelog">changelog</a>)</li>
+<li>menulibre (<a href="https://launchpad.net/ubuntu/cosmic/+source/menulibre/+changelog">changelog</a>)</li>
+<li>mugshot (<a href="https://launchpad.net/ubuntu/cosmic/+source/mugshot/+changelog">changelog</a>)</li>
+<li>pavucontrol (<a href="https://launchpad.net/ubuntu/cosmic/+source/pavucontrol/+changelog">changelog</a>)</li>
+<li>sgt-launcher (<a href="https://launchpad.net/ubuntu/cosmic/+source/sgt-launcher/+changelog">changelog</a>)</li>
+<li>shimmer-themes (<a href="https://launchpad.net/ubuntu/cosmic/+source/shimmer-themes/+changelog">changelog</a>)</li>
+<li>xfpanel-switch  (<a href="https://launchpad.net/ubuntu/cosmic/+source/xfpanel-switch/+changelog">changelog</a>)</li>
+<li>xubuntu-artwork (<a href="https://launchpad.net/ubuntu/cosmic/+source/xubuntu-artwork/+changelog">changelog</a>)</li>
+<li>xubuntu-core (<a href="https://launchpad.net/ubuntu/cosmic/+source/xubuntu-meta/+changelog">changelog</a>)</li>
+<li>xubuntu-default-settings (<a href="https://launchpad.net/ubuntu/cosmic/+source/xubuntu-default-settings/+changelog">changelog</a>)</li>
+<li>xubuntu-desktop (<a href="https://launchpad.net/ubuntu/cosmic/+source/xubuntu-meta/+changelog">changelog</a>)</li>
+<li>xubuntu-docs (<a href="https://launchpad.net/ubuntu/cosmic/+source/xubuntu-docs/+changelog">changelog</a>)</li>
+<li>xubuntu-meta (<a href="https://launchpad.net/ubuntu/cosmic/+source/xubuntu-meta/+changelog">changelog</a>)</li>
+<li>xubuntu-wallpapers (<a href="https://launchpad.net/ubuntu/cosmic/+source/xubuntu-artwork/+changelog">changelog</a>)</li>
+</ul>
+<h3 id="xfce-core">Xfce Core</h3>
+<ul>
+<li>exo (<a href="https://launchpad.net/ubuntu/cosmic/+source/exo/+changelog">changelog</a>)</li>
+<li>libxfce4ui (<a href="https://launchpad.net/ubuntu/cosmic/+source/libxfce4ui/+changelog">changelog</a>)</li>
+<li>libxfce4util (<a href="https://launchpad.net/ubuntu/cosmic/+source/libxfce4util/+changelog">changelog</a>)</li>
+<li>thunar (<a href="https://launchpad.net/ubuntu/cosmic/+source/thunar/+changelog">changelog</a>)</li>
+<li>thunar-volman (<a href="https://launchpad.net/ubuntu/cosmic/+source/thunar-volman/+changelog">changelog</a>)</li>
+<li>tumbler (<a href="https://launchpad.net/ubuntu/cosmic/+source/tumbler/+changelog">changelog</a>)</li>
+<li>xfce4-appfinder (<a href="https://launchpad.net/ubuntu/cosmic/+source/xfce4-appfinder/+changelog">changelog</a>)</li>
+<li>xfce4-panel (<a href="https://launchpad.net/ubuntu/cosmic/+source/xfce4-panel/+changelog">changelog</a>)</li>
+<li>xfce4-power-manager (<a href="https://launchpad.net/ubuntu/cosmic/+source/xfce4-power-manager/+changelog">changelog</a>)</li>
+<li>xfce4-session (<a href="https://launchpad.net/ubuntu/cosmic/+source/xfce4-session/+changelog">changelog</a>)</li>
+<li>xfce4-settings (<a href="https://launchpad.net/ubuntu/cosmic/+source/xfce4-settings/+changelog">changelog</a>)</li>
+<li>xfconf (<a href="https://launchpad.net/ubuntu/cosmic/+source/xfconf/+changelog">changelog</a>)</li>
+<li>xfdesktop4 (<a href="https://launchpad.net/ubuntu/cosmic/+source/xfdesktop4/+changelog">changelog</a>)</li>
+<li>xfwm4 (<a href="https://launchpad.net/ubuntu/cosmic/+source/xfwm4/+changelog">changelog</a>)</li>
+</ul>
+<h3 id="xfce-applications">Xfce Applications</h3>
+<ul>
+<li>catfish (<a href="https://launchpad.net/ubuntu/cosmic/+source/catfish/+changelog">changelog</a>)</li>
+<li>mousepad (<a href="https://launchpad.net/ubuntu/cosmic/+source/mousepad/+changelog">changelog</a>)</li>
+<li>orage (<a href="https://launchpad.net/ubuntu/cosmic/+source/orage/+changelog">changelog</a>)</li>
+<li>parole (<a href="https://launchpad.net/ubuntu/cosmic/+source/parole/+changelog">changelog</a>)</li>
+<li>ristretto (<a href="https://launchpad.net/ubuntu/cosmic/+source/ristretto/+changelog">changelog</a>)</li>
+<li>xfburn (<a href="https://launchpad.net/ubuntu/cosmic/+source/xfburn/+changelog">changelog</a>)</li>
+<li>xfce4-notifyd (<a href="https://launchpad.net/ubuntu/cosmic/+source/xfce4-notifyd/+changelog">changelog</a>)</li>
+<li>xfce4-screenshooter (<a href="https://launchpad.net/ubuntu/cosmic/+source/xfce4-screenshooter/+changelog">changelog</a>)</li>
+<li>xfce4-taskmanager (<a href="https://launchpad.net/ubuntu/cosmic/+source/xfce4-taskmanager/+changelog">changelog</a>)</li>
+<li>xfce4-terminal (<a href="https://launchpad.net/ubuntu/cosmic/+source/xfce4-terminal/+changelog">changelog</a>)</li>
+</ul>
+<h3 id="xfce-panel-plugins">Xfce Panel Plugins</h3>
+<ul>
+<li>xfce4-cpugraph-plugin (<a href="https://launchpad.net/ubuntu/cosmic/+source/xfce4-cpugraph-plugin/+changelog">changelog</a>)</li>
+<li>xfce4-dict (<a href="https://launchpad.net/ubuntu/cosmic/+source/xfce4-dict/+changelog">changelog</a>)</li>
+<li>xfce4-indicator-plugin (<a href="https://launchpad.net/ubuntu/cosmic/+source/xfce4-indicator-plugin/+changelog">changelog</a>)</li>
+<li>xfce4-mailwatch-plugin (<a href="https://launchpad.net/ubuntu/cosmic/+source/xfce4-mailwatch-plugin/+changelog">changelog</a>)</li>
+<li>xfce4-netload-plugin (<a href="https://launchpad.net/ubuntu/cosmic/+source/xfce4-netload-plugin/+changelog">changelog</a>)</li>
+<li>xfce4-notes-plugin (<a href="https://launchpad.net/ubuntu/cosmic/+source/xfce4-notes-plugin/+changelog">changelog</a></li>
+<li>xfce4-places-plugin (<a href="https://launchpad.net/ubuntu/cosmic/+source/xfce4-places-plugin/+changelog">changelog</a>)</li>
+<li>xfce4-pulseaudio-plugin (<a href="https://launchpad.net/ubuntu/cosmic/+source/xfce4-pulseaudio-plugin/+changelog">changelog</a>)</li>
+<li>xfce4-quicklauncher-plugin (<a href="https://launchpad.net/ubuntu/cosmic/+source/xfce4-quicklauncher-plugin/+changelog">changelog</a>)</li>
+<li>xfce4-statusnotifier-plugin (<a href="https://launchpad.net/ubuntu/cosmic/+source/xfce4-statusnotifier-plugin/+changelog">changelog</a>)</li>
+<li>xfce4-systemload-plugin (<a href="https://launchpad.net/ubuntu/cosmic/+source/xfce4-systemload-plugin/+changelog">changelog</a>)</li>
+<li>xfce4-verve-plugin (<a href="https://launchpad.net/ubuntu/cosmic/+source/xfce4-verve-plugin/+changelog">changelog</a>)</li>
+<li>xfce4-weather-plugin (<a href="https://launchpad.net/ubuntu/cosmic/+source/xfce4-weather-plugin/+changelog">changelog</a>)</li>
+<li>xfce4-whiskermenu-plugin (<a href="https://launchpad.net/ubuntu/cosmic/+source/xfce4-whiskermenu-plugin/+changelog">changelog</a>)</li>
+<li>xfce4-xkb-plugin (<a href="https://launchpad.net/ubuntu/cosmic/+source/xfce4-xkb-plugin/+changelog">changelog</a>)</li>
+</ul>
+<h3 id="thunar-plugins-1">Thunar Plugins</h3>
+<ul>
+<li>thunar-archive-plugin (<a href="https://launchpad.net/ubuntu/cosmic/+source/thunar-archive-plugin/+changelog">changelog</a>)</li>
+<li>thunar-media-tags-plugin (<a href="https://launchpad.net/ubuntu/cosmic/+source/thunar-media-tags-plugin/+changelog">changelog</a>)</li>
+</ul>
+
+   </section>
+
+  </main>
+  <footer>
+    <section>
+   <div>
+      
+      <a class="icon" href="/"><img src="http://localhost:1313/images/icon_white_xubuntu.svg" alt="Xubuntu" /></a>
+      <section class="columns-2">
+         
+   <nav id="nav">
+      <div class="menu">
+      <a href="/download/">Download</a>
+      <a href="/help/">Support</a>
+      <a href="/contribute/">Contribute</a>
+      <a href="/news/">Blog</a>
+      </div>
+   </nav>
+
+         <div>
+            
+            
+            
+               <a href="http://localhost:1313/release/24.04/">Xubuntu 24.04</a>
+            
+            <a href="/releases/">All releases</a>
+         </div>
+      </section>
+   </div>
+   <div>
+      
+      <span class="icon"><img src="http://localhost:1313/images/icon_white_communicate.svg" alt="Communicate" /></span>
+      <p class="sub">Communicate</p>
+      <ul>
+         <li><a href="https://kiwiirc.com/nextclient/irc.libera.chat?nick=xu-user?w#xubuntu">IRC</a></li>
+         <li><a href="https://matrix.to/#/#xubuntu:ubuntu.com">Matrix</a></li>
+      </ul>
+      <ul>
+         <li><a href="https://twitter.com/Xubuntu">X</a></li>
+         <li><a href="http://www.facebook.com/xubuntuusers">Facebook</a></li>
+         <li><a href="https://floss.social/@xubuntu">Mastodon</a></li>
+      </ul>
+   </div>
+   <div>
+      
+      <span class="icon"><img src="http://localhost:1313/images/icon_white_merchdonate.svg" alt="Merch & Donate" /></span>
+      <p class="sub">Merchandise</p>
+      <ul>
+         <li><a href="https://www.hellotux.com/xubuntu">Hellotux</a></li>
+      </ul>
+      <p class="sub">Donate</p>
+      <ul>
+         <li><a href="https://opencollective.com/xfce">Xfce (US)</a></li>
+         <li><a href="https://opencollective.com/xfce-eu">Xfce (Europe)</a></li>
+      </ul>
+   </div>
+   <div>
+      
+      <span class="icon"><img src="http://localhost:1313/images/icon_white_developers.svg" alt="Developers" /></span>
+      <p class="sub">For Developers</p>
+      <ul>
+         <li><a href="https://github.com/Xubuntu">GitHub</a></li>
+         <li><a href="https://kiwiirc.com/nextclient/irc.libera.chat?nick=xu-contribute?w#xubuntu-devel">IRC</a></li>
+         <li><a href="https://matrix.to/#/#xubuntu-devel:ubuntu.com">Matrix</a></li>
+      </ul>
+   </div>
+</section>
+
+  </footer>
+</body>
+</html>

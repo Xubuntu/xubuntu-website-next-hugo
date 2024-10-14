@@ -1,0 +1,5 @@
+{{ $icon := .Get "icon" }}
+<div class="icon icon-{{ $icon }}">
+   {{ $path := "/svg/icon_" $icon ".svg" }}
+   {{ readFile $path | safeHTML }}
+</div>

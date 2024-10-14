@@ -1,0 +1,6 @@
+{{ $main := resources.Get "js/main.js" }}
+{{ $js := slice $main | resources.Concat "static/js/xubuntu.js" }}
+
+{{ with $js | minify | fingerprint }}
+   <script src="{{ .RelPermalink }}" integrity="{{- .Data.Integrity }}" crossorigin="anonymous"></script>
+{{ end }}

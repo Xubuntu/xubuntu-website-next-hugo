@@ -1,0 +1,21 @@
+<article>
+   <h1>
+      <a href="{{ .RelPermalink }}">
+         {{ .Title }}
+      </a>
+   </h1>
+
+   <ul class="meta">
+      {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+      {{ $dateHuman := .Date | time.Format ":date_long" }}
+      <li><time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time></li>
+      {{ if .Params.release }}
+         <li>{{ .Params.release }}</li>
+      {{ end }}
+      {{ if .Params.serie }}
+         <li>{{ .Params.serie }}</li>
+      {{ end }}
+   </ul>
+
+   {{ .Content }}
+</article>

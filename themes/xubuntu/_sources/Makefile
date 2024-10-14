@@ -1,0 +1,3 @@
+export:
+	for file in assets/images/*.svg; do scour $$file ../assets/images/`basename $$file` --strip-xml-prolog --enable-id-stripping --remove-metadata --enable-comment-stripping --enable-viewboxing --shorten-ids --shorten-ids-prefix=`basename $$file .svg`_; done; \
+	for file in static/images/*.svg; do scour $$file ../static/images/`basename $$file` --strip-xml-prolog --enable-id-stripping --remove-metadata --enable-comment-stripping --enable-viewboxing --shorten-ids --shorten-ids-prefix=`basename $$file .svg`_; done
