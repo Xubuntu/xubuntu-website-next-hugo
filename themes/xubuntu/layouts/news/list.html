@@ -1,5 +1,5 @@
 {{ define "main" }}
-   {{ range (.Paginate .Pages 200).Pages }}
+   {{ range (.Paginate .Pages 5).Pages }}
       {{ partial "news-single.html" . }}
    {{ end }}
 
