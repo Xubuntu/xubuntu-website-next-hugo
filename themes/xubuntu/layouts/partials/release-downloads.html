@@ -1,41 +1,57 @@
-{{ $p := dict "desktop" "Desktop" "minimal" "Minimal" }}
-{{ $a := dict "amd64" "64-bit" "i386" "32-bit" }}
-{{ $torrent_link_format := "https://torrent.ubuntu.com/xubuntu/releases/CODENAME/release/PRODUCT/xubuntu-VER-PRODUCT-ARCH.iso.torrent" }}
+{{ $eol := .Params.date_eol }}
+{{ $now := time.Now | time.Format "2006-01-02" }}
 
-{{ $codename := .Params.codename_slug }}
-{{ $version := or .Params.version_point .Params.version }}
-{{ $arches := split .Params.architectures "," }}
+{{ if lt $eol $now }}
+   <p>
+      <strong>This release has reached End of Life</strong><br/>
+      The downloads are listed here only for archival purposes. Running this release is <strong>not recommended</strong> under any circumstances.
+   </p>
+   <p><a class="quo" href="https://old-releases.ubuntu.com/releases/xubuntu/">I understand and accept the risks</a></p>
+   <p class="small">The above link will redirect you to <strong>old-releases.ubuntu.com</strong>, where you will have to navigate to the correct release manually. <em>You have been warned.</em></p>
+{{ else }}
+   {{ $p := dict "desktop" "Desktop" "minimal" "Minimal" }}
+   {{ $a := dict "amd64" "64-bit" "i386" "32-bit" }}
+   {{ $torrent_link_format := "https://torrent.ubuntu.com/xubuntu/releases/CODENAME/release/PRODUCT/xubuntu-VER-PRODUCT-ARCH.iso.torrent" }}
 
-<h4>Torrents <span class="sidenote">Highly recommended!</span></h4>
-<ul>
-   {{ $products := split .Params.products "," }}
-   {{ range $products }}
-      {{ $product_name := index $p . }}
-      {{ $torrent := $torrent_link_format }}
-      {{ $torrent := replace $torrent "CODENAME" $codename }}
-      {{ $torrent := replace $torrent "PRODUCT" . }}
-      {{ $torrent := replace $torrent "VER" $version }}
+   {{ $codename := .Params.codename_slug }}
+   {{ $version := or .Params.version_point .Params.version }}
+   {{ $arches := split .Params.architectures "," }}
 
-      {{ range $arches }}
-         {{ $arch_name := index $a . }}
-         {{ $torrent_arch := $torrent }}
-         {{ $torrent_arch := replace $torrent_arch "ARCH" . }}
-         <li><strong><a href="{{ $torrent_arch }}">Torrent ({{ $product_name }}, {{ $arch_name }})</a></strong></li>
-      {{ end }}
-   {{ end }}
-</ul>
-<details>
-   <summary>
-      <h4>Direct Downloads <span class="sidenote click-to-open">Click to open!</span></h4>
-   </summary>
-   <ul class="columned-list">
-      {{ range .Site.Data.mirrors.servers }}
-         <li>
-            {{ if .major }}<strong>{{ end }}
-            {{ $url := replace .url "VER" $version }}
-            <a href="{{ $url }}" title="{{ .name }}">{{ .country }}</a>
-            {{ if .major }}</strong>{{ end }}
-         </li>
+   <h4>Torrents <span class="sidenote">Highly recommended!</span></h4>
+   <ul>
+      {{ $products := split .Params.products "," }}
+      {{ range $products }}
+         {{ $product_name := index $p . }}
+         {{ $torrent := $torrent_link_format }}
+         {{ $torrent := replace $torrent "CODENAME" $codename }}
+         {{ $torrent := replace $torrent "PRODUCT" . }}
+         {{ $torrent := replace $torrent "VER" $version }}
+
+         {{ range $arches }}
+            {{ $arch_name := index $a . }}
+            {{ $torrent_arch := $torrent }}
+            {{ $torrent_arch := replace $torrent_arch "ARCH" . }}
+            <li><strong><a href="{{ $torrent_arch }}">Torrent ({{ $product_name }}, {{ $arch_name }})</a></strong></li>
+         {{ end }}
       {{ end }}
    </ul>
-</details>
+   <p>The SHA1 checksums for the torrents are available <a href="https://torrent.ubuntu.com/tracker_index">here</a>.</p>
+
+   <details>
+      <summary>
+         <h4>Direct Downloads <span class="sidenote click-to-open">Click to open!</span></h4>
+      </summary>
+      <ul class="columned-list">
+         {{ range .Site.Data.mirrors.servers }}
+            <li>
+               {{ if .major }}<strong>{{ end }}
+               {{ $url := replace .url "VER" $version }}
+               <a href="{{ $url }}" title="{{ .name }}">{{ .country }}</a>
+               {{ if .major }}</strong>{{ end }}
+            </li>
+         {{ end }}
+      </ul>
+      {{ $checksum_url := replace .Site.Data.mirrors.checksums "VER" $version }}
+      <p>The SHA256 checksums for the ISOs are available <a href="{{ $checksum_url }}">here</a>.</p>
+   </details>
+{{ end }}

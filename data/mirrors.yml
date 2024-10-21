@@ -1,3 +1,5 @@
+checksums: https://cdimages.ubuntu.com/xubuntu/releases/VER/release/SHA256SUMS
+
 servers:
   - name: AARnet Pty Ltd
     country: Australia
