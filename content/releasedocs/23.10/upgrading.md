@@ -3,6 +3,7 @@ layout:    page
 release:   "23.10"
 link_name: "Upgrading"
 title:     "Upgrading to Xubuntu 23.10"
+weight:    1
 ---
 
 You can easily upgrade over the network with the following procedure. Upgrades from Xubuntu 23.04 are supported. For all other Ubuntu systems, please read [ManticUpgrades](https://help.ubuntu.com/community/ManticUpgrades) on help.ubuntu.com.

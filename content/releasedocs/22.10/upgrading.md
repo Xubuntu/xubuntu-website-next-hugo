@@ -3,6 +3,7 @@ layout:    page
 release:   "22.10"
 link_name: "Upgrading"
 title:     "Upgrading to Xubuntu 22.10"
+weight:    1
 ---
 
 You can easily upgrade over the network with the following procedure. Upgrades from Xubuntu 22.04 are supported. For all other Ubuntu systems, please read [KineticUpgrades](https://help.ubuntu.com/community/KineticUpgrades) on ubuntu.com.

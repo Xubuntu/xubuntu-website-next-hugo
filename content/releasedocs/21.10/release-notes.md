@@ -3,7 +3,6 @@ layout:    page
 release:   "21.10"
 link_name: "Release Notes"
 title:     "Xubuntu 21.10 Release Notes"
-date:      2021-10-14 12:00:00
 ---
 
 **Welcome to the Xubuntu 21.10 "Impish Indri" release notes!**

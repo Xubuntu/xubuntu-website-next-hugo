@@ -4,17 +4,20 @@
       {{ .Content }}
 
       {{ partial "inline/release/info.html" . }}
+   </section>
 
+   <section class="wide alternative-bg">
       <h3>Downloads</h3>
       {{ partial "release-downloads.html" . }}
+   </section>
 
+   <section>
       <h3>Articles</h3>
       {{ partial "inline/release/articles.html" . }}
 
       <h3>In the Press</h3>
       {{ partial "inline/release/press.html" . }}
 
-      <h3>Release Media</h3>
       {{ partial "inline/release/media.html" . }}
    </section>
 {{ end }}
@@ -29,8 +32,9 @@
 {{ end }}
 
 {{ define "partials/inline/release/documents.html" }}
-   {{ $documents := (where .Site.RegularPages "Type" "releasedocs") }}
+   {{ $documents := where .Site.RegularPages "Type" "releasedocs" }}
    {{ $documents := where $documents ".Params.release" .Params.version }}
+   {{ $documents := sort $documents ".Params.weight" "asc" }}
    {{ if gt ($documents | len ) 1 }}
       <dt>Release Documents</dt>
       <dd>
@@ -64,14 +68,17 @@
 {{ end }}
 
 {{ define "partials/inline/release/media.html" }}
-   {{ $media_path := printf "%s/%smedia" "content" .File.Dir }}
+   {{ $media_path := printf "content/%smedia" .File.Dir }}
    {{ if (fileExists $media_path) }}
       {{ $files := readDir $media_path }}
-      {{ range $files }}
-         {{ if (and (ne (substr .Name 0 1) "_") (not .IsDir)) }}
-            {{ $file_path := printf "%s/%s" "media" .Name }}
-            <img src="{{ $file_path }}" />
-      	{{ end }}
+      {{ if gt ($files | len) 0 }}
+         <h3>Release Media</h3>
+         {{ range $files }}
+            {{ if (and (ne (substr .Name 0 1) "_") (not .IsDir)) }}
+               {{ $file_path := printf "%s/%s" "media" .Name }}
+               <img src="{{ $file_path }}" />
+         	{{ end }}
+         {{ end }}
       {{ end }}
    {{ end }}
 {{ end }}

@@ -3,7 +3,7 @@ layout:    page
 release:   "21.10"
 link_name: "Keyboard Shortcuts"
 title:     "Xubuntu 21.10 Keyboard Shortcuts"
-date:      2021-10-14 12:00:01
+weight:    1
 ---
 
 ## General
