@@ -24,6 +24,7 @@
 
    --color-button-fg: var(--palette-xubuntu-blue);
    --color-button-bg: #edf4fa;
+   --color-button-bg-alternative: #fff;
    --color-button-shadow: var(--palette-xubuntu-blue-alt);
    --color-button-glow: rgba(255,255,255,0.5);
 
@@ -605,6 +606,9 @@ section.alternative-bg {
       z-index: 2;
       transition: 200ms all;
    }
+      .alternative-bg .button span {
+         color: var(--color-button-bg-alternative);
+      }
       .button span::after {
          content: '›';
          margin-left: 0.5em;
