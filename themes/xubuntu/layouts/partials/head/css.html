@@ -1,9 +1,8 @@
 {{ $reset := resources.Get "css/reset.css" }}
 {{ $fonts := resources.Get "css/fonts.css" }}
 {{ $main := resources.Get "css/main.css" }}
-{{ $animations := resources.Get "css/animations.css" }}
 
-{{ $css := slice $reset $fonts $main $animations | resources.Concat "static/css/xubuntu.css" }}
+{{ $css := slice $reset $fonts $main | resources.Concat "static/css/xubuntu.css" }}
 
 {{ with $css | minify | fingerprint }}
    <link rel="stylesheet" href="{{ .Permalink }}">

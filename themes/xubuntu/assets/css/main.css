@@ -125,7 +125,7 @@ h1, h2, h3, h4, h5, h6 {
    h2, article h1 { font-size: 200%; color: var(--color-heading); }
       article h1 { margin-bottom: 0; }
    h3, article h2 { font-size: 140%; font-weight: 500; color: var(--color-fg-secondary); }
-   h4, article h3 { font-size: 100%; font-weight: 500; }
+   h4, article h3 { font-size: 110%; font-weight: 500; letter-spacing: 0.03em; }
 
 hr {
    border: none;
