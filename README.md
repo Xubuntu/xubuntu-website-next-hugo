@@ -9,6 +9,8 @@ Static Xubuntu website running on [Hugo](https://gohugo.io/), a Go framework for
   - [Skeleton diagram](#skeleton-diagram)
 - [Quick start | Hugo](#quick-start--hugo)
 - [Add release content](#add-release-content)
+- [Development](#development)
+  - [Run locally \[Docker on Linux/WSL\]](#run-locally-docker-on-linuxwsl)
 - [Contribute](#contribute)
 
 
@@ -247,6 +249,39 @@ On a new release `XX.XX` (e.g. `24.04`), you have to produce the following files
 * `content/release/XX.XX/index.md`, e.g. [`content/release/24.04/index.md`](./content/release/24.04/index.md)
 * `content/releasedocs/XX.XX/release-notes.md`, e.g. [`content/releasedocs/24.04/release-notes.md`](./content/releasedocs/24.04/release-notes.md)
 * `content/releasedocs/XX.XX/upgrading.md`, e.g. [`content/releasedocs/24.04/upgrading.md`](./content/releasedocs/24.04/upgrading.md)
+
+
+# Development
+
+## Run locally [Docker on Linux/WSL]
+
+To build and run the website, you can run from inside the repo folder:
+```bash
+docker run --rm -v .:/site/pages -p 1313:1313 ghcr.io/gohugoio/hugo:latest server --source /site/pages --bind 0.0.0.0
+```
+Then, in your web browser, head to: `http://localhost:1313/`
+
+
+If you want to look at what is built, you can mount the destination on the host, e.g. at `~/tmp` in the following:
+```bash
+docker run --rm -v .:/site/pages -v ~/tmp:/site/public -p 1313:1313 ghcr.io/gohugoio/hugo:latest server --source /site/pages --destination /site/public --bind 0.0.0.0
+```
+
+> [!NOTE]
+> `ghcr.io/gohugoio/hugo:latest` is the official Docker image for Hugo. However, its usage have not yet made its way into the docs (pending on a PR).
+>
+> <details>
+> <summary>For more details, you can refer to the following:</summary>
+> 
+> * Pending PR: [Document usage of official Docker image by jmooring · Pull Request #2741 · gohugoio/hugoDocs](https://github.com/gohugoio/hugoDocs/pull/2741)
+> * Docker img on GH: [hugo versions · gohugoio](https://github.com/gohugoio/hugo/pkgs/container/hugo/555065752?tag=latest)
+> * About the Official Hugo Docker Image and its usage:
+>   * [Document usage of the ghcr.io/gohugoio/hugo Docker image · Issue #2727 · gohugoio/hugoDocs](https://github.com/gohugoio/hugoDocs/issues/2727)
+>   * [Improve Docker image · Issue #12885 · gohugoio/hugo](https://github.com/gohugoio/hugo/issues/12885)
+>   * [Create and publish official Docker images · Issue #10760 · gohugoio/hugo](https://github.com/gohugoio/hugo/issues/10760)
+>   * [The new Docker package workflow not triggered by release tags · Issue #12753 · gohugoio/hugo](https://github.com/gohugoio/hugo/issues/12753)
+>
+> <details>
 
 
 # Contribute
