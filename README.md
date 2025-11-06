@@ -281,7 +281,7 @@ docker run --rm -v .:/site/pages -v ~/tmp:/site/public -p 1313:1313 ghcr.io/gohu
 >   * [Create and publish official Docker images · Issue #10760 · gohugoio/hugo](https://github.com/gohugoio/hugo/issues/10760)
 >   * [The new Docker package workflow not triggered by release tags · Issue #12753 · gohugoio/hugo](https://github.com/gohugoio/hugo/issues/12753)
 >
-> <details>
+> </details>
 
 
 # Contribute
