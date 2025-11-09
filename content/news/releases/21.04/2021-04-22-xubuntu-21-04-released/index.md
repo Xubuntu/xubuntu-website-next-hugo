@@ -35,7 +35,7 @@ Highlights and Known Issues
 
 - The boot decryption password prompt is sometimes not displayed. Press **Escape** twice to reveal the prompt ([1917062](https://bugs.launchpad.net/xubuntu-artwork/+bug/1917062)).
 
-For more obscure known issues, information on affecting bugs, bug fixes, and a list of new package versions, please refer to the [Xubuntu Release Notes](https://wiki.xubuntu.org/releases/21.04/release-notes).
+For more obscure known issues, information on affecting bugs, bug fixes, and a list of new package versions, please refer to the [Xubuntu Release Notes](/releasedocs/21.04/release-notes).
 
 The main [Ubuntu Release Notes](https://discourse.ubuntu.com/t/hirsute-hippo-release-notes/19221) cover both many of the other packages we carry and more generic issues.
 

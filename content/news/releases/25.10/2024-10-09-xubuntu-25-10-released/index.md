@@ -38,7 +38,7 @@ Highlights and Known Issues
 - The graphical SSH agent is unavailable due to a change in the GNOME Keyring Daemon (LP: [\#2125549](https://bugs.launchpad.net/ubuntu/+source/openssh/+bug/2125549)).
 - Flatpak packages will refuse to install due to a conflict between AppArmor and libfuse (LP: [\#2122161](https://bugs.launchpad.net/ubuntu/+source/flatpak/+bug/2122161)). A fix is in progress.
 
-Please refer to the [Xubuntu Release Notes](https://wiki.xubuntu.org/releases/25.10/release-notes) for more obscure known issues, information on affecting bugs, bug fixes, and a list of new package versions.
+Please refer to the [Xubuntu Release Notes](/releasedocs/25.10/release-notes) for more obscure known issues, information on affecting bugs, bug fixes, and a list of new package versions.
 
 The main [Ubuntu Release Notes](https://discourse.ubuntu.com/t/questing-quokka-release-notes/59220) cover many other packages we carry and more generic issues.
 

@@ -25,7 +25,7 @@ Support
 Highlights and Known Issues
 ---------------------------
 
-The below is just a quick peek at the most important highlights and issues. More updates and new features are listed on the very thorough [release notes](https://wiki.xubuntu.org/releases/18.04/release-notes).
+The below is just a quick peek at the most important highlights and issues. More updates and new features are listed on the very thorough [release notes](/releasedocs/18.04/release-notes).
 
 ### Highlights
 

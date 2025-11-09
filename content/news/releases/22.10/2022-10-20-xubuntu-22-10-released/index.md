@@ -38,7 +38,7 @@ Highlights and Known Issues
 
 - The shutdown prompt may not be displayed at the end of the installation. Instead you might just see a Xubuntu logo, a black screen with an underscore in the upper left hand corner, or just a black screen. Press Enter and the system will reboot into the installed environment. (LP: [\#1944519](https://bugs.launchpad.net/ubuntu-release-notes/+bug/1944519))
 
-For more obscure known issues, information on affecting bugs, bug fixes, and a list of new package versions, please refer to the [Xubuntu Release Notes](https://wiki.xubuntu.org/releases/22.10/release-notes).
+For more obscure known issues, information on affecting bugs, bug fixes, and a list of new package versions, please refer to the [Xubuntu Release Notes](/releasedocs/22.10/release-notes).
 
 The main [Ubuntu Release Notes](https://discourse.ubuntu.com/t/kinetic-kudu-release-notes/27976) cover many of the other packages we carry and more generic issues.
 

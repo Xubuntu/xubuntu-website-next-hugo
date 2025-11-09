@@ -34,7 +34,7 @@ Highlights and Known Issues
 
 - Users with AMD graphics may still experience [significant graphical issues](https://bugs.launchpad.net/ubuntu/+source/xserver-xorg-video-amdgpu/+bug/1873895). Since the release of 20.04, this issue has been found to be more widespread and also affects MATE users.
 
-For more obscure known issues, information on affecting bugs, bug fixes, and a list of new package versions, please refer to the [Xubuntu Release Notes](https://wiki.xubuntu.org/releases/20.10/release-notes).
+For more obscure known issues, information on affecting bugs, bug fixes, and a list of new package versions, please refer to the [Xubuntu Release Notes](/releasedocs/20.10/release-notes).
 
 The main [Ubuntu Release Notes](https://discourse.ubuntu.com/t/groovy-gorilla-release-notes/15533) cover both many of the other packages we carry and more generic issues.
 

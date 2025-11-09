@@ -41,7 +41,7 @@ Highlights and Known Issues
 - The screensaver unlock dialog crashes after unlocking. The session can still be locked and unlocked after this crash. We're working on a fix and hope to publish it in the next few weeks. (LP: #[2012795](https://bugs.launchpad.net/ubuntu/+source/xfce4-screensaver/+bug/2012795))
 - Xorg crashes and the user is logged out after logging in or switching users on some virtual machines, including GNOME Boxes. (LP: #[1861609](https://bugs.launchpad.net/ubuntu/+source/xorg-server/+bug/1861609))
 
-For more obscure known issues, information on affecting bugs, bug fixes, and a list of new package versions, please refer to the [Xubuntu Release Notes](https://wiki.xubuntu.org/releases/23.04/release-notes).
+For more obscure known issues, information on affecting bugs, bug fixes, and a list of new package versions, please refer to the [Xubuntu Release Notes](/releasedocs/23.04/release-notes).
 
 The main [Ubuntu Release Notes](https://discourse.ubuntu.com/t/lunar-lobster-release-notes/31910) cover many of the other packages we carry and more generic issues.
 

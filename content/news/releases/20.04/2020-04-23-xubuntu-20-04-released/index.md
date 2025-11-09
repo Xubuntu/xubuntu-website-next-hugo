@@ -39,7 +39,7 @@ Highlights and Known Issues
 - Users with AMD graphics may experience [significant graphical issues](https://bugs.launchpad.net/ubuntu/+source/xserver-xorg-video-amdgpu/+bug/1873895) and should consider waiting until the release of 20.04.1 later this year.
 - Window decorations [are not displayed](https://bugs.launchpad.net/ubuntu/+source/xfwm4/+bug/1860921) with tightvncserver. Users depending on VNC are advised to wait until 20.04.1 or use an alternative window manager for VNC until this is resolved.
 
-For more obscure known issues, information on affecting bugs, bug fixes, and a list of new package versions, please refer to the [Xubuntu Release Notes](https://wiki.xubuntu.org/releases/20.04/release-notes).
+For more obscure known issues, information on affecting bugs, bug fixes, and a list of new package versions, please refer to the [Xubuntu Release Notes](/releasedocs/20.04/release-notes).
 
 The main [Ubuntu Release Notes](https://wiki.ubuntu.com/FocalFossa/ReleaseNotes) cover both many of the other packages we carry and more generic issues.
 

@@ -21,7 +21,7 @@ There are a variety of ways that you can help test the release, including trying
 
 <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/lOCWwLwN7xE?start=106" width="560"></iframe>
 
-Please test apps that you regularly use, so you can identify bugs and regressions that should be reported, especially as the recently released [Xfce 4.16](https://xfce.org/about/news/?post=1608595200) is bundled in this release. You can learn about what else is new in this release in the [Release Notes](https://wiki.xubuntu.org/releases/21.04/release-notes). New ISO files are built everyday, and you should always test with the most up-to-date ISO. It is easier and faster to update an existing daily ISO file on Linux with the command below (you’ll need to run it in the terminal from within the folder with the ISO file).
+Please test apps that you regularly use, so you can identify bugs and regressions that should be reported, especially as the recently released [Xfce 4.16](https://xfce.org/about/news/?post=1608595200) is bundled in this release. You can learn about what else is new in this release in the [Release Notes](/releasedocs/21.04/release-notes). New ISO files are built everyday, and you should always test with the most up-to-date ISO. It is easier and faster to update an existing daily ISO file on Linux with the command below (you’ll need to run it in the terminal from within the folder with the ISO file).
 
 `$ zsync http://cdimage.ubuntu.com/xubuntu/daily-live/current/hirsute-desktop-amd64.iso.zsync`
 

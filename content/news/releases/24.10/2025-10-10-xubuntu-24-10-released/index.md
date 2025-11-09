@@ -39,7 +39,7 @@ Highlights and Known Issues
 - You may experience choppy audio or poor system performance while playing audio, but only in some virtual machines (observed in VMware and VirtualBox)
 - OEM installation options are not currently supported or available, but will be included for Xubuntu 24.04.1
 
-For more obscure known issues, information on affecting bugs, bug fixes, and a list of new package versions, please refer to the [Xubuntu Release Notes](https://wiki.xubuntu.org/releases/24.10/release-notes).
+For more obscure known issues, information on affecting bugs, bug fixes, and a list of new package versions, please refer to the [Xubuntu Release Notes](/releasedocs/24.10/release-notes).
 
 The main [Ubuntu Release Notes](https://discourse.ubuntu.com/t/oracular-oriole-release-notes/44878) cover many of the other packages we carry and more generic issues.
 

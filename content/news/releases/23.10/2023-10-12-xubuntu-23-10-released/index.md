@@ -39,7 +39,7 @@ Highlights and Known Issues
 - Xorg crashes and the user is logged out after logging in or switching users on some virtual machines, including GNOME Boxes. (LP: #[1861609](https://bugs.launchpad.net/ubuntu/+source/xorg-server/+bug/1861609))
 - You may experience choppy audio or poor system performance while playing audio, but only in some virtual machines (observed in VMware and VirtualBox)
 
-For more obscure known issues, information on affecting bugs, bug fixes, and a list of new package versions, please refer to the [Xubuntu Release Notes](https://wiki.xubuntu.org/releases/23.10/release-notes).
+For more obscure known issues, information on affecting bugs, bug fixes, and a list of new package versions, please refer to the [Xubuntu Release Notes](/releasedocs/23.10/release-notes).
 
 The main [Ubuntu Release Notes](https://discourse.ubuntu.com/t/mantic-minotaur-release-notes/35534) cover many of the other packages we carry and more generic issues.
 
