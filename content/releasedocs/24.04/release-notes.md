@@ -7,7 +7,7 @@ title:     "Xubuntu 24.04 Release Notes"
 
 **Welcome to the Xubuntu 24.04 "Noble Numbat" release notes!**
 
-Xubuntu 24.04 was released on Thursday, April 25, 2024, and will be supported for three years until April 2027. For general information and the latest updates for Xubuntu 24.04, check out the [release page](https://xubuntu.org/release/24-04) on xubuntu.org.
+Xubuntu 24.04 was released on Thursday, April 25, 2024, and will be supported for three years until April 2027. For general information and the latest updates for Xubuntu 24.04, check out the [release page](/release/24.04/) on xubuntu.org.
 
 * [Known Issues](#known_issues)
 * [Ubuntu Common Release Notes](#ubuntu_common_release_notes)

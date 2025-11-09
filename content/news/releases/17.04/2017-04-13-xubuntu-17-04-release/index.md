@@ -11,7 +11,7 @@ author_nick: knome
 
 The Xubuntu team is happy to announce the immediate release of Xubuntu 17.04.
 
-Xubuntu 17.04 is a regular release and will be supported for 9 months, until January 2018. If you need a stable environment with longer support time, we recommend that you use [Xubuntu 16.04 LTS](https://xubuntu.org/release/16-04/) instead.
+Xubuntu 17.04 is a regular release and will be supported for 9 months, until January 2018. If you need a stable environment with longer support time, we recommend that you use [Xubuntu 16.04 LTS](/release/16.04//) instead.
 
 The **final release images** are available as torrents and direct downloads from <http://xubuntu.org/getxubuntu/>
 

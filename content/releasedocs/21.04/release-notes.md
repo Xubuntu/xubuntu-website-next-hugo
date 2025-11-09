@@ -7,7 +7,7 @@ title:     "Xubuntu 21.04 Release Notes"
 
 **Welcome to the Xubuntu 21.04 "Hirsute Hippo" release notes!**
 
-Xubuntu 21.04 was released on Thursday, April 22, 2021 and will be supported for nine months until Thursday, January 22, 2022. For general information and the latest updates for Xubuntu 21.04, check out the [release page](https://xubuntu.org/release/21-04) on xubuntu.org.
+Xubuntu 21.04 was released on Thursday, April 22, 2021 and will be supported for nine months until Thursday, January 22, 2022. For general information and the latest updates for Xubuntu 21.04, check out the [release page](/release/21.04/) on xubuntu.org.
 
 [<img src="xubuntu-21.04.png" width="400" />](xubuntu-21.04.png)
 

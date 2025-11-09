@@ -2,7 +2,7 @@
 
 **Welcome to the Xubuntu 25.10 "Questing Quokka" release notes!**
 
-Xubuntu 25.10 was released on Thursday, October 9, 2025, and will be supported for nine months until July 2026. For general information and the latest updates for Xubuntu 25.10, check out the [release page](https://xubuntu.org/release/25-10) on xubuntu.org.
+Xubuntu 25.10 was released on Thursday, October 9, 2025, and will be supported for nine months until July 2026. For general information and the latest updates for Xubuntu 25.10, check out the [release page](/release/25.10/) on xubuntu.org.
 
   * [Known Issues](#known_issues)
   * [Ubuntu Common Release Notes](#ubuntu_common_release_notes)

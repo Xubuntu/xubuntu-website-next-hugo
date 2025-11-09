@@ -7,7 +7,7 @@ title:     "Xubuntu 24.10 Release Notes"
 
 **Welcome to the Xubuntu 24.10 "Oracular Oriole" release notes!**
 
-Xubuntu 24.10 will be released on Thursday, October 10, 2024, and will be supported for nine months until July 2025. For general information and the latest updates for Xubuntu 24.10, check out the [release page](https://xubuntu.org/release/24-10) on xubuntu.org.
+Xubuntu 24.10 will be released on Thursday, October 10, 2024, and will be supported for nine months until July 2025. For general information and the latest updates for Xubuntu 24.10, check out the [release page](/release/24.10/) on xubuntu.org.
 
 _**Please note:** Xubuntu 24.10 is an interim release featuring pre-release software, Xfce 4.19. You may encounter more bugs than usual. If you need a stable, well-supported, environment, please consider installing [Xubuntu 24.04 LTS, "Noble Numbat"](/releasedocs/24.04/release-notes) instead._
 

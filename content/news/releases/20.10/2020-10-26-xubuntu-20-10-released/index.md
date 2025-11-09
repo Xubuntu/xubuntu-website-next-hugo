@@ -11,7 +11,7 @@ author_nick: bluesabre
 
 The Xubuntu team is happy to announce the immediate release of Xubuntu 20.10!
 
-Xubuntu 20.10, codenamed **Groovy Gorilla**, is a regular release and will be supported for 9 months, until July 2021. If you need a stable environment with longer support time we recommend that you use [Xubuntu 20.04 LTS](https://xubuntu.org/release/20-04/) instead.
+Xubuntu 20.10, codenamed **Groovy Gorilla**, is a regular release and will be supported for 9 months, until July 2021. If you need a stable environment with longer support time we recommend that you use [Xubuntu 20.04 LTS](/release/20.04//) instead.
 
 The **final release images** are available as torrents and direct downloads from [xubuntu.org/download/](https://xubuntu.org/download/).
 
