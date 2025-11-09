@@ -56,7 +56,7 @@ The main Ubuntu [Release Notes](https://discourse.ubuntu.com/t/hirsute-hippo-rel
 
 ### Keyboard Shortcuts
 
-Our keyboard shortcuts were updated to better align with Xfce 4.16 and other popular desktop environments. For a full list of keyboard shortcuts, [click here](https://wiki.xubuntu.org/releases/21.04/keyboard-shortcuts).
+Our keyboard shortcuts were updated to better align with Xfce 4.16 and other popular desktop environments. For a full list of keyboard shortcuts, [click here](/releasedocs/21.04/keyboard-shortcuts).
 
 * **Ctrl+Alt+Delete**: Shows the Logout dialog
 * **Ctrl+Shift+Escape**: Launches Task Manager

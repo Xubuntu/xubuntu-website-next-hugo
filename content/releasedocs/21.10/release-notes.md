@@ -47,7 +47,7 @@ The main Ubuntu [Release Notes](#) covers both many of the other packages we car
 
 ### Keyboard Shortcuts
 
-For a full list of keyboard shortcuts, [click here](https://wiki.xubuntu.org/releases/21.10/keyboard-shortcuts).
+For a full list of keyboard shortcuts, [click here](/releasedocs/21.10/keyboard-shortcuts).
 
 * The long-obsoleted Super+{1,2,3,4} shortcuts have been removed
 * The Super (Windows) key will now show the Whisker Menu
