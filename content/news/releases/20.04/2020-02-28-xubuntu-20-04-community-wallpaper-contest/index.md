@@ -1,7 +1,8 @@
 ---
 title:       "Xubuntu 20.04 community wallpaper contest"
 date:        2020-02-28 06:51:08
-slug:        xubuntu-20-04-community-wallpaper-contest
+aliases:
+  - /news/xubuntu-20-04-community-wallpaper-contest
 release:     "20.04"
 tag:       
 category:    articles

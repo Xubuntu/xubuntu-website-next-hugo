@@ -1,7 +1,8 @@
 ---
 title:       "Booting the Xubuntu USB image from a CD"
 date:        2013-05-03 09:55:28
-slug:        booting-the-xubuntu-usb-image-from-a-cd
+aliases:
+  - /news/booting-the-xubuntu-usb-image-from-a-cd
 release:     ""
 tag:       faq
 category:    articles

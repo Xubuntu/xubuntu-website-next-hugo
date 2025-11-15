@@ -1,7 +1,8 @@
 ---
 title:       "Xubuntu 10.04 Released"
 date:        2010-04-29 10:51:14
-slug:        10-04-release
+aliases:
+  - /news/10-04-release
 release:     "10.04"
 tag:       
 category:    announcements

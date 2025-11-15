@@ -1,7 +1,8 @@
 ---
 title:       "Xubuntu Quality Assurance team is spreading out"
 date:        2017-04-27 16:44:37
-slug:        xubuntu-quality-assurance-team-spreading-out
+aliases:
+  - /news/xubuntu-quality-assurance-team-spreading-out
 release:     ""
 tag:       
 category:    articles

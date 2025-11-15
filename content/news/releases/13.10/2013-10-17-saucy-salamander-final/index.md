@@ -1,7 +1,8 @@
 ---
 title:       "Xubuntu 13.10 is released!"
 date:        2013-10-17 13:25:28
-slug:        saucy-salamander-final
+aliases:
+  - /news/saucy-salamander-final
 release:     "13.10"
 tag:       
 category:    announcements

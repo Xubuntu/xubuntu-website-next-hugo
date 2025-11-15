@@ -1,7 +1,8 @@
 ---
 title:       "Xubuntu 14.04 Final Beta"
 date:        2014-03-27 23:56:37
-slug:        xubuntu-14-04-final-beta
+aliases:
+  - /news/xubuntu-14-04-final-beta
 release:     "14.04"
 tag:       
 category:    

@@ -1,7 +1,8 @@
 ---
 title:       "Xubuntu 14.04.1 released"
 date:        2014-07-25 18:55:54
-slug:        xubuntu-14-04-1-released
+aliases:
+  - /news/xubuntu-14-04-1-released
 release:     "14.04"
 tag:       
 category:    announcements

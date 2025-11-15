@@ -1,7 +1,8 @@
 ---
 title:       "Xubuntu 20.10 released!"
 date:        2020-10-26 10:06:44
-slug:        xubuntu-20-10-released
+aliases:
+  - /news/xubuntu-20-10-released
 release:     "20.10"
 tag:       
 category:    announcements

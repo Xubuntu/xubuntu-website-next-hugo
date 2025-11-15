@@ -1,7 +1,8 @@
 ---
 title:       "Laptop users: Fix available for the black screen on unlock bug"
 date:        2014-08-28 11:11:42
-slug:        laptop-users-fix-available-for-the-black-screen-on-unlock-bug
+aliases:
+  - /news/laptop-users-fix-available-for-the-black-screen-on-unlock-bug
 release:     "14.04, 14.10"
 tag:       
 category:    

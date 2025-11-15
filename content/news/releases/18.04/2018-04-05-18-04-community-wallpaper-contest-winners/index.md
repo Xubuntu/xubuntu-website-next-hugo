@@ -1,7 +1,8 @@
 ---
 title:       "Xubuntu 18.04 Community Wallpaper Contest Winners!"
 date:        2018-04-05 22:36:38
-slug:        18-04-community-wallpaper-contest-winners
+aliases:
+  - /news/18-04-community-wallpaper-contest-winners
 release:     "18.04"
 tag:       
 category:    articles

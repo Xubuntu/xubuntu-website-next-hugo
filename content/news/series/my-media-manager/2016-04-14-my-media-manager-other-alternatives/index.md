@@ -1,7 +1,8 @@
 ---
 title:       "My media manager: Other alternatives"
 date:        2016-04-14 19:36:49
-slug:        my-media-manager-other-alternatives
+aliases:
+  - /news/my-media-manager-other-alternatives
 release:     ""
 tag:       my-media-manager
 category:    articles

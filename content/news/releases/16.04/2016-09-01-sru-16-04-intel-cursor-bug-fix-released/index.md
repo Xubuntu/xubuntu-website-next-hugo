@@ -1,7 +1,8 @@
 ---
 title:       "SRU for 16.04: Intel cursor bug fix released"
 date:        2016-09-01 18:58:36
-slug:        sru-16-04-intel-cursor-bug-fix-released
+aliases:
+  - /news/sru-16-04-intel-cursor-bug-fix-released
 release:     "16.04"
 tag:       
 category:    

@@ -1,7 +1,8 @@
 ---
 title:       "FAQ for Xubuntu 11.10 Oneiric Ocelot"
 date:        2011-11-19 22:14:39
-slug:        faq-1110-oneiric
+aliases:
+  - /news/faq-1110-oneiric
 release:     "11.10"
 tag:       faq
 category:    articles

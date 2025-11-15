@@ -1,7 +1,8 @@
 ---
 title:       "Xubuntu 10.10 alpha 3 released"
 date:        2010-08-05 08:53:33
-slug:        maverickalpha-3
+aliases:
+  - /news/maverickalpha-3
 release:     "10.10"
 tag:       
 category:    

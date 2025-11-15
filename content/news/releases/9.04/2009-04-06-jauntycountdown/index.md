@@ -1,7 +1,8 @@
 ---
 title:       "Countdown to Xubuntu 9.04"
 date:        2009-04-06 10:17:55
-slug:        jauntycountdown
+aliases:
+  - /news/jauntycountdown
 release:     "9.04"
 tag:       
 category:    articles

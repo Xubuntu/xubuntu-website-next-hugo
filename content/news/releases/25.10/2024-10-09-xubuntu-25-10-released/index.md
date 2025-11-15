@@ -1,7 +1,8 @@
 ---
 title:       "Xubuntu 25.10 released!"
 date:        2025-10-09 12:00:00
-slug:        xubuntu-25-10-released
+aliases:
+  - /news/xubuntu-25-10-released
 release:     "25.10"
 tag:       
 category:    announcements

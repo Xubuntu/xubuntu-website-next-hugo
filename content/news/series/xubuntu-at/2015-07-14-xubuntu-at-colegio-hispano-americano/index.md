@@ -1,7 +1,8 @@
 ---
 title:       "Xubuntu at Colegio Hispano Americano"
 date:        2015-07-14 19:35:36
-slug:        xubuntu-at-colegio-hispano-americano
+aliases:
+  - /news/xubuntu-at-colegio-hispano-americano
 release:     ""
 tag:       xubuntu-at
 category:    articles

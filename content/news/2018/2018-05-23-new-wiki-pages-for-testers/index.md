@@ -1,7 +1,8 @@
 ---
 title:       "New Wiki pages for Testers"
 date:        2018-05-23 16:49:18
-slug:        new-wiki-pages-for-testers
+aliases:
+  - /news/new-wiki-pages-for-testers
 release:     ""
 tag:       qa
 category:    articles

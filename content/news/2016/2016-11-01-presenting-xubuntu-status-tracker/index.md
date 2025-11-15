@@ -1,7 +1,8 @@
 ---
 title:       "Presenting the Xubuntu status tracker"
 date:        2016-11-01 10:43:21
-slug:        presenting-xubuntu-status-tracker
+aliases:
+  - /news/presenting-xubuntu-status-tracker
 release:     ""
 tag:       
 category:    articles

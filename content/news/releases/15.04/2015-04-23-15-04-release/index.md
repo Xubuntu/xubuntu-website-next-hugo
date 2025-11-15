@@ -1,7 +1,8 @@
 ---
 title:       "Xubuntu 15.04 released!"
 date:        2015-04-23 15:25:18
-slug:        15-04-release
+aliases:
+  - /news/15-04-release
 release:     "15.04"
 tag:       
 category:    announcements

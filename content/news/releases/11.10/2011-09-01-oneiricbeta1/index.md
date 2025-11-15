@@ -1,7 +1,8 @@
 ---
 title:       "Xubuntu Oneiric Ocelot beta1 released"
 date:        2011-09-01 13:57:36
-slug:        oneiricbeta1
+aliases:
+  - /news/oneiricbeta1
 release:     "11.10"
 tag:       
 category:    

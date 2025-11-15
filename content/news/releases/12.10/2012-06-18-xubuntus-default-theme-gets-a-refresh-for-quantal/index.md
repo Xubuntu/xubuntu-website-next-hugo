@@ -1,7 +1,8 @@
 ---
 title:       "Xubuntu's default theme gets a refresh for Quantal"
 date:        2012-06-18 11:40:56
-slug:        xubuntus-default-theme-gets-a-refresh-for-quantal
+aliases:
+  - /news/xubuntus-default-theme-gets-a-refresh-for-quantal
 release:     "12.10"
 tag:       
 category:    articles

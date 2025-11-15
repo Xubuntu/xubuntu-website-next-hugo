@@ -1,7 +1,8 @@
 ---
 title:       "My media manager: Clementine"
 date:        2016-03-29 22:10:12
-slug:        my-media-manager-clementine
+aliases:
+  - /news/my-media-manager-clementine
 release:     ""
 tag:       my-media-manager
 category:    articles

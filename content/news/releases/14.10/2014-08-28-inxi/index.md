@@ -1,7 +1,8 @@
 ---
 title:       "Using inxi to detect hardware information"
 date:        2014-08-28 16:01:14
-slug:        inxi
+aliases:
+  - /news/inxi
 release:     "14.10"
 tag:       faq
 category:    articles

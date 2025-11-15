@@ -1,7 +1,8 @@
 ---
 title:       "The small details: Theme configuration"
 date:        2016-03-30 20:37:43
-slug:        small-details-theme-configuration
+aliases:
+  - /news/small-details-theme-configuration
 release:     ""
 tag:       the-small-details
 category:    articles

@@ -1,7 +1,8 @@
 ---
 title:       "Xubuntu 12.04 released"
 date:        2012-04-26 13:13:14
-slug:        12-04-release
+aliases:
+  - /news/12-04-release
 release:     "12.04"
 tag:       
 category:    announcements

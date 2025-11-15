@@ -1,7 +1,8 @@
 ---
 title:       "Integrating releases to the website"
 date:        2016-12-21 13:00:45
-slug:        integrating-releases-website
+aliases:
+  - /news/integrating-releases-website
 release:     ""
 tag:       
 category:    articles

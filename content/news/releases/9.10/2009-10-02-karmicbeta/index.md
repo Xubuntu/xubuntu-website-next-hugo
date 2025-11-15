@@ -1,7 +1,8 @@
 ---
 title:       "Xubuntu 9.10 beta released"
 date:        2009-10-02 04:25:24
-slug:        karmicbeta
+aliases:
+  - /news/karmicbeta
 release:     "9.10"
 tag:       
 category:    

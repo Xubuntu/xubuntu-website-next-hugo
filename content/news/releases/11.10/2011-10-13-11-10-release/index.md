@@ -1,7 +1,8 @@
 ---
 title:       "Xubuntu 11.10 released"
 date:        2011-10-13 05:21:13
-slug:        11-10-release
+aliases:
+  - /news/11-10-release
 release:     "11.10"
 tag:       
 category:    announcements

@@ -1,7 +1,8 @@
 ---
 title:       "Xubuntu 18.04 community wallpaper contest"
 date:        2018-02-16 16:17:11
-slug:        xubuntu-18-04-community-wallpaper-contest
+aliases:
+  - /news/xubuntu-18-04-community-wallpaper-contest
 release:     "18.04"
 tag:       
 category:    articles

@@ -1,7 +1,8 @@
 ---
 title:       "My media manager: The cloud"
 date:        2016-04-12 20:56:10
-slug:        my-media-manager-cloud
+aliases:
+  - /news/my-media-manager-cloud
 release:     ""
 tag:       my-media-manager
 category:    articles

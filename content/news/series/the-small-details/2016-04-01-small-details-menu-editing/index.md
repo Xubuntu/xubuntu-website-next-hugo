@@ -1,7 +1,8 @@
 ---
 title:       "The small details: Menu editing"
 date:        2016-04-01 22:36:45
-slug:        small-details-menu-editing
+aliases:
+  - /news/small-details-menu-editing
 release:     ""
 tag:       the-small-details
 category:    articles

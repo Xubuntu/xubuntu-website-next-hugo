@@ -1,7 +1,8 @@
 ---
 title:       "Xubuntu 15.10 released!"
 date:        2015-10-22 14:11:37
-slug:        xubuntu-15-10-release
+aliases:
+  - /news/xubuntu-15-10-release
 release:     "15.10"
 tag:       
 category:    announcements

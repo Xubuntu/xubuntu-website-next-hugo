@@ -1,7 +1,8 @@
 ---
 title:       "Xubuntu 15.10 Final Beta"
 date:        2015-09-24 23:40:09
-slug:        xubuntu-15-10-final-beta
+aliases:
+  - /news/xubuntu-15-10-final-beta
 release:     "15.10"
 tag:       
 category:    announcements

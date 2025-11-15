@@ -1,7 +1,8 @@
 ---
 title:       "Testing for Xubuntu"
 date:        2018-03-04 08:21:05
-slug:        testing-for-xubuntu
+aliases:
+  - /news/testing-for-xubuntu
 release:     ""
 tag:       
 category:    

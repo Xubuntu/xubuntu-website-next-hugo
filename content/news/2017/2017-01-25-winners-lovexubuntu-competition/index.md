@@ -1,7 +1,8 @@
 ---
 title:       "Winners of the #lovexubuntu Competition!"
 date:        2017-01-25 20:53:17
-slug:        winners-lovexubuntu-competition
+aliases:
+  - /news/winners-lovexubuntu-competition
 release:     ""
 tag:       
 category:    articles

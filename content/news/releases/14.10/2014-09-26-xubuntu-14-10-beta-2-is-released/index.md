@@ -1,7 +1,8 @@
 ---
 title:       "Xubuntu 14.10 Beta 2 is released!"
 date:        2014-09-26 03:44:40
-slug:        xubuntu-14-10-beta-2-is-released
+aliases:
+  - /news/xubuntu-14-10-beta-2-is-released
 release:     "14.10"
 tag:       
 category:    

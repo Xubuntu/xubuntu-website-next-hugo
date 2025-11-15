@@ -1,7 +1,8 @@
 ---
 title:       "16.04 Package Testing"
 date:        2015-10-27 22:14:32
-slug:        16-04-package-testing
+aliases:
+  - /news/16-04-package-testing
 release:     "16.04"
 tag:       
 category:    articles

@@ -1,7 +1,8 @@
 ---
 title:       "Artwork Project for 15.10: Making LibreOffice look integrated"
 date:        2015-07-27 21:25:37
-slug:        artwork-project-for-15-10-making-libreoffice-look-integrated
+aliases:
+  - /news/artwork-project-for-15-10-making-libreoffice-look-integrated
 release:     "15.10"
 tag:       
 category:    articles

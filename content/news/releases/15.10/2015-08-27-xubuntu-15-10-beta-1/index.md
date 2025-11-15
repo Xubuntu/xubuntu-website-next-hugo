@@ -1,7 +1,8 @@
 ---
 title:       "Xubuntu 15.10 Beta 1"
 date:        2015-08-27 14:39:53
-slug:        xubuntu-15-10-beta-1
+aliases:
+  - /news/xubuntu-15-10-beta-1
 release:     "15.10"
 tag:       
 category:    announcements

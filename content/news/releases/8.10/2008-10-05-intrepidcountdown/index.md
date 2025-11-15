@@ -1,7 +1,8 @@
 ---
 title:       "Countdown to Xubuntu 8.10"
 date:        2008-10-05 07:00:51
-slug:        intrepidcountdown
+aliases:
+  - /news/intrepidcountdown
 release:     "8.10"
 tag:       
 category:    articles

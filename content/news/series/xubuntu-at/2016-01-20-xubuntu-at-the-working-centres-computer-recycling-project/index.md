@@ -1,7 +1,8 @@
 ---
 title:       "Xubuntu at The Working Centre's Computer Recycling Project"
 date:        2016-01-20 17:00:44
-slug:        xubuntu-at-the-working-centres-computer-recycling-project
+aliases:
+  - /news/xubuntu-at-the-working-centres-computer-recycling-project
 release:     ""
 tag:       xubuntu-at
 category:    articles

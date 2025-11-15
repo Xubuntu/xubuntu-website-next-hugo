@@ -1,7 +1,8 @@
 ---
 title:       "The Countdown is on"
 date:        2012-04-05 07:22:36
-slug:        the-countdown-is-on
+aliases:
+  - /news/the-countdown-is-on
 release:     "12.04"
 tag:       
 category:    articles

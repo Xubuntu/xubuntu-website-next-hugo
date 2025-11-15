@@ -1,7 +1,8 @@
 ---
 title:       "Xubuntu 17.10.1 Release"
 date:        2018-01-12 17:34:07
-slug:        xubuntu-17-10-1-release
+aliases:
+  - /news/xubuntu-17-10-1-release
 release:     "17.10"
 tag:       
 category:    announcements

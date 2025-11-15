@@ -1,7 +1,8 @@
 ---
 title:       "Xubuntu 19.10 released!"
 date:        2019-10-17 18:23:30
-slug:        xubuntu-19-10-released
+aliases:
+  - /news/xubuntu-19-10-released
 release:     "19.10"
 tag:       
 category:    announcements

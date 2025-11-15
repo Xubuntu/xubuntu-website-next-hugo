@@ -1,7 +1,8 @@
 ---
 title:       "The small details: Personal information integration"
 date:        2016-04-11 16:49:42
-slug:        small-details-personal-information-integration
+aliases:
+  - /news/small-details-personal-information-integration
 release:     ""
 tag:       the-small-details
 category:    articles

@@ -1,7 +1,8 @@
 ---
 title:       "FAQ for Xubuntu 12.04 Precise Pangolin"
 date:        2012-05-05 17:29:40
-slug:        faq-1204-precise
+aliases:
+  - /news/faq-1204-precise
 release:     "12.04"
 tag:       faq
 category:    articles

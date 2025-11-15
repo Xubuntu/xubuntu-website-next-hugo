@@ -1,7 +1,8 @@
 ---
 title:       "FAQ for Xubuntu 12.10 Quantal Quetzal"
 date:        2012-11-30 19:36:11
-slug:        faq-1210-quantal-quetzal
+aliases:
+  - /news/faq-1210-quantal-quetzal
 release:     "12.10"
 tag:       faq
 category:    articles

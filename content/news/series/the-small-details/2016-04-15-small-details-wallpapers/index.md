@@ -1,7 +1,8 @@
 ---
 title:       "The small details: Wallpapers"
 date:        2016-04-15 17:11:32
-slug:        small-details-wallpapers
+aliases:
+  - /news/small-details-wallpapers
 release:     ""
 tag:       the-small-details
 category:    articles

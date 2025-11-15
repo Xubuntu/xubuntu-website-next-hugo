@@ -1,7 +1,8 @@
 ---
 title:       "Xubuntu at Techs for a Cause in Kansas City"
 date:        2013-10-24 15:07:07
-slug:        xubuntu-at-techs-for-a-cause-in-kansas-city
+aliases:
+  - /news/xubuntu-at-techs-for-a-cause-in-kansas-city
 release:     ""
 tag:       xubuntu-at
 category:    articles

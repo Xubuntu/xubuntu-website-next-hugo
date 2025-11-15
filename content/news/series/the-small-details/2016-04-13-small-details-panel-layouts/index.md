@@ -1,7 +1,8 @@
 ---
 title:       "The small details: Panel layouts"
 date:        2016-04-13 20:11:58
-slug:        small-details-panel-layouts
+aliases:
+  - /news/small-details-panel-layouts
 release:     ""
 tag:       the-small-details
 category:    articles

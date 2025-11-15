@@ -1,7 +1,8 @@
 ---
 title:       "Introducing Xubuntu 12.10 Beta 2"
 date:        2012-09-27 16:50:13
-slug:        quantalbeta2
+aliases:
+  - /news/quantalbeta2
 release:     "12.10"
 tag:       
 category:    

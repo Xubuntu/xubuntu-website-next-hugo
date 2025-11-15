@@ -1,7 +1,8 @@
 ---
 title:       "Xubuntu 21.10 released!"
 date:        2021-10-15 11:49:36
-slug:        xubuntu-21-10-released
+aliases:
+  - /news/xubuntu-21-10-released
 release:     "21.10"
 tag:       
 category:    announcements

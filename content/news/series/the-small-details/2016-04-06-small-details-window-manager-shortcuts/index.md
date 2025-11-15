@@ -1,7 +1,8 @@
 ---
 title:       "The small details: Window manager shortcuts"
 date:        2016-04-06 15:51:37
-slug:        small-details-window-manager-shortcuts
+aliases:
+  - /news/small-details-window-manager-shortcuts
 release:     ""
 tag:       the-small-details
 category:    articles

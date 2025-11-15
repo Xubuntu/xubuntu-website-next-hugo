@@ -1,7 +1,8 @@
 ---
 title:       "Thank you Xubuntu social media admins"
 date:        2012-07-14 02:11:27
-slug:        thank-you-xubuntu-social-media-admins
+aliases:
+  - /news/thank-you-xubuntu-social-media-admins
 release:     ""
 tag:       
 category:    articles

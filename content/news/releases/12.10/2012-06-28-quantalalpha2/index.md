@@ -1,7 +1,8 @@
 ---
 title:       "Xubuntu 12.10 alpha 2 released"
 date:        2012-06-28 12:20:25
-slug:        quantalalpha2
+aliases:
+  - /news/quantalalpha2
 release:     "12.10"
 tag:       
 category:    

@@ -1,7 +1,8 @@
 ---
 title:       "Offline documentation rewritten for 12.10"
 date:        2012-09-24 16:20:36
-slug:        offline-documentation-rewritten-for-12-10
+aliases:
+  - /news/offline-documentation-rewritten-for-12-10
 release:     "12.10"
 tag:       
 category:    articles

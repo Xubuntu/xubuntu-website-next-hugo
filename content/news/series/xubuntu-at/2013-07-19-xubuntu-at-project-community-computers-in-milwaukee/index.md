@@ -1,7 +1,8 @@
 ---
 title:       "Xubuntu at Project: Community Computers in Milwaukee"
 date:        2013-07-19 16:06:35
-slug:        xubuntu-at-project-community-computers-in-milwaukee
+aliases:
+  - /news/xubuntu-at-project-community-computers-in-milwaukee
 release:     ""
 tag:       xubuntu-at
 category:    articles

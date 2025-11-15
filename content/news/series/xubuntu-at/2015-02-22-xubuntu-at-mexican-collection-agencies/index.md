@@ -1,7 +1,8 @@
 ---
 title:       "Xubuntu at Mexican collection agencies"
 date:        2015-02-22 00:42:38
-slug:        xubuntu-at-mexican-collection-agencies
+aliases:
+  - /news/xubuntu-at-mexican-collection-agencies
 release:     ""
 tag:       xubuntu-at
 category:    articles

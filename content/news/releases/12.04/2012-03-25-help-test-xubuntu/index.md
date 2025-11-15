@@ -1,7 +1,8 @@
 ---
 title:       "Help test Xubuntu!"
 date:        2012-03-25 15:56:23
-slug:        help-test-xubuntu
+aliases:
+  - /news/help-test-xubuntu
 release:     "12.04"
 tag:       
 category:    articles

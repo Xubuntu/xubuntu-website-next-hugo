@@ -1,7 +1,8 @@
 ---
 title:       "Xubuntu 18.04 released!"
 date:        2018-04-26 23:13:39
-slug:        xubuntu-18-04-release
+aliases:
+  - /news/xubuntu-18-04-release
 release:     "18.04"
 tag:       
 category:    announcements

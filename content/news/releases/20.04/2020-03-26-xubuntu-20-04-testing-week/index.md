@@ -1,7 +1,8 @@
 ---
 title:       "Xubuntu 20.04 Testing Week"
 date:        2020-03-26 06:00:30
-slug:        xubuntu-20-04-testing-week
+aliases:
+  - /news/xubuntu-20-04-testing-week
 release:     "20.04"
 tag:       qa, testing-week
 category:    articles

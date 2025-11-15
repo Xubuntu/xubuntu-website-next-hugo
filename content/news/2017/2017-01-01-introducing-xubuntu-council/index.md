@@ -1,7 +1,8 @@
 ---
 title:       "Introducing the Xubuntu Council"
 date:        2017-01-01 16:43:02
-slug:        introducing-xubuntu-council
+aliases:
+  - /news/introducing-xubuntu-council
 release:     ""
 tag:       
 category:    articles

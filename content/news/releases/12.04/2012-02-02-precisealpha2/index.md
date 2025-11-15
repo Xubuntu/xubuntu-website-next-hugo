@@ -1,7 +1,8 @@
 ---
 title:       "Xubuntu 12.04 alpha 2 released"
 date:        2012-02-02 20:42:23
-slug:        precisealpha2
+aliases:
+  - /news/precisealpha2
 release:     "12.04"
 tag:       
 category:    

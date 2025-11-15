@@ -1,7 +1,8 @@
 ---
 title:       "Xubuntu community wallpaper contest winners"
 date:        2014-01-29 00:24:56
-slug:        community-wallpaper-contest-winners
+aliases:
+  - /news/community-wallpaper-contest-winners
 release:     "14.04"
 tag:       
 category:    articles

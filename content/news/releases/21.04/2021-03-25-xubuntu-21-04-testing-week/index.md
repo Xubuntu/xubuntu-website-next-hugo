@@ -1,7 +1,8 @@
 ---
 title:       "Xubuntu 21.04 Testing Week"
 date:        2021-03-25 08:00:00
-slug:        xubuntu-21-04-testing-week
+aliases:
+  - /news/xubuntu-21-04-testing-week
 release:     "21.04"
 tag:       qa, testing-week
 category:    articles

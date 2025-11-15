@@ -1,7 +1,8 @@
 ---
 title:       "Xubuntu 14.10 released!"
 date:        2014-10-23 12:39:54
-slug:        14-10-release
+aliases:
+  - /news/14-10-release
 release:     "14.10"
 tag:       
 category:    announcements

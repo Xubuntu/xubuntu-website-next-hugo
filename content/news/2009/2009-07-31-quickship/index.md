@@ -1,7 +1,8 @@
 ---
 title:       "Free Xubuntu CDs now available"
 date:        2009-07-31 11:11:26
-slug:        quickship
+aliases:
+  - /news/quickship
 release:     ""
 tag:       
 category:    articles

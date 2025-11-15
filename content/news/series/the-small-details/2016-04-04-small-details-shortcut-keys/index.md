@@ -1,7 +1,8 @@
 ---
 title:       "The small details: Shortcut keys"
 date:        2016-04-04 23:19:18
-slug:        small-details-shortcut-keys
+aliases:
+  - /news/small-details-shortcut-keys
 release:     ""
 tag:       the-small-details
 category:    articles

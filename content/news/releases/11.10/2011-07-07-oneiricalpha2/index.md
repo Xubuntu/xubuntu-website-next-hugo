@@ -1,7 +1,8 @@
 ---
 title:       "Xubuntu 11.10 alpha 2 released"
 date:        2011-07-07 08:09:41
-slug:        oneiricalpha2
+aliases:
+  - /news/oneiricalpha2
 release:     "11.10"
 tag:       
 category:    

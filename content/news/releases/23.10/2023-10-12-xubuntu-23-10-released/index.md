@@ -1,7 +1,8 @@
 ---
 title:       "Xubuntu 23.10 released!"
 date:        2023-10-12 17:18:54
-slug:        xubuntu-23-10-released
+aliases:
+  - /news/xubuntu-23-10-released
 release:     "23.10"
 tag:       
 category:    announcements

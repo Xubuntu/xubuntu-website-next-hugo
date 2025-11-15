@@ -1,7 +1,8 @@
 ---
 title:       "Looking for memorable and fun Xubuntu stories!"
 date:        2016-06-23 21:12:09
-slug:        looking-memorable-fun-xubuntu-stories
+aliases:
+  - /news/looking-memorable-fun-xubuntu-stories
 release:     ""
 tag:       
 category:    articles

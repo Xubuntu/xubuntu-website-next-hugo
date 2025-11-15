@@ -1,7 +1,8 @@
 ---
 title:       "Xubuntu 13.04 is here!"
 date:        2013-04-25 12:39:20
-slug:        13-04-release
+aliases:
+  - /news/13-04-release
 release:     "13.04"
 tag:       
 category:    announcements

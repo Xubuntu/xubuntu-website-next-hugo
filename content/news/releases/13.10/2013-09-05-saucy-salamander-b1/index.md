@@ -1,7 +1,8 @@
 ---
 title:       "Xubuntu Saucy Salamander Beta 1"
 date:        2013-09-05 21:17:01
-slug:        saucy-salamander-b1
+aliases:
+  - /news/saucy-salamander-b1
 release:     "13.10"
 tag:       
 category:    

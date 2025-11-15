@@ -1,7 +1,8 @@
 ---
 title:       "Beta 2 released & new branding"
 date:        2012-03-29 21:00:58
-slug:        beta-2-released-new-branding
+aliases:
+  - /news/beta-2-released-new-branding
 release:     "12.04"
 tag:       
 category:    

@@ -1,7 +1,8 @@
 ---
 title:       "Xubuntu Marketing with StartUbuntu Flyer"
 date:        2014-02-17 23:04:54
-slug:        xubuntu-marketing-with-startubuntu-flyer
+aliases:
+  - /news/xubuntu-marketing-with-startubuntu-flyer
 release:     ""
 tag:       
 category:    articles

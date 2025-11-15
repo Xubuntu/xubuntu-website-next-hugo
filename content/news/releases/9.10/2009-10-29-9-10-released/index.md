@@ -1,7 +1,8 @@
 ---
 title:       "Xubuntu 9.10 Released"
 date:        2009-10-29 05:47:19
-slug:        9-10-released
+aliases:
+  - /news/9-10-released
 release:     "9.10"
 tag:       
 category:    announcements

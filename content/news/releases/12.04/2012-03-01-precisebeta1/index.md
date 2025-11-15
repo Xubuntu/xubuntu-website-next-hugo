@@ -1,7 +1,8 @@
 ---
 title:       "Xubuntu 12.04 beta 1 released"
 date:        2012-03-01 22:43:24
-slug:        precisebeta1
+aliases:
+  - /news/precisebeta1
 release:     "12.04"
 tag:       
 category:    

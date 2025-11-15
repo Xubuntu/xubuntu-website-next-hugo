@@ -1,7 +1,8 @@
 ---
 title:       "My media manager: gmusicbrowser"
 date:        2016-04-05 18:17:33
-slug:        my-media-manager-gmusicbrowser
+aliases:
+  - /news/my-media-manager-gmusicbrowser
 release:     ""
 tag:       my-media-manager
 category:    articles

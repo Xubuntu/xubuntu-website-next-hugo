@@ -1,7 +1,8 @@
 ---
 title:       "Xubuntu at FreeGeek Chicago"
 date:        2015-11-23 19:20:04
-slug:        xubuntu-at-freegeek-chicago
+aliases:
+  - /news/xubuntu-at-freegeek-chicago
 release:     ""
 tag:       xubuntu-at
 category:    articles

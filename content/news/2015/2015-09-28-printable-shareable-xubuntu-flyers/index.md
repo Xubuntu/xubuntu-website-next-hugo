@@ -1,7 +1,8 @@
 ---
 title:       "Printable and shareable Xubuntu flyers"
 date:        2015-09-28 19:10:22
-slug:        printable-shareable-xubuntu-flyers
+aliases:
+  - /news/printable-shareable-xubuntu-flyers
 release:     ""
 tag:       
 category:    articles
