@@ -1,0 +1,17 @@
+{{ $releases := partialCached "releases-supported.html" . }}
+
+
+{{ $versionMap := dict }}
+{{ $versions := slice }}
+
+{{ range $releases }}
+  {{ $versions = $versions | append .Params.version }}
+  {{ $versionMap = $versionMap | merge (dict .Params.version .Params.codename) }}
+{{ end }}
+
+
+{{ $press := where .Site.RegularPages "Type" "press" }}
+{{ $press := where $press "Params.release" "in" $versions }}
+{{ $press := sort $press ".Params.release" "desc" }}
+
+{{ return slice $press $versionMap }}

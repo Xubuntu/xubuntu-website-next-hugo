@@ -1,0 +1,17 @@
+{{ define "main" }}
+  <h2>In the press</h2>
+
+  {{ $output := partialCached "press-supported.html" . }}
+
+  {{ $press := index $output 0}}
+  {{ $versionMap := index $output 1}}
+
+  {{ range $press }}
+    {{ $release := .Params.release }}
+    <h4>{{ $release }} ({{ index $versionMap $release }})</h4>
+    {{ .Content }}
+  {{ end }}
+
+
+{{ end }}
+
