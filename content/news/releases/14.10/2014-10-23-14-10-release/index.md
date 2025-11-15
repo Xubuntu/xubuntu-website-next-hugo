@@ -18,7 +18,7 @@ The **release is available for download** by torrents and direct downloads from 
 
 As the main server will be very busy in the first days after the release, we recommend using the Torrents wherever possible.
 
-**For support** with the release, navigate to [Help &amp; Support](http://xubuntu.org/help/ "Help & Support") for a complete list of methods to get help.
+**For support** with the release, navigate to [Help &amp; Support](/help "Help & Support") for a complete list of methods to get help.
 
 Highlights and Known Issues
 ---------------------------

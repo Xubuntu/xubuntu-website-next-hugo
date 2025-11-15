@@ -23,7 +23,7 @@ We’d like to thank everybody who contributed to this release of Xubuntu!
 Support
 -------
 
-**For support** with the release, navigate to [Help &amp; Support](https://xubuntu.org/help/) for a complete list of methods to get help.
+**For support** with the release, navigate to [Help &amp; Support](/help) for a complete list of methods to get help.
 
 Highlights and Known Issues
 ---------------------------

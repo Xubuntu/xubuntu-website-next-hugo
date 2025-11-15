@@ -42,4 +42,4 @@ The main [Ubuntu Release Notes](https://wiki.ubuntu.com/CosmicCuttlefish/Release
 Support
 -------
 
-**For support** with the release, navigate to [Help &amp; Support](https://xubuntu.org/help/) for a complete list of methods to get help.
+**For support** with the release, navigate to [Help &amp; Support](/help) for a complete list of methods to get help.

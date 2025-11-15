@@ -64,7 +64,7 @@ For the best GTK3 support, we advise to use the [Greybird](http://shimmerproject
 Still having issues?
 --------------------
 
-Please see the earlier [FAQ articles](/tag/faq) on our website. While some of the questions are release-specific, most of them are still applicable to 12.04. Topics include changing and installing themes, Compiz on Xubuntu and much more. If you are still having issues, refer to the [Help &amp; Support section](http://xubuntu.org/help/) for a list of available support methods.
+Please see the earlier [FAQ articles](/tag/faq) on our website. While some of the questions are release-specific, most of them are still applicable to 12.04. Topics include changing and installing themes, Compiz on Xubuntu and much more. If you are still having issues, refer to the [Help &amp; Support section](/help) for a list of available support methods.
 
 Thanks
 ------

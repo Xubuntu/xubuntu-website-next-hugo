@@ -46,4 +46,4 @@ The main [Ubuntu Release Notes](https://discourse.ubuntu.com/t/questing-quokka-r
 Support
 -------
 
-**For support** with the release, navigate to [Help &amp; Support](https://xubuntu.org/help/) for a complete list of methods to get help.
+**For support** with the release, navigate to [Help &amp; Support](/help) for a complete list of methods to get help.

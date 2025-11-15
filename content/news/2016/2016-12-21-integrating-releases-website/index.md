@@ -24,6 +24,6 @@ We hope our users find the new release pages useful – we definitely do!
 Automatized links
 -----------------
 
-In addition to the release pages, we've worked how some of the common links are stored internally. With these changes, we're able to build dynamic link lists for the [downloads](https://xubuntu.org/getxubuntu/), the [press links](https://xubuntu.org/press/) (including the [press archive](https://xubuntu.org/press/archive/)) as well as the [documentation links](https://xubuntu.org/help/) for supported releases.
+In addition to the release pages, we've worked how some of the common links are stored internally. With these changes, we're able to build dynamic link lists for the [downloads](https://xubuntu.org/getxubuntu/), the [press links](https://xubuntu.org/press/) (including the [press archive](https://xubuntu.org/press/archive/)) as well as the [documentation links](/help) for supported releases.
 
 These changes help with the maintenance and we hope to put the time freed from running the maintenance routines into finding more useful content for the press links and improving the site content otherwise.
