@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <h2>Tags</h2>
+  <section>
+  {{ range .Data.Terms.Alphabetical }}
+    <h4  style="display:inline"><a href="{{ .Page.RelPermalink }}">{{ .Page.LinkTitle }}</a></h4>
+    <hr style="margin-bottom:0;margin-top:0">
+  {{ end }}
+  </section>
+
+  {{ partial "pagination.html" . }}
+{{ end }}
