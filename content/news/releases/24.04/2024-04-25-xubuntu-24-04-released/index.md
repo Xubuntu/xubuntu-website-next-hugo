@@ -3,7 +3,7 @@ title:       "Xubuntu 24.04 released!"
 date:        2024-04-25 12:00:53
 slug:        xubuntu-24-04-released
 release:     "24.04"
-serie:       
+tag:       
 category:    announcements
 author:      Sean Davis
 author_nick: bluesabre

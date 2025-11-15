@@ -3,7 +3,7 @@ title:       "Screen locking in Xubuntu 14.04"
 date:        2014-05-19 11:15:06
 slug:        screen-locking-in-xubuntu-14-04
 release:     "14.04"
-serie:       
+tag:       
 category:    articles
 author:      Simon Steinbeiß
 author_nick: ochosi

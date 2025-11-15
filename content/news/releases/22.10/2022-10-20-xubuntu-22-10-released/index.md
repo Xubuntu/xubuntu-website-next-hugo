@@ -3,7 +3,7 @@ title:       "Xubuntu 22.10 released!"
 date:        2022-10-20 16:53:00
 slug:        xubuntu-22-10-released
 release:     "22.10"
-serie:       
+tag:       
 category:    announcements
 author:      Sean Davis
 author_nick: bluesabre

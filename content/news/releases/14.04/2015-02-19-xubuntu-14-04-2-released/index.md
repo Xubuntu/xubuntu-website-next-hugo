@@ -3,7 +3,7 @@ title:       "Xubuntu 14.04.2 released"
 date:        2015-02-19 23:11:31
 slug:        xubuntu-14-04-2-released
 release:     "14.04"
-serie:       
+tag:       
 category:    announcements
 author:      flocculant
 author_nick: flocculant

@@ -3,7 +3,7 @@ title:       "Xubuntu 23.04 released!"
 date:        2023-04-20 02:41:24
 slug:        xubuntu-23-04-released
 release:     "23.04"
-serie:       
+tag:       
 category:    announcements
 author:      Sean Davis
 author_nick: bluesabre

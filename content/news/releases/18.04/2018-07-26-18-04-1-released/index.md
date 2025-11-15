@@ -3,7 +3,7 @@ title:       "Xubuntu 18.04.1 released!"
 date:        2018-07-26 19:35:53
 slug:        18-04-1-released
 release:     "18.04"
-serie:       
+tag:       
 category:    announcements
 author:      flocculant
 author_nick: flocculant

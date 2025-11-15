@@ -3,7 +3,7 @@ title:       "Xubuntu 9.04 Released"
 date:        2009-04-23 05:36:04
 slug:        9-04-release
 release:     "9.04"
-serie:       
+tag:       
 category:    announcements
 author:      Elizabeth K. Joseph
 author_nick: pleia2

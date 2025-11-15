@@ -3,7 +3,7 @@ title:       "Xubuntu 15.04 released!"
 date:        2015-04-23 15:25:18
 slug:        15-04-release
 release:     "15.04"
-serie:       
+tag:       
 category:    announcements
 author:      Pasi Lallinaho
 author_nick: knome

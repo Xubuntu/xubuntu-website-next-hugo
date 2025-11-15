@@ -3,7 +3,7 @@ title:       "Xubuntu 14.04 released!"
 date:        2014-04-17 12:00:42
 slug:        14-04-release
 release:     "14.04"
-serie:       
+tag:       
 category:    announcements
 author:      Pasi Lallinaho
 author_nick: knome

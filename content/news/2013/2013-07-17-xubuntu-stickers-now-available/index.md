@@ -3,7 +3,7 @@ title:       "Xubuntu stickers now available"
 date:        2013-07-17 16:10:18
 slug:        xubuntu-stickers-now-available
 release:     ""
-serie:       
+tag:       
 category:    
 author:      Elizabeth K. Joseph
 author_nick: pleia2

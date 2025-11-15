@@ -3,7 +3,7 @@ title:       "The small details: Personal information integration"
 date:        2016-04-11 16:49:42
 slug:        small-details-personal-information-integration
 release:     ""
-serie:       the-small-details
+tag:       the-small-details
 category:    articles
 author:      Pasi Lallinaho
 author_nick: knome

@@ -3,7 +3,7 @@ title:       "Xubuntu 22.04 Community Wallpaper Contest Winners"
 date:        2022-04-21 22:21:04
 slug:        xubuntu-22-04-community-wallpaper-contest-winners
 release:     "22.04"
-serie:       
+tag:       
 category:    
 author:      Sean Davis
 author_nick: bluesabre

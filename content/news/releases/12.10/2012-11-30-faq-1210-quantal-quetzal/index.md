@@ -3,7 +3,7 @@ title:       "FAQ for Xubuntu 12.10 Quantal Quetzal"
 date:        2012-11-30 19:36:11
 slug:        faq-1210-quantal-quetzal
 release:     "12.10"
-serie:       faq
+tag:       faq
 category:    articles
 author:      Pasi Lallinaho
 author_nick: knome

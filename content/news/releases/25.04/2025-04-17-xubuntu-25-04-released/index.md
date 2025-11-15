@@ -3,7 +3,7 @@ title:       "Xubuntu 25.04 released!"
 date:        2025-04-17 12:00:00
 slug:        xubuntu-25-04-released
 release:     "25.04"
-serie:       
+tag:       
 category:    announcements
 author:      Sean Davis
 author_nick: bluesabre

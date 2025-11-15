@@ -3,7 +3,7 @@ title:       "No Quantal Beta 1 for Xubuntu"
 date:        2012-09-06 23:54:41
 slug:        no-quantal-beta-1-for-xubuntu
 release:     "12.10"
-serie:       
+tag:       
 category:    
 author:      Elizabeth K. Joseph
 author_nick: pleia2

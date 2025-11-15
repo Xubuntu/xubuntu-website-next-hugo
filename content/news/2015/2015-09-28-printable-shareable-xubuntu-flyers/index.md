@@ -3,7 +3,7 @@ title:       "Printable and shareable Xubuntu flyers"
 date:        2015-09-28 19:10:22
 slug:        printable-shareable-xubuntu-flyers
 release:     ""
-serie:       
+tag:       
 category:    articles
 author:      Elizabeth K. Joseph
 author_nick: pleia2

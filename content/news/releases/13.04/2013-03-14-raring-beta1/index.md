@@ -3,7 +3,7 @@ title:       "Announcing Xubuntu 13.04 Beta 1"
 date:        2013-03-14 20:40:04
 slug:        raring-beta1
 release:     "13.04"
-serie:       
+tag:       
 category:    
 author:      Pasi Lallinaho
 author_nick: knome

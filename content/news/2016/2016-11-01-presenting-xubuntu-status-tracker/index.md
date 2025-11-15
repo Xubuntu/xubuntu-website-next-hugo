@@ -3,7 +3,7 @@ title:       "Presenting the Xubuntu status tracker"
 date:        2016-11-01 10:43:21
 slug:        presenting-xubuntu-status-tracker
 release:     ""
-serie:       
+tag:       
 category:    articles
 author:      Pasi Lallinaho
 author_nick: knome

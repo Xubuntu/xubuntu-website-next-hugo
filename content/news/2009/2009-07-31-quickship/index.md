@@ -3,7 +3,7 @@ title:       "Free Xubuntu CDs now available"
 date:        2009-07-31 11:11:26
 slug:        quickship
 release:     ""
-serie:       
+tag:       
 category:    articles
 author:      Elizabeth K. Joseph
 author_nick: pleia2

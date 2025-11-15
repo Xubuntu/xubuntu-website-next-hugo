@@ -3,7 +3,7 @@ title:       "Xubuntu 19.10 released!"
 date:        2019-10-17 18:23:30
 slug:        xubuntu-19-10-released
 release:     "19.10"
-serie:       
+tag:       
 category:    announcements
 author:      Sean Davis
 author_nick: bluesabre

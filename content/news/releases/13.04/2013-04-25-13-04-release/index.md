@@ -3,7 +3,7 @@ title:       "Xubuntu 13.04 is here!"
 date:        2013-04-25 12:39:20
 slug:        13-04-release
 release:     "13.04"
-serie:       
+tag:       
 category:    announcements
 author:      Pasi Lallinaho
 author_nick: knome

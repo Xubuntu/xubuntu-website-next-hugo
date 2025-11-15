@@ -3,7 +3,7 @@ title:       "Xubuntu 18.04 Community Wallpaper Contest Winners!"
 date:        2018-04-05 22:36:38
 slug:        18-04-community-wallpaper-contest-winners
 release:     "18.04"
-serie:       
+tag:       
 category:    articles
 author:      Pasi Lallinaho
 author_nick: knome

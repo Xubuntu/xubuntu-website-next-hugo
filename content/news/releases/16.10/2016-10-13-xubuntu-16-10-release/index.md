@@ -3,7 +3,7 @@ title:       "Xubuntu 16.10 Released"
 date:        2016-10-13 16:43:25
 slug:        xubuntu-16-10-release
 release:     "16.10"
-serie:       
+tag:       
 category:    
 author:      flocculant
 author_nick: flocculant

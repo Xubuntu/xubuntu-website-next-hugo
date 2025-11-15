@@ -3,7 +3,7 @@ title:       "Window resizing in Xubuntu (and Xfce)"
 date:        2012-04-13 14:18:19
 slug:        window-resizing-in-xubuntu-and-xfce
 release:     "12.04"
-serie:       faq
+tag:       faq
 category:    articles
 author:      Simon Steinbeiß
 author_nick: ochosi

@@ -3,7 +3,7 @@ title:       "Xubuntu 9.10 RC released"
 date:        2009-10-25 02:01:18
 slug:        karmicrc
 release:     "9.10"
-serie:       
+tag:       
 category:    
 author:      Elizabeth K. Joseph
 author_nick: pleia2

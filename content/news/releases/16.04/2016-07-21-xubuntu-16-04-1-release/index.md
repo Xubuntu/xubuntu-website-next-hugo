@@ -3,7 +3,7 @@ title:       "Xubuntu 16.04.1 Release"
 date:        2016-07-21 17:50:15
 slug:        xubuntu-16-04-1-release
 release:     "16.04"
-serie:       
+tag:       
 category:    
 author:      flocculant
 author_nick: flocculant

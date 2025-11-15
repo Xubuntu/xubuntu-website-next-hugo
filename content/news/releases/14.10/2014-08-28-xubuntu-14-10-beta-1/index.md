@@ -3,7 +3,7 @@ title:       "Xubuntu 14.10 Beta 1 is released!"
 date:        2014-08-28 21:16:53
 slug:        xubuntu-14-10-beta-1
 release:     "14.10"
-serie:       
+tag:       
 category:    
 author:      Pasi Lallinaho
 author_nick: knome

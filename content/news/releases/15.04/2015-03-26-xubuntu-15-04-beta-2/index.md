@@ -3,7 +3,7 @@ title:       "Xubuntu 15.04 Beta 2"
 date:        2015-03-26 21:15:23
 slug:        xubuntu-15-04-beta-2
 release:     "15.04"
-serie:       
+tag:       
 category:    announcements
 author:      flocculant
 author_nick: flocculant

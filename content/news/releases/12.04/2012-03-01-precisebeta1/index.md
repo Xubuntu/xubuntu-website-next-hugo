@@ -3,7 +3,7 @@ title:       "Xubuntu 12.04 beta 1 released"
 date:        2012-03-01 22:43:24
 slug:        precisebeta1
 release:     "12.04"
-serie:       
+tag:       
 category:    
 author:      Elizabeth K. Joseph
 author_nick: pleia2

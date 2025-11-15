@@ -3,7 +3,7 @@ title:       "The Small and the Noisy"
 date:        2016-03-28 23:25:05
 slug:        small-and-noisy
 release:     "16.04"
-serie:       
+tag:       
 category:    articles
 author:      Pasi Lallinaho
 author_nick: knome

@@ -3,7 +3,7 @@ title:       "Reporting is caring"
 date:        2014-02-14 16:06:39
 slug:        reporting-is-caring
 release:     ""
-serie:       getting-started-development
+tag:       getting-started-development
 category:    articles
 author:      flocculant
 author_nick: flocculant

@@ -3,7 +3,7 @@ title:       "Xubuntu at Techs for a Cause in Kansas City"
 date:        2013-10-24 15:07:07
 slug:        xubuntu-at-techs-for-a-cause-in-kansas-city
 release:     ""
-serie:       xubuntu-at
+tag:       xubuntu-at
 category:    articles
 author:      Elizabeth K. Joseph
 author_nick: pleia2

@@ -3,7 +3,7 @@ title:       "Xubuntu goes 1GB for Raring, GIMP and Gnumeric are back"
 date:        2013-02-13 17:58:19
 slug:        xubuntu-goes-1gb-for-raring-gimp-and-gnumeric-are-back
 release:     "13.04"
-serie:       
+tag:       
 category:    
 author:      Elizabeth K. Joseph
 author_nick: pleia2

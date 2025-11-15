@@ -3,7 +3,7 @@ title:       "Xubuntu 16.04 LTS Beta 1"
 date:        2016-02-24 21:18:43
 slug:        xubuntu-16-04-lts-beta-1
 release:     "16.04"
-serie:       
+tag:       
 category:    announcements
 author:      Pasi Lallinaho
 author_nick: knome

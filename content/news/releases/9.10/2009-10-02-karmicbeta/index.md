@@ -3,7 +3,7 @@ title:       "Xubuntu 9.10 beta released"
 date:        2009-10-02 04:25:24
 slug:        karmicbeta
 release:     "9.10"
-serie:       
+tag:       
 category:    
 author:      Elizabeth K. Joseph
 author_nick: pleia2

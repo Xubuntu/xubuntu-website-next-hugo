@@ -3,7 +3,7 @@ title:       "Xubuntu Oneiric Ocelot beta2 released"
 date:        2011-09-22 15:03:29
 slug:        oneiricbeta2
 release:     "11.10"
-serie:       
+tag:       
 category:    
 author:      Elizabeth K. Joseph
 author_nick: pleia2

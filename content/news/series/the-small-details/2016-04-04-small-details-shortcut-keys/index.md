@@ -3,7 +3,7 @@ title:       "The small details: Shortcut keys"
 date:        2016-04-04 23:19:18
 slug:        small-details-shortcut-keys
 release:     ""
-serie:       the-small-details
+tag:       the-small-details
 category:    articles
 author:      Pasi Lallinaho
 author_nick: knome

@@ -3,7 +3,7 @@ title:       "Xubuntu 11.10 released"
 date:        2011-10-13 05:21:13
 slug:        11-10-release
 release:     "11.10"
-serie:       
+tag:       
 category:    announcements
 author:      Elizabeth K. Joseph
 author_nick: pleia2

@@ -3,7 +3,7 @@ title:       "Xubuntu 19.04 released!"
 date:        2019-04-18 16:55:29
 slug:        xubuntu-19-04-released
 release:     "19.04"
-serie:       
+tag:       
 category:    announcements
 author:      Sean Davis
 author_nick: bluesabre

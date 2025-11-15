@@ -3,7 +3,7 @@ title:       "Countdown to Xubuntu 9.04"
 date:        2009-04-06 10:17:55
 slug:        jauntycountdown
 release:     "9.04"
-serie:       
+tag:       
 category:    articles
 author:      Elizabeth K. Joseph
 author_nick: pleia2

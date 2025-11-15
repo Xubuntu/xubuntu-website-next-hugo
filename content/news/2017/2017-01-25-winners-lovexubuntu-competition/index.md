@@ -3,7 +3,7 @@ title:       "Winners of the #lovexubuntu Competition!"
 date:        2017-01-25 20:53:17
 slug:        winners-lovexubuntu-competition
 release:     ""
-serie:       
+tag:       
 category:    articles
 author:      Pasi Lallinaho
 author_nick: knome

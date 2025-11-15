@@ -3,7 +3,7 @@ title:       "Want to help out Xubuntu? Test Raring!"
 date:        2013-03-11 23:51:30
 slug:        want-to-help-out-xubuntu-test-raring
 release:     "13.04"
-serie:       
+tag:       
 category:    
 author:      Pasi Lallinaho
 author_nick: knome

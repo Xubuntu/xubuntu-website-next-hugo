@@ -3,7 +3,7 @@ title:       "Xubuntu 13.10 is released!"
 date:        2013-10-17 13:25:28
 slug:        saucy-salamander-final
 release:     "13.10"
-serie:       
+tag:       
 category:    announcements
 author:      Pasi Lallinaho
 author_nick: knome

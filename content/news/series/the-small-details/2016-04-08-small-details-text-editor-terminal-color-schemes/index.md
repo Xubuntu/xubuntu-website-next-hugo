@@ -3,7 +3,7 @@ title:       "The small details: Text editor and terminal color schemes"
 date:        2016-04-08 23:02:29
 slug:        small-details-text-editor-terminal-color-schemes
 release:     ""
-serie:       the-small-details
+tag:       the-small-details
 category:    articles
 author:      Pasi Lallinaho
 author_nick: knome

@@ -3,7 +3,7 @@ title:       "Help the Community with testing and win Xubuntu stickers"
 date:        2015-01-20 00:07:54
 slug:        help-the-community-with-testing-and-win-xubuntu-stickers
 release:     "15.04"
-serie:       
+tag:       
 category:    articles
 author:      Pasi Lallinaho
 author_nick: knome

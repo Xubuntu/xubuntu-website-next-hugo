@@ -3,7 +3,7 @@ title:       "Xubuntu Saucy Salamander Beta 1"
 date:        2013-09-05 21:17:01
 slug:        saucy-salamander-b1
 release:     "13.10"
-serie:       
+tag:       
 category:    
 author:      Pasi Lallinaho
 author_nick: knome

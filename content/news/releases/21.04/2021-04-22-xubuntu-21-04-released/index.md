@@ -3,7 +3,7 @@ title:       "Xubuntu 21.04 released!"
 date:        2021-04-22 10:56:01
 slug:        xubuntu-21-04-released
 release:     "21.04"
-serie:       
+tag:       
 category:    announcements
 author:      Yousuf Philips
 author_nick: philipz85

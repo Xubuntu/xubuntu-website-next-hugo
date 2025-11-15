@@ -3,7 +3,7 @@ title:       "Xubuntu 12.04 End of Life"
 date:        2015-04-29 19:20:13
 slug:        xubuntu-12-04-end-of-life
 release:     "12.04"
-serie:       
+tag:       
 category:    
 author:      flocculant
 author_nick: flocculant

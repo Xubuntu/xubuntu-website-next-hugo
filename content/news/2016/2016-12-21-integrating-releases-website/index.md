@@ -3,7 +3,7 @@ title:       "Integrating releases to the website"
 date:        2016-12-21 13:00:45
 slug:        integrating-releases-website
 release:     ""
-serie:       
+tag:       
 category:    articles
 author:      Pasi Lallinaho
 author_nick: knome

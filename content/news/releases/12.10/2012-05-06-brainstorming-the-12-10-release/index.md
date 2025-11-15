@@ -3,7 +3,7 @@ title:       "Brainstorming the 12.10 release"
 date:        2012-05-06 23:36:46
 slug:        brainstorming-the-12-10-release
 release:     "12.10"
-serie:       
+tag:       
 category:    articles
 author:      Pasi Lallinaho
 author_nick: knome

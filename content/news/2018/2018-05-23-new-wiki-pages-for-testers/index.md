@@ -3,7 +3,7 @@ title:       "New Wiki pages for Testers"
 date:        2018-05-23 16:49:18
 slug:        new-wiki-pages-for-testers
 release:     ""
-serie:       qa
+tag:       qa
 category:    articles
 author:      flocculant
 author_nick: flocculant

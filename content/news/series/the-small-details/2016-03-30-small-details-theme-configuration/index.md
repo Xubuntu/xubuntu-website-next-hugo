@@ -3,7 +3,7 @@ title:       "The small details: Theme configuration"
 date:        2016-03-30 20:37:43
 slug:        small-details-theme-configuration
 release:     ""
-serie:       the-small-details
+tag:       the-small-details
 category:    articles
 author:      Pasi Lallinaho
 author_nick: knome

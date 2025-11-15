@@ -3,7 +3,7 @@ title:       "Bringing our web presence to 2012"
 date:        2012-02-03 17:36:53
 slug:        webpresence2012
 release:     ""
-serie:       
+tag:       
 category:    articles
 author:      Elizabeth K. Joseph
 author_nick: pleia2

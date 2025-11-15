@@ -3,7 +3,7 @@ title:       "Xubuntu 17.04 released!"
 date:        2017-04-13 16:15:17
 slug:        xubuntu-17-04-release
 release:     "17.04"
-serie:       
+tag:       
 category:    announcements
 author:      Pasi Lallinaho
 author_nick: knome

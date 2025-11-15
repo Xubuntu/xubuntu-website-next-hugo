@@ -3,7 +3,7 @@ title:       "Xubuntu 12.10 is out!"
 date:        2012-10-18 17:00:47
 slug:        12-10-release
 release:     "12.10"
-serie:       
+tag:       
 category:    announcements
 author:      Pasi Lallinaho
 author_nick: knome

@@ -3,7 +3,7 @@ title:       "Xubuntu 17.10 EOL"
 date:        2018-07-21 05:20:07
 slug:        xubuntu-17-10-eol
 release:     ""
-serie:       
+tag:       
 category:    
 author:      flocculant
 author_nick: flocculant

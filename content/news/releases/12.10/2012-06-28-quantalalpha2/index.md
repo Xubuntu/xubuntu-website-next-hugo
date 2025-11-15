@@ -3,7 +3,7 @@ title:       "Xubuntu 12.10 alpha 2 released"
 date:        2012-06-28 12:20:25
 slug:        quantalalpha2
 release:     "12.10"
-serie:       
+tag:       
 category:    
 author:      Elizabeth K. Joseph
 author_nick: pleia2

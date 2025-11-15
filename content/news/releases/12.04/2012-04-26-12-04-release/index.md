@@ -3,7 +3,7 @@ title:       "Xubuntu 12.04 released"
 date:        2012-04-26 13:13:14
 slug:        12-04-release
 release:     "12.04"
-serie:       
+tag:       
 category:    announcements
 author:      Pasi Lallinaho
 author_nick: knome

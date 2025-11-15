@@ -3,7 +3,7 @@ title:       "Xubuntu at Computer Reach"
 date:        2015-06-02 15:54:48
 slug:        xubuntu-at-computer-reach
 release:     ""
-serie:       xubuntu-at
+tag:       xubuntu-at
 category:    articles
 author:      Elizabeth K. Joseph
 author_nick: pleia2

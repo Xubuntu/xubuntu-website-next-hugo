@@ -3,7 +3,7 @@ title:       "Xubuntu 17.04 End Of Life"
 date:        2018-01-12 14:40:20
 slug:        17-04-eol
 release:     "17.04"
-serie:       
+tag:       
 category:    
 author:      flocculant
 author_nick: flocculant

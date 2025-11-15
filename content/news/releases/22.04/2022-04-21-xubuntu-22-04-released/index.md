@@ -3,7 +3,7 @@ title:       "Xubuntu 22.04 released!"
 date:        2022-04-21 22:44:40
 slug:        xubuntu-22-04-released
 release:     "22.04"
-serie:       
+tag:       
 category:    announcements
 author:      Sean Davis
 author_nick: bluesabre

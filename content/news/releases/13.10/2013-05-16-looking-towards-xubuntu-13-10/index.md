@@ -3,7 +3,7 @@ title:       "Looking towards Xubuntu 13.10"
 date:        2013-05-16 23:45:42
 slug:        looking-towards-xubuntu-13-10
 release:     "13.10"
-serie:       
+tag:       
 category:    articles
 author:      Pasi Lallinaho
 author_nick: knome

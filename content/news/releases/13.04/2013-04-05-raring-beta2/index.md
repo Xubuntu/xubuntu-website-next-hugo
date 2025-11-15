@@ -3,7 +3,7 @@ title:       "Xubuntu Beta 2 is out!"
 date:        2013-04-05 13:40:07
 slug:        raring-beta2
 release:     "13.04"
-serie:       
+tag:       
 category:    
 author:      Pasi Lallinaho
 author_nick: knome

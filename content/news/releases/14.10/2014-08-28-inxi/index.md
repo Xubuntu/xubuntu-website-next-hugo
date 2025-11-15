@@ -3,7 +3,7 @@ title:       "Using inxi to detect hardware information"
 date:        2014-08-28 16:01:14
 slug:        inxi
 release:     "14.10"
-serie:       faq
+tag:       faq
 category:    articles
 author:      David Pires
 author_nick: slickymaster

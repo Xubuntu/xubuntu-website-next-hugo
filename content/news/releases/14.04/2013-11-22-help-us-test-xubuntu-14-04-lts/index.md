@@ -3,7 +3,7 @@ title:       "Help us test Xubuntu 14.04 LTS"
 date:        2013-11-22 22:05:15
 slug:        help-us-test-xubuntu-14-04-lts
 release:     "14.04"
-serie:       
+tag:       
 category:    articles
 author:      flocculant
 author_nick: flocculant

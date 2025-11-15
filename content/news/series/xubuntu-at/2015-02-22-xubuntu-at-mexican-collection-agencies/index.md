@@ -3,7 +3,7 @@ title:       "Xubuntu at Mexican collection agencies"
 date:        2015-02-22 00:42:38
 slug:        xubuntu-at-mexican-collection-agencies
 release:     ""
-serie:       xubuntu-at
+tag:       xubuntu-at
 category:    articles
 author:      Elizabeth K. Joseph
 author_nick: pleia2

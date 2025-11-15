@@ -3,7 +3,7 @@ title:       "Xubuntu 16.04 Wallpaper Competition Winners!"
 date:        2016-04-19 20:15:58
 slug:        xubuntu-16-04-wallpaper-competition-winners
 release:     "16.04"
-serie:       
+tag:       
 category:    articles
 author:      Pasi Lallinaho
 author_nick: knome

@@ -3,7 +3,7 @@ title:       "Xubuntu 14.04 Alpha 2"
 date:        2014-01-23 18:44:03
 slug:        xubuntu-14-04-alpha-2
 release:     "14.04"
-serie:       
+tag:       
 category:    
 author:      flocculant
 author_nick: flocculant

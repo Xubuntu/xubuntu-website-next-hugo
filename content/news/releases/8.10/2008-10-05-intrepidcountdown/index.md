@@ -3,7 +3,7 @@ title:       "Countdown to Xubuntu 8.10"
 date:        2008-10-05 07:00:51
 slug:        intrepidcountdown
 release:     "8.10"
-serie:       
+tag:       
 category:    articles
 author:      Elizabeth K. Joseph
 author_nick: pleia2
