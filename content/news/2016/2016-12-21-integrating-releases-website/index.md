@@ -15,9 +15,9 @@ During 2016, the Xubuntu website team has been working on integrating the releas
 Release pages
 -------------
 
-We finally have a one-stop page for all currently supported releases – the [Releases](https://xubuntu.org/releases/) landing page. You can find the page at any time under the *About* menu. From this page, you can easily access individual release pages.
+We finally have a one-stop page for all currently supported releases – the [Releases](/releases/) landing page. You can find the page at any time under the *About* menu. From this page, you can easily access individual release pages.
 
-The new individual release pages (for example, see the [16.04 release page](http://xubuntu.org/release/16-04/)) lists the basic information for the release, appropriate release links (downloads and documentation), all articles on the release as well as the press links and finally, all screenshots related to the release.
+The new individual release pages (for example, see the [16.04 release page](/release/16.04/)) lists the basic information for the release, appropriate release links (downloads and documentation), all articles on the release as well as the press links and finally, all screenshots related to the release.
 
 We hope our users find the new release pages useful – we definitely do!
 
