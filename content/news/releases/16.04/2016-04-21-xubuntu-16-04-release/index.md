@@ -12,7 +12,7 @@ author_nick: flocculant
 
 The Xubuntu team is pleased to announce the immediate release of Xubuntu 16.04. Xubuntu 16.04 is an LTS (Long-Term Support) release and will be supported for 3 years.
 
-The **final release images** are available as Torrents and direct downloads from <http://xubuntu.org/getxubuntu/>
+The **final release images** are available as Torrents and direct downloads from </getxubuntu>
 
 As the main server will be very busy in the first few days after release, we recommend using the Torrents wherever possible.
 

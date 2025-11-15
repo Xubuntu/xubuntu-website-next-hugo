@@ -12,7 +12,7 @@ author_nick: knome
 
 The Xubuntu team is glad to announce the immediate release of Xubuntu 12.10, codenamed Quantal Quetzal! Xubuntu 12.10 will be supported for 18 months.
 
-[**Download Xubuntu 12.10 here!**](http://xubuntu.org/getxubuntu/ "Get Xubuntu")
+[**Download Xubuntu 12.10 here!**](/getxubuntu "Get Xubuntu")
 
 For support with the release, navigate to [Help &amp; Support](/help "Help & Support") for a full listing of methods to get help.
 

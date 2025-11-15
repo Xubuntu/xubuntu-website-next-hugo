@@ -14,7 +14,7 @@ The Xubuntu team is happy to announce the immediate release of Xubuntu 17.10.
 
 Xubuntu 17.10 is a regular release and will be supported for 9 months, until July 2018. If you need a stable environment with longer support time, we recommend that you use [Xubuntu 16.04 LTS](/release/16.04//) instead, or wait for 18.04, the next LTS version to be released in April 2018.
 
-The **final release images** are available as torrents and direct downloads from [xubuntu.org/getxubuntu/](https://xubuntu.org/getxubuntu/)
+The **final release images** are available as torrents and direct downloads from [xubuntu.org/getxubuntu/](/getxubuntu)
 
 As the main server might be busy in the first few days after the release, we recommend using the torrents if possible.
 

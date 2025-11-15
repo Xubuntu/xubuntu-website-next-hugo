@@ -14,7 +14,7 @@ The Xubuntu team is happy to announce the immediate release of Xubuntu 19.10!
 
 Xubuntu 19.10, codenamed **Eoan Ermine**, is a regular release and will be supported for 9 months, until July 2020. If you need a stable environment with longer support time, we recommend that you use [Xubuntu 18.04 LTS](/release/18.04//) instead.
 
-The **final release images** are available as torrents and direct downloads from [xubuntu.org/getxubuntu/](https://xubuntu.org/getxubuntu/)
+The **final release images** are available as torrents and direct downloads from [xubuntu.org/getxubuntu/](/getxubuntu)
 
 As the main server might be busy in the first few days after the release, we recommend using the torrents if possible.
 

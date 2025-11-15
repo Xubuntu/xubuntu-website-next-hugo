@@ -14,7 +14,7 @@ author_nick: knome
 
 The Xubuntu team is pleased to announce the immediate release of Xubuntu 15.04!
 
-The **release is available for download** by torrents and direct downloads from [http://xubuntu.org/getxubuntu/](http://xubuntu.org/getxubuntu/ "Get Xubuntu").
+The **release is available for download** by torrents and direct downloads from [/getxubuntu](/getxubuntu "Get Xubuntu").
 
 As the main server will be very busy in the first days after the release, we recommend using the Torrents wherever possible.
 

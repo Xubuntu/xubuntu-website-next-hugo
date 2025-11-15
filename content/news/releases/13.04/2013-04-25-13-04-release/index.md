@@ -14,7 +14,7 @@ The Xubuntu team is glad to announce the immediate release of Xubuntu 13.04!
 
 Xubuntu 13.04 will be supported for *9 months* and will need other media such as a *USB device* or a *DVD* to install. Read more below.
 
-[**Download Xubuntu 13.04 here!**](http://xubuntu.org/getxubuntu/ "Get Xubuntu")
+[**Download Xubuntu 13.04 here!**](/getxubuntu "Get Xubuntu")
 
 What's new in Xubuntu 13.04?
 ----------------------------

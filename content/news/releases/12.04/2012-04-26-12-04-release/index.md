@@ -12,7 +12,7 @@ author_nick: knome
 
 The Xubuntu team is very proud and happy to announce the release of Xubuntu 12.04, codenamed Precise Pangolin! Xubuntu 12.04 is a Long Term Support release (LTS) and will be supported for *three years* per the Xubuntu LTS plan.
 
-[**Download Xubuntu 12.04 here**](http://xubuntu.org/getxubuntu/ "Get Xubuntu")
+[**Download Xubuntu 12.04 here**](/getxubuntu "Get Xubuntu")
 
 For support with the release, navigate to [Help &amp; Support](/help "Help & Support") for a full listing of methods to get help.
 
