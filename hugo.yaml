@@ -17,3 +17,7 @@ menus:
   - name: Blog
     pageRef: /news
     weight: 40
+
+taxonomies:
+  tag: tag
+  category: category
