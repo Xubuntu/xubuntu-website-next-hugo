@@ -22,7 +22,7 @@ New features
 ------------
 
 - Xfce 4.10
-- [Completely rewritten offline documentation](http://xubuntu.org/news/offline-documentation-rewritten-for-12-10/ "Offline documentation rewritten for 12.10")
+- [Completely rewritten offline documentation](/news/offline-documentation-rewritten-for-12-10 "Offline documentation rewritten for 12.10")
 - In the application menu, all settings-related launchers are now grouped under the Settings Manager
 - Updated artwork, including new wallpaper, documentation looks and updates to LightDM, Greybird and Ubiquity slideshow
 - New versions of Catfish and Parole

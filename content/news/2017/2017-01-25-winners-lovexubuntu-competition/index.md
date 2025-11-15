@@ -10,7 +10,7 @@ author:      Pasi Lallinaho
 author_nick: knome
 ---
 
-As Xubuntu's tenth anniversary year is now over, it's time to announce the winners of the [\#lovexubuntu competition announced in June](http://xubuntu.org/news/looking-memorable-fun-xubuntu-stories/)!
+As Xubuntu's tenth anniversary year is now over, it's time to announce the winners of the [\#lovexubuntu competition announced in June](/news/looking-memorable-fun-xubuntu-stories)!
 
 The two grand prize winners, receiving a t-shirt and a sticker set, are **Keith I Myers** with his Xubuntu cookie cutters and **Daniel Eriksson** with a story of a happy customer. The three other finalists, each one receiving a set of Xubuntu stickers are **Dina**, **Sabrin Islam** and **Michael Morozov**.
 

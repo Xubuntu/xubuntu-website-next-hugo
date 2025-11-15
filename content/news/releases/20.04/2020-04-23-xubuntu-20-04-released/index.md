@@ -12,7 +12,7 @@ author_nick: philipz85
 
 The Xubuntu team is happy to announce the immediate release of Xubuntu 20.04. Xubuntu 20.04, codenamed **Focal Fossa**, is a long-term support (LTS) release and will be supported for 3 years, until April 2023.
 
-The Xubuntu team has been hard at work for the last six months of this development cycle improving both the Xfce desktop environment and the Xubuntu user experience following our 19.10 release, which introduced Xfce 4.14 for the first time. We were thrilled by the response to the [Ubuntu Testing Week](https://xubuntu.org/news/xubuntu-20-04-testing-week/), which helped us make 20.04 another great and stable release.
+The Xubuntu team has been hard at work for the last six months of this development cycle improving both the Xfce desktop environment and the Xubuntu user experience following our 19.10 release, which introduced Xfce 4.14 for the first time. We were thrilled by the response to the [Ubuntu Testing Week](/news/xubuntu-20-04-testing-week), which helped us make 20.04 another great and stable release.
 
 The **final release images** are available as torrents and direct downloads from [xubuntu.org/download/](https://xubuntu.org/download/).
 
@@ -32,7 +32,7 @@ Highlights and Known Issues
 ### Highlights
 
 - A brand new dark theme was added, Greybird-dark, complementing the default Greybird theme. Both themes are available to snap and flatpak apps.
-- Six community wallpapers are bundled from winners of the [Community Wallpaper Contest](https://xubuntu.org/news/xubuntu-20-04-community-wallpaper-contest-winners/).
+- Six community wallpapers are bundled from winners of the [Community Wallpaper Contest](/news/xubuntu-20-04-community-wallpaper-contest-winners).
 - With the EoL (End of Life) of Python 2, we no longer ship it by default. Additionally, apt-offline and pidgin-libnotify are no longer included.
 
 ### Known Issues

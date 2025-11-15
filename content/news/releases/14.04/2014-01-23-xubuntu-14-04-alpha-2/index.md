@@ -31,7 +31,7 @@ Thanks to the 12 who tested *and* reported to the tracker for Alpha 2:
 - wkrekik
 - elfy
 
-We always need more testers so please consider contributing to our daily builds or to the next milestone! Learn more about testing here: [Help us test Xubuntu 14.04 LTS](http://xubuntu.org/news/help-us-test-xubuntu-14-04-lts/)
+We always need more testers so please consider contributing to our daily builds or to the next milestone! Learn more about testing here: [Help us test Xubuntu 14.04 LTS](/news/help-us-test-xubuntu-14-04-lts)
 
 Known Issues
 ------------

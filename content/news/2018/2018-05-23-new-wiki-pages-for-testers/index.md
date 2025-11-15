@@ -10,7 +10,7 @@ author:      flocculant
 author_nick: flocculant
 ---
 
-During the last few weeks of the 18.04 (Bionic Beaver) cycle, we had 2 people drop by in our development channel trying to respond to the [call](https://xubuntu.org/news/testing-for-xubuntu/) for testers from the Development and QA Teams.
+During the last few weeks of the 18.04 (Bionic Beaver) cycle, we had 2 people drop by in our development channel trying to respond to the [call](/news/testing-for-xubuntu) for testers from the Development and QA Teams.
 
 It quickly became apparent to me that I was having to repeat myself in order to make it "basic" enough for someone who had never tested for us, to understand what I was trying to put across.
 

@@ -27,7 +27,7 @@ Thanks to the 8 people who tested and reported their results on the Alpha1 image
 - j-bardales
 - elfy
 
-We always need more testers so please consider contributing to our daily builds or to the next milestone! Learn more about testing here: [Help us test Xubuntu 14.04 LTS](http://xubuntu.org/news/help-us-test-xubuntu-14-04-lts/)
+We always need more testers so please consider contributing to our daily builds or to the next milestone! Learn more about testing here: [Help us test Xubuntu 14.04 LTS](/news/help-us-test-xubuntu-14-04-lts)
 
 Known Issues
 ------------

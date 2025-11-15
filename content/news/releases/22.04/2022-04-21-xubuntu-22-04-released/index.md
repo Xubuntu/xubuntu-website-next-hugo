@@ -34,7 +34,7 @@ Highlights and Known Issues
 - **Whisker Menu Plugin 2.7.1** expands customization options with several new preferences and CSS classes for theme developers.
 - **Firefox** is now included as a Snap package.
 - Refreshed [user documentation](https://xubuntu.github.io/xubuntu-docs/user/C/index.html), available on the ISO and online.
-- Six new wallpapers from the [22.04 Community Wallpaper Contest](https://xubuntu.org/news/xubuntu-22-04-community-wallpaper-contest-winners/).
+- Six new wallpapers from the [22.04 Community Wallpaper Contest](/news/xubuntu-22-04-community-wallpaper-contest-winners).
 
 ### Known Issues
 

@@ -26,6 +26,6 @@ Download
 
 Please note that the Beta 1 version is not suitable for production machines or anybody who doesn't wish to have an unstable system.
 
-If you want to help Xubuntu testing the new release and are wondering how to help, please refer to our article on [Testing Raring](http://xubuntu.org/news/want-to-help-out-xubuntu-test-raring/ "Want to help out Xubuntu? Test Raring!"). This article will be appropriate for daily images as well as Beta 2 images which will be released later.
+If you want to help Xubuntu testing the new release and are wondering how to help, please refer to our article on [Testing Raring](/news/want-to-help-out-xubuntu-test-raring "Want to help out Xubuntu? Test Raring!"). This article will be appropriate for daily images as well as Beta 2 images which will be released later.
 
 Those who are fine with having an unstable and promise to do backups before upgrading or installing can [download Xubuntu 13.04 Beta 1 here](http://cdimage.ubuntu.com/xubuntu/releases/13.04/beta-1).

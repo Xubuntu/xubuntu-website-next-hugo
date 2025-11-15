@@ -50,8 +50,8 @@ In order to enable proprietary drivers which are packaged for Xubuntu, you open 
 
 ### 8. Thunar loads very slowly on first launch, how do I fix that?
 
-Unfortunately, this is a [known bug](https://bugs.launchpad.net/ubuntu/+source/thunar/+bug/775117). See [FAQ for Xubuntu 12.04 Precise Pangolin](http://xubuntu.org/news/faq-1204-precise/) for more on how to work around this.
+Unfortunately, this is a [known bug](https://bugs.launchpad.net/ubuntu/+source/thunar/+bug/775117). See [FAQ for Xubuntu 12.04 Precise Pangolin](/news/faq-1204-precise) for more on how to work around this.
 
 ### 9. Is there a way to use folders shared from Windows?
 
-Yes, using Gigolo. See [FAQ for Xubuntu 12.04 Precise Pangolin](http://xubuntu.org/news/faq-1204-precise/) for more.
+Yes, using Gigolo. See [FAQ for Xubuntu 12.04 Precise Pangolin](/news/faq-1204-precise) for more.

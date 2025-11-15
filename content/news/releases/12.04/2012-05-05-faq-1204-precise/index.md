@@ -23,7 +23,7 @@ Unfortunately, this is a [known bug](https://bugs.launchpad.net/ubuntu/+source/t
 
 ### 3. I can't resize windows because the window borders are too tiny!
 
-The suggested way to resize windows is to hold the Alt key, right-click somewhere inside the window and drag to resize. See [Window resizing in Xubuntu (and Xfce)](http://xubuntu.org/news/window-resizing-in-xubuntu-and-xfce/ "Window resizing in Xubuntu (and Xfce)") for all the different methods.
+The suggested way to resize windows is to hold the Alt key, right-click somewhere inside the window and drag to resize. See [Window resizing in Xubuntu (and Xfce)](/news/window-resizing-in-xubuntu-and-xfce "Window resizing in Xubuntu (and Xfce)") for all the different methods.
 
 ### 4. Is there a way to use Dropbox with Thunar?
 

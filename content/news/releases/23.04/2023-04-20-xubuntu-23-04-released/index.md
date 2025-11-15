@@ -19,7 +19,7 @@ Xubuntu 23.04, featuring the latest updates from Xfce 4.18 and GNOME 44.
 
 Xubuntu 23.04 features the latest Xfce 4.18. Xfce 4.18 delivers a stable desktop environment with a number of performance improvements and new features to enjoy. In particular, the Thunar file manager benefits from a new image preview feature, undo and redo functionality, file highlights, and recursive search. Check out the [Xfce 4.18](https://www.xfce.org/about/tour418) tour for more details!
 
-Xubuntu 23.04 also welcomes **Xubuntu Minimal** as an official subproject. Xubuntu Minimal is a slimmed down version of Xubuntu that only includes the bare essentials: the desktop, a few Xfce components, and the Xubuntu look and feel. Longtime Xubuntu fans may better know this as *[Xubuntu Core](https://xubuntu.org/news/introducing-xubuntu-core/)*. After nearly eight years of being a supported, but community-built project, we're happy to finally publish downloads along with the main Xubuntu version. Many thanks to the community for keeping the dream alive all these years!
+Xubuntu 23.04 also welcomes **Xubuntu Minimal** as an official subproject. Xubuntu Minimal is a slimmed down version of Xubuntu that only includes the bare essentials: the desktop, a few Xfce components, and the Xubuntu look and feel. Longtime Xubuntu fans may better know this as *[Xubuntu Core](/news/introducing-xubuntu-core)*. After nearly eight years of being a supported, but community-built project, we're happy to finally publish downloads along with the main Xubuntu version. Many thanks to the community for keeping the dream alive all these years!
 
 The **final release images** are available as torrents and direct downloads from [xubuntu.org/download/](https://xubuntu.org/download/).
 

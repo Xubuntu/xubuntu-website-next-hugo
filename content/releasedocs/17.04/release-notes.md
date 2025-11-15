@@ -7,7 +7,7 @@ title:     "Xubuntu 17.04 Release Notes"
 
 **Xubuntu 17.04 (Zesty Zapus)**
 
-Xubuntu 17.04 will be supported for 9 months until January 2018. If you need Long Term Support, it is recommended you use [Xubuntu 16.04 LTS](https://xubuntu.org/news/xubuntu-16-04-release/) instead.
+Xubuntu 17.04 will be supported for 9 months until January 2018. If you need Long Term Support, it is recommended you use [Xubuntu 16.04 LTS](/news/xubuntu-16-04-release) instead.
 
 Several Xfce panel plugins and applications have been ported to GTK+ 3, paving the way for improved theming and further development. Core Xfce libraries exo and libxfce4ui have also been updated with full GTK+ 3 support, the latter adding support for Glade development in Xubuntu with the installation of ''libxfce4ui-glade''. The Greybird and Numix themes have also been refreshed with improved support for the toolkit.
 

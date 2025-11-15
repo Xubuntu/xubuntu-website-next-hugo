@@ -49,7 +49,7 @@ The main Ubuntu [Release Notes](https://wiki.ubuntu.com/FocalFossa/ReleaseNotes)
 
 ### Xubuntu Community Wallpaper Contest
 
-Xubuntu hosted a community wallpaper contest from February 28 through March 13, 2020. [6 winners were selected](https://xubuntu.org/news/xubuntu-20-04-community-wallpaper-contest-winners/) from a total 237 submissions. The selection was based on a team vote. Thank you to everyone for your submissions!
+Xubuntu hosted a community wallpaper contest from February 28 through March 13, 2020. [6 winners were selected](/news/xubuntu-20-04-community-wallpaper-contest-winners) from a total 237 submissions. The selection was based on a team vote. Thank you to everyone for your submissions!
 
 [<img src="wallpaper-contest-winners.png" width="1200" />](wallpaper-contest-winners.png)
 

@@ -12,7 +12,7 @@ author_nick: flocculant
 
 The Xubuntu team is pleased to announce the immediate release of Xubuntu 14.04 Beta 2. This is the last beta towards the final LTS release.
 
-If this is the first time you've looked at a Beta this cycle then much has changed. Please see the notes from [Beta 1 ](http://xubuntu.org/news/xubuntu-14-04-beta-1/)for more details on those.
+If this is the first time you've looked at a Beta this cycle then much has changed. Please see the notes from [Beta 1 ](/news/xubuntu-14-04-beta-1)for more details on those.
 
 **The Beta 2 release is available for download by torrents and direct downloads from** [**http://cdimage.ubuntu.com/xubuntu/releases/trusty/beta-2/**](http://cdimage.ubuntu.com/xubuntu/releases/trusty/beta-2/)
 

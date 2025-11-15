@@ -17,7 +17,7 @@ Xubuntu 24.10, codenamed **Oracular Oriole**, is a regular release and will be s
 {{< figure src="xubuntu-24.10.png" >}}
 Xubuntu 24.10, featuring the latest updates from Xfce 4.19 and GNOME 47.
 
-Xubuntu 24.10 features the latest updates from Xfce 4.19, GNOME 47, and MATE 1.26. For Xfce enthusiasts, you’ll appreciate the new features and improved hardware support found in Xfce 4.19. Xfce 4.19 is the development series for the next release, Xfce 4.20, due later this year. As pre-release software, you may encounter more bugs than usual. Users seeking a stable, well-supported environment should opt for [Xubuntu 24.04 “Noble Numbat”](https://xubuntu.org/news/xubuntu-24-04-released/) instead.
+Xubuntu 24.10 features the latest updates from Xfce 4.19, GNOME 47, and MATE 1.26. For Xfce enthusiasts, you’ll appreciate the new features and improved hardware support found in Xfce 4.19. Xfce 4.19 is the development series for the next release, Xfce 4.20, due later this year. As pre-release software, you may encounter more bugs than usual. Users seeking a stable, well-supported environment should opt for [Xubuntu 24.04 “Noble Numbat”](/news/xubuntu-24-04-released) instead.
 
 The **final release images** for **Xubuntu Desktop** and **Xubuntu Minimal** are available as torrents and direct downloads from [xubuntu.org/download/].
 
