@@ -4,7 +4,7 @@ date:        2011-03-31 18:13:00
 aliases:
   - /news/nattybeta-1
 release:     "11.04"
-tag:       
+tag:         
 category:    
 author:      Elizabeth K. Joseph
 author_nick: pleia2

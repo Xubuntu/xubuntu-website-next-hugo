@@ -4,7 +4,7 @@ date:        2013-10-17 13:25:28
 aliases:
   - /news/saucy-salamander-final
 release:     "13.10"
-tag:       
+tag:         
 category:    announcements
 author:      Pasi Lallinaho
 author_nick: knome

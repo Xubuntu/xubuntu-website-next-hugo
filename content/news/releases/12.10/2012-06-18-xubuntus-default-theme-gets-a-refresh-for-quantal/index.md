@@ -4,7 +4,7 @@ date:        2012-06-18 11:40:56
 aliases:
   - /news/xubuntus-default-theme-gets-a-refresh-for-quantal
 release:     "12.10"
-tag:       
+tag:         
 category:    articles
 author:      Simon Steinbeiß
 author_nick: ochosi

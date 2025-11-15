@@ -4,7 +4,7 @@ date:        2015-08-27 14:39:53
 aliases:
   - /news/xubuntu-15-10-beta-1
 release:     "15.10"
-tag:       
+tag:         
 category:    announcements
 author:      flocculant
 author_nick: flocculant

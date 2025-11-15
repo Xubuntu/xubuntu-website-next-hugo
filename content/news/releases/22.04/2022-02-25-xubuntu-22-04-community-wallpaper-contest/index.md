@@ -4,7 +4,7 @@ date:        2022-02-25 02:13:54
 aliases:
   - /news/xubuntu-22-04-community-wallpaper-contest
 release:     "22.04"
-tag:       
+tag:         
 category:    
 author:      Sean Davis
 author_nick: bluesabre

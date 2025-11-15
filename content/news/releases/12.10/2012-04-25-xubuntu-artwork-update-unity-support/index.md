@@ -4,7 +4,7 @@ date:        2012-04-25 17:57:26
 aliases:
   - /news/xubuntu-artwork-update-unity-support
 release:     "12.10"
-tag:       
+tag:         
 category:    articles
 author:      Simon Steinbeiß
 author_nick: ochosi

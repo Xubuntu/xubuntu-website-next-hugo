@@ -4,7 +4,7 @@ date:        2016-04-19 20:15:58
 aliases:
   - /news/xubuntu-16-04-wallpaper-competition-winners
 release:     "16.04"
-tag:       
+tag:         
 category:    articles
 author:      Pasi Lallinaho
 author_nick: knome

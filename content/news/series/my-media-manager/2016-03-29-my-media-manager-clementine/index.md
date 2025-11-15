@@ -4,7 +4,7 @@ date:        2016-03-29 22:10:12
 aliases:
   - /news/my-media-manager-clementine
 release:     ""
-tag:       my-media-manager
+tag:         my-media-manager
 category:    articles
 author:      flocculant
 author_nick: flocculant

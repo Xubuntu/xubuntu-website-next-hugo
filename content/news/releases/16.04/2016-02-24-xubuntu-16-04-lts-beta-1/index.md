@@ -4,7 +4,7 @@ date:        2016-02-24 21:18:43
 aliases:
   - /news/xubuntu-16-04-lts-beta-1
 release:     "16.04"
-tag:       
+tag:         
 category:    announcements
 author:      Pasi Lallinaho
 author_nick: knome

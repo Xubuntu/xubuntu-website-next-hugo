@@ -4,7 +4,7 @@ date:        2015-11-23 19:20:04
 aliases:
   - /news/xubuntu-at-freegeek-chicago
 release:     ""
-tag:       xubuntu-at
+tag:         xubuntu-at
 category:    articles
 author:      Elizabeth K. Joseph
 author_nick: pleia2

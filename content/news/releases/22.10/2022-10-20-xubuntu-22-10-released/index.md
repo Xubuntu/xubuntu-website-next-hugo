@@ -4,7 +4,7 @@ date:        2022-10-20 16:53:00
 aliases:
   - /news/xubuntu-22-10-released
 release:     "22.10"
-tag:       
+tag:         
 category:    announcements
 author:      Sean Davis
 author_nick: bluesabre

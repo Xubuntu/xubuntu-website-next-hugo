@@ -4,7 +4,7 @@ date:        2017-01-25 20:53:17
 aliases:
   - /news/winners-lovexubuntu-competition
 release:     ""
-tag:       
+tag:         
 category:    articles
 author:      Pasi Lallinaho
 author_nick: knome

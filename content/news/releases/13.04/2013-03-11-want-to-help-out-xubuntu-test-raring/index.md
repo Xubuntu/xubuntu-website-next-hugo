@@ -4,7 +4,7 @@ date:        2013-03-11 23:51:30
 aliases:
   - /news/want-to-help-out-xubuntu-test-raring
 release:     "13.04"
-tag:       
+tag:         
 category:    
 author:      Pasi Lallinaho
 author_nick: knome

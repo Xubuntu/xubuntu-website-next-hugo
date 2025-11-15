@@ -4,7 +4,7 @@ date:        2013-07-17 16:10:18
 aliases:
   - /news/xubuntu-stickers-now-available
 release:     ""
-tag:       
+tag:         
 category:    
 author:      Elizabeth K. Joseph
 author_nick: pleia2

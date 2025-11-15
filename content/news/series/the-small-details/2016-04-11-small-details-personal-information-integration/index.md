@@ -4,7 +4,7 @@ date:        2016-04-11 16:49:42
 aliases:
   - /news/small-details-personal-information-integration
 release:     ""
-tag:       the-small-details
+tag:         the-small-details
 category:    articles
 author:      Pasi Lallinaho
 author_nick: knome

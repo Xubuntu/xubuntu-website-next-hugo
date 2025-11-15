@@ -4,7 +4,7 @@ date:        2013-10-24 15:07:07
 aliases:
   - /news/xubuntu-at-techs-for-a-cause-in-kansas-city
 release:     ""
-tag:       xubuntu-at
+tag:         xubuntu-at
 category:    articles
 author:      Elizabeth K. Joseph
 author_nick: pleia2

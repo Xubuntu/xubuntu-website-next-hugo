@@ -4,7 +4,7 @@ date:        2016-04-06 15:51:37
 aliases:
   - /news/small-details-window-manager-shortcuts
 release:     ""
-tag:       the-small-details
+tag:         the-small-details
 category:    articles
 author:      Pasi Lallinaho
 author_nick: knome

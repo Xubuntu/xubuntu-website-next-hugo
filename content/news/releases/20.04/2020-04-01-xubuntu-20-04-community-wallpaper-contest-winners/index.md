@@ -4,7 +4,7 @@ date:        2020-04-01 03:57:14
 aliases:
   - /news/xubuntu-20-04-community-wallpaper-contest-winners
 release:     "20.04"
-tag:       
+tag:         
 category:    
 author:      Sean Davis
 author_nick: bluesabre

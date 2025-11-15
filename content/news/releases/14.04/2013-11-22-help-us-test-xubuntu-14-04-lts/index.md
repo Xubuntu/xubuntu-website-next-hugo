@@ -4,7 +4,7 @@ date:        2013-11-22 22:05:15
 aliases:
   - /news/help-us-test-xubuntu-14-04-lts
 release:     "14.04"
-tag:       
+tag:         
 category:    articles
 author:      flocculant
 author_nick: flocculant

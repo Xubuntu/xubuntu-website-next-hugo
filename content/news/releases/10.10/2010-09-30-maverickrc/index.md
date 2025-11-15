@@ -4,7 +4,7 @@ date:        2010-09-30 13:57:32
 aliases:
   - /news/maverickrc
 release:     "10.10"
-tag:       
+tag:         
 category:    
 author:      Elizabeth K. Joseph
 author_nick: pleia2

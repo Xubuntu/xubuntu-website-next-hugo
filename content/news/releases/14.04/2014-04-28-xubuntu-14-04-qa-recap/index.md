@@ -4,7 +4,7 @@ date:        2014-04-28 16:13:27
 aliases:
   - /news/xubuntu-14-04-qa-recap
 release:     "14.04"
-tag:       
+tag:         
 category:    articles
 author:      flocculant
 author_nick: flocculant

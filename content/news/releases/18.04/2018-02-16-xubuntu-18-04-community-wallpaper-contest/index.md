@@ -4,7 +4,7 @@ date:        2018-02-16 16:17:11
 aliases:
   - /news/xubuntu-18-04-community-wallpaper-contest
 release:     "18.04"
-tag:       
+tag:         
 category:    articles
 author:      Pasi Lallinaho
 author_nick: knome

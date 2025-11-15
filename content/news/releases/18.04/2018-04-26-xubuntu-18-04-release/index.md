@@ -4,7 +4,7 @@ date:        2018-04-26 23:13:39
 aliases:
   - /news/xubuntu-18-04-release
 release:     "18.04"
-tag:       
+tag:         
 category:    announcements
 author:      Pasi Lallinaho
 author_nick: knome

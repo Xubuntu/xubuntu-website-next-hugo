@@ -4,7 +4,7 @@ date:        2015-03-26 21:15:23
 aliases:
   - /news/xubuntu-15-04-beta-2
 release:     "15.04"
-tag:       
+tag:         
 category:    announcements
 author:      flocculant
 author_nick: flocculant

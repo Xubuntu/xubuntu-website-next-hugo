@@ -4,7 +4,7 @@ date:        2016-01-20 17:00:44
 aliases:
   - /news/xubuntu-at-the-working-centres-computer-recycling-project
 release:     ""
-tag:       xubuntu-at
+tag:         xubuntu-at
 category:    articles
 author:      Elizabeth K. Joseph
 author_nick: pleia2

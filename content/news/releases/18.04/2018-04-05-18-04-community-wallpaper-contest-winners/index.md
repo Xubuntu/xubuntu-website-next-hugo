@@ -4,7 +4,7 @@ date:        2018-04-05 22:36:38
 aliases:
   - /news/18-04-community-wallpaper-contest-winners
 release:     "18.04"
-tag:       
+tag:         
 category:    articles
 author:      Pasi Lallinaho
 author_nick: knome

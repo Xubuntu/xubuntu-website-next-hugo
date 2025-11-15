@@ -4,7 +4,7 @@ date:        2012-09-24 16:20:36
 aliases:
   - /news/offline-documentation-rewritten-for-12-10
 release:     "12.10"
-tag:       
+tag:         
 category:    articles
 author:      Elizabeth K. Joseph
 author_nick: pleia2

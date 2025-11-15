@@ -4,7 +4,7 @@ date:        2016-04-01 22:36:45
 aliases:
   - /news/small-details-menu-editing
 release:     ""
-tag:       the-small-details
+tag:         the-small-details
 category:    articles
 author:      Pasi Lallinaho
 author_nick: knome

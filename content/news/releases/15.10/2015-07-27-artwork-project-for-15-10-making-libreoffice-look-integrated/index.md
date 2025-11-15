@@ -4,7 +4,7 @@ date:        2015-07-27 21:25:37
 aliases:
   - /news/artwork-project-for-15-10-making-libreoffice-look-integrated
 release:     "15.10"
-tag:       
+tag:         
 category:    articles
 author:      Simon Steinbeiß
 author_nick: ochosi

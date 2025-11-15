@@ -4,7 +4,7 @@ date:        2016-04-04 23:19:18
 aliases:
   - /news/small-details-shortcut-keys
 release:     ""
-tag:       the-small-details
+tag:         the-small-details
 category:    articles
 author:      Pasi Lallinaho
 author_nick: knome

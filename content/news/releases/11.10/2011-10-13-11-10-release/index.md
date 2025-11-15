@@ -4,7 +4,7 @@ date:        2011-10-13 05:21:13
 aliases:
   - /news/11-10-release
 release:     "11.10"
-tag:       
+tag:         
 category:    announcements
 author:      Elizabeth K. Joseph
 author_nick: pleia2

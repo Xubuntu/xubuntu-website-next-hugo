@@ -4,7 +4,7 @@ date:        2015-10-27 22:14:32
 aliases:
   - /news/16-04-package-testing
 release:     "16.04"
-tag:       
+tag:         
 category:    articles
 author:      flocculant
 author_nick: flocculant

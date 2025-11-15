@@ -4,7 +4,7 @@ date:        2021-10-15 11:49:36
 aliases:
   - /news/xubuntu-21-10-released
 release:     "21.10"
-tag:       
+tag:         
 category:    announcements
 author:      Sean Davis
 author_nick: bluesabre

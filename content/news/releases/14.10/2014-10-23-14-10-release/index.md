@@ -4,7 +4,7 @@ date:        2014-10-23 12:39:54
 aliases:
   - /news/14-10-release
 release:     "14.10"
-tag:       
+tag:         
 category:    announcements
 author:      flocculant
 author_nick: flocculant

@@ -4,7 +4,7 @@ date:        2013-02-13 17:58:19
 aliases:
   - /news/xubuntu-goes-1gb-for-raring-gimp-and-gnumeric-are-back
 release:     "13.04"
-tag:       
+tag:         
 category:    
 author:      Elizabeth K. Joseph
 author_nick: pleia2

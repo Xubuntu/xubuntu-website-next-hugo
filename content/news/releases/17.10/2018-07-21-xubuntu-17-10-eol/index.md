@@ -4,7 +4,7 @@ date:        2018-07-21 05:20:07
 aliases:
   - /news/xubuntu-17-10-eol
 release:     ""
-tag:       
+tag:         
 category:    
 author:      flocculant
 author_nick: flocculant

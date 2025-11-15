@@ -4,7 +4,7 @@ date:        2012-10-18 17:00:47
 aliases:
   - /news/12-10-release
 release:     "12.10"
-tag:       
+tag:         
 category:    announcements
 author:      Pasi Lallinaho
 author_nick: knome

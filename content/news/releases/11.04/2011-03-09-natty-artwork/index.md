@@ -4,7 +4,7 @@ date:        2011-03-09 09:25:23
 aliases:
   - /news/natty-artwork
 release:     "11.04"
-tag:       
+tag:         
 category:    articles
 author:      Elizabeth K. Joseph
 author_nick: pleia2

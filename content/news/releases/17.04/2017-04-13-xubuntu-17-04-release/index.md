@@ -4,7 +4,7 @@ date:        2017-04-13 16:15:17
 aliases:
   - /news/xubuntu-17-04-release
 release:     "17.04"
-tag:       
+tag:         
 category:    announcements
 author:      Pasi Lallinaho
 author_nick: knome

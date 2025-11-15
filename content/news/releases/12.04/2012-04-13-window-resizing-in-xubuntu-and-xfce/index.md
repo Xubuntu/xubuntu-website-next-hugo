@@ -4,7 +4,7 @@ date:        2012-04-13 14:18:19
 aliases:
   - /news/window-resizing-in-xubuntu-and-xfce
 release:     "12.04"
-tag:       faq
+tag:         faq
 category:    articles
 author:      Simon Steinbeiß
 author_nick: ochosi

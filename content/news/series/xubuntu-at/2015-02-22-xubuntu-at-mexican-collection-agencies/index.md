@@ -4,7 +4,7 @@ date:        2015-02-22 00:42:38
 aliases:
   - /news/xubuntu-at-mexican-collection-agencies
 release:     ""
-tag:       xubuntu-at
+tag:         xubuntu-at
 category:    articles
 author:      Elizabeth K. Joseph
 author_nick: pleia2

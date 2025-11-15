@@ -4,7 +4,7 @@ date:        2013-09-27 09:32:13
 aliases:
   - /news/saucy-salamander-b2
 release:     "13.10"
-tag:       
+tag:         
 category:    
 author:      Pasi Lallinaho
 author_nick: knome

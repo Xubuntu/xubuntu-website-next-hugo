@@ -4,7 +4,7 @@ date:        2022-04-21 22:44:40
 aliases:
   - /news/xubuntu-22-04-released
 release:     "22.04"
-tag:       
+tag:         
 category:    announcements
 author:      Sean Davis
 author_nick: bluesabre

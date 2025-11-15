@@ -4,7 +4,7 @@ date:        2016-10-13 16:43:25
 aliases:
   - /news/xubuntu-16-10-release
 release:     "16.10"
-tag:       
+tag:         
 category:    
 author:      flocculant
 author_nick: flocculant

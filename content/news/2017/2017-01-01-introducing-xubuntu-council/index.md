@@ -4,7 +4,7 @@ date:        2017-01-01 16:43:02
 aliases:
   - /news/introducing-xubuntu-council
 release:     ""
-tag:       
+tag:         
 category:    articles
 author:      Pasi Lallinaho
 author_nick: knome

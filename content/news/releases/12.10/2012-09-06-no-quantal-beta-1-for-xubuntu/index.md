@@ -4,7 +4,7 @@ date:        2012-09-06 23:54:41
 aliases:
   - /news/no-quantal-beta-1-for-xubuntu
 release:     "12.10"
-tag:       
+tag:         
 category:    
 author:      Elizabeth K. Joseph
 author_nick: pleia2

@@ -4,7 +4,7 @@ date:        2016-09-01 18:58:36
 aliases:
   - /news/sru-16-04-intel-cursor-bug-fix-released
 release:     "16.04"
-tag:       
+tag:         
 category:    
 author:      Elizabeth K. Joseph
 author_nick: pleia2

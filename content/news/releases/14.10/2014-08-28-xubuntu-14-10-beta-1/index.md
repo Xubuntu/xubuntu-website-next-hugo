@@ -4,7 +4,7 @@ date:        2014-08-28 21:16:53
 aliases:
   - /news/xubuntu-14-10-beta-1
 release:     "14.10"
-tag:       
+tag:         
 category:    
 author:      Pasi Lallinaho
 author_nick: knome

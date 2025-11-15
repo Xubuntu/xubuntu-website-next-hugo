@@ -4,7 +4,7 @@ date:        2012-04-05 07:22:36
 aliases:
   - /news/the-countdown-is-on
 release:     "12.04"
-tag:       
+tag:         
 category:    articles
 author:      Pasi Lallinaho
 author_nick: knome

@@ -4,7 +4,7 @@ date:        2024-10-10 12:00:00
 aliases:
   - /news/xubuntu-24-10-released
 release:     "24.10"
-tag:       
+tag:         
 category:    announcements
 author:      Sean Davis
 author_nick: bluesabre

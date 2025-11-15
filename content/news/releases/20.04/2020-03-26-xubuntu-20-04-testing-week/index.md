@@ -4,7 +4,7 @@ date:        2020-03-26 06:00:30
 aliases:
   - /news/xubuntu-20-04-testing-week
 release:     "20.04"
-tag:       qa, testing-week
+tag:         qa, testing-week
 category:    articles
 author:      Yousuf Philips
 author_nick: philipz85

@@ -4,7 +4,7 @@ date:        2014-01-29 00:24:56
 aliases:
   - /news/community-wallpaper-contest-winners
 release:     "14.04"
-tag:       
+tag:         
 category:    articles
 author:      Simon Steinbeiß
 author_nick: ochosi

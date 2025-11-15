@@ -4,7 +4,7 @@ date:        2017-04-27 16:44:37
 aliases:
   - /news/xubuntu-quality-assurance-team-spreading-out
 release:     ""
-tag:       
+tag:         
 category:    articles
 author:      Pasi Lallinaho
 author_nick: knome

@@ -4,7 +4,7 @@ date:        2018-10-18 23:56:09
 aliases:
   - /news/xubuntu-18-10-released
 release:     "18.10"
-tag:       
+tag:         
 category:    announcements
 author:      Elizabeth K. Joseph
 author_nick: pleia2

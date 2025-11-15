@@ -4,7 +4,7 @@ date:        2020-10-26 10:06:44
 aliases:
   - /news/xubuntu-20-10-released
 release:     "20.10"
-tag:       
+tag:         
 category:    announcements
 author:      Sean Davis
 author_nick: bluesabre

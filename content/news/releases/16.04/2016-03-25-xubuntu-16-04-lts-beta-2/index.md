@@ -4,7 +4,7 @@ date:        2016-03-25 04:57:35
 aliases:
   - /news/xubuntu-16-04-lts-beta-2
 release:     "16.04"
-tag:       
+tag:         
 category:    announcements
 author:      flocculant
 author_nick: flocculant

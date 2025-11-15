@@ -4,7 +4,7 @@ date:        2015-01-20 00:07:54
 aliases:
   - /news/help-the-community-with-testing-and-win-xubuntu-stickers
 release:     "15.04"
-tag:       
+tag:         
 category:    articles
 author:      Pasi Lallinaho
 author_nick: knome

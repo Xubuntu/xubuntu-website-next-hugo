@@ -4,7 +4,7 @@ date:        2016-04-13 20:11:58
 aliases:
   - /news/small-details-panel-layouts
 release:     ""
-tag:       the-small-details
+tag:         the-small-details
 category:    articles
 author:      flocculant
 author_nick: flocculant

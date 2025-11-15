@@ -4,7 +4,7 @@ date:        2013-07-29 16:09:11
 aliases:
   - /news/announcing-xubuntu-desktop-showcase
 release:     ""
-tag:       
+tag:         
 category:    articles
 author:      Elizabeth K. Joseph
 author_nick: pleia2

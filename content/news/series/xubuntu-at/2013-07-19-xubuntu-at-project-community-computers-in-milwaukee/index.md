@@ -4,7 +4,7 @@ date:        2013-07-19 16:06:35
 aliases:
   - /news/xubuntu-at-project-community-computers-in-milwaukee
 release:     ""
-tag:       xubuntu-at
+tag:         xubuntu-at
 category:    articles
 author:      Elizabeth K. Joseph
 author_nick: pleia2

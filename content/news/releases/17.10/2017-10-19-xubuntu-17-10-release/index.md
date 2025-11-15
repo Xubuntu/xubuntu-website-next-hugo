@@ -4,7 +4,7 @@ date:        2017-10-19 16:54:41
 aliases:
   - /news/xubuntu-17-10-release
 release:     "17.10"
-tag:       
+tag:         
 category:    
 author:      Pasi Lallinaho
 author_nick: knome

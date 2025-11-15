@@ -4,7 +4,7 @@ date:        2011-11-19 22:14:39
 aliases:
   - /news/faq-1110-oneiric
 release:     "11.10"
-tag:       faq
+tag:         faq
 category:    articles
 author:      Pasi Lallinaho
 author_nick: knome

@@ -4,7 +4,7 @@ date:        2012-05-06 23:36:46
 aliases:
   - /news/brainstorming-the-12-10-release
 release:     "12.10"
-tag:       
+tag:         
 category:    articles
 author:      Pasi Lallinaho
 author_nick: knome

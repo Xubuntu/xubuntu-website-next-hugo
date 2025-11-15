@@ -4,7 +4,7 @@ date:        2012-06-28 12:20:25
 aliases:
   - /news/quantalalpha2
 release:     "12.10"
-tag:       
+tag:         
 category:    
 author:      Elizabeth K. Joseph
 author_nick: pleia2

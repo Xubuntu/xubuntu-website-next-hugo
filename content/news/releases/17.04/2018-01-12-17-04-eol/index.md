@@ -4,7 +4,7 @@ date:        2018-01-12 14:40:20
 aliases:
   - /news/17-04-eol
 release:     "17.04"
-tag:       
+tag:         
 category:    
 author:      flocculant
 author_nick: flocculant

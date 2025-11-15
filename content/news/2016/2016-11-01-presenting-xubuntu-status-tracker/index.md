@@ -4,7 +4,7 @@ date:        2016-11-01 10:43:21
 aliases:
   - /news/presenting-xubuntu-status-tracker
 release:     ""
-tag:       
+tag:         
 category:    articles
 author:      Pasi Lallinaho
 author_nick: knome

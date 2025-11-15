@@ -4,7 +4,7 @@ date:        2016-04-21 16:26:01
 aliases:
   - /news/xubuntu-16-04-release
 release:     "16.04"
-tag:       
+tag:         
 category:    announcements
 author:      flocculant
 author_nick: flocculant

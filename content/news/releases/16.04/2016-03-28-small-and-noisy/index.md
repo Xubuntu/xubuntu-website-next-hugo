@@ -4,7 +4,7 @@ date:        2016-03-28 23:25:05
 aliases:
   - /news/small-and-noisy
 release:     "16.04"
-tag:       
+tag:         
 category:    articles
 author:      Pasi Lallinaho
 author_nick: knome

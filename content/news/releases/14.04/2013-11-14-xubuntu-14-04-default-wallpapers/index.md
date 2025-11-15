@@ -4,7 +4,7 @@ date:        2013-11-14 20:49:27
 aliases:
   - /news/xubuntu-14-04-default-wallpapers
 release:     "14.04"
-tag:       
+tag:         
 category:    articles
 author:      Simon Steinbeiß
 author_nick: ochosi

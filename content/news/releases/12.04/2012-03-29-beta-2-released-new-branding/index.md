@@ -4,7 +4,7 @@ date:        2012-03-29 21:00:58
 aliases:
   - /news/beta-2-released-new-branding
 release:     "12.04"
-tag:       
+tag:         
 category:    
 author:      Pasi Lallinaho
 author_nick: knome

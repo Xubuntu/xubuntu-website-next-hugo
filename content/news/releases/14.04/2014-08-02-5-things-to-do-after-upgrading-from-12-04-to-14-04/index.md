@@ -4,7 +4,7 @@ date:        2014-08-02 13:43:10
 aliases:
   - /news/5-things-to-do-after-upgrading-from-12-04-to-14-04
 release:     "14.04"
-tag:       
+tag:         
 category:    articles
 author:      David Pires
 author_nick: slickymaster

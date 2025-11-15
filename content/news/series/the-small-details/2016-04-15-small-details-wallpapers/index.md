@@ -4,7 +4,7 @@ date:        2016-04-15 17:11:32
 aliases:
   - /news/small-details-wallpapers
 release:     ""
-tag:       the-small-details
+tag:         the-small-details
 category:    articles
 author:      flocculant
 author_nick: flocculant

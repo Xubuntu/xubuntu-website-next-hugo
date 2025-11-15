@@ -4,7 +4,7 @@ date:        2013-05-16 23:45:42
 aliases:
   - /news/looking-towards-xubuntu-13-10
 release:     "13.10"
-tag:       
+tag:         
 category:    articles
 author:      Pasi Lallinaho
 author_nick: knome

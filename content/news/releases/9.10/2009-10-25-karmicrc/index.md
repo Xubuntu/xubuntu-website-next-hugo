@@ -4,7 +4,7 @@ date:        2009-10-25 02:01:18
 aliases:
   - /news/karmicrc
 release:     "9.10"
-tag:       
+tag:         
 category:    
 author:      Elizabeth K. Joseph
 author_nick: pleia2

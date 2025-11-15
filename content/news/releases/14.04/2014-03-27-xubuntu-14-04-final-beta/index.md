@@ -4,7 +4,7 @@ date:        2014-03-27 23:56:37
 aliases:
   - /news/xubuntu-14-04-final-beta
 release:     "14.04"
-tag:       
+tag:         
 category:    
 author:      flocculant
 author_nick: flocculant

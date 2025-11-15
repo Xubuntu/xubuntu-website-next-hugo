@@ -4,7 +4,7 @@ date:        2018-05-23 16:49:18
 aliases:
   - /news/new-wiki-pages-for-testers
 release:     ""
-tag:       qa
+tag:         qa
 category:    articles
 author:      flocculant
 author_nick: flocculant

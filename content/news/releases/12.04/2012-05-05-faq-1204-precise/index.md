@@ -4,7 +4,7 @@ date:        2012-05-05 17:29:40
 aliases:
   - /news/faq-1204-precise
 release:     "12.04"
-tag:       faq
+tag:         faq
 category:    articles
 author:      Pasi Lallinaho
 author_nick: knome

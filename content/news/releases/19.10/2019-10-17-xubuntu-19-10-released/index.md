@@ -4,7 +4,7 @@ date:        2019-10-17 18:23:30
 aliases:
   - /news/xubuntu-19-10-released
 release:     "19.10"
-tag:       
+tag:         
 category:    announcements
 author:      Sean Davis
 author_nick: bluesabre

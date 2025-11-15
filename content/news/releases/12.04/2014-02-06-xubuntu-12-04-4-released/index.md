@@ -4,7 +4,7 @@ date:        2014-02-06 19:57:21
 aliases:
   - /news/xubuntu-12-04-4-released
 release:     "12.04"
-tag:       
+tag:         
 category:    announcements
 author:      Pasi Lallinaho
 author_nick: knome

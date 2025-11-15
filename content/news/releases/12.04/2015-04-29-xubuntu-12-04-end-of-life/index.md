@@ -4,7 +4,7 @@ date:        2015-04-29 19:20:13
 aliases:
   - /news/xubuntu-12-04-end-of-life
 release:     "12.04"
-tag:       
+tag:         
 category:    
 author:      flocculant
 author_nick: flocculant

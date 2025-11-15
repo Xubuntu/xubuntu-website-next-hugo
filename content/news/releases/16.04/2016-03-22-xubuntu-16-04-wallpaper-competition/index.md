@@ -4,7 +4,7 @@ date:        2016-03-22 19:39:27
 aliases:
   - /news/xubuntu-16-04-wallpaper-competition
 release:     "16.04"
-tag:       
+tag:         
 category:    articles
 author:      Elizabeth K. Joseph
 author_nick: pleia2

@@ -4,7 +4,7 @@ date:        2008-10-05 07:00:51
 aliases:
   - /news/intrepidcountdown
 release:     "8.10"
-tag:       
+tag:         
 category:    articles
 author:      Elizabeth K. Joseph
 author_nick: pleia2

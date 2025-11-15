@@ -4,7 +4,7 @@ date:        2014-07-25 18:55:54
 aliases:
   - /news/xubuntu-14-04-1-released
 release:     "14.04"
-tag:       
+tag:         
 category:    announcements
 author:      flocculant
 author_nick: flocculant

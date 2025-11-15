@@ -4,7 +4,7 @@ date:        2012-11-30 19:36:11
 aliases:
   - /news/faq-1210-quantal-quetzal
 release:     "12.10"
-tag:       faq
+tag:         faq
 category:    articles
 author:      Pasi Lallinaho
 author_nick: knome

@@ -4,7 +4,7 @@ date:        2020-04-23 17:20:49
 aliases:
   - /news/xubuntu-20-04-released
 release:     "20.04"
-tag:       
+tag:         
 category:    announcements
 author:      Yousuf Philips
 author_nick: philipz85

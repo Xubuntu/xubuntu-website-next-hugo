@@ -4,7 +4,7 @@ date:        2012-09-27 16:50:13
 aliases:
   - /news/quantalbeta2
 release:     "12.10"
-tag:       
+tag:         
 category:    
 author:      Pasi Lallinaho
 author_nick: knome

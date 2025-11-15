@@ -4,7 +4,7 @@ date:        2024-04-25 12:00:53
 aliases:
   - /news/xubuntu-24-04-released
 release:     "24.04"
-tag:       
+tag:         
 category:    announcements
 author:      Sean Davis
 author_nick: bluesabre

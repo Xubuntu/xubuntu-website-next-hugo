@@ -4,7 +4,7 @@ date:        2008-10-30 02:08:56
 aliases:
   - /news/intrepidrelease
 release:     "8.10"
-tag:       
+tag:         
 category:    announcements
 author:      Elizabeth K. Joseph
 author_nick: pleia2

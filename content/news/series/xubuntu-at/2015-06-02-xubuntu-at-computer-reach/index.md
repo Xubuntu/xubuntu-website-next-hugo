@@ -4,7 +4,7 @@ date:        2015-06-02 15:54:48
 aliases:
   - /news/xubuntu-at-computer-reach
 release:     ""
-tag:       xubuntu-at
+tag:         xubuntu-at
 category:    articles
 author:      Elizabeth K. Joseph
 author_nick: pleia2

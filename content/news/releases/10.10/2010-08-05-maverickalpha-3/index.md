@@ -4,7 +4,7 @@ date:        2010-08-05 08:53:33
 aliases:
   - /news/maverickalpha-3
 release:     "10.10"
-tag:       
+tag:         
 category:    
 author:      Elizabeth K. Joseph
 author_nick: pleia2

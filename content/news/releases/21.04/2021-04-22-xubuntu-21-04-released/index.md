@@ -4,7 +4,7 @@ date:        2021-04-22 10:56:01
 aliases:
   - /news/xubuntu-21-04-released
 release:     "21.04"
-tag:       
+tag:         
 category:    announcements
 author:      Yousuf Philips
 author_nick: philipz85

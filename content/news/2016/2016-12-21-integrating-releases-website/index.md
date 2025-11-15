@@ -4,7 +4,7 @@ date:        2016-12-21 13:00:45
 aliases:
   - /news/integrating-releases-website
 release:     ""
-tag:       
+tag:         
 category:    articles
 author:      Pasi Lallinaho
 author_nick: knome

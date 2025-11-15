@@ -4,7 +4,7 @@ date:        2014-08-28 16:01:14
 aliases:
   - /news/inxi
 release:     "14.10"
-tag:       faq
+tag:         faq
 category:    articles
 author:      David Pires
 author_nick: slickymaster

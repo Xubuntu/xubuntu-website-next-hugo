@@ -4,7 +4,7 @@ date:        2009-10-02 04:25:24
 aliases:
   - /news/karmicbeta
 release:     "9.10"
-tag:       
+tag:         
 category:    
 author:      Elizabeth K. Joseph
 author_nick: pleia2

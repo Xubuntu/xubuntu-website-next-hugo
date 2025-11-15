@@ -4,7 +4,7 @@ date:        2018-01-12 17:34:07
 aliases:
   - /news/xubuntu-17-10-1-release
 release:     "17.10"
-tag:       
+tag:         
 category:    announcements
 author:      flocculant
 author_nick: flocculant

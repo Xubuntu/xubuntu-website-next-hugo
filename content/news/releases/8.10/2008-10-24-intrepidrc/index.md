@@ -4,7 +4,7 @@ date:        2008-10-24 07:00:32
 aliases:
   - /news/intrepidrc
 release:     "8.10"
-tag:       
+tag:         
 category:    
 author:      Elizabeth K. Joseph
 author_nick: pleia2

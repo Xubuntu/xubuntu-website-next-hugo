@@ -4,7 +4,7 @@ date:        2013-04-25 12:39:20
 aliases:
   - /news/13-04-release
 release:     "13.04"
-tag:       
+tag:         
 category:    announcements
 author:      Pasi Lallinaho
 author_nick: knome

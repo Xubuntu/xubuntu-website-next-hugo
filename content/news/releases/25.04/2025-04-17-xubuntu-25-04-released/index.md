@@ -4,7 +4,7 @@ date:        2025-04-17 12:00:00
 aliases:
   - /news/xubuntu-25-04-released
 release:     "25.04"
-tag:       
+tag:         
 category:    announcements
 author:      Sean Davis
 author_nick: bluesabre

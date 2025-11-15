@@ -4,7 +4,7 @@ date:        2015-04-23 15:25:18
 aliases:
   - /news/15-04-release
 release:     "15.04"
-tag:       
+tag:         
 category:    announcements
 author:      Pasi Lallinaho
 author_nick: knome

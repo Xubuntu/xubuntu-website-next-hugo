@@ -4,7 +4,7 @@ date:        2012-04-26 13:13:14
 aliases:
   - /news/12-04-release
 release:     "12.04"
-tag:       
+tag:         
 category:    announcements
 author:      Pasi Lallinaho
 author_nick: knome
