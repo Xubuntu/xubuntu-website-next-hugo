@@ -10,7 +10,7 @@ author:      Elizabeth K. Joseph
 author_nick: pleia2
 ---
 
-**The beta has now been superseded by [the release candidate](http://www.xubuntu.org/news/karmic/rc), links on this page will not work.**
+**The beta has now been superseded by [the release candidate](/news/karmicrc), links on this page will not work.**
 
 The beta of Xubuntu 9.10 "Karmic Koala" has arrived. This is a testing build designed for developers and is **not suggested for anyone looking for a stable system**. If you would like to see what is new in the beta release, please see the [Release Notes](https://wiki.ubuntu.com/Xubuntu/KarmicKoala/Beta).
 

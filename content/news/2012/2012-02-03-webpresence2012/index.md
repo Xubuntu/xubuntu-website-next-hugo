@@ -27,7 +27,7 @@ The most important thing – content
 
 The site is undergoing a massive review of content and content-related issues as well. These things include, but are not limited to:
 
-- Hand-picked [Frequently Asked Questions -article](http://www.xubuntu.org/news/faq-1110-oneiric/) (and the [FAQ-category](/tag/faq/)), which covers all the most frequently asked questions and will be updated for each release
+- Hand-picked [Frequently Asked Questions -article](/news/faq-1110-oneiric) (and the [FAQ-category](/tag/faq/)), which covers all the most frequently asked questions and will be updated for each release
 - [Developer tools](http://www.xubuntu.org/developertools/), which presents you all the useful tools to get started or keep going with Xubuntu development
 - Article browsing on the sidebar
 - Up-to-date screenshots
