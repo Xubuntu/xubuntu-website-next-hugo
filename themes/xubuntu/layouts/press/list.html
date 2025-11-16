@@ -6,12 +6,16 @@
   {{ $press := index $output 0}}
   {{ $versionMap := index $output 1}}
 
-  {{ range $press }}
-    {{ $release := .Params.release }}
-    <h4>{{ $release }} ({{ index $versionMap $release }})</h4>
-    {{ .Content }}
-  {{ end }}
+  <section>
+    {{ range $press }}
+      {{ $release := .Params.release }}
+      <h4>{{ $release }} ({{ index $versionMap $release }})</h4>
+      {{ .Content }}
+    {{ end }}
 
+    {{ .Content }}
+
+  </section>
 
 {{ end }}
 
