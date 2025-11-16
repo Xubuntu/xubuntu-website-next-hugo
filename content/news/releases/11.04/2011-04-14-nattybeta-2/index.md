@@ -1,9 +1,10 @@
 ---
 title:       "Xubuntu 11.04 beta 2 released"
 date:        2011-04-14 15:15:51
-slug:        nattybeta-2
+aliases:
+  - /news/nattybeta-2
 release:     "11.04"
-serie:       
+tag:         
 category:    
 author:      Elizabeth K. Joseph
 author_nick: pleia2

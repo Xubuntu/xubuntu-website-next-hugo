@@ -1,9 +1,10 @@
 ---
 title:       "Xubuntu at FreeGeek Chicago"
 date:        2015-11-23 19:20:04
-slug:        xubuntu-at-freegeek-chicago
+aliases:
+  - /news/xubuntu-at-freegeek-chicago
 release:     ""
-serie:       xubuntu-at
+tag:         xubuntu-at
 category:    articles
 author:      Elizabeth K. Joseph
 author_nick: pleia2

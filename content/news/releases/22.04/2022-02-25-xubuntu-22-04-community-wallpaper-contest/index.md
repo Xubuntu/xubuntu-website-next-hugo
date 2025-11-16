@@ -1,9 +1,10 @@
 ---
 title:       "Xubuntu 22.04 Community Wallpaper Contest"
 date:        2022-02-25 02:13:54
-slug:        xubuntu-22-04-community-wallpaper-contest
+aliases:
+  - /news/xubuntu-22-04-community-wallpaper-contest
 release:     "22.04"
-serie:       
+tag:         
 category:    
 author:      Sean Davis
 author_nick: bluesabre

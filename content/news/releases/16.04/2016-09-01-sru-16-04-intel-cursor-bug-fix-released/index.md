@@ -1,15 +1,16 @@
 ---
 title:       "SRU for 16.04: Intel cursor bug fix released"
 date:        2016-09-01 18:58:36
-slug:        sru-16-04-intel-cursor-bug-fix-released
+aliases:
+  - /news/sru-16-04-intel-cursor-bug-fix-released
 release:     "16.04"
-serie:       
+tag:         
 category:    
 author:      Elizabeth K. Joseph
 author_nick: pleia2
 ---
 
-When we [announced](https://xubuntu.org/news/xubuntu-16-04-release/) the release of Xubuntu 16.04 back in April there were a few known issues, but none has been more frustrating to users than this one:
+When we [announced](/news/xubuntu-16-04-release) the release of Xubuntu 16.04 back in April there were a few known issues, but none has been more frustrating to users than this one:
 
 > When returning from lock, the cursor disappears on the desktop, you can bring the cursor back with Ctrl+Alt+F1 followed by Ctrl+Alt+F7
 

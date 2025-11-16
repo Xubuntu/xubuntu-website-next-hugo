@@ -1,9 +1,10 @@
 ---
 title:       "Xubuntu 24.10 released!"
 date:        2024-10-10 12:00:00
-slug:        xubuntu-24-10-released
+aliases:
+  - /news/xubuntu-24-10-released
 release:     "24.10"
-serie:       
+tag:         
 category:    announcements
 author:      Sean Davis
 author_nick: bluesabre
@@ -16,7 +17,7 @@ Xubuntu 24.10, codenamed **Oracular Oriole**, is a regular release and will be s
 {{< figure src="xubuntu-24.10.png" >}}
 Xubuntu 24.10, featuring the latest updates from Xfce 4.19 and GNOME 47.
 
-Xubuntu 24.10 features the latest updates from Xfce 4.19, GNOME 47, and MATE 1.26. For Xfce enthusiasts, you’ll appreciate the new features and improved hardware support found in Xfce 4.19. Xfce 4.19 is the development series for the next release, Xfce 4.20, due later this year. As pre-release software, you may encounter more bugs than usual. Users seeking a stable, well-supported environment should opt for [Xubuntu 24.04 “Noble Numbat”](https://xubuntu.org/news/xubuntu-24-04-released/) instead.
+Xubuntu 24.10 features the latest updates from Xfce 4.19, GNOME 47, and MATE 1.26. For Xfce enthusiasts, you’ll appreciate the new features and improved hardware support found in Xfce 4.19. Xfce 4.19 is the development series for the next release, Xfce 4.20, due later this year. As pre-release software, you may encounter more bugs than usual. Users seeking a stable, well-supported environment should opt for [Xubuntu 24.04 “Noble Numbat”](/news/xubuntu-24-04-released) instead.
 
 The **final release images** for **Xubuntu Desktop** and **Xubuntu Minimal** are available as torrents and direct downloads from [xubuntu.org/download/].
 
@@ -39,11 +40,11 @@ Highlights and Known Issues
 - You may experience choppy audio or poor system performance while playing audio, but only in some virtual machines (observed in VMware and VirtualBox)
 - OEM installation options are not currently supported or available, but will be included for Xubuntu 24.04.1
 
-For more obscure known issues, information on affecting bugs, bug fixes, and a list of new package versions, please refer to the [Xubuntu Release Notes](https://wiki.xubuntu.org/releases/24.10/release-notes).
+For more obscure known issues, information on affecting bugs, bug fixes, and a list of new package versions, please refer to the [Xubuntu Release Notes](/releasedocs/24.10/release-notes).
 
 The main [Ubuntu Release Notes](https://discourse.ubuntu.com/t/oracular-oriole-release-notes/44878) cover many of the other packages we carry and more generic issues.
 
 Support
 -------
 
-**For support** with the release, navigate to [Help &amp; Support](https://xubuntu.org/help/) for a complete list of methods to get help.
+**For support** with the release, navigate to [Help &amp; Support](/help) for a complete list of methods to get help.

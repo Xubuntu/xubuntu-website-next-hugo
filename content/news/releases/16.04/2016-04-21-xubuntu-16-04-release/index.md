@@ -1,9 +1,10 @@
 ---
 title:       "Xubuntu 16.04 released!"
 date:        2016-04-21 16:26:01
-slug:        xubuntu-16-04-release
+aliases:
+  - /news/xubuntu-16-04-release
 release:     "16.04"
-serie:       
+tag:         
 category:    announcements
 author:      flocculant
 author_nick: flocculant
@@ -11,7 +12,7 @@ author_nick: flocculant
 
 The Xubuntu team is pleased to announce the immediate release of Xubuntu 16.04. Xubuntu 16.04 is an LTS (Long-Term Support) release and will be supported for 3 years.
 
-The **final release images** are available as Torrents and direct downloads from <http://xubuntu.org/getxubuntu/>
+The **final release images** are available as Torrents and direct downloads from </getxubuntu>
 
 As the main server will be very busy in the first few days after release, we recommend using the Torrents wherever possible.
 
@@ -20,7 +21,7 @@ As the main server will be very busy in the first few days after release, we rec
 Support
 -------
 
-**For support** with the release, navigate to [Help &amp; Support](http://xubuntu.org/help/ "Help & Support") for a complete list of methods to get help.
+**For support** with the release, navigate to [Help &amp; Support](/help "Help & Support") for a complete list of methods to get help.
 
 Highlights and Known Issues
 ---------------------------

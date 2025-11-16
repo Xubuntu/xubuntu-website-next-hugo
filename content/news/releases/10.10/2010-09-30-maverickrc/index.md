@@ -1,9 +1,10 @@
 ---
 title:       "Xubuntu 10.10 RC released"
 date:        2010-09-30 13:57:32
-slug:        maverickrc
+aliases:
+  - /news/maverickrc
 release:     "10.10"
-serie:       
+tag:         
 category:    
 author:      Elizabeth K. Joseph
 author_nick: pleia2

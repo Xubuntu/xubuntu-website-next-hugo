@@ -1,9 +1,10 @@
 ---
 title:       "Xubuntu 12.10 alpha 3 released"
 date:        2012-07-26 21:22:03
-slug:        quantalalpha3
+aliases:
+  - /news/quantalalpha3
 release:     "12.10"
-serie:       
+tag:         
 category:    
 author:      Elizabeth K. Joseph
 author_nick: pleia2

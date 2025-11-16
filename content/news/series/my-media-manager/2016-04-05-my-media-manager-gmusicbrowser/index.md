@@ -1,9 +1,10 @@
 ---
 title:       "My media manager: gmusicbrowser"
 date:        2016-04-05 18:17:33
-slug:        my-media-manager-gmusicbrowser
+aliases:
+  - /news/my-media-manager-gmusicbrowser
 release:     ""
-serie:       my-media-manager
+tag:         my-media-manager
 category:    articles
 author:      Pasi Lallinaho
 author_nick: knome

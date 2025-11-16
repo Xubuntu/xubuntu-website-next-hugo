@@ -1,9 +1,10 @@
 ---
 title:       "Xubuntu 12.04.4 released"
 date:        2014-02-06 19:57:21
-slug:        xubuntu-12-04-4-released
+aliases:
+  - /news/xubuntu-12-04-4-released
 release:     "12.04"
-serie:       
+tag:         
 category:    announcements
 author:      Pasi Lallinaho
 author_nick: knome

@@ -1,9 +1,10 @@
 ---
 title:       "Xubuntu 14.10 Beta 1 is released!"
 date:        2014-08-28 21:16:53
-slug:        xubuntu-14-10-beta-1
+aliases:
+  - /news/xubuntu-14-10-beta-1
 release:     "14.10"
-serie:       
+tag:         
 category:    
 author:      Pasi Lallinaho
 author_nick: knome
@@ -20,7 +21,7 @@ Highlights and known issues
 
 ### New features and enhancements
 
-- [Inxi](http://xubuntu.org/news/inxi/), a tool to gather system information, is now included
+- [Inxi](/news/inxi), a tool to gather system information, is now included
 - To allow users to use pkexec for selected applications instead of gksu(do), appropriate profiles are now included for Thunar and Mousepad
 - The display dialog has been updated, multiple dispays can now be arranged by drag and drop
 - The power manager can now control the keyboard-backlight and features a new panel plugin, which shows the battery's status, other connected devices with batteries and controls the display's backlight brightness

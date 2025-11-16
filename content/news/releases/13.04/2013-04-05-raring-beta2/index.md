@@ -1,9 +1,10 @@
 ---
 title:       "Xubuntu Beta 2 is out!"
 date:        2013-04-05 13:40:07
-slug:        raring-beta2
+aliases:
+  - /news/raring-beta2
 release:     "13.04"
-serie:       
+tag:         
 category:    
 author:      Pasi Lallinaho
 author_nick: knome
@@ -29,6 +30,6 @@ In addition, new features and bug fixes introduced in Beta 1 and earlier include
 Download
 --------
 
-Please note that the Beta 2 version is not suitable for production machines or anybody who doesn't wish to have an unstable system. If you want to help Xubuntu testing the new release and are wondering how to help, please refer to our article on [Testing Raring](http://xubuntu.org/news/want-to-help-out-xubuntu-test-raring/ "Want to help out Xubuntu? Test Raring!").
+Please note that the Beta 2 version is not suitable for production machines or anybody who doesn't wish to have an unstable system. If you want to help Xubuntu testing the new release and are wondering how to help, please refer to our article on [Testing Raring](/news/want-to-help-out-xubuntu-test-raring "Want to help out Xubuntu? Test Raring!").
 
 Those who are fine with having an unstable and promise to do backups before upgrading or installing can [download Xubuntu 13.04 Beta 2 here](http://cdimage.ubuntu.com/xubuntu/releases/13.04/beta-2).

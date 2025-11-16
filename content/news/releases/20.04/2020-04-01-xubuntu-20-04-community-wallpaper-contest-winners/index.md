@@ -1,9 +1,10 @@
 ---
 title:       "Xubuntu 20.04 Community Wallpaper Contest Winners"
 date:        2020-04-01 03:57:14
-slug:        xubuntu-20-04-community-wallpaper-contest-winners
+aliases:
+  - /news/xubuntu-20-04-community-wallpaper-contest-winners
 release:     "20.04"
-serie:       
+tag:         
 category:    
 author:      Sean Davis
 author_nick: bluesabre

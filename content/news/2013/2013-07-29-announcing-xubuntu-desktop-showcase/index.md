@@ -1,9 +1,10 @@
 ---
 title:       "Announcing the Xubuntu Desktop Showcase"
 date:        2013-07-29 16:09:11
-slug:        announcing-xubuntu-desktop-showcase
+aliases:
+  - /news/announcing-xubuntu-desktop-showcase
 release:     ""
-serie:       
+tag:         
 category:    articles
 author:      Elizabeth K. Joseph
 author_nick: pleia2

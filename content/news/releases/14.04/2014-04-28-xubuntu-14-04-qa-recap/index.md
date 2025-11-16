@@ -1,9 +1,10 @@
 ---
 title:       "Xubuntu 14.04 QA Recap"
 date:        2014-04-28 16:13:27
-slug:        xubuntu-14-04-qa-recap
+aliases:
+  - /news/xubuntu-14-04-qa-recap
 release:     "14.04"
-serie:       
+tag:         
 category:    articles
 author:      flocculant
 author_nick: flocculant

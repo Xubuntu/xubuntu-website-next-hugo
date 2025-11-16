@@ -1,9 +1,10 @@
 ---
 title:       "Xubuntu 8.10 released"
 date:        2008-10-30 02:08:56
-slug:        intrepidrelease
+aliases:
+  - /news/intrepidrelease
 release:     "8.10"
-serie:       
+tag:         
 category:    announcements
 author:      Elizabeth K. Joseph
 author_nick: pleia2

@@ -1,9 +1,10 @@
 ---
 title:       "LTS upgrade time!"
 date:        2012-08-23 19:37:53
-slug:        12-04-1-release
+aliases:
+  - /news/12-04-1-release
 release:     "12.04"
-serie:       
+tag:         
 category:    
 author:      Pasi Lallinaho
 author_nick: knome

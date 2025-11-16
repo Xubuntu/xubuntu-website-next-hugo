@@ -1,9 +1,10 @@
 ---
 title:       "The small details: Wallpapers"
 date:        2016-04-15 17:11:32
-slug:        small-details-wallpapers
+aliases:
+  - /news/small-details-wallpapers
 release:     ""
-serie:       the-small-details
+tag:         the-small-details
 category:    articles
 author:      flocculant
 author_nick: flocculant

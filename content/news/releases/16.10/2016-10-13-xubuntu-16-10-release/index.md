@@ -1,9 +1,10 @@
 ---
 title:       "Xubuntu 16.10 Released"
 date:        2016-10-13 16:43:25
-slug:        xubuntu-16-10-release
+aliases:
+  - /news/xubuntu-16-10-release
 release:     "16.10"
-serie:       
+tag:         
 category:    
 author:      flocculant
 author_nick: flocculant
@@ -13,14 +14,14 @@ The Xubuntu team is pleased to announce the immediate release of Xubuntu 16.10. 
 
 This release has seen little visible change since April's 16.04, however much has been done towards supplying Xubuntu with Xfce packages built with GTK3, including the porting of many plugins and Xfce Terminal to GTK3. Those GTK3 ports can, if one wishes to test them, be installed from one of the team's [development PPAs](https://launchpad.net/~xubuntu-dev/+archive/ubuntu/xfce4-gtk3?)
 
-The **final release images** are available as Torrents and direct downloads from <http://xubuntu.org/getxubuntu/>
+The **final release images** are available as Torrents and direct downloads from </getxubuntu>
 
 As the main server will be very busy in the first few days after release, we recommend using the Torrents wherever possible.
 
 Support
 -------
 
-**For support** with the release, navigate to [Help &amp; Support](http://xubuntu.org/help/ "Help & Support") for a complete list of methods to get help.
+**For support** with the release, navigate to [Help &amp; Support](/help "Help & Support") for a complete list of methods to get help.
 
 ### Known Issues
 

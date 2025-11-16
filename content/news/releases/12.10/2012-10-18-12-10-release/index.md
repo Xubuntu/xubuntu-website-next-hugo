@@ -1,9 +1,10 @@
 ---
 title:       "Xubuntu 12.10 is out!"
 date:        2012-10-18 17:00:47
-slug:        12-10-release
+aliases:
+  - /news/12-10-release
 release:     "12.10"
-serie:       
+tag:         
 category:    announcements
 author:      Pasi Lallinaho
 author_nick: knome
@@ -11,9 +12,9 @@ author_nick: knome
 
 The Xubuntu team is glad to announce the immediate release of Xubuntu 12.10, codenamed Quantal Quetzal! Xubuntu 12.10 will be supported for 18 months.
 
-[**Download Xubuntu 12.10 here!**](http://xubuntu.org/getxubuntu/ "Get Xubuntu")
+[**Download Xubuntu 12.10 here!**](/getxubuntu "Get Xubuntu")
 
-For support with the release, navigate to [Help &amp; Support](http://xubuntu.org/help/ "Help & Support") for a full listing of methods to get help.
+For support with the release, navigate to [Help &amp; Support](/help "Help & Support") for a full listing of methods to get help.
 
 To see the complete release notes along with list of updates and issues in common infrastructure and more, please refer to the [Xubuntu release notes](https://wiki.ubuntu.com/QuantalQuetzal/ReleaseNotes/Xubuntu) at the Ubuntu wiki.
 
@@ -21,7 +22,7 @@ New features
 ------------
 
 - Xfce 4.10
-- [Completely rewritten offline documentation](http://xubuntu.org/news/offline-documentation-rewritten-for-12-10/ "Offline documentation rewritten for 12.10")
+- [Completely rewritten offline documentation](/news/offline-documentation-rewritten-for-12-10 "Offline documentation rewritten for 12.10")
 - In the application menu, all settings-related launchers are now grouped under the Settings Manager
 - Updated artwork, including new wallpaper, documentation looks and updates to LightDM, Greybird and Ubiquity slideshow
 - New versions of Catfish and Parole

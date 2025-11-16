@@ -1,9 +1,10 @@
 ---
 title:       "Xubuntu 8.10 Release Candidate now available"
 date:        2008-10-24 07:00:32
-slug:        intrepidrc
+aliases:
+  - /news/intrepidrc
 release:     "8.10"
-serie:       
+tag:         
 category:    
 author:      Elizabeth K. Joseph
 author_nick: pleia2

@@ -1,9 +1,10 @@
 ---
 title:       "Building the Xubuntu documentation package locally"
 date:        2015-10-31 20:36:46
-slug:        building-xubuntu-documentation-package-locally
+aliases:
+  - /news/building-xubuntu-documentation-package-locally
 release:     ""
-serie:       getting-started-development
+tag:         getting-started-development
 category:    articles
 author:      David Pires
 author_nick: slickymaster

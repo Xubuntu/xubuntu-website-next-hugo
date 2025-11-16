@@ -1,9 +1,10 @@
 ---
 title:       "Xubuntu 14.04 Default Wallpapers"
 date:        2013-11-14 20:49:27
-slug:        xubuntu-14-04-default-wallpapers
+aliases:
+  - /news/xubuntu-14-04-default-wallpapers
 release:     "14.04"
-serie:       
+tag:         
 category:    articles
 author:      Simon Steinbeiß
 author_nick: ochosi

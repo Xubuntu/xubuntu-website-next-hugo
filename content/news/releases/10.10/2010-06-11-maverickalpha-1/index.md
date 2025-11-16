@@ -1,9 +1,10 @@
 ---
 title:       "Xubuntu 10.10 alpha 1 released"
 date:        2010-06-11 10:06:27
-slug:        maverickalpha-1
+aliases:
+  - /news/maverickalpha-1
 release:     "10.10"
-serie:       
+tag:         
 category:    
 author:      Elizabeth K. Joseph
 author_nick: pleia2

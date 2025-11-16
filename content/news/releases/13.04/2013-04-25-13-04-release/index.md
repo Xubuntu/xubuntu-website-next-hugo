@@ -1,9 +1,10 @@
 ---
 title:       "Xubuntu 13.04 is here!"
 date:        2013-04-25 12:39:20
-slug:        13-04-release
+aliases:
+  - /news/13-04-release
 release:     "13.04"
-serie:       
+tag:         
 category:    announcements
 author:      Pasi Lallinaho
 author_nick: knome
@@ -13,7 +14,7 @@ The Xubuntu team is glad to announce the immediate release of Xubuntu 13.04!
 
 Xubuntu 13.04 will be supported for *9 months* and will need other media such as a *USB device* or a *DVD* to install. Read more below.
 
-[**Download Xubuntu 13.04 here!**](http://xubuntu.org/getxubuntu/ "Get Xubuntu")
+[**Download Xubuntu 13.04 here!**](/getxubuntu "Get Xubuntu")
 
 What's new in Xubuntu 13.04?
 ----------------------------

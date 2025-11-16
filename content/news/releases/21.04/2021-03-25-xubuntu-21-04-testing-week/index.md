@@ -1,9 +1,10 @@
 ---
 title:       "Xubuntu 21.04 Testing Week"
 date:        2021-03-25 08:00:00
-slug:        xubuntu-21-04-testing-week
+aliases:
+  - /news/xubuntu-21-04-testing-week
 release:     "21.04"
-serie:       qa, testing-week
+tag:         qa, testing-week
 category:    articles
 author:      Yousuf Philips
 author_nick: philipz85
@@ -11,7 +12,7 @@ author_nick: philipz85
 
 We're delighted to announce that we're participating in another ‘Ubuntu Testing Week’ from April 1st to April 7th with other flavours in the [Ubuntu family](https://ubuntu.com/download/flavours). On April 1st, the beta version of Xubuntu 21.04 ‘Hirsute Hippo’ will be released after halting all new changes to its features, user interface and documentation. Between April 1st and the final release on April 22nd, all efforts by the Xubuntu team and community should be focused on ISO testing, reporting bugs, fixing bugs, and translations.
 
-It has been a year since we last did a collaboration with other Ubuntu flavors for an Ubuntu Testing Week, which was done for [Xubuntu 20.04 LTS](https://xubuntu.org/news/xubuntu-20-04-testing-week/). That event was a major success, as a large volume of testers participated and it was announced on various linux news sites and podcasts. Alan Pope (aka Popey) from Canonical, Rick Timmis from the Kubuntu team, and Bill from the Ubuntu Mate team helped spread the word about the previous event in this clip from Big Daddy Linux Live (BDLL) on how the event came about, its goals, as well as points on how to test. You won’t want to miss being part of the event this year! Read on to learn how.
+It has been a year since we last did a collaboration with other Ubuntu flavors for an Ubuntu Testing Week, which was done for [Xubuntu 20.04 LTS](/news/xubuntu-20-04-testing-week). That event was a major success, as a large volume of testers participated and it was announced on various linux news sites and podcasts. Alan Pope (aka Popey) from Canonical, Rick Timmis from the Kubuntu team, and Bill from the Ubuntu Mate team helped spread the word about the previous event in this clip from Big Daddy Linux Live (BDLL) on how the event came about, its goals, as well as points on how to test. You won’t want to miss being part of the event this year! Read on to learn how.
 
 <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/p5xsWPy1_V4?start=5516" width="560"></iframe>
 
@@ -21,7 +22,7 @@ There are a variety of ways that you can help test the release, including trying
 
 <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/lOCWwLwN7xE?start=106" width="560"></iframe>
 
-Please test apps that you regularly use, so you can identify bugs and regressions that should be reported, especially as the recently released [Xfce 4.16](https://xfce.org/about/news/?post=1608595200) is bundled in this release. You can learn about what else is new in this release in the [Release Notes](https://wiki.xubuntu.org/releases/21.04/release-notes). New ISO files are built everyday, and you should always test with the most up-to-date ISO. It is easier and faster to update an existing daily ISO file on Linux with the command below (you’ll need to run it in the terminal from within the folder with the ISO file).
+Please test apps that you regularly use, so you can identify bugs and regressions that should be reported, especially as the recently released [Xfce 4.16](https://xfce.org/about/news/?post=1608595200) is bundled in this release. You can learn about what else is new in this release in the [Release Notes](/releasedocs/21.04/release-notes). New ISO files are built everyday, and you should always test with the most up-to-date ISO. It is easier and faster to update an existing daily ISO file on Linux with the command below (you’ll need to run it in the terminal from within the folder with the ISO file).
 
 `$ zsync http://cdimage.ubuntu.com/xubuntu/daily-live/current/hirsute-desktop-amd64.iso.zsync`
 

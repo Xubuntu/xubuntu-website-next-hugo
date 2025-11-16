@@ -1,9 +1,10 @@
 ---
 title:       "Xubuntu is now on GitHub!"
 date:        2020-05-23 21:16:52
-slug:        xubuntu-is-now-on-github
+aliases:
+  - /news/xubuntu-is-now-on-github
 release:     ""
-serie:       
+tag:         
 category:    articles
 author:      Sean Davis
 author_nick: bluesabre

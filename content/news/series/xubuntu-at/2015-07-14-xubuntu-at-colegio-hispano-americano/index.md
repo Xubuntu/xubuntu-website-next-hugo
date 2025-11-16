@@ -1,9 +1,10 @@
 ---
 title:       "Xubuntu at Colegio Hispano Americano"
 date:        2015-07-14 19:35:36
-slug:        xubuntu-at-colegio-hispano-americano
+aliases:
+  - /news/xubuntu-at-colegio-hispano-americano
 release:     ""
-serie:       xubuntu-at
+tag:         xubuntu-at
 category:    articles
 author:      Elizabeth K. Joseph
 author_nick: pleia2

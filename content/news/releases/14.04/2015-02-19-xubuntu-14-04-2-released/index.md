@@ -1,9 +1,10 @@
 ---
 title:       "Xubuntu 14.04.2 released"
 date:        2015-02-19 23:11:31
-slug:        xubuntu-14-04-2-released
+aliases:
+  - /news/xubuntu-14-04-2-released
 release:     "14.04"
-serie:       
+tag:         
 category:    announcements
 author:      flocculant
 author_nick: flocculant
@@ -17,7 +18,7 @@ The Xubuntu team is pleased to announce the immediate release of Xubuntu 14.04.2
 
 As the main server will be very busy in the first days after the release, we recommend using the Torrents wherever possible.
 
-**For support** with the release, navigate to [Help &amp; Support](http://xubuntu.org/help/ "Help & Support") for a complete list of methods to get help.
+**For support** with the release, navigate to [Help &amp; Support](/help "Help & Support") for a complete list of methods to get help.
 
 Bug fixes for the second point release
 --------------------------------------

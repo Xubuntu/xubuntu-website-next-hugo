@@ -1,9 +1,10 @@
 ---
 title:       "Introducing Xubuntu core"
 date:        2015-05-06 07:08:23
-slug:        introducing-xubuntu-core
+aliases:
+  - /news/introducing-xubuntu-core
 release:     ""
-serie:       
+tag:         
 category:    
 author:      Simon Steinbeiß
 author_nick: ochosi

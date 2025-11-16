@@ -1,9 +1,10 @@
 ---
 title:       "Xubuntu 11.10 released"
 date:        2011-10-13 05:21:13
-slug:        11-10-release
+aliases:
+  - /news/11-10-release
 release:     "11.10"
-serie:       
+tag:         
 category:    announcements
 author:      Elizabeth K. Joseph
 author_nick: pleia2
@@ -15,4 +16,4 @@ Changes for this release include the following applications included by default:
 
 We invite you to give this newest member of the Xubuntu family a spin. The Xubuntu Desktop CD can be used on either USB drives or burned to a CD. Either will allow you to try this fantastic distribution before you install it.
 
-Visit the [download page](http://xubuntu.org/get) to give it a try. Bugs can be [reported in Launchpad](https://launchpad.net/ubuntu/+filebug/). If you are looking for [support](/help)), please see the #xubuntu IRC channel on irc.freenode.net. Before installing this release, make sure to review the [release notes](https://wiki.ubuntu.com/Xubuntu/OneiricOcelot/Final).
+Visit the [download page](/getxubuntu) to give it a try. Bugs can be [reported in Launchpad](https://launchpad.net/ubuntu/+filebug/). If you are looking for [support](/help)), please see the #xubuntu IRC channel on irc.freenode.net. Before installing this release, make sure to review the [release notes](https://wiki.ubuntu.com/Xubuntu/OneiricOcelot/Final).

@@ -1,9 +1,10 @@
 ---
 title:       "Xubuntu 12.04 released"
 date:        2012-04-26 13:13:14
-slug:        12-04-release
+aliases:
+  - /news/12-04-release
 release:     "12.04"
-serie:       
+tag:         
 category:    announcements
 author:      Pasi Lallinaho
 author_nick: knome
@@ -11,9 +12,9 @@ author_nick: knome
 
 The Xubuntu team is very proud and happy to announce the release of Xubuntu 12.04, codenamed Precise Pangolin! Xubuntu 12.04 is a Long Term Support release (LTS) and will be supported for *three years* per the Xubuntu LTS plan.
 
-[**Download Xubuntu 12.04 here**](http://xubuntu.org/getxubuntu/ "Get Xubuntu")
+[**Download Xubuntu 12.04 here**](/getxubuntu "Get Xubuntu")
 
-For support with the release, navigate to [Help &amp; Support](http://xubuntu.org/help/ "Help & Support") for a full listing of methods to get help.
+For support with the release, navigate to [Help &amp; Support](/help "Help & Support") for a full listing of methods to get help.
 
 To see the complete release notes along with list of updates and issues in common infrastructure and more, please refer to the [Xubuntu release notes](https://wiki.ubuntu.com/PrecisePangolin/ReleaseNotes/Xubuntu) at the Ubuntu wiki.
 
