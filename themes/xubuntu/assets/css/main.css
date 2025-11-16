@@ -155,6 +155,12 @@ figure { }
 
    }
 
+@media screen and (max-width:800px) {
+   figure img {
+      max-width: 100%;
+   }
+}
+
 summary {
    list-style: none;
    cursor: pointer;
