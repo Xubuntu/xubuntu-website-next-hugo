@@ -14,7 +14,7 @@ The Xubuntu team is happy to announce the immediate release of Xubuntu 20.04. Xu
 
 The Xubuntu team has been hard at work for the last six months of this development cycle improving both the Xfce desktop environment and the Xubuntu user experience following our 19.10 release, which introduced Xfce 4.14 for the first time. We were thrilled by the response to the [Ubuntu Testing Week](/news/xubuntu-20-04-testing-week), which helped us make 20.04 another great and stable release.
 
-The **final release images** are available as torrents and direct downloads from [xubuntu.org/download/](https://xubuntu.org/download/).
+The **final release images** are available as torrents and direct downloads from [xubuntu.org/download/](/download/).
 
 As the main server might be busy in the first few days after the release, we recommend using the torrents if possible.
 

@@ -14,7 +14,7 @@ The Xubuntu team is happy to announce the immediate release of Xubuntu 21.10.
 
 Xubuntu 21.10, codenamed **Impish Indri**, is a regular release and will be supported for 9 months, until June 2022. If you need a stable environment with longer support time we recommend that you use [Xubuntu 20.04 LTS](/release/20.04//) instead.
 
-The **final release images** are available as torrents and direct downloads from [xubuntu.org/download/](https://xubuntu.org/download/).
+The **final release images** are available as torrents and direct downloads from [xubuntu.org/download/](/download/).
 
 As the main server might be busy in the first few days after the release, we recommend using the torrents if possible.
 

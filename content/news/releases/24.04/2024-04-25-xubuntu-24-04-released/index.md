@@ -19,7 +19,7 @@ Xubuntu 24.04, featuring the latest updates from Xfce 4.18 and GNOME 46.
 
 Xubuntu 24.04 features the latest updates from Xfce 4.18, GNOME 46, and MATE 1.26. For new users and those coming from Xubuntu 22.04, you'll appreciate the performance, stability, and improved hardware support found in Xubuntu 24.04. Xfce 4.18 is stable, fast, and full of user-friendly features. Enjoy frictionless bluetooth headphone connections and out-of-the-box touchpad support. Updates to our icon theme and wallpapers make Xubuntu feel fresh and stylish.
 
-The **final release images** for **Xubuntu Desktop** and **Xubuntu Minimal** are available as torrents and direct downloads from [xubuntu.org/download/](https://xubuntu.org/download/).
+The **final release images** for **Xubuntu Desktop** and **Xubuntu Minimal** are available as torrents and direct downloads from [xubuntu.org/download/](/download/).
 
 As the main server might be busy in the first few days after the release, we recommend using the torrents if possible.
 

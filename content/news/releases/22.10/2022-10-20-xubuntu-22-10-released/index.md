@@ -18,7 +18,7 @@ Xubuntu 22.10, codenamed **Kinetic Kudu**, is a regular release and will be supp
 
 Xubuntu 22.10 features the latest updates from Xfce 4.17, GNOME 43, and MATE 1.26. The "bleeding edge" Xfce 4.17 components are included as an early preview to the upcoming Xfce 4.18, expected later this year. You'll find that Xfce 4.17 includes many new features and usability improvements while using Xubuntu 22.10. While we've tested each component shipped in Xubuntu, new bugs and regressions are expected. Please be sure to report any bugs you find.
 
-The **final release images** are available as torrents and direct downloads from [xubuntu.org/download/](https://xubuntu.org/download/).
+The **final release images** are available as torrents and direct downloads from [xubuntu.org/download/](/download/).
 
 As the main server might be busy in the first few days after the release, we recommend using the torrents if possible.
 

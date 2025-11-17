@@ -16,7 +16,7 @@ Xubuntu 22.04, codenamed **Jammy Jellyfish**, is a long-term support (LTS) relea
 
 The Xubuntu and Xfce development teams have made great strides in usability, expanded features, and additional applications in the last two years. Users coming from 20.04 will be delighted with improvements found in Xfce 4.16 and our expanded application set. 21.10 users will appreciate the added stability that comes from the numerous maintenance releases that landed this cycle.
 
-The **final release images** are available as torrents and direct downloads from [xubuntu.org/download/](https://xubuntu.org/download/).
+The **final release images** are available as torrents and direct downloads from [xubuntu.org/download/](/download/).
 
 As the main server might be busy in the first few days after the release, we recommend using the torrents if possible.
 

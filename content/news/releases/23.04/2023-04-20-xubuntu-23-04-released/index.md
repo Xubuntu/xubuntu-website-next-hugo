@@ -21,7 +21,7 @@ Xubuntu 23.04 features the latest Xfce 4.18. Xfce 4.18 delivers a stable desktop
 
 Xubuntu 23.04 also welcomes **Xubuntu Minimal** as an official subproject. Xubuntu Minimal is a slimmed down version of Xubuntu that only includes the bare essentials: the desktop, a few Xfce components, and the Xubuntu look and feel. Longtime Xubuntu fans may better know this as *[Xubuntu Core](/news/introducing-xubuntu-core)*. After nearly eight years of being a supported, but community-built project, we're happy to finally publish downloads along with the main Xubuntu version. Many thanks to the community for keeping the dream alive all these years!
 
-The **final release images** are available as torrents and direct downloads from [xubuntu.org/download/](https://xubuntu.org/download/).
+The **final release images** are available as torrents and direct downloads from [xubuntu.org/download/](/download/).
 
 As the main server might be busy in the first few days after the release, we recommend using the torrents if possible.
 

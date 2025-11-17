@@ -19,7 +19,7 @@ Xubuntu 23.10, featuring the latest updates from Xfce 4.18 and GNOME 44.
 
 Xubuntu 23.10 features the latest updates from Xfce 4.18, GNOME 45, and MATE 1.26. With a focus on stability, memory management, and hardware support, Xubuntu 23.10 should perform well on your device. Enjoy frictionless bluetooth headphone connections and out-of-the-box touchpad support. Read Sean's [*What's New in Xubuntu 23.10*](https://blog.bluesabre.org/2023/10/10/whats-new-in-xubuntu-23-10/) post for an in-depth review of the latest updates.
 
-The **final release images** for **Xubuntu Desktop** and **Xubuntu Minimal** are available as torrents and direct downloads from [xubuntu.org/download/](https://xubuntu.org/download/).
+The **final release images** for **Xubuntu Desktop** and **Xubuntu Minimal** are available as torrents and direct downloads from [xubuntu.org/download/](/download/).
 
 As the main server might be busy in the first few days after the release, we recommend using the torrents if possible.
 
