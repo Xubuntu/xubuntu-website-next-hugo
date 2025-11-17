@@ -121,7 +121,7 @@ Thanks to the [BBC](http://www.bbc.co.uk/) and [Collabora](http://www.collabora.
 
 ### Participate in Xubuntu
 
-If you would like to help shape Xubuntu, take a look at the list of ways you can participate at http://www.ubuntu.com/community/participate/ and http://xubuntu.org/devel
+If you would like to help shape Xubuntu, take a look at the list of ways you can participate at http://www.ubuntu.com/community/participate/ and [Get Involved](/contribute)
 
 ### Help Spread the Word About Xubuntu 8.10
 
