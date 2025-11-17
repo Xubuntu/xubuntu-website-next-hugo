@@ -31,4 +31,4 @@ Got a question before you start? Come along to the [\#xubuntu-devel IRC channel]
 
 Updates to our testing requirements are made regularly to the development mailing list. However, please do not hesitate to be in contact if you are in doubt; we will gladly help.
 
-Finally, you can get more details on how to participate with Xubuntu quality assurance generally [here](http://xubuntu.org/contribute/qa/).
+Finally, you can get more details on how to participate with Xubuntu quality assurance generally [here](/contribute/qa/).

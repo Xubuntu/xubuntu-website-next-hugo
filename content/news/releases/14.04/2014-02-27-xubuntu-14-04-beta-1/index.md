@@ -49,4 +49,4 @@ As always, contributors to Xubuntu have worked on various projects not directly 
 
 While many of the improvements in Xubuntu since the last LTS are, indeed, not directly visible. Some of the major improvements have been in design and theming, and as such we hope that you don't see them - good design should be invisible.
 
-Thanks to everybody contributing to Xubuntu! As always, new contributors are always welcome to join us. There are various different tasks to do, from testing daily ISOs and new package versions to writing and translating documentation to fixing bugs. To learn more about contributing, read the [Get Involved](http://xubuntu.org/contribute/) section on the Xubuntu website.
+Thanks to everybody contributing to Xubuntu! As always, new contributors are always welcome to join us. There are various different tasks to do, from testing daily ISOs and new package versions to writing and translating documentation to fixing bugs. To learn more about contributing, read the [Get Involved](/contribute/) section on the Xubuntu website.

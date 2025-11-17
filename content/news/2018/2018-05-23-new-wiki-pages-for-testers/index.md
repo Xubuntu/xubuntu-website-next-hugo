@@ -22,7 +22,7 @@ Rather than belabour my point here, I've asked both of them to write a few words
 
 Before they get that chance – I would just like to thank them both for the hours of work they have put in drafting, tweaking and getting the pages into a position where we can tell you all of their existence.
 
-You can see the fruits of their labour at our updated web page for [Testers](https://xubuntu.org/contribute/qa) and the new pages we have at the [New Tester wiki](https://wiki.xubuntu.org/qa/new_tester_start).
+You can see the fruits of their labour at our updated web page for [Testers](/contribute/qa) and the new pages we have at the [New Tester wiki](https://wiki.xubuntu.org/qa/new_tester_start).
 
 Kev On behalf of the Xubuntu Development and QA Teams.
 

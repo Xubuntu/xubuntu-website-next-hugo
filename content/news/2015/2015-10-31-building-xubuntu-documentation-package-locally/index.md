@@ -24,4 +24,4 @@ Once that's done, all you have to do is to get the latest main branch and build 
 
 `bzr branch lp:xubuntu-docs``cd xubuntu-docs``make` (running this command will take some time as it builds both HTML and PDF versions of the documentation in various languages) `exo-open --launch WebBrowser build/index.html`
 
-Now that you have the source on your system, you have the ability to edit it and ultimately, suggest improvements to the documentation. If you have any doubts about how you can contribute, just have a read on how you can assist with the Xubuntu documentation, [here](http://xubuntu.org/contribute/documentation/).
+Now that you have the source on your system, you have the ability to edit it and ultimately, suggest improvements to the documentation. If you have any doubts about how you can contribute, just have a read on how you can assist with the Xubuntu documentation, [here](/contribute/documentation/).

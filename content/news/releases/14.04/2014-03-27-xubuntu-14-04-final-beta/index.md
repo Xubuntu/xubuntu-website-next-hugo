@@ -43,4 +43,4 @@ Some of the known issues include:
 - Wallpaper once installed is XFCE ([1297170](https://bugs.launchpad.net/ubuntu/+source/xubuntu-default-settings/+bug/1297170) )
 - Installed keyboard layout changes after boot ([1284635](https://bugs.launchpad.net/ubuntu/+source/ibus/+bug/1284635) , [1231520](https://bugs.launchpad.net/ubuntu/+source/ubiquity/+bug/1231520) )
 
-Thanks to everybody contributing to Xubuntu! As always, new contributors are always welcome to join us. There are various different tasks to do, from testing daily ISOs and new package versions to writing and translating documentation to fixing bugs. To learn more about contributing, read the [Get Involved](http://xubuntu.org/contribute/) section on the Xubuntu website.
+Thanks to everybody contributing to Xubuntu! As always, new contributors are always welcome to join us. There are various different tasks to do, from testing daily ISOs and new package versions to writing and translating documentation to fixing bugs. To learn more about contributing, read the [Get Involved](/contribute/) section on the Xubuntu website.

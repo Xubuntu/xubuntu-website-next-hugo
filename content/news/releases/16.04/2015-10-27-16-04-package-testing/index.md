@@ -85,4 +85,4 @@ There are a few things you can do to make it easier for you to pass on and recei
 - Join the [Xubuntu developer mailing list](https://lists.ubuntu.com/mailman/listinfo/xubuntu-devel) in order to talk to us easily about issues you might have while testing
 - Check what we have going on during the cycle at the [Xubuntu status tracker](http://tracker.xubuntu.org/) and use the *IRC* tab to talk to us about helping with testing
 
-More detailed information on what is discussed above and more can be found on the current QA [contribution page](http://xubuntu.org/contribute/qa).
+More detailed information on what is discussed above and more can be found on the current QA [contribution page](/contribute/qa).
