@@ -1,9 +1,10 @@
 ---
 title:       "Xubuntu Artwork Update: Unity Support"
 date:        2012-04-25 17:57:26
-slug:        xubuntu-artwork-update-unity-support
+aliases:
+  - /news/xubuntu-artwork-update-unity-support
 release:     "12.10"
-serie:       
+tag:         
 category:    articles
 author:      Simon Steinbeiß
 author_nick: ochosi

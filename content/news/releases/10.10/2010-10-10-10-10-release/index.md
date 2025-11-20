@@ -1,9 +1,10 @@
 ---
 title:       "Xubuntu 10.10 released"
 date:        2010-10-10 12:01:30
-slug:        10-10-release
+aliases:
+  - /news/10-10-release
 release:     "10.10"
-serie:       
+tag:         
 category:    announcements
 author:      Elizabeth K. Joseph
 author_nick: pleia2

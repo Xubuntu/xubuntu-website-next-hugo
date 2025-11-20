@@ -1,9 +1,10 @@
 ---
 title:       "Xubuntu 23.10 released!"
 date:        2023-10-12 17:18:54
-slug:        xubuntu-23-10-released
+aliases:
+  - /news/xubuntu-23-10-released
 release:     "23.10"
-serie:       
+tag:         
 category:    announcements
 author:      Sean Davis
 author_nick: bluesabre
@@ -18,7 +19,7 @@ Xubuntu 23.10, featuring the latest updates from Xfce 4.18 and GNOME 44.
 
 Xubuntu 23.10 features the latest updates from Xfce 4.18, GNOME 45, and MATE 1.26. With a focus on stability, memory management, and hardware support, Xubuntu 23.10 should perform well on your device. Enjoy frictionless bluetooth headphone connections and out-of-the-box touchpad support. Read Sean's [*What's New in Xubuntu 23.10*](https://blog.bluesabre.org/2023/10/10/whats-new-in-xubuntu-23-10/) post for an in-depth review of the latest updates.
 
-The **final release images** for **Xubuntu Desktop** and **Xubuntu Minimal** are available as torrents and direct downloads from [xubuntu.org/download/](https://xubuntu.org/download/).
+The **final release images** for **Xubuntu Desktop** and **Xubuntu Minimal** are available as torrents and direct downloads from [xubuntu.org/download/](/download/).
 
 As the main server might be busy in the first few days after the release, we recommend using the torrents if possible.
 
@@ -39,11 +40,11 @@ Highlights and Known Issues
 - Xorg crashes and the user is logged out after logging in or switching users on some virtual machines, including GNOME Boxes. (LP: #[1861609](https://bugs.launchpad.net/ubuntu/+source/xorg-server/+bug/1861609))
 - You may experience choppy audio or poor system performance while playing audio, but only in some virtual machines (observed in VMware and VirtualBox)
 
-For more obscure known issues, information on affecting bugs, bug fixes, and a list of new package versions, please refer to the [Xubuntu Release Notes](https://wiki.xubuntu.org/releases/23.10/release-notes).
+For more obscure known issues, information on affecting bugs, bug fixes, and a list of new package versions, please refer to the [Xubuntu Release Notes](/releasedocs/23.10/release-notes).
 
 The main [Ubuntu Release Notes](https://discourse.ubuntu.com/t/mantic-minotaur-release-notes/35534) cover many of the other packages we carry and more generic issues.
 
 Support
 -------
 
-**For support** with the release, navigate to [Help &amp; Support](https://xubuntu.org/help/) for a complete list of methods to get help.
+**For support** with the release, navigate to [Help &amp; Support](/help) for a complete list of methods to get help.

@@ -1,9 +1,10 @@
 ---
 title:       "Xubuntu 9.04 beta released"
 date:        2009-03-27 06:23:53
-slug:        jauntybeta
+aliases:
+  - /news/jauntybeta
 release:     "9.04"
-serie:       
+tag:         
 category:    
 author:      Elizabeth K. Joseph
 author_nick: pleia2

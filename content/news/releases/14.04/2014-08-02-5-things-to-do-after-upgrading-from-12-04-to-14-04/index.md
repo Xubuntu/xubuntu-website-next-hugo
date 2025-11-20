@@ -1,9 +1,10 @@
 ---
 title:       "5 Things to Do After Upgrading from 12.04 to 14.04"
 date:        2014-08-02 13:43:10
-slug:        5-things-to-do-after-upgrading-from-12-04-to-14-04
+aliases:
+  - /news/5-things-to-do-after-upgrading-from-12-04-to-14-04
 release:     "14.04"
-serie:       
+tag:         
 category:    articles
 author:      David Pires
 author_nick: slickymaster

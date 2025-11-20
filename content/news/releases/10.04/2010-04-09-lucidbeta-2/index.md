@@ -1,9 +1,10 @@
 ---
 title:       "Xubuntu 10.04 beta 2 released"
 date:        2010-04-09 11:59:47
-slug:        lucidbeta-2
+aliases:
+  - /news/lucidbeta-2
 release:     "10.04"
-serie:       
+tag:         
 category:    
 author:      Elizabeth K. Joseph
 author_nick: pleia2

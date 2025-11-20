@@ -1,9 +1,10 @@
 ---
 title:       "Xubuntu 20.04 Testing Week"
 date:        2020-03-26 06:00:30
-slug:        xubuntu-20-04-testing-week
+aliases:
+  - /news/xubuntu-20-04-testing-week
 release:     "20.04"
-serie:       qa, testing-week
+tag:         qa, testing-week
 category:    articles
 author:      Yousuf Philips
 author_nick: philipz85
@@ -25,6 +26,6 @@ Please test apps that you regularly use, so you can identify bugs and regression
 
 `$ zsync http://cdimage.ubuntu.com/xubuntu/daily-live/current/focal-desktop-amd64.iso.zsync`
 
-In order to assist you in your testing efforts, we encourage you to read our [Quality Assurance (QA) guide](https://xubuntu.org/contribute/qa) and our [new testers wiki](https://wiki.xubuntu.org/qa/new_tester_start). You can also chat with us live in our dedicated IRC channel ( [\#ubuntu-quality](https://webchat.freenode.net/#ubuntu-quality?nick=xubuntu-tester?w) on freenode ) or telegram group ( [Ubuntu Testers](https://t.me/UbuntuTesters) ). In order to submit reports to us, you’ll need an [Launchpad account](https://login.launchpad.net/) and once you have one, you can also join the [Xubuntu Testers team](https://launchpad.net/~xubuntu-testers).
+In order to assist you in your testing efforts, we encourage you to read our [Quality Assurance (QA) guide](/contribute/qa) and our [new testers wiki](https://wiki.xubuntu.org/qa/new_tester_start). You can also chat with us live in our dedicated IRC channel ( [\#ubuntu-quality](https://webchat.freenode.net/#ubuntu-quality?nick=xubuntu-tester?w) on freenode ) or telegram group ( [Ubuntu Testers](https://t.me/UbuntuTesters) ). In order to submit reports to us, you’ll need an [Launchpad account](https://login.launchpad.net/) and once you have one, you can also join the [Xubuntu Testers team](https://launchpad.net/~xubuntu-testers).
 
 We hope that you will join the community in making Xubuntu 20.04 a success, and hope that you will also take time to also test out the other Ubuntu flavors (Kubuntu, Lubuntu, Ubuntu, Ubuntu Budgie, Ubuntu Kylin, Ubuntu MATE, and Ubuntu Studio), as we will all benefit from that. We look forward to your contributions, your live chatting and for your return to future testing sessions. Happy bug hunting.

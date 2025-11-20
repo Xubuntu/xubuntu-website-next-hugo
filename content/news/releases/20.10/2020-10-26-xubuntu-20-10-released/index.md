@@ -1,9 +1,10 @@
 ---
 title:       "Xubuntu 20.10 released!"
 date:        2020-10-26 10:06:44
-slug:        xubuntu-20-10-released
+aliases:
+  - /news/xubuntu-20-10-released
 release:     "20.10"
-serie:       
+tag:         
 category:    announcements
 author:      Sean Davis
 author_nick: bluesabre
@@ -11,9 +12,9 @@ author_nick: bluesabre
 
 The Xubuntu team is happy to announce the immediate release of Xubuntu 20.10!
 
-Xubuntu 20.10, codenamed **Groovy Gorilla**, is a regular release and will be supported for 9 months, until July 2021. If you need a stable environment with longer support time we recommend that you use [Xubuntu 20.04 LTS](https://xubuntu.org/release/20-04/) instead.
+Xubuntu 20.10, codenamed **Groovy Gorilla**, is a regular release and will be supported for 9 months, until July 2021. If you need a stable environment with longer support time we recommend that you use [Xubuntu 20.04 LTS](/release/20.04//) instead.
 
-The **final release images** are available as torrents and direct downloads from [xubuntu.org/download/](https://xubuntu.org/download/).
+The **final release images** are available as torrents and direct downloads from [xubuntu.org/download/](/download/).
 
 As the main server might be busy in the first few days after the release, we recommend using the torrents if possible.
 
@@ -34,11 +35,11 @@ Highlights and Known Issues
 
 - Users with AMD graphics may still experience [significant graphical issues](https://bugs.launchpad.net/ubuntu/+source/xserver-xorg-video-amdgpu/+bug/1873895). Since the release of 20.04, this issue has been found to be more widespread and also affects MATE users.
 
-For more obscure known issues, information on affecting bugs, bug fixes, and a list of new package versions, please refer to the [Xubuntu Release Notes](https://wiki.xubuntu.org/releases/20.10/release-notes).
+For more obscure known issues, information on affecting bugs, bug fixes, and a list of new package versions, please refer to the [Xubuntu Release Notes](/releasedocs/20.10/release-notes).
 
 The main [Ubuntu Release Notes](https://discourse.ubuntu.com/t/groovy-gorilla-release-notes/15533) cover both many of the other packages we carry and more generic issues.
 
 Support
 -------
 
-**For support** with the release, navigate to [Help &amp; Support](https://xubuntu.org/help/) for a complete list of methods to get help.
+**For support** with the release, navigate to [Help &amp; Support](/help) for a complete list of methods to get help.

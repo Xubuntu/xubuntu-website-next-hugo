@@ -1,9 +1,10 @@
 ---
 title:       "Xubuntu 17.04 released!"
 date:        2017-04-13 16:15:17
-slug:        xubuntu-17-04-release
+aliases:
+  - /news/xubuntu-17-04-release
 release:     "17.04"
-serie:       
+tag:         
 category:    announcements
 author:      Pasi Lallinaho
 author_nick: knome
@@ -11,9 +12,9 @@ author_nick: knome
 
 The Xubuntu team is happy to announce the immediate release of Xubuntu 17.04.
 
-Xubuntu 17.04 is a regular release and will be supported for 9 months, until January 2018. If you need a stable environment with longer support time, we recommend that you use [Xubuntu 16.04 LTS](https://xubuntu.org/release/16-04/) instead.
+Xubuntu 17.04 is a regular release and will be supported for 9 months, until January 2018. If you need a stable environment with longer support time, we recommend that you use [Xubuntu 16.04 LTS](/release/16.04//) instead.
 
-The **final release images** are available as torrents and direct downloads from <http://xubuntu.org/getxubuntu/>
+The **final release images** are available as torrents and direct downloads from </getxubuntu>
 
 As the main server might be busy in the first few days after the release, we recommend using the torrents if possible.
 
@@ -22,7 +23,7 @@ We'd like to thank everybody who contributed to this release of Xubuntu!
 Support
 -------
 
-**For support** with the release, navigate to [Help &amp; Support](https://xubuntu.org/help/) for a complete list of methods to get help.
+**For support** with the release, navigate to [Help &amp; Support](/help) for a complete list of methods to get help.
 
 Highlights, Notes and Known Issues
 ----------------------------------

@@ -1,9 +1,10 @@
 ---
 title:       "Xubuntu 18.10 released!"
 date:        2018-10-18 23:56:09
-slug:        xubuntu-18-10-released
+aliases:
+  - /news/xubuntu-18-10-released
 release:     "18.10"
-serie:       
+tag:         
 category:    announcements
 author:      Elizabeth K. Joseph
 author_nick: pleia2
@@ -11,9 +12,9 @@ author_nick: pleia2
 
 The Xubuntu team is happy to announce the immediate release of Xubuntu 18.10!
 
-Xubuntu 18.10 is a regular release and will be supported for 9 months, until July 2019. If you need a stable environment with longer support time, we recommend that you use [Xubuntu 18.04 LTS](https://xubuntu.org/release/18-04/) instead.
+Xubuntu 18.10 is a regular release and will be supported for 9 months, until July 2019. If you need a stable environment with longer support time, we recommend that you use [Xubuntu 18.04 LTS](/release/18.04//) instead.
 
-The **final release images** are available as torrents and direct downloads from [xubuntu.org/getxubuntu/](https://xubuntu.org/getxubuntu/)
+The **final release images** are available as torrents and direct downloads from [xubuntu.org/getxubuntu/](/getxubuntu)
 
 As the main server might be busy in the first few days after the release, we recommend using the torrents if possible.
 
@@ -41,4 +42,4 @@ The main [Ubuntu Release Notes](https://wiki.ubuntu.com/CosmicCuttlefish/Release
 Support
 -------
 
-**For support** with the release, navigate to [Help &amp; Support](https://xubuntu.org/help/) for a complete list of methods to get help.
+**For support** with the release, navigate to [Help &amp; Support](/help) for a complete list of methods to get help.

@@ -1,9 +1,10 @@
 ---
 title:       "Xubuntu 21.04 released!"
 date:        2021-04-22 10:56:01
-slug:        xubuntu-21-04-released
+aliases:
+  - /news/xubuntu-21-04-released
 release:     "21.04"
-serie:       
+tag:         
 category:    announcements
 author:      Yousuf Philips
 author_nick: philipz85
@@ -11,9 +12,9 @@ author_nick: philipz85
 
 The Xubuntu team is happy to announce the immediate release of Xubuntu 21.04.
 
-Xubuntu 21.04, codenamed **Hirsute Hippo**, is a regular release and will be supported for 9 months, until January 2022. If you need a stable environment with longer support time we recommend that you use [Xubuntu 20.04 LTS](https://xubuntu.org/release/20-04/) instead.
+Xubuntu 21.04, codenamed **Hirsute Hippo**, is a regular release and will be supported for 9 months, until January 2022. If you need a stable environment with longer support time we recommend that you use [Xubuntu 20.04 LTS](/release/20.04//) instead.
 
-The **final release images** are available as torrents and direct downloads from [xubuntu.org/download/](https://xubuntu.org/download/).
+The **final release images** are available as torrents and direct downloads from [xubuntu.org/download/](/download/).
 
 As the main server might be busy in the first few days after the release, we recommend using the torrents if possible.
 
@@ -35,11 +36,11 @@ Highlights and Known Issues
 
 - The boot decryption password prompt is sometimes not displayed. Press **Escape** twice to reveal the prompt ([1917062](https://bugs.launchpad.net/xubuntu-artwork/+bug/1917062)).
 
-For more obscure known issues, information on affecting bugs, bug fixes, and a list of new package versions, please refer to the [Xubuntu Release Notes](https://wiki.xubuntu.org/releases/21.04/release-notes).
+For more obscure known issues, information on affecting bugs, bug fixes, and a list of new package versions, please refer to the [Xubuntu Release Notes](/releasedocs/21.04/release-notes).
 
 The main [Ubuntu Release Notes](https://discourse.ubuntu.com/t/hirsute-hippo-release-notes/19221) cover both many of the other packages we carry and more generic issues.
 
 Support
 -------
 
-**For support** with the release, navigate to [Help &amp; Support](https://xubuntu.org/help/) for a complete list of methods to get help.
+**For support** with the release, navigate to [Help &amp; Support](/help) for a complete list of methods to get help.

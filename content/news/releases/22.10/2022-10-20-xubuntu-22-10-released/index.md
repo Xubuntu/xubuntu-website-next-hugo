@@ -1,9 +1,10 @@
 ---
 title:       "Xubuntu 22.10 released!"
 date:        2022-10-20 16:53:00
-slug:        xubuntu-22-10-released
+aliases:
+  - /news/xubuntu-22-10-released
 release:     "22.10"
-serie:       
+tag:         
 category:    announcements
 author:      Sean Davis
 author_nick: bluesabre
@@ -17,7 +18,7 @@ Xubuntu 22.10, codenamed **Kinetic Kudu**, is a regular release and will be supp
 
 Xubuntu 22.10 features the latest updates from Xfce 4.17, GNOME 43, and MATE 1.26. The "bleeding edge" Xfce 4.17 components are included as an early preview to the upcoming Xfce 4.18, expected later this year. You'll find that Xfce 4.17 includes many new features and usability improvements while using Xubuntu 22.10. While we've tested each component shipped in Xubuntu, new bugs and regressions are expected. Please be sure to report any bugs you find.
 
-The **final release images** are available as torrents and direct downloads from [xubuntu.org/download/](https://xubuntu.org/download/).
+The **final release images** are available as torrents and direct downloads from [xubuntu.org/download/](/download/).
 
 As the main server might be busy in the first few days after the release, we recommend using the torrents if possible.
 
@@ -38,11 +39,11 @@ Highlights and Known Issues
 
 - The shutdown prompt may not be displayed at the end of the installation. Instead you might just see a Xubuntu logo, a black screen with an underscore in the upper left hand corner, or just a black screen. Press Enter and the system will reboot into the installed environment. (LP: [\#1944519](https://bugs.launchpad.net/ubuntu-release-notes/+bug/1944519))
 
-For more obscure known issues, information on affecting bugs, bug fixes, and a list of new package versions, please refer to the [Xubuntu Release Notes](https://wiki.xubuntu.org/releases/22.10/release-notes).
+For more obscure known issues, information on affecting bugs, bug fixes, and a list of new package versions, please refer to the [Xubuntu Release Notes](/releasedocs/22.10/release-notes).
 
 The main [Ubuntu Release Notes](https://discourse.ubuntu.com/t/kinetic-kudu-release-notes/27976) cover many of the other packages we carry and more generic issues.
 
 Support
 -------
 
-**For support** with the release, navigate to [Help &amp; Support](https://xubuntu.org/help/) for a complete list of methods to get help.
+**For support** with the release, navigate to [Help &amp; Support](/help) for a complete list of methods to get help.

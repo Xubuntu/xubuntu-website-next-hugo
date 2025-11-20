@@ -7,7 +7,7 @@ title:     "Xubuntu 23.04 Release Notes"
 
 **Welcome to the Xubuntu 23.04 "Lunar Lobster" release notes!**
 
-Xubuntu 23.04 was be released on Thursday, April 20, 2023, and will be supported for nine months until January 2023. For general information and the latest updates for Xubuntu 23.04, check out the [release page](https://xubuntu.org/release/23-04) on xubuntu.org.
+Xubuntu 23.04 was be released on Thursday, April 20, 2023, and will be supported for nine months until January 2023. For general information and the latest updates for Xubuntu 23.04, check out the [release page](/release/23.04/) on xubuntu.org.
 
 * [Known Issues](#known_issues)
 * [Ubuntu Common Release Notes](#ubuntu_common_release_notes)

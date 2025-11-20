@@ -1,9 +1,10 @@
 ---
 title:       "My media manager: The cloud"
 date:        2016-04-12 20:56:10
-slug:        my-media-manager-cloud
+aliases:
+  - /news/my-media-manager-cloud
 release:     ""
-serie:       my-media-manager
+tag:         my-media-manager
 category:    articles
 author:      Pasi Lallinaho
 author_nick: knome

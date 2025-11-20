@@ -1,9 +1,10 @@
 ---
 title:       "Xubuntu 16.04.1 Release"
 date:        2016-07-21 17:50:15
-slug:        xubuntu-16-04-1-release
+aliases:
+  - /news/xubuntu-16-04-1-release
 release:     "16.04"
-serie:       
+tag:         
 category:    
 author:      flocculant
 author_nick: flocculant
@@ -11,7 +12,7 @@ author_nick: flocculant
 
 The Xubuntu team is pleased to announce the immediate release of Xubuntu 16.04.1 Xubuntu 16.04 is an LTS (Long-Term Support) release and will be supported for 3 years with point releases appearing at regular intervals.
 
-The **release images** are available as Torrents and direct downloads from <http://xubuntu.org/getxubuntu/>
+The **release images** are available as Torrents and direct downloads from </getxubuntu>
 
 During the next few days the upgrade from 14.04 to 16.04.1 will become available via the update-manager.
 

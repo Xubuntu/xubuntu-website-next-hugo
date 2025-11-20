@@ -1,9 +1,10 @@
 ---
 title:       "FAQ for Xubuntu 12.04 Precise Pangolin"
 date:        2012-05-05 17:29:40
-slug:        faq-1204-precise
+aliases:
+  - /news/faq-1204-precise
 release:     "12.04"
-serie:       faq
+tag:         faq
 category:    articles
 author:      Pasi Lallinaho
 author_nick: knome
@@ -22,7 +23,7 @@ Unfortunately, this is a [known bug](https://bugs.launchpad.net/ubuntu/+source/t
 
 ### 3. I can't resize windows because the window borders are too tiny!
 
-The suggested way to resize windows is to hold the Alt key, right-click somewhere inside the window and drag to resize. See [Window resizing in Xubuntu (and Xfce)](http://xubuntu.org/news/window-resizing-in-xubuntu-and-xfce/ "Window resizing in Xubuntu (and Xfce)") for all the different methods.
+The suggested way to resize windows is to hold the Alt key, right-click somewhere inside the window and drag to resize. See [Window resizing in Xubuntu (and Xfce)](/news/window-resizing-in-xubuntu-and-xfce "Window resizing in Xubuntu (and Xfce)") for all the different methods.
 
 ### 4. Is there a way to use Dropbox with Thunar?
 
@@ -63,7 +64,7 @@ For the best GTK3 support, we advise to use the [Greybird](http://shimmerproject
 Still having issues?
 --------------------
 
-Please see the earlier [FAQ articles](http://xubuntu.org/news/category/faq/) on our website. While some of the questions are release-specific, most of them are still applicable to 12.04. Topics include changing and installing themes, Compiz on Xubuntu and much more. If you are still having issues, refer to the [Help &amp; Support section](http://xubuntu.org/help/) for a list of available support methods.
+Please see the earlier [FAQ articles](/tag/faq) on our website. While some of the questions are release-specific, most of them are still applicable to 12.04. Topics include changing and installing themes, Compiz on Xubuntu and much more. If you are still having issues, refer to the [Help &amp; Support section](/help) for a list of available support methods.
 
 Thanks
 ------

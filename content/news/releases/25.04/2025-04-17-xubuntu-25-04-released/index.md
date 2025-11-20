@@ -1,9 +1,10 @@
 ---
 title:       "Xubuntu 25.04 released!"
 date:        2025-04-17 12:00:00
-slug:        xubuntu-25-04-released
+aliases:
+  - /news/xubuntu-25-04-released
 release:     "25.04"
-serie:       
+tag:         
 category:    announcements
 author:      Sean Davis
 author_nick: bluesabre
@@ -38,11 +39,11 @@ Highlights and Known Issues
 - You may experience choppy audio or poor system performance while playing audio, but only in some virtual machines (observed in VMware and VirtualBox)
 - OEM installation options are not currently supported or available, but will be included for Xubuntu 24.04.1
 
-For more obscure known issues, information on affecting bugs, bug fixes, and a list of new package versions, please refer to the [Xubuntu Release Notes](https://wiki.xubuntu.org/releases/25.04/release-notes).
+For more obscure known issues, information on affecting bugs, bug fixes, and a list of new package versions, please refer to the [Xubuntu Release Notes](/releasedocs/25.04/release-notes).
 
 The main [Ubuntu Release Notes](https://discourse.ubuntu.com/t/plucky-puffin-release-notes/48687) cover many of the other packages we carry and more generic issues.
 
 Support
 -------
 
-**For support** with the release, navigate to [Help &amp; Support](https://xubuntu.org/help/) for a complete list of methods to get help.
+**For support** with the release, navigate to [Help &amp; Support](/help) for a complete list of methods to get help.

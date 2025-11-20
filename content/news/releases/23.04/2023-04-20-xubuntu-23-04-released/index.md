@@ -1,9 +1,10 @@
 ---
 title:       "Xubuntu 23.04 released!"
 date:        2023-04-20 02:41:24
-slug:        xubuntu-23-04-released
+aliases:
+  - /news/xubuntu-23-04-released
 release:     "23.04"
-serie:       
+tag:         
 category:    announcements
 author:      Sean Davis
 author_nick: bluesabre
@@ -18,9 +19,9 @@ Xubuntu 23.04, featuring the latest updates from Xfce 4.18 and GNOME 44.
 
 Xubuntu 23.04 features the latest Xfce 4.18. Xfce 4.18 delivers a stable desktop environment with a number of performance improvements and new features to enjoy. In particular, the Thunar file manager benefits from a new image preview feature, undo and redo functionality, file highlights, and recursive search. Check out the [Xfce 4.18](https://www.xfce.org/about/tour418) tour for more details!
 
-Xubuntu 23.04 also welcomes **Xubuntu Minimal** as an official subproject. Xubuntu Minimal is a slimmed down version of Xubuntu that only includes the bare essentials: the desktop, a few Xfce components, and the Xubuntu look and feel. Longtime Xubuntu fans may better know this as *[Xubuntu Core](https://xubuntu.org/news/introducing-xubuntu-core/)*. After nearly eight years of being a supported, but community-built project, we're happy to finally publish downloads along with the main Xubuntu version. Many thanks to the community for keeping the dream alive all these years!
+Xubuntu 23.04 also welcomes **Xubuntu Minimal** as an official subproject. Xubuntu Minimal is a slimmed down version of Xubuntu that only includes the bare essentials: the desktop, a few Xfce components, and the Xubuntu look and feel. Longtime Xubuntu fans may better know this as *[Xubuntu Core](/news/introducing-xubuntu-core)*. After nearly eight years of being a supported, but community-built project, we're happy to finally publish downloads along with the main Xubuntu version. Many thanks to the community for keeping the dream alive all these years!
 
-The **final release images** are available as torrents and direct downloads from [xubuntu.org/download/](https://xubuntu.org/download/).
+The **final release images** are available as torrents and direct downloads from [xubuntu.org/download/](/download/).
 
 As the main server might be busy in the first few days after the release, we recommend using the torrents if possible.
 
@@ -41,11 +42,11 @@ Highlights and Known Issues
 - The screensaver unlock dialog crashes after unlocking. The session can still be locked and unlocked after this crash. We're working on a fix and hope to publish it in the next few weeks. (LP: #[2012795](https://bugs.launchpad.net/ubuntu/+source/xfce4-screensaver/+bug/2012795))
 - Xorg crashes and the user is logged out after logging in or switching users on some virtual machines, including GNOME Boxes. (LP: #[1861609](https://bugs.launchpad.net/ubuntu/+source/xorg-server/+bug/1861609))
 
-For more obscure known issues, information on affecting bugs, bug fixes, and a list of new package versions, please refer to the [Xubuntu Release Notes](https://wiki.xubuntu.org/releases/23.04/release-notes).
+For more obscure known issues, information on affecting bugs, bug fixes, and a list of new package versions, please refer to the [Xubuntu Release Notes](/releasedocs/23.04/release-notes).
 
 The main [Ubuntu Release Notes](https://discourse.ubuntu.com/t/lunar-lobster-release-notes/31910) cover many of the other packages we carry and more generic issues.
 
 Support
 -------
 
-**For support** with the release, navigate to [Help &amp; Support](https://xubuntu.org/help/) for a complete list of methods to get help.
+**For support** with the release, navigate to [Help &amp; Support](/help) for a complete list of methods to get help.

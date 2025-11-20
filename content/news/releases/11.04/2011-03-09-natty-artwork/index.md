@@ -1,9 +1,10 @@
 ---
 title:       "Xubuntu Natty Artwork"
 date:        2011-03-09 09:25:23
-slug:        natty-artwork
+aliases:
+  - /news/natty-artwork
 release:     "11.04"
-serie:       
+tag:         
 category:    articles
 author:      Elizabeth K. Joseph
 author_nick: pleia2

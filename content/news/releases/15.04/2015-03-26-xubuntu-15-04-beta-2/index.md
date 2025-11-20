@@ -1,9 +1,10 @@
 ---
 title:       "Xubuntu 15.04 Beta 2"
 date:        2015-03-26 21:15:23
-slug:        xubuntu-15-04-beta-2
+aliases:
+  - /news/xubuntu-15-04-beta-2
 release:     "15.04"
-serie:       
+tag:         
 category:    announcements
 author:      flocculant
 author_nick: flocculant
@@ -15,7 +16,7 @@ The Xubuntu team is pleased to announce the immediate release of Xubuntu 15.04 B
 
 If you are at all unsure about a hard reset, the options are
 
-- Install [Beta 1](http://xubuntu.org/news/xubuntu-15-04-beta-1/) and dist-upgrade
+- Install [Beta 1](/news/xubuntu-15-04-beta-1) and dist-upgrade
 - Wait for the bug to fix and install from a daily
 - Wait for Release Candidate
 

@@ -1,9 +1,10 @@
 ---
 title:       "Xubuntu 11.04 alpha 2 released"
 date:        2011-02-04 14:14:08
-slug:        nattyalpha-2
+aliases:
+  - /news/nattyalpha-2
 release:     "11.04"
-serie:       
+tag:         
 category:    
 author:      Elizabeth K. Joseph
 author_nick: pleia2

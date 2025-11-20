@@ -1,9 +1,10 @@
 ---
 title:       "Xubuntu 15.10 released!"
 date:        2015-10-22 14:11:37
-slug:        xubuntu-15-10-release
+aliases:
+  - /news/xubuntu-15-10-release
 release:     "15.10"
-serie:       
+tag:         
 category:    announcements
 author:      flocculant
 author_nick: flocculant
@@ -11,11 +12,11 @@ author_nick: flocculant
 
 The Xubuntu team is pleased to announce the immediate release of Xubuntu 15.10!
 
-The **release is available for download** by torrents and direct downloads from [http://xubuntu.org/getxubuntu/](http://xubuntu.org/getxubuntu/ "Get Xubuntu").
+The **release is available for download** by torrents and direct downloads from [/getxubuntu](/getxubuntu "Get Xubuntu").
 
 As the main server will be very busy in the first days after the release, we recommend using the Torrents wherever possible.
 
-**For support** with the release, navigate to [Help &amp; Support](http://xubuntu.org/help/ "Help & Support") for a complete list of methods to get help.
+**For support** with the release, navigate to [Help &amp; Support](/help "Help & Support") for a complete list of methods to get help.
 
 Highlights and Known Issues
 ---------------------------

@@ -1,9 +1,10 @@
 ---
 title:       "Xubuntu Saucy Salamander Beta 1"
 date:        2013-09-05 21:17:01
-slug:        saucy-salamander-b1
+aliases:
+  - /news/saucy-salamander-b1
 release:     "13.10"
-serie:       
+tag:         
 category:    
 author:      Pasi Lallinaho
 author_nick: knome
@@ -24,4 +25,4 @@ The release notes along with full list of new features and known issues can be f
 
 To report a bug, please let the automatic reporting process work its way through. For when that doesn't happen, please run `ubuntu-bug` followed by the package name to make a report. To file suggestions for improving our offline documentation, please run `ubuntu-bug xubuntu-docs` from the command line.
 
-The final release of 13.10 is set for October 17, 2013. To find out more about how to contribute to Xubuntu and join in, see [Getting Involved](http://xubuntu.org/contribute/).
+The final release of 13.10 is set for October 17, 2013. To find out more about how to contribute to Xubuntu and join in, see [Getting Involved](/contribute/).

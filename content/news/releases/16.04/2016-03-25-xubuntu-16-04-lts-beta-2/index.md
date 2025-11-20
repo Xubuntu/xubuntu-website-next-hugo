@@ -1,9 +1,10 @@
 ---
 title:       "Xubuntu 16.04 LTS Beta 2"
 date:        2016-03-25 04:57:35
-slug:        xubuntu-16-04-lts-beta-2
+aliases:
+  - /news/xubuntu-16-04-lts-beta-2
 release:     "16.04"
-serie:       
+tag:         
 category:    announcements
 author:      flocculant
 author_nick: flocculant

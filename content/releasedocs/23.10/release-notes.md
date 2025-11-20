@@ -9,7 +9,7 @@ title:     "Xubuntu 23.10 Release Notes"
 
 [<img src="xubuntu-23.10.png" width="400" />](xubuntu-23.10.png)
 
-Xubuntu 23.10 was released on Thursday, October 12, 2023, and will be supported for nine months until July 2024. For general information and the latest updates for Xubuntu 23.10, check out the [release page](https://xubuntu.org/release/23-10) on xubuntu.org.
+Xubuntu 23.10 was released on Thursday, October 12, 2023, and will be supported for nine months until July 2024. For general information and the latest updates for Xubuntu 23.10, check out the [release page](/release/23.10/) on xubuntu.org.
 
 * [Known Issues](#known-issues)
 * [Ubuntu Common Release Notes](#ubuntu-common-release-notes)

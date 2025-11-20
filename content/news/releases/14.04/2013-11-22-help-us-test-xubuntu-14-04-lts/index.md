@@ -1,9 +1,10 @@
 ---
 title:       "Help us test Xubuntu 14.04 LTS"
 date:        2013-11-22 22:05:15
-slug:        help-us-test-xubuntu-14-04-lts
+aliases:
+  - /news/help-us-test-xubuntu-14-04-lts
 release:     "14.04"
-serie:       
+tag:         
 category:    articles
 author:      flocculant
 author_nick: flocculant
@@ -30,4 +31,4 @@ Got a question before you start? Come along to the [\#xubuntu-devel IRC channel]
 
 Updates to our testing requirements are made regularly to the development mailing list. However, please do not hesitate to be in contact if you are in doubt; we will gladly help.
 
-Finally, you can get more details on how to participate with Xubuntu quality assurance generally [here](http://xubuntu.org/contribute/qa/).
+Finally, you can get more details on how to participate with Xubuntu quality assurance generally [here](/contribute/qa/).

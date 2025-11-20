@@ -1,9 +1,10 @@
 ---
 title:       "Xubuntu is now on GitHub!"
 date:        2020-05-23 21:16:52
-slug:        xubuntu-is-now-on-github
+aliases:
+  - /news/xubuntu-is-now-on-github
 release:     ""
-serie:       
+tag:         
 category:    articles
 author:      Sean Davis
 author_nick: bluesabre
@@ -47,7 +48,7 @@ We encourage everybody to join us in breaking in our new platforms. Here's how y
 - **Fork** our projects! [Forking](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) a repository makes a copy under your own profile. Make some changes and submit a pull request to include them in Xubuntu.
 - Join the translations team! Xubuntu is used all around the world. Help us localize our software and documentation to make a global impact.
 
-Don't know where to begin? Checkout our **[Get Involved](https://xubuntu.org/contribute/)** page to learn how you can contribute to our Artwork, Development, Documentation, Marketing, and Quality Assurance. Here's some links to help you get to the right place:
+Don't know where to begin? Checkout our **[Get Involved](/contribute/)** page to learn how you can contribute to our Artwork, Development, Documentation, Marketing, and Quality Assurance. Here's some links to help you get to the right place:
 
 - [Xubuntu](https://github.com/xubuntu) on GitHub (code, marketing materials, and more)
 - [Xubuntu](https://www.transifex.com/xubuntu/public/) on Transifex (translations)

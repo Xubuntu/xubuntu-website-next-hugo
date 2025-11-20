@@ -1,9 +1,10 @@
 ---
 title:       "Thank you Xubuntu social media admins"
 date:        2012-07-14 02:11:27
-slug:        thank-you-xubuntu-social-media-admins
+aliases:
+  - /news/thank-you-xubuntu-social-media-admins
 release:     ""
-serie:       
+tag:         
 category:    articles
 author:      Elizabeth K. Joseph
 author_nick: pleia2

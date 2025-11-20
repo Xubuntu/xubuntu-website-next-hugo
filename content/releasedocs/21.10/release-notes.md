@@ -7,7 +7,7 @@ title:     "Xubuntu 21.10 Release Notes"
 
 **Welcome to the Xubuntu 21.10 "Impish Indri" release notes!**
 
-Xubuntu 21.10 was released on Thursday, October 14, 2021 and will be supported for nine months until Thursday, June 14, 2022. For general information and the latest updates for Xubuntu 21.10, check out the [release page](https://xubuntu.org/release/21-10) on xubuntu.org.
+Xubuntu 21.10 was released on Thursday, October 14, 2021 and will be supported for nine months until Thursday, June 14, 2022. For general information and the latest updates for Xubuntu 21.10, check out the [release page](/release/21.10/) on xubuntu.org.
 
 * [Known Issues](#known_issues)
 * [Ubuntu Common Release Notes](#ubuntu_common_release_notes)
@@ -47,7 +47,7 @@ The main Ubuntu [Release Notes](#) covers both many of the other packages we car
 
 ### Keyboard Shortcuts
 
-For a full list of keyboard shortcuts, [click here](https://wiki.xubuntu.org/releases/21.10/keyboard-shortcuts).
+For a full list of keyboard shortcuts, [click here](/releasedocs/21.10/keyboard-shortcuts).
 
 * The long-obsoleted Super+{1,2,3,4} shortcuts have been removed
 * The Super (Windows) key will now show the Whisker Menu

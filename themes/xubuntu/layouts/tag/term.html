@@ -1,0 +1,29 @@
+{{ define "main" }}
+
+  <h2><a href="/tag">Tags</a>: {{ .Title }}</h2>
+  <section>
+  {{ range (.Paginate .Pages 20).Pages }}
+
+    <ul class="meta" style="display:inline">
+    {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+    {{ $dateHuman := .Date | time.Format ":date_long" }}
+    <li><time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time></li>
+    {{ if .Params.release }}
+      <li>{{ .Params.release }}</li>
+    {{ end }}
+    </ul>
+    <br>
+    <h4 style="display:inline">
+      <a href="{{ .RelPermalink }}">
+        {{ .Title }}
+      </a>
+    </h4>
+    <!-- <br> -->
+    <hr style="margin-bottom:0;margin-top:0">
+  {{ end }}
+  </section>
+
+
+  {{ partial "pagination.html" . }}
+{{ end }}
+

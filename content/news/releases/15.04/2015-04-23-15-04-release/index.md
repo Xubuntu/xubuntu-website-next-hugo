@@ -1,9 +1,10 @@
 ---
 title:       "Xubuntu 15.04 released!"
 date:        2015-04-23 15:25:18
-slug:        15-04-release
+aliases:
+  - /news/15-04-release
 release:     "15.04"
-serie:       
+tag:         
 category:    announcements
 author:      Pasi Lallinaho
 author_nick: knome
@@ -13,11 +14,11 @@ author_nick: knome
 
 The Xubuntu team is pleased to announce the immediate release of Xubuntu 15.04!
 
-The **release is available for download** by torrents and direct downloads from [http://xubuntu.org/getxubuntu/](http://xubuntu.org/getxubuntu/ "Get Xubuntu").
+The **release is available for download** by torrents and direct downloads from [/getxubuntu](/getxubuntu "Get Xubuntu").
 
 As the main server will be very busy in the first days after the release, we recommend using the Torrents wherever possible.
 
-**For support** with the release, navigate to [Help &amp; Support](http://xubuntu.org/help/ "Help & Support") for a complete list of methods to get help.
+**For support** with the release, navigate to [Help &amp; Support](/help "Help & Support") for a complete list of methods to get help.
 
 Highlights and Known Issues
 ---------------------------
