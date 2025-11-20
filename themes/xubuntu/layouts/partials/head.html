@@ -1,4 +1,10 @@
-<title>{{ site.Title }} – {{ .Page.Title }}</title>
+<title>
+   {{ if eq site.Title .Page.Title }}
+      {{ site.Title }}
+   {{ else }}
+      {{ site.Title }} – {{ .Page.Title }}
+   {{ end }}
+</title>
 
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
