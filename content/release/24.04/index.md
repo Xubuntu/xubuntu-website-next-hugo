@@ -1,7 +1,7 @@
 ---
 title:         Xubuntu 24.04
 version:       "24.04"
-version_point:
+version_point: 24.04.3
 codename:      Noble Numbat
 codename_slug: noble
 date_rel:      2024-04-25
