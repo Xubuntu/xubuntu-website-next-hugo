@@ -8,6 +8,7 @@
 
    --color-bg: #fff;
    --color-bg-alternative: #f0f2f5;
+   --color-bg-alternative-2: #f5f7fa;
 
    --color-fg-footer: #fff;
    --color-bg-footer: #849cbd;
@@ -178,6 +179,9 @@ details .click-to-open::after {
 }
    details[open] .click-to-open {
       display: none;
+   }
+   details:not([open]) h4 {
+      margin-bottom: 1em;
    }
 
 /*
@@ -691,4 +695,11 @@ span.quo {
    color: var(--color-fg-meta);
    font-size: 80%;
    margin-left: 0.5em;
+}
+
+/*
+ */
+
+.checksums code {
+   font-size: 110%;
 }

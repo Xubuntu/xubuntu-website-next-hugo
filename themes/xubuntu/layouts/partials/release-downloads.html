@@ -54,4 +54,32 @@
       {{ $checksum_url := replace .Site.Data.mirrors.checksums "VER" $version }}
       <p>The SHA256 checksums for the ISOs are available <a href="{{ $checksum_url }}">here</a>.</p>
    </details>
+
+   <details>
+      <summary>
+         <h4>Checksums <span class="sidenote click-to-open">Click to show</span></h4>
+      </summary>
+      <dl class="checksums">
+         {{ $path := "checksums/VER.txt" }}
+         {{ $path := replace $path "VER" $version }}
+         {{ $checksums := resources.Get $path }}
+         {{ if $checksums }}
+            {{ range split $checksums.Content "\n" }}
+               {{ $parts := split . " " }}
+               {{ if eq (len $parts) 2 }}
+                  {{ $isofile := index $parts 1 }}
+                  {{ $product := $isofile }}
+                  {{ if strings.Contains $isofile "desktop" }}
+                     {{ $product := "Desktop" }}
+                  {{ else if strings.Contains $isofile "minimal" }}
+                     {{ $product := "Minimal" }}
+                  {{ end }}
+                  <dt>{{ $product }}</dt>
+                  <dd><code>{{ index $parts 0 }}</code></dd>
+               {{ end }}
+            {{ end }}
+         {{ end }}
+      </dl>
+   </details>
+
 {{ end }}

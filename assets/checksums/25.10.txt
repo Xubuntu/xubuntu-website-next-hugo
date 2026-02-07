@@ -1,0 +1,2 @@
+f6a82db0a34731fd64f4a0ed15b653ab531b058a988830d164b1a0d1c00ba0a6 *xubuntu-25.10-desktop-amd64.iso
+60c13bd078b711773cd8584128e8ef3733b5dfa2fa3eaa1bc9391ca08a97ff72 *xubuntu-25.10-minimal-amd64.iso
