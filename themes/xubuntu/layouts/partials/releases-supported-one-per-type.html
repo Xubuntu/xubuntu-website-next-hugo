@@ -1,0 +1,24 @@
+{{ $now := time.Now | time.Format "2006-01-02" }}
+{{ $releases := where .Site.RegularPages "Type" "release" }}
+{{ $releases := sort $releases ".Params.date_rel" "desc" }}
+{{ $releases := where $releases ".Params.date_eol" ">=" $now }}
+
+{{ $lts := "false" }}
+{{ $regular := "false" }}
+{{ $show_releases := slice }}
+
+{{ range $releases }}
+   {{ if eq .Params.lts "lts" }}
+      {{ if eq $lts "false" }}
+         {{ $lts := "true" }}
+         {{ $show_releases = $show_releases | append . }}
+      {{ end }}
+   {{ else }}
+      {{ if eq $regular "false" }}
+         {{ $regular := "true" }}
+         {{ $show_releases = $show_releases | append . }}
+      {{ end }}
+   {{ end }}
+{{ end }}
+
+{{ return $show_releases }}

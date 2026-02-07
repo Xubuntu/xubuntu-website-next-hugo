@@ -1,6 +1,8 @@
-{{ $releases := partialCached "releases-supported.html" . }}
+{{ $releases := partialCached "releases-supported-one-per-type.html" . }}
 {{ range $releases }}
-   <h3>{{ .Title }}</h3>
-   <p>For more information about the release, including release announcement, see the <a href="{{ .RelPermalink }}">release page</a>.</p>
-   {{ partial "release-downloads.html" . }}
+   <section class="wide release">
+      <h3>{{ .Title }}</h3>
+      <p>For more information about the release, including release announcement, see the <a href="{{ .RelPermalink }}">release page</a>.</p>
+      {{ partial "release-downloads.html" . }}
+   </section>
 {{ end }}
