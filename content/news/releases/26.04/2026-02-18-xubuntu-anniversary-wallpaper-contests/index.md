@@ -1,6 +1,6 @@
 ---
 title:       "Xubuntu Anniversary Wallpaper Contests"
-date:        2026-02-18 12:00:00
+date:        2026-02-19 01:16:00
 aliases:
   - /news/xubuntu-anniversary-wallpaper-contests
 release:     "26.04"
@@ -17,12 +17,12 @@ Xubuntu first joined the Ubuntu family as an official flavor in June 2006. Fast-
 
 As in years past, Xubuntu will celebrate the community with a community wallpaper contest. Six wallpapers will be selected for inclusion on the 26.04 ISO. Winners will receive Xubuntu stickers as a small thank you. See below for contest terms and conditions.
 
-Additionally, we ask the community to vote on past Xubuntu wallpapers to be reimagined for 26.04. We will select two winners: one from each decade, with the team deciding on the default wallpaper. Visit our [Discourse]() page to vote by **March 4th**.
+Additionally, we ask the community to vote on past Xubuntu wallpapers to be reimagined for 26.04. We will select two winners: one from each decade, with the team deciding on the default wallpaper. Visit our [Discourse](https://discourse.ubuntu.com/t/xubuntu-26-04-wallpaper-remix-vote/77214) page to vote by **March 4th**.
 
 How to participate?
 -------------------
 
-For a chance to win, submit your submission on the Discourse [contest page]().
+For a chance to win, submit your submission on the Discourse [contest page](https://discourse.ubuntu.com/t/xubuntu-26-04-community-wallpaper-contest/77213).
 
 ### Important dates
 
@@ -35,7 +35,7 @@ All dates are in UTC.
 
 ### Contest terms
 
-All submissions must adhere to the [Terms and Guidelines](), including specifics about subject matter, image resolution and attribution.
+All submissions must adhere to the [Terms and Guidelines](https://discourse.ubuntu.com/t/xubuntu-26-04-community-wallpaper-contest/77213#p-199834-competition-rules-2), including specifics about subject matter, image resolution and attribution.
 
 After the submission deadline, the community team will vote on their favorite images and the Xubuntu team will pick 6 winners from all submissions for inclusion on the Xubuntu 26.04 ISO, and will also be available to other Xubuntu version users as a xubuntu-community-wallpaper package. The winners will also receive some Xubuntu stickers.
 
