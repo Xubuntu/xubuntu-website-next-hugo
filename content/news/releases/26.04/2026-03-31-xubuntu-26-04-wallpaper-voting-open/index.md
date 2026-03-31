@@ -1,6 +1,6 @@
 ---
 title:       "Xubuntu 26.04 Wallpaper Voting Open"
-date:        2026-03-31 22:00:00
+date:        2026-03-31 18:00:00
 aliases:
   - /news/xubuntu-26-04-wallpaper-voting-open
 release:     "26.04"
