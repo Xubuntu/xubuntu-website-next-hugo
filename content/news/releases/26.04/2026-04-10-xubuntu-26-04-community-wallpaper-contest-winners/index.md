@@ -1,6 +1,6 @@
 ---
 title:       "Xubuntu 26.04 Community Wallpaper Contest Winners"
-date:        2026-04-10 06:00:00
+date:        2026-04-10 07:00:00
 aliases:
   - /news/xubuntu-26-04-community-wallpaper-contest-winners
 release:     "26.04"
