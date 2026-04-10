@@ -157,6 +157,10 @@ figure { }
 
    }
 
+figure.full img {
+   max-width: 100%;
+}
+
 @media screen and (max-width:800px) {
    figure img {
       max-width: 100%;

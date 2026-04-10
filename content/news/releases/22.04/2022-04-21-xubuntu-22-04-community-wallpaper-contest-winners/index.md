@@ -16,7 +16,7 @@ As always, we'd like to send out a huge thanks to every contestant. The Xubuntu 
 
 Without further ado, here are the winners:
 
-{{< figure src="xubuntu-wallpaper-contest-winners.jpg" >}}
+{{< figure src="xubuntu-wallpaper-contest-winners.jpg" class="full" >}}
 From left to right, top to bottom. Click on the links for full-size image versions.
 
 - ["Kanchanjunga Peaks" by Pushkar Deshpande (CC-BY-4.0)](https://github.com/Xubuntu/xubuntu-community-artwork/blob/master/usr/share/xfce4/backdrops/Kanchanjunga_Peaks_by_Pushkar_Deshpande.jpg)
