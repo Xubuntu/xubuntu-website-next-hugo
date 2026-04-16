@@ -1,4 +1,9 @@
-=## Xubuntu 25.10 Release Notes=
+---
+layout:    page
+release:   "25.10"
+link_name: "Release Notes"
+title:     "Xubuntu 25.10 Release Notes"
+---
 
 **Welcome to the Xubuntu 25.10 "Questing Quokka" release notes!**
 
@@ -10,7 +15,7 @@ Xubuntu 25.10 was released on Thursday, October 9, 2025, and will be supported f
   * [Updates](#updates)
   * [Changelogs](#changelogs)
 
-{{ :releases:25.10:xubuntu-2510-desktop.png?600 |}}
+{{< figure src="/news/releases/25.10/2025-10-09-xubuntu-25-10-released/xubuntu-2510-desktop.png" class="full" >}}
 
 ## Known Issues
 
