@@ -64,7 +64,7 @@ title:     "Xubuntu 16.10 Release Notes"
 
 * blueman ([changelog](http://changelogs.ubuntu.com/changelogs/pool/universe/b/blueman/blueman_2.0.4-1ubuntu2/changelog ))
 * exo ([changelog](http://changelogs.ubuntu.com/changelogs/pool/universe/e/exo/exo_0.10.7-1/changelog ))
-* firefox ([changelog]( http///changelogs.ubuntu.com/changelogs/pool/main/f/firefox/firefox_48.0+build2-0ubuntu1/changelog))
+* firefox ([changelog]( http://changelogs.ubuntu.com/changelogs/pool/main/f/firefox/firefox_48.0+build2-0ubuntu1/changelog))
 * gtk-theme-config ([changelog](http://changelogs.ubuntu.com/changelogs/pool/universe/g/gtk-theme-config/gtk-theme-config_1.2.1-0ubuntu1/changelog ))
 * gtk2-engines-xfce ([changelog](http://changelogs.ubuntu.com/changelogs/pool/universe/g/gtk2-engines-xfce/gtk2-engines-xfce_3.2.0-2/changelog))
 * lightdm-gtk-greeter ([changelog](http://changelogs.ubuntu.com/changelogs/pool/universe/l/lightdm-gtk-greeter/lightdm-gtk-greeter_2.0.1-2ubuntu4/changelog))

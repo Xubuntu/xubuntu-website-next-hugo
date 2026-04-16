@@ -28,11 +28,11 @@ Xubuntu 25.10 was released on Thursday, October 9, 2025, and will be supported f
 
 * GNOME (libadwaita) Apps:
    * The elementary-xfce icon theme lacks an icon for the window close button ([2125025](https://bugs.launchpad.net/ubuntu/+source/elementary-xfce/+bug/2125025))
-   * The elementary-xfce icon theme lacks an icon for //Document Scanner's// scan options button ([2127071](https://bugs.launchpad.net/ubuntu/+source/elementary-xfce/+bug/2127071))
+   * The elementary-xfce icon theme lacks an icon for *Document Scanner's* scan options button ([2127071](https://bugs.launchpad.net/ubuntu/+source/elementary-xfce/+bug/2127071))
 * Flatpak:
-   * :!: Flatpaks refuse to install due to Fuse/AppArmor conflict ([2122161](https://bugs.launchpad.net/ubuntu/+source/flatpak/+bug/2122161))
+   * ⚠️ Flatpaks refuse to install due to Fuse/AppArmor conflict ([2122161](https://bugs.launchpad.net/ubuntu/+source/flatpak/+bug/2122161))
 * SSH Agent:
-   * :!: The graphical SSH agent is currently unavailable ([2125549](https://bugs.launchpad.net/ubuntu/+source/openssh/+bug/2125549))
+   * ⚠️ The graphical SSH agent is currently unavailable ([2125549](https://bugs.launchpad.net/ubuntu/+source/openssh/+bug/2125549))
 * Xfce Panel:
    * During the live session, the network icon may be displayed twice ([2059045](https://bugs.launchpad.net/ubuntu/+source/xfce4-panel/+bug/2059045))
       * This is because Xubuntu includes both Systray and Indicator plugins, and the Network applet loads in both.
