@@ -54,38 +54,38 @@ The main Ubuntu [Release Notes](https://discourse.ubuntu.com/t/questing-quokka-r
 
 Xubuntu 25.10 includes several minor updates for Xfce 4.20, improving stability and Wayland support.
 
-* libxfce4ui: 4.20.0-1 -> 4.20.1-1ubuntu1
-* libxfce4util: 4.20.0-1 -> 4.20.1-1
-* libxfce4windowing: 4.20.2-1 -> 4.20.3-1
-* thunar: 4.20.2-1 -> 4.20.4-1
-* xfce4-panel: 4.20.3-1 -> 4.20.4-1
-* xfce4-screensaver: 4.18.4-1 -> 4.20.1-1
-* xfce4-session: 4.20.0-2 -> 4.20.2-2
-* xfce4-weather-plugin: 0.11.3-1 -> 0.12.0-1
+* libxfce4ui: 4.20.0-1 → 4.20.1-1ubuntu1
+* libxfce4util: 4.20.0-1 → 4.20.1-1
+* libxfce4windowing: 4.20.2-1 → 4.20.3-1
+* thunar: 4.20.2-1 → 4.20.4-1
+* xfce4-panel: 4.20.3-1 → 4.20.4-1
+* xfce4-screensaver: 4.18.4-1 → 4.20.1-1
+* xfce4-session: 4.20.0-2 → 4.20.2-2
+* xfce4-weather-plugin: 0.11.3-1 → 0.12.0-1
 
 ### GNOME
 
 Xubuntu 25.10 benefits from some GNOME 48 application releases.
 
-* baobab: 48.0-1 -> 48.0-3
-* gnome-font-viewer: 48.0-1 -> 48.0-2
-* gnome-mines: 1:48.0-1 -> 1:48.1-2
-* gnome-sudoku: 1:48.0-2 -> 1:49~rc-1
+* baobab: 48.0-1 → 48.0-3
+* gnome-font-viewer: 48.0-1 → 48.0-2
+* gnome-mines: 1:48.0-1 → 1:48.1-2
+* gnome-sudoku: 1:48.0-2 → 1:49~rc-1
 
 ### Common with Ubuntu
 
-* firefox: stable/ubuntu-25.04-5917 -> stable/ubuntu-25.10-6966 (143.0.4)
-* snap-store: 2/stable/ubuntu-25.04-1248 -> 2/stable/ubuntu-25.04-1300
-* snapd-desktop-integration: stable/ubuntu-25.04-253 -> stable/ubuntu-25.10-315
-* thunderbird: stable/ubuntu-25.04-684 -> stable/ubuntu-25.10-825 (140.3.1esr)
+* firefox: stable/ubuntu-25.04-5917 → stable/ubuntu-25.10-6966 (143.0.4)
+* snap-store: 2/stable/ubuntu-25.04-1248 → 2/stable/ubuntu-25.04-1300
+* snapd-desktop-integration: stable/ubuntu-25.04-253 → stable/ubuntu-25.10-315
+* thunderbird: stable/ubuntu-25.04-684 → stable/ubuntu-25.10-825 (140.3.1esr)
 
 ### Additional Updates
 
-* gimp: 3.0.2-1 -> 3.0.4-6.1
-* inxi: 3.3.37-1-2 -> 3.3.39-1-1
-* libreoffice: 4:25.2.2-0ubuntu1 -> 4:25.8.1~rc1-0ubuntu1
-* xubuntu-artwork: 25.04.1 -> 25.10
-* xubuntu-desktop: 2.267 -> 2.269
+* gimp: 3.0.2-1 → 3.0.4-6.1
+* inxi: 3.3.37-1-2 → 3.3.39-1-1
+* libreoffice: 4:25.2.2-0ubuntu1 → 4:25.8.1~rc1-0ubuntu1
+* xubuntu-artwork: 25.04.1 → 25.10
+* xubuntu-desktop: 2.267 → 2.269
 
 ## Updates
 

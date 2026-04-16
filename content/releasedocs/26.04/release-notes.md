@@ -52,35 +52,35 @@ The main Ubuntu [Release Notes](https://documentation.ubuntu.com/release-notes/2
 
 Xubuntu 26.04 includes several minor updates for Xfce 4.20, improving stability and Wayland support.
 
-* libxfce4ui: 4.20.1-1ubuntu1 -> 4.20.2-1
-* libxfce4windowing: 4.20.3-1 -> 4.20.5-1
-* thunar: 4.20.4-1 -> 4.20.7-1
-* xfce4-panel: 4.20.4-1 -> 4.20.7-1
-* xfce4-session: 4.20.2-2 -> 4.20.4-1
+* libxfce4ui: 4.20.1-1ubuntu1 → 4.20.2-1
+* libxfce4windowing: 4.20.3-1 → 4.20.5-1
+* thunar: 4.20.4-1 → 4.20.7-1
+* xfce4-panel: 4.20.4-1 → 4.20.7-1
+* xfce4-session: 4.20.2-2 → 4.20.4-1
 
 ### GNOME
 
 Xubuntu 26.04 benefits from some GNOME 49 application releases.
 
-* baobab: 48.0-3 -> 49.1-2
-* gnome-font-viewer: 48.0-2 -> 49.0-1
-* gnome-mines: 1:48.1-2 -> 1:49.0.1-2
-* gnome-sudoku: 1:49~rc-1 -> 1:49.3-1
+* baobab: 48.0-3 → 49.1-2
+* gnome-font-viewer: 48.0-2 → 49.0-1
+* gnome-mines: 1:48.1-2 → 1:49.0.1-2
+* gnome-sudoku: 1:49~rc-1 → 1:49.3-1
 
 ### Common with Ubuntu
 
-* firefox: stable/ubuntu-25.10-6966 -> stable/ubuntu-26.04-8107 (todo)
-* snap-store: 2/stable/ubuntu-25.04-1300 -> 2/stable/ubuntu-26.04-1338
-* snapd-desktop-integration: stable/ubuntu-25.10-315 -> stable/ubuntu-26.04-361
-* thunderbird: stable/ubuntu-25.10-825 -> stable/ubuntu-26.04-1039 (todo)
+* firefox: stable/ubuntu-25.10-6966 → stable/ubuntu-26.04-8107 (todo)
+* snap-store: 2/stable/ubuntu-25.04-1300 → 2/stable/ubuntu-26.04-1338
+* snapd-desktop-integration: stable/ubuntu-25.10-315 → stable/ubuntu-26.04-361
+* thunderbird: stable/ubuntu-25.10-825 → stable/ubuntu-26.04-1039 (todo)
 
 ### Additional Updates
 
-* gimp: 3.0.4-6.1 -> 3.2.2-1
-* inxi: 3.3.39-1-1 -> 3.3.40-1-1
-* libreoffice: 4:25.8.1~rc1-0ubuntu1 -> 4:26.2.2.2-0ubuntu1
-* xubuntu-artwork: 25.10 -> 26.04
-* xubuntu-desktop: 2.269 -> 2.271
+* gimp: 3.0.4-6.1 → 3.2.2-1
+* inxi: 3.3.39-1-1 → 3.3.40-1-1
+* libreoffice: 4:25.8.1~rc1-0ubuntu1 → 4:26.2.2.2-0ubuntu1
+* xubuntu-artwork: 25.10 → 26.04
+* xubuntu-desktop: 2.269 → 2.271
 
 ## Updates
 

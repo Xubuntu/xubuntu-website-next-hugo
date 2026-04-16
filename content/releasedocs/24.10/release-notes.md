@@ -47,35 +47,35 @@ The main Ubuntu [Release Notes](https://discourse.ubuntu.com/t/oracular-oriole-r
 
 Xfce 4.19 is under heavy development and is expected to be finalized in the coming months, culminating in the release of [Xfce 4.20](https://wiki.xfce.org/releng/4.20/roadmap). Xubuntu 24.10 ships with some Xfce 4.19 components for an early look at the next generation of Xfce applications. Highlights from each updated component can be found below.
 
-* **exo: 4.18.0-1build4 -> 4.19.0-1**
+* **exo: 4.18.0-1build4 → 4.19.0-1**
    * Impoved icon scaling
-* **garcon: 4.18.1-1build3 -> 4.19.1-1**
+* **garcon: 4.18.1-1build3 → 4.19.1-1**
    * Impoved icon scaling
-* **libxfce4ui: 4.18.4-1build4 -> 4.19.5-1**
+* **libxfce4ui: 4.18.4-1build4 → 4.19.5-1**
    * Added distribution logo to the About Xfce dialog
    * Improved CSD (client-side decoration) support
    * Keyboard shortcuts using a single modifier key (e.g. Super) are now detected on key release
       * This means we can remove our xcape integration and maintain Super key support
-* **libxfce4util: 4.18.1-2build3 -> 4.19.3-1**
+* **libxfce4util: 4.18.1-2build3 → 4.19.3-1**
 * **libxfce4windowing: (new) 4.19.4-1**
-* **thunar: 4.18.8-1build3 -> 4.19.3-1**
+* **thunar: 4.18.8-1build3 → 4.19.3-1**
    * Added preference to toggle symbolic icons in the side pane
    * Added support for typeahead search on the treeview side pane
    * Added support for IPv6 remote URLs
    * Improved thumbnail scaling
    * Up to 4 emblems are now always displayed
-* **tumbler: 4.18.1-1.1build4 -> 4.19.1-1**
-* **xfce4-appfinder: 4.18.0-1build2 -> 4.19.2-1**
+* **tumbler: 4.18.1-1.1build4 → 4.19.1-1**
+* **xfce4-appfinder: 4.18.0-1build2 → 4.19.2-1**
    * Added (Ctrl+Enter) keyboard shortcut to executed commands
    * Added (Ctrl+N) and (Ctrl+P) keyboard shortcuts to navigate the results
    * Added preference to automatically close window when focus is lost
    * Added preference to launch items on a single click
    * Commands are reliably added to history for known menu items
-* **xfce4-panel: 4.18.4-1build2 -> 4.19.3-1**
+* **xfce4-panel: 4.18.4-1build2 → 4.19.3-1**
    * Added preference to toggle week numbers to the Clock plugin
    * Improved icon scaling
    * Improved Wayland support
-* **xfce4-power-manager: 4.18.3-2build3 -> 4.19.3-1**
+* **xfce4-power-manager: 4.18.3-2build3 → 4.19.3-1**
    * Added power preferences when laptop lid is closed
    * Added support for scroll events to the panel plugin
    * Improved battery icon levels
@@ -83,22 +83,22 @@ Xfce 4.19 is under heavy development and is expected to be finalized in the comi
    * Improved icon scaling
    * Improved power management inhibition
    * Improved Wayland support
-* **xfce4-screenshooter: 1.10.5-1build1 -> 1.11.1-1**
+* **xfce4-screenshooter: 1.10.5-1build1 → 1.11.1-1**
    * Dropped built-in support for Imgur
    * Improved Wayland support
-* **xfce4-session: 4.18.3-1build2 -> 4.19.2-1**
+* **xfce4-session: 4.18.3-1build2 → 4.19.2-1**
    * Added xdg-desktop-portal configuration file
    * Improved icon and snapshot scaling
    * Improved Wayland support
-* **xfce4-settings: 4.18.4-0ubuntu3 -> 4.19.2-1ubuntu1**
+* **xfce4-settings: 4.18.4-0ubuntu3 → 4.19.2-1ubuntu1**
    * Added preference to enable CSD in dialogs to the Appearance dialog
    * Improved dark theme detection
    * Improved display profiles dialog and backend
    * Improved icon scaling
    * Improved minimal display dialog
    * Improved Wayland support
-* **xfconf: 4.18.1-1build3 -> 4.19.2-1**
-* **xfdesktop4: 4.18.1-1build3 -> 4.19.3-1**
+* **xfconf: 4.18.1-1build3 → 4.19.2-1**
+* **xfdesktop4: 4.18.1-1build3 → 4.19.3-1**
    * Improved icon sorting direction
    * Improved Wayland support
    * Increased opacity for inactive icons
@@ -108,19 +108,19 @@ Xfce 4.19 is under heavy development and is expected to be finalized in the comi
 
 Xubuntu 24.10 also includes several updates from the stable Xfce 4.18 series. Highlights from each updated component can be found below.
 
-* **catfish: 4.16.4-2 -> 4.18.0-0ubuntu1**
+* **catfish: 4.16.4-2 → 4.18.0-0ubuntu1**
    * Added new Archives and Other filters to side pane
    * Fixed "no default app" error when opening files
    * Performance improvements
-* **mousepad: 0.6.1-1build2 -> 0.6.2-1**
-* **ristretto: 0.13.1-1build2 -> 0.13.2-1**
-* **xfburn: 0.7.0-1build2 -> 0.7.2-1**
+* **mousepad: 0.6.1-1build2 → 0.6.2-1**
+* **ristretto: 0.13.1-1build2 → 0.13.2-1**
+* **xfburn: 0.7.0-1build2 → 0.7.2-1**
    * Added support for opening toast and img file extensions
    * Fixed help dialog opening on unintended keypresses
-* **xfce4-clipman: 2:1.6.5-1build2 -> 2:1.6.6-1**
+* **xfce4-clipman: 2:1.6.5-1build2 → 2:1.6.6-1**
    * GIMP action added upstream (needs added in Xubuntu)
    * Search history is now case-sensitive
-* **xfce4-notifyd: 0.9.4-1 -> 0.9.6-1**
+* **xfce4-notifyd: 0.9.4-1 → 0.9.6-1**
    * Added preference to set the minimum width of notifications
    * Improved Wayland support
 
@@ -128,13 +128,13 @@ Xubuntu 24.10 also includes several updates from the stable Xfce 4.18 series. Hi
 
 Xubuntu 24.10 benefits from some GNOME 46 and 47 application releases.
 
-* **baobab: 46.0-1build1 -> 47.0-1**
+* **baobab: 46.0-1build1 → 47.0-1**
    * Appearance improvements
-* **gnome-disk-utility: 46.0-1ubuntu3 -> 46.1-1ubuntu1**
-* **gnome-font-viewer: 46.0-1build1 -> 47.0-1**
+* **gnome-disk-utility: 46.0-1ubuntu3 → 46.1-1ubuntu1**
+* **gnome-font-viewer: 46.0-1build1 → 47.0-1**
    * Added slant preview
    * Fixed Install button stuck in "Installing" after font is installed
-* **gnome-sudoku: 1:46.0-1build1 -> 1:47.0-1**
+* **gnome-sudoku: 1:46.0-1build1 → 1:47.0-1**
    * Added (Ctrl+H) keyboard shortcut for highlighter
    * Added (Ctrl+W) keyboard shortcut for warnings
    * Added (F) fullscren keyboard shortcut
@@ -149,22 +149,22 @@ Xubuntu 24.10 benefits from some GNOME 46 and 47 application releases.
 
 ### Common with Ubuntu
 
-* firefox: stable/ubuntu-24.04-4793 -> stable/ubuntu-24.10-5014
-* firmware-updater: stable/ubuntu-24.04-127 -> 1/stable/ubuntu-24.10-127
-* snap-store: stable/ubuntu-24.04-1173 -> 2/stable/ubuntu-24.10-1218
-* snapd-desktop-integration: stable/ubuntu-24.04-178 -> stable/ubuntu-24.10-247
-* thunderbird: stable/ubuntu-24.04-507 -> stable/ubuntu-24.10-526
+* firefox: stable/ubuntu-24.04-4793 → stable/ubuntu-24.10-5014
+* firmware-updater: stable/ubuntu-24.04-127 → 1/stable/ubuntu-24.10-127
+* snap-store: stable/ubuntu-24.04-1173 → 2/stable/ubuntu-24.10-1218
+* snapd-desktop-integration: stable/ubuntu-24.04-178 → stable/ubuntu-24.10-247
+* thunderbird: stable/ubuntu-24.04-507 → stable/ubuntu-24.10-526
 
 ### Additional Updates
 
-* gimp: 2.10.36-3ubuntu0.24.04.1 -> 2.10.38-2
-* gucharmap: 1:15.1.3-1build1 -> 1:15.1.5-1
-* inxi: 3.3.34-1-1 -> 3.3.35-1-1
-* libreoffice: 4:24.2.5-0ubuntu0.24.04.2 -> 4:24.8.2-0ubuntu1
-* pavucontrol: 5.0-2build3 -> 6.0-1
-* transmission-gtk: 4.0.5-1build5 -> 4.0.6+dfsg-3ubuntu2
-* xubuntu-artwork: 24.04.1 -> 24.10.1
-* xubuntu-desktop: 2.262 -> 2.263
+* gimp: 2.10.36-3ubuntu0.24.04.1 → 2.10.38-2
+* gucharmap: 1:15.1.3-1build1 → 1:15.1.5-1
+* inxi: 3.3.34-1-1 → 3.3.35-1-1
+* libreoffice: 4:24.2.5-0ubuntu0.24.04.2 → 4:24.8.2-0ubuntu1
+* pavucontrol: 5.0-2build3 → 6.0-1
+* transmission-gtk: 4.0.5-1build5 → 4.0.6+dfsg-3ubuntu2
+* xubuntu-artwork: 24.04.1 → 24.10.1
+* xubuntu-desktop: 2.262 → 2.263
 
 ## Updates
 
