@@ -27,9 +27,9 @@ If you have already installed Ubuntu 17.10 on an affected system, you may not im
 ### Application Updates
 
 * GNOME Font Viewer is now included by default. This application simplifies viewing and installing fonts.
-* LibreOffice 5.3 -> 5.4
-* Firefox 52 -> 56
-* Thunderbird 45.8 -> 52.4
+* LibreOffice 5.3 → 5.4
+* Firefox 52 → 56
+* Thunderbird 45.8 → 52.4
 * Numerous Xfce and other components have been updated.
 
 ### Technical Updates
@@ -37,8 +37,8 @@ If you have already installed Ubuntu 17.10 on an affected system, you may not im
 * The Xfce Dictionary, Genmon Plugin, and Mount Plugin have been ported to GTK+ 3.  
 * Exo's GTK+ 3 support has been further improved.
 * Tumbler has been ported to GDBus and the Clipman plugin has been ported to GtkApplication.
-* Python 3.5 -> 3.6
-* GTK+ 3.24 -> 3.26. GTK+ 3.26 includes support for Unicode 10.0.0 and support for color Emoji.
+* Python 3.5 → 3.6
+* GTK+ 3.24 → 3.26. GTK+ 3.26 includes support for Unicode 10.0.0 and support for color Emoji.
 
 ## Updates from the Ubuntu Desktop Team
 

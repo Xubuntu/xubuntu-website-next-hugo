@@ -53,27 +53,27 @@ Xfce 4.20 was released on December 15, 2024 and includes "a gazillion of bug fix
 
 Xubuntu 25.04 benefits from some GNOME 48 application releases.
 
-  * baobab: 47.0-1 -> 48.0-1
-  * gnome-font-viewer: 47.0-1 -> 48.0-1
-  * gnome-mines: 1:40.1-1build2 -> 1:48.0-1
-  * gnome-sudoku: 1:47.0-1 -> 1:48.0-2
+  * baobab: 47.0-1 → 48.0-1
+  * gnome-font-viewer: 47.0-1 → 48.0-1
+  * gnome-mines: 1:40.1-1build2 → 1:48.0-1
+  * gnome-sudoku: 1:47.0-1 → 1:48.0-2
 
 ### Common with Ubuntu
 
-  * firefox: stable/ubuntu-24.10-5014 -> stable/ubuntu-25.04-5917
-  * firmware-updater: 1/stable/ubuntu-24.10-127 -> 1/stable/ubuntu-25.04-167
-  * snap-store: 2/stable/ubuntu-24.10-1218 -> 2/stable/ubuntu-25.04-1248
-  * snapd-desktop-integration: stable/ubuntu-24.10-247 -> stable/ubuntu-25.04-253
-  * thunderbird: stable/ubuntu-24.10-526 -> stable/ubuntu-25.04-684
+  * firefox: stable/ubuntu-24.10-5014 → stable/ubuntu-25.04-5917
+  * firmware-updater: 1/stable/ubuntu-24.10-127 → 1/stable/ubuntu-25.04-167
+  * snap-store: 2/stable/ubuntu-24.10-1218 → 2/stable/ubuntu-25.04-1248
+  * snapd-desktop-integration: stable/ubuntu-24.10-247 → stable/ubuntu-25.04-253
+  * thunderbird: stable/ubuntu-24.10-526 → stable/ubuntu-25.04-684
 
 ### Additional Updates
 
-  * gimp: 2.10.38-2 -> 3.0.2-1
-  * inxi: 3.3.35-1-1 -> 3.3.37-1-2
-  * libreoffice: 4:24.8.2-0ubuntu1 -> 4:25.2.2-0ubuntu1
-  * pavucontrol: 6.0-1 -> 6.1-1
-  * xubuntu-artwork: 24.10.1 -> 25.04.1
-  * xubuntu-desktop: 2.263 -> 2.267
+  * gimp: 2.10.38-2 → 3.0.2-1
+  * inxi: 3.3.35-1-1 → 3.3.37-1-2
+  * libreoffice: 4:24.8.2-0ubuntu1 → 4:25.2.2-0ubuntu1
+  * pavucontrol: 6.0-1 → 6.1-1
+  * xubuntu-artwork: 24.10.1 → 25.04.1
+  * xubuntu-desktop: 2.263 → 2.267
 
 ## Appearance Updates
 
