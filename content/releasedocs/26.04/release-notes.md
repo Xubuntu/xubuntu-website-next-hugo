@@ -1,4 +1,9 @@
-## Xubuntu 26.04 Release Notes
+---
+layout:    page
+release:   "26.04"
+link_name: "Release Notes"
+title:     "Xubuntu 26.04 Release Notes"
+---
 
 **Welcome to the Xubuntu 26.04 "Resolute Raccoon" release notes!**
 
