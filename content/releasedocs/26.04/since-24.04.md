@@ -26,7 +26,7 @@ The headline change for LTS upgraders is **Xfce 4.20**, released December 2024. 
 * **Desktop** now dithers wallpaper gradients to reduce color banding, and the icon sort direction is handled more reliably.
 * **Notification Daemon** adds a preference to set the minimum width of notifications and improves Wayland support.
 * **Session Manager** ships an xdg-desktop-portal configuration file for better portal integration.
-* **libxfce4ui** adds the distribution logo to the About Xfce dialog, improves client-side decoration support, and changes Super key detection to fire on key release — removing the need for the xcape workaround that was included in 24.04.
+* **libxfce4ui** adds the distribution logo to the About Xfce dialog, improves client-side decoration support, and changes Super key detection to fire on key release. This replaces the xcape workaround that was included in 24.04.
 * **Screenshooter** sees continued improvements to Wayland screenshot support.
 
 #### Panel Configuration
