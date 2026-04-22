@@ -25,21 +25,12 @@ Xubuntu 26.04 was released on Thursday, April 23, 2026, and will be supported fo
 ### General Issues
 
 * GNOME (libadwaita) Apps:
-   * The elementary-xfce icon theme lacks an icon for the window close button ([2125025](https://bugs.launchpad.net/ubuntu/+source/elementary-xfce/+bug/2125025))
    * The elementary-xfce icon theme lacks an icon for *Document Scanner's* scan options button ([2127071](https://bugs.launchpad.net/ubuntu/+source/elementary-xfce/+bug/2127071))
-* Flatpak:
-   * ⚠️ Flatpaks refuse to install due to Fuse/AppArmor conflict ([2122161](https://bugs.launchpad.net/ubuntu/+source/flatpak/+bug/2122161))
 * SSH Agent:
    * ⚠️ The graphical SSH agent is currently unavailable ([2125549](https://bugs.launchpad.net/ubuntu/+source/openssh/+bug/2125549))
-* Xfce Panel:
-   * During the live session, the network icon may be displayed twice ([2059045](https://bugs.launchpad.net/ubuntu/+source/xfce4-panel/+bug/2059045))
-      * This is because Xubuntu includes both Systray and Indicator plugins, and the Network applet loads in both.
 * Xfce Screensaver:
    * Wrong wallpaper used on lock screen ([2107239](https://bugs.launchpad.net/ubuntu/+source/xfce4-screensaver/+bug/2107239))
       * If you manually change your wallpaper to another, the lock screen wallpaper will update and stay connected.
-* Virtual Machines:
-   * Poor performance and audio stuttering in some virtual machines, including VMware and VirtualBox
-      * In these instances, you will need to either [adjust your configuration](https://gitlab.freedesktop.org/pipewire/pipewire/-/wikis/Troubleshooting#stuttering-audio-in-virtual-machine) (recommended) or replace PipeWire with PulseAudio
 
 ## Ubuntu Common Release Notes
 
@@ -47,6 +38,13 @@ The main Ubuntu [Release Notes](https://documentation.ubuntu.com/release-notes/2
 
 ## Major Updates
 
+### 20 Years of Xubuntu
+
+Xubuntu 26.04 marks twenty years of the Xubuntu flavor. To celebrate, we launched two wallpaper contests: one for six community submissions, and the other to remix two community picks. All eight new wallpapers are featured on the Xubuntu desktop installation.
+
+* [Community Wallpaper Contest Winners](/news/releases/26.04/2026-04-10-xubuntu-26-04-community-wallpaper-contest-winners/)
+* [Plucky Remix](https://github.com/Xubuntu/xubuntu-artwork/blob/a6ab71d08c67cfd46369cfde7ea1c0acc1b6f7e4/usr/share/xfce4/backdrops/xubuntu-resolute-plucky-remix.png)
+* [Trusty Remix](https://github.com/Xubuntu/xubuntu-artwork/blob/a6ab71d08c67cfd46369cfde7ea1c0acc1b6f7e4/usr/share/xfce4/backdrops/xubuntu-resolute-trusty-remix.png)
 
 ### Xfce
 
@@ -55,8 +53,16 @@ Xubuntu 26.04 includes several minor updates for Xfce 4.20, improving stability 
 * libxfce4ui: 4.20.1-1ubuntu1 → 4.20.2-1
 * libxfce4windowing: 4.20.3-1 → 4.20.5-1
 * thunar: 4.20.4-1 → 4.20.7-1
+* xfce4-netload-plugin: 1.4.1 → 1.5.0
 * xfce4-panel: 4.20.4-1 → 4.20.7-1
+* xfce4-pulseaudio-plugin: 0.4.9 → 0.5.1
 * xfce4-session: 4.20.2-2 → 4.20.4-1
+* xfce4-terminal: 1.1.4 → 1.1.5
+* xfce4-whiskermenu-plugin: 2.9.2 → 2.10.1
+
+#### Panel Configuration
+
+The indicator plugin has been removed from the default panel. Most applications that display tray icons have moved to the modern KStatusNotifier standard, which Xubuntu's panel already supports natively. Users who still need the indicator plugin can easily add it back through the panel preferences.
 
 ### GNOME
 
@@ -69,18 +75,22 @@ Xubuntu 26.04 benefits from some GNOME 49 application releases.
 
 ### Common with Ubuntu
 
-* firefox: stable/ubuntu-25.10-6966 → stable/ubuntu-26.04-8107 (todo)
+* firefox: stable/ubuntu-25.10-6966 → stable/ubuntu-26.04-8107
 * snap-store: 2/stable/ubuntu-25.04-1300 → 2/stable/ubuntu-26.04-1338
 * snapd-desktop-integration: stable/ubuntu-25.10-315 → stable/ubuntu-26.04-361
-* thunderbird: stable/ubuntu-25.10-825 → stable/ubuntu-26.04-1039 (todo)
+* thunderbird: stable/ubuntu-25.10-825 → stable/ubuntu-26.04-1039
 
 ### Additional Updates
 
+* atril: 1.26.2 → 1.28.2
+* engrampa: 1.26.2 → 1.28.2
 * gimp: 3.0.4-6.1 → 3.2.2-1
 * inxi: 3.3.39-1-1 → 3.3.40-1-1
 * libreoffice: 4:25.8.1~rc1-0ubuntu1 → 4:26.2.2.2-0ubuntu1
-* xubuntu-artwork: 25.10 → 26.04
-* xubuntu-desktop: 2.269 → 2.271
+* mousepad: 0.6.3 → 0.7.0
+* parole: 4.18.2 → 4.20.0
+* xubuntu-artwork: 25.10 → 26.04.1
+* xubuntu-desktop: 2.269 → 2.272
 
 ## Updates
 
@@ -114,6 +124,7 @@ _Significant package and version updates. For full package changelogs, see the [
 * Exo 4.20.0
 * Gigolo 0.6.0
 * Mousepad 0.7.0
+* Parole 4.20.0
 * Ristretto 0.13.4
 * Thunar File Manager 4.20.7
 * Xfce Application Finder 4.20.0
@@ -126,6 +137,7 @@ _Significant package and version updates. For full package changelogs, see the [
 * Xfce Settings 4.20.1
 * Xfce Systemload Plugin 1.3.2
 * Xfce Task Manager 1.5.8
+* Xfce Terminal 1.1.5
 * Xfce Whisker Menu Plugin 2.10.1
 
 #### MATE
@@ -147,13 +159,14 @@ _Significant package and version updates. For full package changelogs, see the [
 #### Everything Else
 
 * Blueman 2.4.4
-* Firefox 143.0.4 (snap) // todo
+* Firefox 149.0.2 (snap)
 * GIMP 3.2.2
+* GStreamer 1.28.2
 * LibreOffice 26.2.2.2
 * Pipewire 1.6.2
 * Snapd 2.74.1
 * SGT Launcher 0.2.8
-* Thunderbird 140.3.1 (snap) // todo
+* Thunderbird 140.9.0 (snap)
 
 ## Changelogs
 
