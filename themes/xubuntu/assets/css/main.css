@@ -141,6 +141,29 @@ hr {
 }
    main > hr {}
 
+table {
+   border-collapse: collapse;
+   width: 100%;
+   margin: 1.5em 0;
+   font-size: 95%;
+   display: block;
+   overflow-x: auto;
+}
+   th, td {
+      text-align: left;
+      padding: 0.55em 1em;
+      border: 1px solid var(--color-hairline);
+   }
+   th {
+      font-family: var(--font-heading);
+      font-weight: 500;
+      background-color: var(--color-bg-alternative);
+      color: var(--color-heading);
+   }
+   tr:nth-child(even) td {
+      background-color: var(--color-bg-alternative-2);
+   }
+
 img {
    max-width: 100%;
    height: auto;
