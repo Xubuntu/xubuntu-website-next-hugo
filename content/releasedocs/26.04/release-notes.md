@@ -9,6 +9,8 @@ title:     "Xubuntu 26.04 Release Notes"
 
 Xubuntu 26.04 was released on Thursday, April 23, 2026, and will be supported for three years until April 2029. For general information and the latest updates for Xubuntu 26.04, check out the [release page](/release/26.04/) on xubuntu.org.
 
+These release notes capture changes since Xubuntu 25.10. For users coming from our previous LTS release, Xubuntu 24.04, check out [Changes Between Xubuntu 24.04 and 26.04](/releasedocs/26.04/since-24.04/).
+
   * [Known Issues](#known_issues)
   * [Ubuntu Common Release Notes](#ubuntu_common_release_notes)
   * [Major Updates](#major_updates)
