@@ -1,6 +1,6 @@
 ---
 title:       "Xubuntu 26.04 released!"
-date:        2026-04-23 12:00:00
+date:        2026-04-23 13:22:00
 aliases:
   - /news/xubuntu-26-04-released
 release:     "26.04"
@@ -19,7 +19,7 @@ Xubuntu 26.04, featuring the latest updates from Xfce 4.20 and GNOME 49.
 
 Xubuntu 26.04 features the latest Xfce 4.20 and GNOME 49 updates. **Xfce 4.20** updates feature stability improvements and enhanced Wayland support, for those adventurous enough to use it. **GNOME 49** apps have received further polish and are well-suited for Xubuntu. **MATE 1.28** apps are still included to round out Xubuntu’s office suite.
 
-The **final release images** for **Xubuntu Desktop** and **Xubuntu Minimal** are available as torrents and direct downloads from [xubuntu.org/download/].
+The **final release images** for **Xubuntu Desktop** and **Xubuntu Minimal** are available as torrents and direct downloads from [xubuntu.org/download](https://xubuntu.org/download).
 
 As the main server might be busy the first few days after the release, we recommend using the torrents if possible.
 
