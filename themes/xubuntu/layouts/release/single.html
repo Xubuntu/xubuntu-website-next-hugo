@@ -35,7 +35,7 @@
    {{ $documents := where .Site.RegularPages "Type" "releasedocs" }}
    {{ $documents := where $documents ".Params.release" .Params.version }}
    {{ $documents := sort $documents ".Params.weight" "asc" }}
-   {{ if gt ($documents | len ) 1 }}
+   {{ if gt ($documents | len ) 0 }}
       <dt>Release Documents</dt>
       <dd>
          {{ range $documents }}
