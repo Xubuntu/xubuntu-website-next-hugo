@@ -1,7 +1,7 @@
 ---
 title:         Xubuntu 26.04
 version:       "26.04"
-version_point:
+version_point: 26.04.1
 codename:      Resolute Raccoon
 codename_slug: resolute
 date_rel:      2026-04-23
