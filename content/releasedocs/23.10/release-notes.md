@@ -228,7 +228,6 @@ _Significant package and version updates. For full package changelogs, see the [
 * xfce4-places-plugin [changelog](https://launchpad.net/ubuntu/mantic/+source/xfce4-places-plugin/+changelog)
 * xfce4-pulseaudio-plugin [changelog](https://launchpad.net/ubuntu/mantic/+source/xfce4-pulseaudio-plugin/+changelog)
 * xfce4-quicklauncher-plugin [changelog](https://launchpad.net/ubuntu/mantic/+source/xfce4-quicklauncher-plugin/+changelog)
-* xfce4-statusnotifier-plugin [changelog](https://launchpad.net/ubuntu/mantic/+source/xfce4-statusnotifier-plugin/+changelog)
 * xfce4-systemload-plugin [changelog](https://launchpad.net/ubuntu/mantic/+source/xfce4-systemload-plugin/+changelog)
 * xfce4-verve-plugin [changelog](https://launchpad.net/ubuntu/mantic/+source/xfce4-verve-plugin/+changelog)
 * xfce4-weather-plugin [changelog](https://launchpad.net/ubuntu/mantic/+source/xfce4-weather-plugin/+changelog)
