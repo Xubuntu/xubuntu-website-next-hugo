@@ -10,17 +10,21 @@
    <p class="small">The above link will redirect you to <strong>old-releases.ubuntu.com</strong>, where you will have to navigate to the correct release manually. <em>You have been warned.</em></p>
 {{ else }}
    {{ $p := dict "desktop" "Desktop" "minimal" "Minimal" }}
-   {{ $a := dict "amd64" "64-bit" "i386" "32-bit" }}
+   {{ $a := dict "amd64" "64-bit" "i386" "32-bit" "riscv64" "RISC-V 64-bit" }}
    {{ $torrent_link_format := "https://torrent.ubuntu.com/xubuntu/releases/CODENAME/release/PRODUCT/xubuntu-VER-PRODUCT-ARCH.iso.torrent" }}
 
    {{ $codename := .Params.codename_slug }}
    {{ $version := or .Params.version_point .Params.version }}
    {{ $arches := split .Params.architectures "," }}
+   {{ $products := split .Params.products "," }}
+   {{ $riscv_products := $products }}
+   {{ with .Params.riscv_products }}{{ $riscv_products = split . "," }}{{ end }}
+   {{ $riscv_experimental := .Params.riscv_experimental }}
 
    <h4>Torrents <span class="sidenote">Highly recommended!</span></h4>
    <ul>
-      {{ $products := split .Params.products "," }}
       {{ range $products }}
+         {{ $product := . }}
          {{ $product_name := index $p . }}
          {{ $torrent := $torrent_link_format }}
          {{ $torrent := replace $torrent "CODENAME" $codename }}
@@ -28,10 +32,13 @@
          {{ $torrent := replace $torrent "VER" $version }}
 
          {{ range $arches }}
-            {{ $arch_name := index $a . }}
-            {{ $torrent_arch := $torrent }}
-            {{ $torrent_arch := replace $torrent_arch "ARCH" . }}
-            <li><strong><a href="{{ $torrent_arch }}">Torrent ({{ $product_name }}, {{ $arch_name }})</a></strong></li>
+            {{ $is_riscv := eq . "riscv64" }}
+            {{ if or (not $is_riscv) (in $riscv_products $product) }}
+               {{ $arch_name := index $a . }}
+               {{ $torrent_arch := $torrent }}
+               {{ $torrent_arch := replace $torrent_arch "ARCH" . }}
+               <li><strong><a href="{{ $torrent_arch }}">Torrent ({{ $product_name }}, {{ $arch_name }})</a></strong>{{ if and $is_riscv $riscv_experimental }} <span class="sidenote">Experimental</span>{{ end }}</li>
+            {{ end }}
          {{ end }}
       {{ end }}
    </ul>
