@@ -179,7 +179,7 @@ _Significant package and version updates. For full package changelogs, see the [
 * pipewire ([changelog](https://launchpad.net/ubuntu/plucky/+source/pipewire/+changelog))
 * sgt-launcher ([changelog](https://launchpad.net/ubuntu/plucky/+source/sgt-launcher/+changelog))
 * shimmer-themes ([changelog](https://launchpad.net/ubuntu/plucky/+source/shimmer-themes/+changelog))
-* syncaptic ([changelog](https://launchpad.net/ubuntu/plucky/+source/synaptic/+changelog))
+* synaptic ([changelog](https://launchpad.net/ubuntu/plucky/+source/synaptic/+changelog))
 * xcape ([changelog](https://launchpad.net/ubuntu/plucky/+source/xcape/+changelog))
 * xubuntu-artwork ([changelog](https://launchpad.net/ubuntu/plucky/+source/xubuntu-artwork/+changelog))
 * xubuntu-core ([changelog](https://launchpad.net/ubuntu/plucky/+source/xubuntu-meta/+changelog))

@@ -7,7 +7,7 @@ title:     "Xubuntu 26.10 Release Notes"
 
 **Welcome to the Xubuntu 26.10 "Stonking Stingray" release notes!**
 
-Xubuntu 26.10 was released on Thursday, October 15, 2026, and will be supported for nine months until January 2027. For general information and the latest updates for Xubuntu 26.10, check out the [release page](/release/26.10/) on xubuntu.org.
+Xubuntu 26.10 was released on Thursday, October 15, 2026, and will be supported for nine months until July 2027. For general information and the latest updates for Xubuntu 26.10, check out the [release page](/release/26.10/) on xubuntu.org.
 
   * [Known Issues](#known_issues)
   * [Ubuntu Common Release Notes](#ubuntu_common_release_notes)
@@ -117,7 +117,7 @@ _Significant package and version updates. For full package changelogs, see the [
 
 ### Application Stack
 
-* GNOME 51
+* GNOME 50
 * GTK 2.24.33 / 3.24.52 / 4.24.1
 * MATE 1.28
 * Xfce 4.20
@@ -212,7 +212,7 @@ _Significant package and version updates. For full package changelogs, see the [
 * pipewire ([changelog](https://launchpad.net/ubuntu/stonking/+source/pipewire/+changelog))
 * sgt-launcher ([changelog](https://launchpad.net/ubuntu/stonking/+source/sgt-launcher/+changelog))
 * shimmer-themes ([changelog](https://launchpad.net/ubuntu/stonking/+source/shimmer-themes/+changelog))
-* syncaptic ([changelog](https://launchpad.net/ubuntu/stonking/+source/synaptic/+changelog))
+* synaptic ([changelog](https://launchpad.net/ubuntu/stonking/+source/synaptic/+changelog))
 * xubuntu-artwork ([changelog](https://launchpad.net/ubuntu/stonking/+source/xubuntu-artwork/+changelog))
 * xubuntu-core ([changelog](https://launchpad.net/ubuntu/stonking/+source/xubuntu-meta/+changelog))
 * xubuntu-default-settings ([changelog](https://launchpad.net/ubuntu/stonking/+source/xubuntu-default-settings/+changelog))
