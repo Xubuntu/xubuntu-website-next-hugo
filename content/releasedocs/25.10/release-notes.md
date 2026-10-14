@@ -184,7 +184,7 @@ _Significant package and version updates. For full package changelogs, see the [
 * pipewire ([changelog](https://launchpad.net/ubuntu/questing/+source/pipewire/+changelog))
 * sgt-launcher ([changelog](https://launchpad.net/ubuntu/questing/+source/sgt-launcher/+changelog))
 * shimmer-themes ([changelog](https://launchpad.net/ubuntu/questing/+source/shimmer-themes/+changelog))
-* syncaptic ([changelog](https://launchpad.net/ubuntu/questing/+source/synaptic/+changelog))
+* synaptic ([changelog](https://launchpad.net/ubuntu/questing/+source/synaptic/+changelog))
 * xubuntu-artwork ([changelog](https://launchpad.net/ubuntu/questing/+source/xubuntu-artwork/+changelog))
 * xubuntu-core ([changelog](https://launchpad.net/ubuntu/questing/+source/xubuntu-meta/+changelog))
 * xubuntu-default-settings ([changelog](https://launchpad.net/ubuntu/questing/+source/xubuntu-default-settings/+changelog))

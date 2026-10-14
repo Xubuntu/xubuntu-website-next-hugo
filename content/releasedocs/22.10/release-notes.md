@@ -170,7 +170,7 @@ Unlike Ubuntu and the other flavors, Xubuntu *has not* switched to Pipewire in 2
 * pipewire ([changelog](https://launchpad.net/ubuntu/kinetic/+source/pipewire/+changelog))
 * sgt-launcher ([changelog](https://launchpad.net/ubuntu/kinetic/+source/sgt-launcher/+changelog))
 * shimmer-themes ([changelog](https://launchpad.net/ubuntu/kinetic/+source/shimmer-themes/+changelog))
-* syncaptic ([changelog](https://launchpad.net/ubuntu/kinetic/+source/synaptic/+changelog))
+* synaptic ([changelog](https://launchpad.net/ubuntu/kinetic/+source/synaptic/+changelog))
 * xcape ([changelog](https://launchpad.net/ubuntu/kinetic/+source/xcape/+changelog))
 * xubuntu-artwork ([changelog](https://launchpad.net/ubuntu/kinetic/+source/xubuntu-artwork/+changelog))
 * xubuntu-core ([changelog](https://launchpad.net/ubuntu/kinetic/+source/xubuntu-meta/+changelog))

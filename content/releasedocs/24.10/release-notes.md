@@ -261,7 +261,7 @@ _Significant package and version updates. For full package changelogs, see the [
 * pipewire ([changelog](https://launchpad.net/ubuntu/oracular/+source/pipewire/+changelog))
 * sgt-launcher ([changelog](https://launchpad.net/ubuntu/oracular/+source/sgt-launcher/+changelog))
 * shimmer-themes ([changelog](https://launchpad.net/ubuntu/oracular/+source/shimmer-themes/+changelog))
-* syncaptic ([changelog](https://launchpad.net/ubuntu/oracular/+source/synaptic/+changelog))
+* synaptic ([changelog](https://launchpad.net/ubuntu/oracular/+source/synaptic/+changelog))
 * xcape ([changelog](https://launchpad.net/ubuntu/oracular/+source/xcape/+changelog))
 * xubuntu-artwork ([changelog](https://launchpad.net/ubuntu/oracular/+source/xubuntu-artwork/+changelog))
 * xubuntu-core ([changelog](https://launchpad.net/ubuntu/oracular/+source/xubuntu-meta/+changelog))
