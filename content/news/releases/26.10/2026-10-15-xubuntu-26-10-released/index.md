@@ -1,6 +1,6 @@
 ---
 title:       "Xubuntu 26.10 released!"
-date:        2026-10-15 12:00:00
+date:        2026-10-15 06:59:50
 aliases:
   - /news/xubuntu-26-10-released
 release:     "26.10"
