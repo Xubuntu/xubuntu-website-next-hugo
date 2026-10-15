@@ -5,7 +5,7 @@ version_point:
 codename:           Stonking Stingray
 codename_slug:      stonking
 date_rel:           2026-10-15
-date_eol:           2029-01-15
+date_eol:           2027-07-15
 products:           desktop,minimal
 architectures:      amd64,riscv64
 riscv_products:     minimal
