@@ -49,8 +49,8 @@ Xubuntu brings you the newest Abiword 2.6.4 word processor with tons of bug-fixe
 Xubuntu 8.10 provides an improved multimedia experience by including the Listen Multimedia Player. With Listen, you can:
 
 - Organize your music collection
-- Browse Shoucast Webradio and Podcats
-- Read lyrics and have access Wikipedia information about artists or albums at your fingertips
+- Browse Shoutcast Webradio and Podcasts
+- Read lyrics and have access to Wikipedia information about artists or albums at your fingertips
 - Broadcast by interfacing with your icecast server
 - Record streaming media
 - Visualize good times with the built-in graphical visualizer.

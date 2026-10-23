@@ -21,7 +21,7 @@ weight:    1
  | Alt+Print         | Take a screenshot of the current window                     |
  | Shift+Print       | Take a regional screenshot                                  |
  | Super+W           | Launch default web browser                                  |
- | Super+M           | Lauch default email client                                  |
+ | Super+M           | Launch default email client                                 |
  | Super+F           | Launch default file manager                                 |
  | Super+F1          | Show the mouse cursor position                              |
  | Ctrl+Alt+T        | Launch default terminal emulator                            |
@@ -41,7 +41,7 @@ weight:    1
  | Display    | Show the display switcher popup |
  | WWW        | Launch default web browser      |
  | Homepage   | Launch default web browser      |
- | Mail       | Lauch default email client      |
+ | Mail       | Launch default email client     |
  | Explorer   | Launch default file manager     |
  | Calculator | Launch Mate Calculator          |
  | Music      | Launch Parole Media Player      |
@@ -58,7 +58,7 @@ weight:    1
  | Ctrl+Alt+Down        | Move to the below workspace                         |
  | Ctrl+Alt+Up          | Move to the above workspace                         |
  | Ctrl+Alt+Left        | Move to the left workspace                          |
- | Ctrl+Alt+Right       | Move to the the right workspace                     |
+ | Ctrl+Alt+Right       | Move to the right workspace                         |
  | Shift+Alt+Page_Down  | Minimize the current window                         |
  | Alt+F4               | Close the current window                            |
  | Alt+F5               | Maximize the current window horizontally            |

@@ -57,7 +57,7 @@ Is there something else you would like to share with us?
 
 **Pasi:** As with all application groups and the operating systems, it's important to remember that objectively speaking, there is no "best" option. This is why I can only recommend that you try gmusicbrowser, not promise you will love it! Finally, remember that all applications have their quirks (and bugs!) – gmusicbrowser too. Once you get over the initial hurdles, you will notice that there is a powerful, customizable media manager behind the potentially confusing first look.
 
-**Simon:** I would say gmusicbrowser is a player for (almost) anyone. While it seems to have a bit of a learning curve for the occasional user – and I would argue that the complexity implied by "collection management" is responsible for that – it has immense potential for the afficionado!
+**Simon:** I would say gmusicbrowser is a player for (almost) anyone. While it seems to have a bit of a learning curve for the occasional user – and I would argue that the complexity implied by "collection management" is responsible for that – it has immense potential for the aficionado!
 
 Finally, feel free to talk about your favorite artists!
 -------------------------------------------------------
