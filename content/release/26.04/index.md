@@ -10,6 +10,7 @@ products:           desktop,minimal
 architectures:      amd64,riscv64
 riscv_products:     minimal
 riscv_experimental: true
+torrent_uses_cdimage_url: minimal
 lts:                lts
 ---
 

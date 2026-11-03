@@ -12,6 +12,7 @@
    {{ $p := dict "desktop" "Desktop" "minimal" "Minimal" }}
    {{ $a := dict "amd64" "64-bit" "i386" "32-bit" "riscv64" "RISC-V 64-bit" }}
    {{ $torrent_link_format := "https://torrent.ubuntu.com/xubuntu/releases/CODENAME/release/PRODUCT/xubuntu-VER-PRODUCT-ARCH.iso.torrent" }}
+   {{ $cdimage_torrent_link_format := "https://cdimages.ubuntu.com/xubuntu/releases/VER/release/xubuntu-VER-PRODUCT-ARCH.iso.torrent" }}
 
    {{ $codename := .Params.codename_slug }}
    {{ $version := or .Params.version_point .Params.version }}
@@ -20,6 +21,8 @@
    {{ $riscv_products := $products }}
    {{ with .Params.riscv_products }}{{ $riscv_products = split . "," }}{{ end }}
    {{ $riscv_experimental := .Params.riscv_experimental }}
+   {{ $cdimage_torrent_products := slice }}
+   {{ with .Params.torrent_uses_cdimage_url }}{{ $cdimage_torrent_products = split . "," }}{{ end }}
 
    <h4>Torrents <span class="sidenote">Highly recommended!</span></h4>
    <ul>
@@ -27,6 +30,7 @@
          {{ $product := . }}
          {{ $product_name := index $p . }}
          {{ $torrent := $torrent_link_format }}
+         {{ if in $cdimage_torrent_products $product }}{{ $torrent = $cdimage_torrent_link_format }}{{ end }}
          {{ $torrent := replace $torrent "CODENAME" $codename }}
          {{ $torrent := replace $torrent "PRODUCT" . }}
          {{ $torrent := replace $torrent "VER" $version }}
