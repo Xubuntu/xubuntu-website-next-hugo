@@ -1,0 +1,45 @@
+{{- /*
+   Schema.org JSON-LD for news posts.
+
+   The type follows the post's category:
+   announcements -> NewsArticle, articles -> BlogPosting, otherwise Article.
+*/ -}}
+{{- if and .IsPage (eq .Type "news") -}}
+   {{- $type := "Article" -}}
+   {{- if eq .Params.category "announcements" }}{{ $type = "NewsArticle" }}{{ end -}}
+   {{- if eq .Params.category "articles" }}{{ $type = "BlogPosting" }}{{ end -}}
+
+   {{- $logo := resources.Get "/images/logo.svg" -}}
+   {{- $publisher := dict
+      "@type" "Organization"
+      "name" site.Title
+      "url" site.Home.Permalink
+      "logo" (dict "@type" "ImageObject" "url" $logo.Permalink)
+   -}}
+
+   {{- $data := dict
+      "@context" "https://schema.org"
+      "@type" $type
+      "headline" .Title
+      "url" .Permalink
+      "mainEntityOfPage" (dict "@type" "WebPage" "@id" .Permalink)
+      "publisher" $publisher
+   -}}
+
+   {{- $description := .Description | default (.Summary | plainify | htmlUnescape | replaceRE `\s+` " " | replaceRE `^ | $` "" | truncate 200) -}}
+   {{- with $description }}{{ $data = merge $data (dict "description" .) }}{{ end -}}
+
+   {{- $dateFormat := "2006-01-02T15:04:05-07:00" -}}
+   {{- if not .Date.IsZero }}{{ $data = merge $data (dict "datePublished" (.Date | time.Format $dateFormat)) }}{{ end -}}
+   {{- if not .Lastmod.IsZero }}{{ $data = merge $data (dict "dateModified" (.Lastmod | time.Format $dateFormat)) }}{{ end -}}
+
+   {{- with .Resources.GetMatch "*.{png,jpg,jpeg,gif,webp}" }}{{ $data = merge $data (dict "image" .Permalink) }}{{ end -}}
+
+   {{- with partial "author.html" . -}}
+      {{- $person := dict "@type" "Person" "name" .name -}}
+      {{- with .id }}{{ $person = merge $person (dict "@id" .) }}{{ end -}}
+      {{- with .url }}{{ $person = merge $person (dict "url" .) }}{{ end -}}
+      {{- $data = merge $data (dict "author" $person) -}}
+   {{- end }}
+<script type="application/ld+json">{{ $data | jsonify | safeJS }}</script>
+{{- end -}}
