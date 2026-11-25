@@ -1,0 +1,18 @@
+{{- /*
+   Resolve the author of a page.
+
+   Returns a dict with "name" (from the "author" front matter) and, when
+   data/authors/<author_nick>.yaml exists, "id" and "url" from that entry.
+   Returns an empty dict when the page has no author.
+*/ -}}
+{{- $author := dict -}}
+{{- with .Params.author -}}
+   {{- $author = dict "name" . -}}
+   {{- with $.Params.author_nick -}}
+      {{- with index (site.Data.authors | default dict) (string .) -}}
+         {{- with .id }}{{ $author = merge $author (dict "id" .) }}{{ end -}}
+         {{- with .url }}{{ $author = merge $author (dict "url" .) }}{{ end -}}
+      {{- end -}}
+   {{- end -}}
+{{- end -}}
+{{- return $author -}}

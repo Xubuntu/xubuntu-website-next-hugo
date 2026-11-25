@@ -15,6 +15,10 @@
       {{ if .Params.serie }}
          <li>{{ .Params.serie }}</li>
       {{ end }}
+      {{ with partial "author.html" . }}
+         {{ $name := .name }}
+         <li>by {{ with .url }}<a href="{{ . }}" rel="author">{{ $name }}</a>{{ else }}{{ $name }}{{ end }}</li>
+      {{ end }}
    </ul>
 
    {{ .Content }}
