@@ -11,6 +11,7 @@ Static Xubuntu website running on [Hugo](https://gohugo.io/), a Go framework for
 - [Add release content](#add-release-content)
 - [Development](#development)
   - [Run locally \[Docker on Linux/WSL\]](#run-locally-docker-on-linuxwsl)
+  - [Run locally \[distrobox\]](#run-locally-distrobox)
 - [Contribute](#contribute)
 
 
@@ -283,15 +284,27 @@ docker run --rm -v .:/site/pages -v ~/tmp:/site/public -p 1313:1313 ghcr.io/gohu
 >
 > </details>
 
+## Run locally [distrobox]
+
+If you use [distrobox](https://distrobox.it/), a manifest is provided to spin up an Ubuntu 24.04 container with the same version of Hugo used in deployment ([`distrobox.ini`](distrobox.ini)):
+
+```sh
+distrobox assemble create --file distrobox.ini
+distrobox enter xubuntu-org
+hugo server
+```
+
+On subsequent runs:
+
+```sh
+distrobox enter xubuntu-org
+hugo server
+```
+
+Then, in your web browser, head to: `http://localhost:1313/`
+
 
 # Contribute
 
 If you find a typo or an issue, you can submit an [Issue](https://github.com/Xubuntu/xubuntu-website-next-hugo/issues).\
 If you want to propose a change or a correction, you can submit a [Pull Request (PR)](https://github.com/Xubuntu/xubuntu-website-next-hugo/pulls).
-
-
-
-
-
-
-
